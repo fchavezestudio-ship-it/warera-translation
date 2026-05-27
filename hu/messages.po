@@ -129,7 +129,7 @@ msgid "{0}% income tax will be deducted from earnings when working in this compa
 msgstr "{0}% jövedelemadó kerül levonásra a keresetből, ha ebben a cégben dolgozol."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:168
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "{0}% income tax will be deducted from your workers wages."
 msgstr "{0}% jövedelemadó kerül levonásra a dolgozóid fizetéséből."
 
@@ -619,7 +619,7 @@ msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> az <1>Ellenállásból</1>"
 
 #. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:134
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
 msgstr "<0>{0}</0> az Agrár etika lelőhely bónuszából."
 
@@ -629,7 +629,7 @@ msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> a(z) <1/> szövetségből"
 
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:124
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> a lelőhely erőforrásokból."
 
@@ -644,7 +644,7 @@ msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> az országodért való harcból"
 
 #. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:114
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> az Iparos etika specializációs bónuszából."
 
@@ -669,7 +669,7 @@ msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> a Pacifista etikából (védelem)"
 
 #. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
 msgid "<0>{0}</0> from strategic resources production bonus."
 msgstr "<0>{0}</0> a stratégiai erőforrások termelési bónuszából."
 
@@ -1528,6 +1528,10 @@ msgstr "Az ellenőrző kódot tartalmazó e-mailt elküldtük a következő cím
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animált <0>GIF</0> profilképként"
 
+#: src/components/_other/shop/skinPack.frontConfig.tsx:40
+msgid "Anti Terrorist"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:61
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
 msgstr "A szabályok megkerülésére tett kísérletek a megosztási státusz elvesztéséhez, pénzbírsághoz vagy ideiglenes/végleges kitiltáshoz vezethetnek."
@@ -1661,9 +1665,65 @@ msgstr "Cikkek"
 msgid "Articles by <0/>"
 msgstr "Cikkek írója: <0/>"
 
+#: src/components/_other/shop/skin.frontConfig.tsx:305
+msgid "AT Ammo"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:296
+msgid "AT Armored Tank"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:290
+msgid "AT Assault Rifle"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:299
+msgid "AT Combat Helicopter"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:308
+msgid "AT Heavy Ammo"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:8
 msgid "At least you tried"
 msgstr "Legalább megpróbáltad"
+
+#: src/components/_other/shop/skin.frontConfig.tsx:302
+msgid "AT Light Ammo"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:287
+msgid "AT Pistol"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:293
+msgid "AT Sniper Rifle"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:317
+msgid "AT Tactical Boots"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:323
+msgid "AT Tactical Gloves"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:311
+msgid "AT Tactical Helmet"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:320
+msgid "AT Tactical Pants"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:284
+msgid "AT Tactical Shield"
+msgstr ""
+
+#: src/components/_other/shop/skin.frontConfig.tsx:314
+msgid "AT Tactical Vest"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:615
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
@@ -2624,6 +2684,10 @@ msgstr "Tanácstag"
 msgid "Council member to remove"
 msgstr "Eltávolítandó tanácstag"
 
+#: src/components/_other/shop/skinPack.frontConfig.tsx:41
+msgid "Counter-strike the enemy"
+msgstr ""
+
 #: src/components/_layout/LoadingScreenContent.tsx:19
 msgid "countries"
 msgstr "országok"
@@ -2999,7 +3063,7 @@ msgstr "Lelőhely erőforrás"
 msgid "Deposit resources"
 msgstr "Lelőhely erőforrásai"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:86
 msgid "Deposit will be depleted in"
 msgstr "A lelőhely kimerül"
 
@@ -4073,7 +4137,7 @@ msgid "Income tax"
 msgstr "Jövedelemadó"
 
 #: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:167
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:150
 msgid "Income Tax"
 msgstr "Jövedelemadó"
 
@@ -5804,7 +5868,7 @@ msgid "Production"
 msgstr "Termelés"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:48
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:116
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:99
 #: src/pages/region/[regionId]/index.tsx:69
 msgid "Production bonus"
 msgstr "Termelési bónusz"
@@ -6034,7 +6098,7 @@ msgstr "Recept"
 msgid "Recipient"
 msgstr "Címzett"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:67
 msgid "Recommended regions"
 msgstr "Ajánlott régiók"
 
@@ -6710,6 +6774,11 @@ msgstr "Beállítások"
 msgid "Shop"
 msgstr "Bolt"
 
+#. placeholder {0}: Math.min(step, remaining)
+#: src/components/_political/party/PartyMembers.tsx:217
+msgid "Show {0} more ({remaining} remaining)"
+msgstr ""
+
 #. placeholder {0}: auction.bids.length
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:273
 msgid "Show all {0} bids"
@@ -7061,7 +7130,7 @@ msgstr "Táblázat"
 msgid "Take control"
 msgstr "Vedd át az irányítást"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:79
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
 msgid "Take deposits into account"
 msgstr "Vedd figyelembe a lelőhelyeket"
 
