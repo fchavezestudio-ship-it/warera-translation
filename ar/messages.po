@@ -205,12 +205,12 @@ msgid "<0/> bought your banner{0}!"
 msgstr "اشترى <0/> لافتتك{0}!"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:380
+#: src/components/_political/law/law.frontConfig.tsx:336
 msgid "<0/> buys <1/> for <2>{0}</2>"
 msgstr "<0/> يشتري <1/> بـ <2>{0}</2>"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:391
+#: src/components/_political/law/law.frontConfig.tsx:347
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> يشتري منطقتك <1/> مقابل <2>{0}</2>"
 
@@ -709,8 +709,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> من مكافأة تخصص الأخل�
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> من مكافأة إنتاج الموارد الاستراتيجية الخاصة بـ <1/>."
 
-#: src/pages/country/[countryId]/index.tsx:440
-#: src/pages/country/[countryId]/index.tsx:489
+#: src/pages/country/[countryId]/index.tsx:444
+#: src/pages/country/[countryId]/index.tsx:493
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> مورد من كل نوع = <1>{value}</1>"
 
@@ -1222,6 +1222,7 @@ msgstr "تم إرسال رمز التحقق إلى {phoneNumber}"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "أ. الإهانات، والألفاظ الخارجة، والمضايقات المستهدفة لاشخاص او فئة محددة"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:133
 #: src/components/_political/law/Law.tsx:170
 #: src/components/_political/partyMotion/PartyMotion.tsx:169
 msgid "Abstain"
@@ -1231,31 +1232,18 @@ msgstr "امتناع عن التصويت"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "إن إساءة استخدام نظام البلاغات أو إرسال بلاغات عشوائية قد يؤدي إلى عقوبات"
 
-#: src/pages/country/[countryId]/index.tsx:132
+#: src/pages/country/[countryId]/index.tsx:135
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "إساءة استخدام هذه السلطة لإفادة دولة أخرى سيؤدي إلى <0>الحظر.</0>"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:122
 #: src/components/_political/law/Law.tsx:159
 #: src/components/_political/partyMotion/PartyMotion.tsx:158
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "قبول"
 
-#: src/components/_political/law/law.frontConfig.tsx:284
-#: src/components/_political/law/lawNames.tsx:26
-msgid "Accept alliance"
-msgstr "قبول التحالف"
-
-#: src/components/_political/law/law.frontConfig.tsx:289
-msgid "Accept alliance with <0/>"
-msgstr "قبول التحالف مع <0/>"
-
-#. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:300
-msgid "Accept an alliance with <0/> increasing your citizens damages by <1>{0}</1> when fighting for them by and reciprocally"
-msgstr "قبول تحالف مع <0/> لزيادة أضرار مواطنيك بمقدار <1>{0}</1> عند القتال من أجلهم وبشكل متبادل"
-
-#: src/components/_political/law/law.frontConfig.tsx:376
+#: src/components/_political/law/law.frontConfig.tsx:332
 msgid "Accept or reject a region buy offer"
 msgstr "قبول أو رفض عرض شراء منطقة"
 
@@ -1268,6 +1256,7 @@ msgstr "قبول السلام"
 msgid "Accept to make peace with the other country"
 msgstr "الموافقة على عقد سلام مع الدولة الأخرى"
 
+#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:43
 #: src/components/_political/law/LawStatus.tsx:43
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:52
 msgid "Accepted"
@@ -1280,7 +1269,7 @@ msgstr "الدخول إلى الحرب"
 #: src/components/_political/country/CountryHeader.tsx:76
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:341
+#: src/pages/country/[countryId]/index.tsx:345
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1306,7 +1295,7 @@ msgstr "نشط"
 msgid "Active battle"
 msgstr "معركة نشطة"
 
-#: src/pages/country/[countryId]/index.tsx:292
+#: src/pages/country/[countryId]/index.tsx:296
 msgid "Active battles"
 msgstr "معارك نشطة"
 
@@ -1322,7 +1311,7 @@ msgstr "بناء نشط"
 msgid "Active War"
 msgstr "حرب نشطة"
 
-#: src/pages/country/[countryId]/index.tsx:280
+#: src/pages/country/[countryId]/index.tsx:284
 msgid "Active wars"
 msgstr "حروب نشطة"
 
@@ -1335,7 +1324,7 @@ msgid "Add User"
 msgstr "إضافة مستخدم"
 
 #: src/components/_political/law/Law.tsx:87
-#: src/components/_political/law/LawFormModal.tsx:302
+#: src/components/_political/law/LawFormModal.tsx:322
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
@@ -1448,6 +1437,11 @@ msgstr "يجب أن تظل جميع التعاملات عادلة ومتوازن
 msgid "All types"
 msgstr "جميع الأنواع"
 
+#: src/components/_layout/map.frontConfig.tsx:32
+#: src/pages/country/[countryId]/index.tsx:200
+msgid "Alliance"
+msgstr ""
+
 #: src/components/_political/event/EventList.tsx:75
 msgid "Alliance broken"
 msgstr "انهار التحالف"
@@ -1456,9 +1450,19 @@ msgstr "انهار التحالف"
 msgid "Alliance formed"
 msgstr "تأسس التحالف"
 
-#: src/pages/country/[countryId]/index.tsx:195
-msgid "Alliances"
-msgstr "التحالفات"
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:50
+msgid "Alliance law proposed"
+msgstr ""
+
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:57
+#: src/pages/alliance/[allianceId]/laws.tsx:16
+msgid "Alliance laws"
+msgstr ""
+
+#: src/components/_political/law/LawFormModal.tsx:194
+#: src/components/_political/law/LawFormModal.tsx:195
+msgid "Alliance name"
+msgstr ""
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:99
 #: src/components/_military/battle/ActiveBattlesList.tsx:153
@@ -1490,8 +1494,8 @@ msgstr "ذخيرة"
 msgid "Ammo:"
 msgstr "ذخيرة:"
 
-#: src/components/_political/law/LawFormModal.tsx:250
-#: src/components/_political/law/LawFormModal.tsx:251
+#: src/components/_political/law/LawFormModal.tsx:270
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Amount"
 msgstr "الكمية"
 
@@ -1519,6 +1523,14 @@ msgstr "تم نقض التحالف"
 #: src/components/_political/event/event.frontConfig.tsx:316
 msgid "An alliance has been formed"
 msgstr "تم تشكيل تحالف"
+
+#: src/components/_political/law/law.frontConfig.tsx:286
+msgid "An alliance has invited your country to join"
+msgstr ""
+
+#: src/components/_political/law/law.frontConfig.tsx:289
+msgid "An alliance has invited your country to join."
+msgstr ""
 
 #: src/components/_user/auth/LoginFormModal.tsx:94
 msgid "An email with the verification code has been sent to {email}"
@@ -1639,7 +1651,7 @@ msgstr "هل أنت متأكد من رغبتك في نقل الملكية إلى
 msgid "Armor"
 msgstr "درع"
 
-#: src/components/_political/law/LawFormModal.tsx:217
+#: src/components/_political/law/LawFormModal.tsx:237
 msgid "Article ID"
 msgstr "معرف المقال"
 
@@ -1812,7 +1824,7 @@ msgstr "شارة مُكتسبة"
 msgid "Badge Won"
 msgstr "شارة مُكتسبة"
 
-#: src/pages/country/[countryId]/index.tsx:348
+#: src/pages/country/[countryId]/index.tsx:352
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "شارات"
@@ -2002,26 +2014,9 @@ msgstr "سوف تكون المكافأة متاحة في"
 msgid "Bread"
 msgstr "خبز"
 
-#: src/components/_political/law/law.frontConfig.tsx:315
-#: src/components/_political/law/lawNames.tsx:27
-msgid "Break alliance"
-msgstr "إنهاء التحالف"
-
-#: src/components/_political/law/law.frontConfig.tsx:320
-msgid "Break alliance with <0/>"
-msgstr "إنهاء التحالف مع <0/>"
-
-#: src/components/_political/law/law.frontConfig.tsx:316
-msgid "Break an alliance with another country"
-msgstr "إنهاء تحالف مع دولة أخرى"
-
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
 msgid "Break room"
 msgstr "غرفة الاستراحة"
-
-#: src/components/_political/law/law.frontConfig.tsx:329
-msgid "Break the alliance with <0/>"
-msgstr "إنهاء التحالف مع <0/>"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:111
 msgid "Brigadier"
@@ -2076,7 +2071,7 @@ msgid "Buy <0/>"
 msgstr "شراء <0/>"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:408
+#: src/components/_political/law/law.frontConfig.tsx:364
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr "شراء <0/> من <1/> مقابل <2>{0}</2>"
 
@@ -2249,13 +2244,13 @@ msgstr "تغيير الإنتاج"
 msgid "Change tax"
 msgstr "تغيير الضريبة"
 
-#: src/components/_political/law/law.frontConfig.tsx:482
+#: src/components/_political/law/law.frontConfig.tsx:438
 msgid "Change the country color scheme"
 msgstr "تغيير نظام ألوان الدولة"
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:488
+#: src/components/_political/law/law.frontConfig.tsx:444
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "تغيير نظام ألوان الدولة إلى <0>{0}</0> مع تمييز خريطة <1>{1}</1>"
 
@@ -2297,7 +2292,7 @@ msgstr "مواطن منذ <0><1/></0>"
 msgid "Citizens"
 msgstr "مواطنون"
 
-#: src/pages/country/[countryId]/index.tsx:185
+#: src/pages/country/[countryId]/index.tsx:188
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "يحصل المواطنون على مكافأة عند القتال من أجل الحلفاء، أو ضد العدو اللدود"
 
@@ -2383,6 +2378,7 @@ msgstr "انقر للاستهلاك."
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "اضغط للكشف عما بداخلها. قد تحصل على شيء ثمين!"
 
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:41
 #: src/components/_political/law/LawTypeSelect.tsx:57
 msgid "Click to select law"
 msgstr "اضغط لاختيار القانون"
@@ -2391,7 +2387,7 @@ msgstr "اضغط لاختيار القانون"
 msgid "Click to select motion"
 msgstr "اضغط لاختيار الاقتراح"
 
-#: src/components/_layout/map.frontConfig.tsx:55
+#: src/components/_layout/map.frontConfig.tsx:62
 msgid "Climate"
 msgstr "المناخ"
 
@@ -2704,7 +2700,7 @@ msgstr "الدول"
 msgid "Country"
 msgstr "الدولة"
 
-#: src/pages/country/[countryId]/index.tsx:483
+#: src/pages/country/[countryId]/index.tsx:487
 msgid "Country development income bonus"
 msgstr "مكافأة دخل تطوير الدولة"
 
@@ -2725,9 +2721,13 @@ msgstr "دفعت الدولة <0>{0}</0> مقابل الأضرار الملحق�
 msgid "Country President"
 msgstr "رئيس الدولة"
 
-#: src/pages/country/[countryId]/index.tsx:434
+#: src/pages/country/[countryId]/index.tsx:438
 msgid "Country production bonus"
 msgstr "مكافأة إنتاج الدولة"
+
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:125
+msgid "Country to invite"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:181
 msgid "Country Tournament Winner"
@@ -2759,6 +2759,12 @@ msgstr "إنشاء"
 msgid "Create a Company"
 msgstr "إنشاء شركة"
 
+#. placeholder {0}: law.data.name
+#. placeholder {1}: law.data.scheme
+#: src/components/_political/law/law.frontConfig.tsx:265
+msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:356
 msgid "Create a new company"
 msgstr "إنشاء شركة جديدة"
@@ -2767,6 +2773,16 @@ msgstr "إنشاء شركة جديدة"
 #: src/components/_political/party/PartyList.tsx:88
 msgid "Create a party"
 msgstr "إنشاء حزب"
+
+#: src/components/_political/law/law.frontConfig.tsx:255
+#: src/components/_political/law/lawNames.tsx:25
+msgid "Create alliance"
+msgstr ""
+
+#. placeholder {0}: law.data.name
+#: src/components/_political/law/law.frontConfig.tsx:259
+msgid "Create alliance {0}"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:240
 msgid "Create API Token"
@@ -2880,7 +2896,8 @@ msgstr "أنت محظوظ جداً"
 msgid "Danger zone"
 msgstr "منطقة الخطر"
 
-#: src/components/_political/law/LawFormModal.tsx:271
+#: src/components/_political/law/LawFormModal.tsx:212
+#: src/components/_political/law/LawFormModal.tsx:291
 msgid "Dark"
 msgstr "داكن"
 
@@ -3059,7 +3076,7 @@ msgstr "تم استنفاد مخزون <0>{0}</0> في <1/>"
 msgid "Deposit resource"
 msgstr "مورد المخزون"
 
-#: src/components/_layout/map.frontConfig.tsx:37
+#: src/components/_layout/map.frontConfig.tsx:44
 msgid "Deposit resources"
 msgstr "إيداع الموارد"
 
@@ -3094,7 +3111,7 @@ msgstr "تم تحديث الوصف!"
 msgid "Destruct"
 msgstr "تدمير"
 
-#: src/components/_layout/map.frontConfig.tsx:31
+#: src/components/_layout/map.frontConfig.tsx:38
 msgid "Development"
 msgstr "تطوير"
 
@@ -3106,7 +3123,7 @@ msgstr "قلل <0/> من الأضرار المتلقاة باستخدام <1>ا�
 msgid "Diminish Received Damages"
 msgstr "تقليل الأضرار المتلقاة"
 
-#: src/pages/country/[countryId]/index.tsx:191
+#: src/pages/country/[countryId]/index.tsx:194
 msgid "Diplomacy"
 msgstr "دبلوماسية"
 
@@ -3139,6 +3156,15 @@ msgstr "تفكيك العنصر"
 #: src/components/_user/apiToken/ApiTokenList.tsx:153
 msgid "Dismiss"
 msgstr "تجاهل"
+
+#: src/components/_political/alliance/alliance.frontConfig.tsx:16
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:117
+msgid "Dissolve alliance"
+msgstr ""
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:122
+msgid "Dissolve the alliance permanently, removing every member country."
+msgstr ""
 
 #: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
@@ -3276,7 +3302,7 @@ msgstr "فتح باب التصويت في الانتخابات"
 
 #: src/components/_political/country/CountryHeader.tsx:107
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:369
+#: src/pages/country/[countryId]/index.tsx:373
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "الانتخابات"
@@ -3317,6 +3343,8 @@ msgstr "فارغ"
 msgid "Enable company"
 msgstr "تفعيل الشركة"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:78
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
 #: src/components/_political/law/Law.tsx:79
 #: src/components/_political/law/LawTypeSelect.tsx:162
 #: src/components/_political/partyMotion/PartyMotion.tsx:89
@@ -3352,7 +3380,7 @@ msgstr "الطاقة"
 msgid "Ensign"
 msgstr "ملازم"
 
-#: src/components/_political/law/LawFormModal.tsx:218
+#: src/components/_political/law/LawFormModal.tsx:238
 msgid "Enter article ID"
 msgstr "أدخل معرف المقال"
 
@@ -3383,6 +3411,7 @@ msgstr "المعدات:"
 msgid "Equipments"
 msgstr "معدات"
 
+#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:47
 #: src/components/_political/law/LawStatus.tsx:47
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:56
 msgid "Error"
@@ -3415,7 +3444,7 @@ msgstr "نقاط الأخلاقيات:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:354
+#: src/pages/country/[countryId]/index.tsx:358
 msgid "Events"
 msgstr "الأحداث"
 
@@ -3608,15 +3637,15 @@ msgstr "تمويل معركة مقاومة في <0/>"
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr "تمويل معركة مقاومة في منطقة محتلة من بلدك"
 
-#: src/components/_political/law/law.frontConfig.tsx:551
+#: src/components/_political/law/law.frontConfig.tsx:507
 msgid "Finance a resistance to liberate an occupied region"
 msgstr "تمويل مقاومة لتحرير منطقة محتلة"
 
-#: src/components/_political/law/law.frontConfig.tsx:564
+#: src/components/_political/law/law.frontConfig.tsx:520
 msgid "Finance a revolt to liberate <0/>"
 msgstr "تمويل ثورة لتحرير <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:550
+#: src/components/_political/law/law.frontConfig.tsx:506
 #: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
 msgstr "تمويل مقاومة أجنبية"
@@ -3625,7 +3654,7 @@ msgstr "تمويل مقاومة أجنبية"
 msgid "Finance local resistance"
 msgstr "تمويل مقاومة محلية"
 
-#: src/components/_political/law/law.frontConfig.tsx:555
+#: src/components/_political/law/law.frontConfig.tsx:511
 msgid "Finance resistance in <0/>"
 msgstr "تمويل المقاومة في <0/>"
 
@@ -3692,9 +3721,13 @@ msgid "Font style"
 msgstr "نمط الخط"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:457
+#: src/pages/country/[countryId]/index.tsx:461
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "للشركات المنتجة لـ <0>{0}</0> الموجودة في <1/>."
+
+#: src/components/_political/law/law.frontConfig.tsx:256
+msgid "Found a new alliance with your country as founding member"
+msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:45
 msgid "Founding Father"
@@ -4113,7 +4146,7 @@ msgstr "غير نشط"
 msgid "Income"
 msgstr "الدخل"
 
-#: src/pages/country/[countryId]/index.tsx:506
+#: src/pages/country/[countryId]/index.tsx:510
 msgid "income from <0>Development</0> in <1/>."
 msgstr "الدخل من <0>التطوير</0> في <1/>."
 
@@ -4132,7 +4165,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "يزداد الدخل من الضرائب بنسبة <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:228
+#: src/components/_political/law/LawFormModal.tsx:248
 msgid "Income tax"
 msgstr "ضريبة الدخل"
 
@@ -4186,6 +4219,23 @@ msgstr "المخزون"
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:162
 msgid "Invitations"
+msgstr ""
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:43
+msgid "Invite <0/>"
+msgstr ""
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:52
+msgid "Invite <0/> to join the alliance. If accepted, the target country's government must also accept a system law before joining takes effect."
+msgstr ""
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:36
+msgid "Invite a country to join the alliance. A confirmation law is created in the target country."
+msgstr ""
+
+#: src/components/_political/alliance/alliance.frontConfig.tsx:13
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:34
+msgid "Invite country"
 msgstr ""
 
 #: src/utils/translations.tsx:53
@@ -4251,6 +4301,11 @@ msgstr "وظائف"
 msgid "Join a Military Unit"
 msgstr "انضم إلى وحدة عسكرية"
 
+#: src/components/_political/law/law.frontConfig.tsx:285
+#: src/components/_political/law/lawNames.tsx:27
+msgid "Join alliance"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:367
 msgid "Join MU"
 msgstr "انضم للوحدة العسكرية (MU)"
@@ -4302,6 +4357,15 @@ msgstr "البقاء في الشركة الحالية"
 #: src/components/_military/mu/MuMemberList.tsx:428
 msgid "Kick"
 msgstr "طرد"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:70
+msgid "Kick <0/>"
+msgstr ""
+
+#: src/components/_political/alliance/alliance.frontConfig.tsx:14
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:62
+msgid "Kick country"
+msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:139
 msgid "Kick Member"
@@ -4370,6 +4434,7 @@ msgstr "إطلاق انتخابات الزعيم"
 msgid "Launch primary election"
 msgstr "إطلاق الانتخابات التمهيدية"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:57
 #: src/components/_political/law/Law.tsx:57
 msgid "Law failed"
 msgstr "فشل القانون"
@@ -4380,7 +4445,8 @@ msgid "Law proposed"
 msgstr "تم اقتراح القانون"
 
 #: src/components/_political/country/CountryHeader.tsx:69
-#: src/pages/country/[countryId]/index.tsx:177
+#: src/pages/alliance/[allianceId]/index.tsx:50
+#: src/pages/country/[countryId]/index.tsx:180
 #: src/pages/country/[countryId]/laws.tsx:24
 msgid "Laws"
 msgstr "القوانين"
@@ -4397,6 +4463,11 @@ msgstr "مقلاع جلدي"
 msgid "Leave"
 msgstr "مغادرة"
 
+#: src/components/_political/law/law.frontConfig.tsx:276
+#: src/components/_political/law/lawNames.tsx:26
+msgid "Leave alliance"
+msgstr ""
+
 #: src/components/_user/worker/WageReductionAlert.tsx:55
 msgid "Leave company?"
 msgstr "مغادرة الشركة؟"
@@ -4410,6 +4481,15 @@ msgstr "مغادرة الكونغرس"
 #: src/pages/country/[countryId]/government.tsx:82
 msgid "Leave government"
 msgstr "مغادرة الحكومة"
+
+#: src/components/_political/law/law.frontConfig.tsx:277
+#: src/components/_political/law/law.frontConfig.tsx:279
+msgid "Leave the alliance your country belongs to"
+msgstr ""
+
+#: src/components/_political/alliance/AllianceHeader.tsx:69
+msgid "Led by <0/>."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:78
 msgid "Legend spotted!"
@@ -4448,15 +4528,15 @@ msgstr "ارفع مستوى مهاراتك!"
 msgid "Level up!"
 msgstr "ارتفع المستوى!"
 
-#: src/components/_political/law/law.frontConfig.tsx:435
+#: src/components/_political/law/law.frontConfig.tsx:391
 msgid "Liberate <0/>"
 msgstr "تحرير <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:444
+#: src/components/_political/law/law.frontConfig.tsx:400
 msgid "Liberate <0/> and return it to its original country"
 msgstr "تحرير <0/> وإعادتها إلى بلدها الأصلي"
 
-#: src/components/_political/law/law.frontConfig.tsx:430
+#: src/components/_political/law/law.frontConfig.tsx:386
 #: src/components/_political/law/lawNames.tsx:32
 msgid "Liberate a region"
 msgstr "تحرير منطقة"
@@ -4465,7 +4545,8 @@ msgstr "تحرير منطقة"
 msgid "Lieutenant"
 msgstr "ملازم"
 
-#: src/components/_political/law/LawFormModal.tsx:269
+#: src/components/_political/law/LawFormModal.tsx:210
+#: src/components/_political/law/LawFormModal.tsx:289
 msgid "Light"
 msgstr "فاتح"
 
@@ -4594,6 +4675,10 @@ msgstr "تكلفة الصيانة"
 msgid "Major"
 msgstr "رائد"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:107
+msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
+msgstr ""
+
 #: src/components/_user/premium/PremiumActions.tsx:81
 msgid "Manage Subscription"
 msgstr "إدارة الاشتراك"
@@ -4612,7 +4697,8 @@ msgstr "الخريطة"
 msgid "Map"
 msgstr "خريطة"
 
-#: src/components/_political/law/LawFormModal.tsx:266
+#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:286
 msgid "Map Accent"
 msgstr "إبراز الخريطة"
 
@@ -4625,7 +4711,7 @@ msgid "Market"
 msgstr "السوق"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:232
+#: src/components/_political/law/LawFormModal.tsx:252
 msgid "Market tax"
 msgstr "ضريبة السوق"
 
@@ -4708,6 +4794,19 @@ msgstr "التقِ بلاعبين آخرين في الدردشة. لا تكن خ
 msgid "Member Applications"
 msgstr "طلبات الأعضاء"
 
+#: src/components/_political/alliance/AllianceHeader.tsx:74
+msgid "member countries"
+msgstr ""
+
+#: src/pages/alliance/[allianceId]/index.tsx:31
+#: src/pages/alliance/[allianceId]/members.tsx:23
+msgid "Member countries"
+msgstr ""
+
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:137
+msgid "Member country to kick"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:116
 msgid "Member demoted from commander"
 msgstr "تم تنزيل رتبة العضو من قائد"
@@ -4730,12 +4829,12 @@ msgid "Mentioned in message"
 msgstr "تمت الإشارة إليك في رسالة"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:392
+#: src/pages/country/[countryId]/index.tsx:396
 msgid "Mercenary Auctions"
 msgstr "مزادات المرتزقة"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:380
+#: src/pages/country/[countryId]/index.tsx:384
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "عقود المرتزقة"
@@ -5074,6 +5173,10 @@ msgstr "عرض سلعة جديد"
 msgid "New job offer"
 msgstr "عرض عمل جديد"
 
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:145
+msgid "New leader"
+msgstr ""
+
 #: src/components/_economy/company/MoveCompanyForm.tsx:77
 msgid "New location"
 msgstr "موقع جديد"
@@ -5180,13 +5283,13 @@ msgstr "لا توجد أخلاقيات نشطة - متوازن"
 msgid "No active job offer"
 msgstr "لا يوجد عرض عمل نشط"
 
-#: src/pages/country/[countryId]/index.tsx:284
+#: src/pages/country/[countryId]/index.tsx:288
 msgid "No active wars"
 msgstr "لا توجد حروب نشطة"
 
-#: src/pages/country/[countryId]/index.tsx:229
-msgid "No allies"
-msgstr "لا يوجد حلفاء"
+#: src/components/_political/allianceLaw/AllianceLawList.tsx:50
+msgid "No alliance laws yet"
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
@@ -5232,6 +5335,11 @@ msgstr "لا يوجد تصنيف بري بعد."
 msgid "No laws yet"
 msgstr "لا توجد قوانين بعد"
 
+#: src/pages/alliance/[allianceId]/index.tsx:36
+#: src/pages/alliance/[allianceId]/members.tsx:28
+msgid "No members"
+msgstr ""
+
 #: src/components/_military/mu/MuMemberList.tsx:180
 msgid "No members in this military unit."
 msgstr "لا يوجد أعضاء في هذه الوحدة العسكرية."
@@ -5276,7 +5384,7 @@ msgstr "لا توجد أوامر"
 msgid "No parties found"
 msgstr "لم يتم العثور على أحزاب"
 
-#: src/pages/country/[countryId]/index.tsx:470
+#: src/pages/country/[countryId]/index.tsx:474
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "لا توجد مكافأة إنتاج من الموارد. هذه الدولة ليس لديها تخصص."
 
@@ -5292,7 +5400,7 @@ msgstr "لا يوجد مُحيل بعد"
 msgid "No skins equipped"
 msgstr "لا توجد مظاهر مجهزة"
 
-#: src/pages/country/[countryId]/index.tsx:275
+#: src/pages/country/[countryId]/index.tsx:279
 msgid "No sworn enemy"
 msgstr "لا يوجد عدو لدود"
 
@@ -5318,15 +5426,29 @@ msgstr "لا توجد عروض عمل"
 msgid "Nominate"
 msgstr "ترشيح"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:97
+msgid "Nominate <0/> as leader"
+msgstr ""
+
 #: src/components/_political/government/Government.tsx:257
 msgid "Nominate a {title}"
 msgstr "ترشيح {title}"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:90
+msgid "Nominate a citizen of a member country as the alliance leader."
+msgstr ""
+
+#: src/components/_political/alliance/alliance.frontConfig.tsx:15
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:88
+msgid "Nominate leader"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1985
 msgid "Nominated at government"
 msgstr "تم ترشيحه في الحكومة"
 
-#: src/components/_political/law/LawFormModal.tsx:270
+#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:290
 msgid "Normal"
 msgstr "عادي"
 
@@ -5341,6 +5463,10 @@ msgstr "ليس سيئاً!"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:36
 msgid "Not impressive, but not shameful"
 msgstr "ليس مبهراً، لكنه ليس مخجلاً"
+
+#: src/pages/country/[countryId]/index.tsx:233
+msgid "Not in any alliance"
+msgstr ""
 
 #: src/pages/notifications.tsx:38
 #: src/pages/user/[userId]/settings.tsx:79
@@ -5494,6 +5620,7 @@ msgstr "تم إلغاء الأوامر"
 msgid "Other"
 msgstr "أخرى"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:63
 #: src/components/_political/law/Law.tsx:64
 #: src/components/_political/partyMotion/PartyMotion.tsx:81
 msgid "Outcome"
@@ -5665,6 +5792,10 @@ msgstr "تخفيض الأجور قيد الانتظار"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "الناس غاضبون، لقد بدأ تمرد تلقائي في <0/>"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
+msgid "Permanently dissolve the alliance."
+msgstr ""
+
 #: src/utils/translations.tsx:86
 msgid "Petroleum"
 msgstr "نفط"
@@ -5720,7 +5851,7 @@ msgstr "يرجى إكمال الـ CAPTCHA."
 msgid "Please select a region"
 msgstr "يرجى اختيار منطقة"
 
-#: src/components/_layout/map.frontConfig.tsx:25
+#: src/components/_layout/map.frontConfig.tsx:26
 msgid "Political"
 msgstr "سياسي"
 
@@ -5911,25 +6042,13 @@ msgstr "تمت الترقية إلى قائد"
 msgid "Propose a motion"
 msgstr "تقديم مقترح"
 
-#: src/components/_political/law/law.frontConfig.tsx:255
-#: src/components/_political/law/lawNames.tsx:25
-msgid "Propose alliance"
-msgstr "اقتراح تحالف"
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:109
+#: src/components/_political/allianceLaw/AllianceLawList.tsx:36
+msgid "Propose alliance law"
+msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:260
-msgid "Propose alliance to <0/>"
-msgstr "اقتراح تحالف مع <0/>"
-
-#. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:269
-msgid "Propose an alliance to <0/>, increasing your citizens damages when fighting for them by <1>{0}</1> and reciprocally"
-msgstr "اقتراح تحالف مع <0/>، مما يزيد من أضرار مواطنيك عند القتال لصالحهم بنسبة <1>{0}</1> والعكس"
-
-#: src/components/_political/law/law.frontConfig.tsx:256
-msgid "Propose an alliance to another country"
-msgstr "اقتراح تحالف مع دولة أخرى"
-
-#: src/components/_political/law/LawFormModal.tsx:317
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:165
+#: src/components/_political/law/LawFormModal.tsx:337
 msgid "Propose law"
 msgstr "اقتراح قانون"
 
@@ -5952,16 +6071,16 @@ msgid "Propose peace to another country"
 msgstr "اقتراح سلام مع دولة أخرى"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:419
+#: src/components/_political/law/law.frontConfig.tsx:375
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr "اقتراح شراء <0/> من <1/> مقابل <2>{0}</2>"
 
-#: src/components/_political/law/law.frontConfig.tsx:403
+#: src/components/_political/law/law.frontConfig.tsx:359
 #: src/components/_political/law/lawNames.tsx:31
 msgid "Propose to buy a region"
 msgstr "اقتراح شراء منطقة"
 
-#: src/components/_political/law/law.frontConfig.tsx:404
+#: src/components/_political/law/law.frontConfig.tsx:360
 msgid "Propose to buy a region from another country"
 msgstr "اقتراح شراء منطقة من دولة أخرى"
 
@@ -6007,7 +6126,7 @@ msgid "Ranking reward"
 msgstr "مكافأة التصنيف"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
-#: src/pages/country/[countryId]/index.tsx:171
+#: src/pages/country/[countryId]/index.tsx:174
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "التصنيفات"
@@ -6081,8 +6200,10 @@ msgstr "مستعد للمعركة!"
 msgid "Rear Admiral"
 msgstr "لواء بحري"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:70
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:119
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:178
+#: src/components/_political/law/LawFormModal.tsx:173
 msgid "Reason"
 msgstr "السبب"
 
@@ -6159,7 +6280,7 @@ msgstr "يجدد <0>{0}</0> عند الاستهلاك"
 msgid "Region"
 msgstr "منطقة"
 
-#: src/components/_political/law/law.frontConfig.tsx:375
+#: src/components/_political/law/law.frontConfig.tsx:331
 #: src/components/_political/law/lawNames.tsx:30
 msgid "Region buy offer"
 msgstr "عرض شراء منطقة"
@@ -6208,11 +6329,13 @@ msgstr "خوذة معززة"
 msgid "Reinforced Pants"
 msgstr "سراويل معززة"
 
+#: src/components/_political/allianceLaw/AllianceLaw.tsx:144
 #: src/components/_political/law/Law.tsx:181
 #: src/components/_political/partyMotion/PartyMotion.tsx:180
 msgid "Reject"
 msgstr "رفض"
 
+#: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
 #: src/utils/translations.tsx:260
@@ -6231,9 +6354,17 @@ msgstr "مدة التأثير السلبي المتبقية"
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "إزالة <0/> من الكونغرس بسبب عدم النشاط"
 
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:79
+msgid "Remove <0/> from the alliance immediately on acceptance."
+msgstr ""
+
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:38
 msgid "Remove <0/> from the party council"
 msgstr "إزالة <0/> من مجلس الحزب"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:63
+msgid "Remove a member country from the alliance."
+msgstr ""
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:32
 msgid "Remove a member from the party council"
@@ -6264,7 +6395,7 @@ msgstr "إزالة عضو المجلس"
 msgid "Remove Description"
 msgstr "إزالة الوصف"
 
-#: src/components/_political/law/law.frontConfig.tsx:365
+#: src/components/_political/law/law.frontConfig.tsx:321
 #: src/components/_political/law/lawNames.tsx:29
 msgid "Remove enemy"
 msgstr "إزالة العدو"
@@ -6380,7 +6511,7 @@ msgstr "المساهمون في المقاومة"
 msgid "Resistance for {regionName} {score}"
 msgstr "مقاومة من اجل {regionName} {score}"
 
-#: src/pages/country/[countryId]/index.tsx:315
+#: src/pages/country/[countryId]/index.tsx:319
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "الموارد"
@@ -6397,7 +6528,7 @@ msgstr "رد على رسالة"
 msgid "Restore your health!"
 msgstr "استعد صحتك!"
 
-#: src/components/_political/law/law.frontConfig.tsx:431
+#: src/components/_political/law/law.frontConfig.tsx:387
 msgid "Return a region to its original country"
 msgstr "إعادة منطقة إلى دولتها الأصلية"
 
@@ -6513,7 +6644,7 @@ msgstr "الجولات المربوحة"
 msgid "Rules"
 msgstr "القواعد"
 
-#: src/pages/country/[countryId]/index.tsx:323
+#: src/pages/country/[countryId]/index.tsx:327
 msgid "Ruling Party"
 msgstr "الحزب الحاكم"
 
@@ -6595,11 +6726,13 @@ msgstr "اختر منطقة محتلة"
 msgid "Select banner"
 msgstr "اختر شعاراً"
 
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:50
 #: src/components/_political/law/LawTypeSelect.tsx:66
 msgid "Select law type"
 msgstr "اختر نوع القانون"
 
-#: src/components/_political/law/LawFormModal.tsx:267
+#: src/components/_political/law/LawFormModal.tsx:208
+#: src/components/_political/law/LawFormModal.tsx:287
 msgid "Select map accent"
 msgstr "اختر تمييز الخريطة"
 
@@ -6650,7 +6783,7 @@ msgid "sells"
 msgstr "يبيع"
 
 #. placeholder {0}: law.data.amount
-#: src/components/_political/law/law.frontConfig.tsx:355
+#: src/components/_political/law/law.frontConfig.tsx:311
 msgid "Send <0>{0}</0> to <1/>"
 msgstr "أرسل <0>{0}</0> إلى <1/>"
 
@@ -6678,7 +6811,7 @@ msgstr "إرسال هدية"
 msgid "Send Message"
 msgstr "إرسال رسالة"
 
-#: src/components/_political/law/law.frontConfig.tsx:340
+#: src/components/_political/law/law.frontConfig.tsx:296
 msgid "Send money to another country"
 msgstr "إرسال أموال لدولة أخرى"
 
@@ -6694,11 +6827,11 @@ msgstr "تعيين <0>وصف</0>"
 msgid "Set a referrer"
 msgstr "تعيين مُحيل"
 
-#: src/components/_political/law/law.frontConfig.tsx:455
+#: src/components/_political/law/law.frontConfig.tsx:411
 msgid "Set a welcome article for your country"
 msgstr "تعيين مقال ترحيبي لدولتك"
 
-#: src/components/_political/law/law.frontConfig.tsx:460
+#: src/components/_political/law/law.frontConfig.tsx:416
 msgid "Set a welcome article for your country<0/>"
 msgstr "تعيين مقال ترحيبي لدولتك<0/>"
 
@@ -6706,13 +6839,13 @@ msgstr "تعيين مقال ترحيبي لدولتك<0/>"
 msgid "Set bounty"
 msgstr "تعيين مكافأة"
 
-#: src/components/_political/law/law.frontConfig.tsx:481
+#: src/components/_political/law/law.frontConfig.tsx:437
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
 msgstr "تعيين لون الدولة"
 
 #. placeholder {0}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:473
+#: src/components/_political/law/law.frontConfig.tsx:429
 msgid "Set country color to <0>{0}</0> "
 msgstr "تعيين لون الدولة إلى <0>{0}</0>"
 
@@ -6732,17 +6865,17 @@ msgstr "تعيين أخلاقيات الحزب"
 msgid "Set Profile Picture"
 msgstr "تعيين صورة الملف الشخصي"
 
-#: src/components/_political/law/law.frontConfig.tsx:527
+#: src/components/_political/law/law.frontConfig.tsx:483
 #: src/components/_political/law/lawNames.tsx:36
 msgid "Set specialization item"
 msgstr "تعيين عنصر التخصص"
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:533
+#: src/components/_political/law/law.frontConfig.tsx:489
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
 msgstr "تعيين عنصر التخصص للدولة إلى <0>{0}</0>.<1/>ستكون <2>مكافأة الإنتاج</2> للموارد الاستراتيجية للدولة متاحة للشركات المحلية التي تنتج هذا العنصر."
 
-#: src/components/_political/law/law.frontConfig.tsx:528
+#: src/components/_political/law/law.frontConfig.tsx:484
 msgid "Set the country's specialized production item"
 msgstr "تعيين عنصر الإنتاج المتخصص للدولة"
 
@@ -6750,7 +6883,7 @@ msgstr "تعيين عنصر الإنتاج المتخصص للدولة"
 msgid "Set Username"
 msgstr "تعيين اسم المستخدم"
 
-#: src/components/_political/law/law.frontConfig.tsx:454
+#: src/components/_political/law/law.frontConfig.tsx:410
 #: src/components/_political/law/lawNames.tsx:33
 msgid "Set welcome article"
 msgstr "تعيين مقال ترحيبي"
@@ -6900,11 +7033,11 @@ msgstr "المؤثرات الصوتية"
 msgid "Specialist"
 msgstr "متخصص"
 
-#: src/components/_layout/map.frontConfig.tsx:43
+#: src/components/_layout/map.frontConfig.tsx:50
 msgid "Specialization"
 msgstr "التخصص"
 
-#: src/components/_political/law/LawFormModal.tsx:293
+#: src/components/_political/law/LawFormModal.tsx:313
 msgid "Specialization item"
 msgstr "عنصر التخصص"
 
@@ -7031,7 +7164,7 @@ msgstr "استراتيجي"
 msgid "Strategic resource"
 msgstr "مورد استراتيجي"
 
-#: src/components/_layout/map.frontConfig.tsx:49
+#: src/components/_layout/map.frontConfig.tsx:56
 msgid "Strategic resources"
 msgstr "الموارد الاستراتيجية"
 
@@ -7112,7 +7245,7 @@ msgstr "تتيح لك خطة الداعم حفظ ما يصل إلى {maxKits} م
 msgid "Supreme Commander"
 msgstr "القائد الأعلى"
 
-#: src/pages/country/[countryId]/index.tsx:234
+#: src/pages/country/[countryId]/index.tsx:238
 msgid "Sworn enemy"
 msgstr "عدو لدود"
 
@@ -7124,9 +7257,9 @@ msgstr "ثورة النظام"
 msgid "Table"
 msgstr "جدول"
 
-#: src/pages/country/[countryId]/index.tsx:121
-#: src/pages/country/[countryId]/index.tsx:145
-#: src/pages/country/[countryId]/index.tsx:150
+#: src/pages/country/[countryId]/index.tsx:124
+#: src/pages/country/[countryId]/index.tsx:148
+#: src/pages/country/[countryId]/index.tsx:153
 msgid "Take control"
 msgstr "تولي السيطرة"
 
@@ -7138,19 +7271,19 @@ msgstr "أخذ الودائع في الاعتبار"
 msgid "Tank"
 msgstr "دبابة"
 
-#: src/components/_political/law/LawFormModal.tsx:192
+#: src/components/_political/law/LawFormModal.tsx:185
 msgid "Target country"
 msgstr "الدولة المستهدفة"
 
-#: src/components/_political/law/LawFormModal.tsx:205
+#: src/components/_political/law/LawFormModal.tsx:225
 msgid "Target region"
 msgstr "المنطقة المستهدفة"
 
-#: src/components/_political/law/LawFormModal.tsx:280
+#: src/components/_political/law/LawFormModal.tsx:300
 msgid "Target user"
 msgstr "المستخدم المستهدف"
 
-#: src/components/_political/law/LawFormModal.tsx:225
+#: src/components/_political/law/LawFormModal.tsx:245
 msgid "Tax type"
 msgstr "نوع الضريبة"
 
@@ -7268,7 +7401,7 @@ msgstr "هذه المكافأة مخصصة للمواطنين فقط."
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "هذه الشركة معطلة لأن المالك وصل إلى الحد الأقصى للشركات."
 
-#: src/pages/country/[countryId]/index.tsx:125
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "هذه الدولة ليس لديها رئيس أو عضو كونغرس نشط، يمكنك تولي السيطرة عليها."
 
@@ -7495,6 +7628,10 @@ msgstr "إجمالي الصناديق المفتوحة"
 msgid "Total damages"
 msgstr "إجمالي الأضرار"
 
+#: src/components/_political/alliance/AllianceHeader.tsx:77
+msgid "total development"
+msgstr ""
+
 #: src/components/_economy/donation/DonationList.tsx:65
 msgid "Total Donated:"
 msgstr "إجمالي التبرعات:"
@@ -7574,7 +7711,7 @@ msgstr "معاملات"
 msgid "Transactions"
 msgstr "المعاملات"
 
-#: src/components/_political/law/law.frontConfig.tsx:339
+#: src/components/_political/law/law.frontConfig.tsx:295
 #: src/components/_political/law/lawNames.tsx:28
 msgid "Transfer money"
 msgstr "تحويل الأموال"
@@ -7587,7 +7724,7 @@ msgstr "نقل الملكية"
 msgid "Transfer to company (optional)"
 msgstr "تحويل إلى الشركة (اختياري)"
 
-#: src/components/_political/law/law.frontConfig.tsx:344
+#: src/components/_political/law/law.frontConfig.tsx:300
 msgid "Transfer<0/> to <1/>"
 msgstr "نقل <0/> إلى <1/>"
 
@@ -7669,7 +7806,7 @@ msgstr "خيال. هذا لا يحدث"
 msgid "Unregister"
 msgstr "إلغاء التسجيل"
 
-#: src/pages/country/[countryId]/index.tsx:306
+#: src/pages/country/[countryId]/index.tsx:310
 msgid "Unrest"
 msgstr "اضطرابات"
 
@@ -7681,8 +7818,8 @@ msgstr "المساهمون في الاضطرابات"
 msgid "Unselect all"
 msgstr "إلغاء تحديد الكل"
 
-#: src/components/_political/law/law.frontConfig.tsx:366
-#: src/components/_political/law/law.frontConfig.tsx:368
+#: src/components/_political/law/law.frontConfig.tsx:322
+#: src/components/_political/law/law.frontConfig.tsx:324
 msgid "Unset the sworn enemy country"
 msgstr "إلغاء تعيين الدولة العدوة اللدود"
 
@@ -8099,7 +8236,8 @@ msgstr "بينما يُسمح باستخدام أدوات جمع البيانا�
 msgid "Whole Production"
 msgstr "كامل الإنتاج"
 
-#: src/components/_political/law/LawFormModal.tsx:179
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:120
+#: src/components/_political/law/LawFormModal.tsx:174
 msgid "Why do you want to propose this law?"
 msgstr "لماذا تريد اقتراح هذا القانون؟"
 
@@ -8179,7 +8317,7 @@ msgstr "الاسوء"
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "واو مبروك! على كل حال، هل فكرت في شراء العضوية المميزة؟"
 
-#: src/components/_political/law/LawFormModal.tsx:168
+#: src/components/_political/law/LawFormModal.tsx:163
 #: src/components/_political/law/LawList.tsx:52
 msgid "Write a law"
 msgstr "اكتب قانوناً"
@@ -8213,15 +8351,15 @@ msgstr "أنت شخص جميل"
 msgid "You are a lucky bastard"
 msgstr "يا لك من محظوظ"
 
-#: src/pages/country/[countryId]/index.tsx:115
+#: src/pages/country/[countryId]/index.tsx:118
 msgid "You are already congress member of another country. Resign first."
 msgstr "أنت عضو في الكونغرس لدولة أخرى بالفعل. استقل أولاً."
 
-#: src/pages/country/[countryId]/index.tsx:111
+#: src/pages/country/[countryId]/index.tsx:114
 msgid "You are already president of another country. Resign first."
 msgstr "أنت رئيس لدولة أخرى بالفعل. استقل أولاً."
 
-#: src/pages/country/[countryId]/index.tsx:113
+#: src/pages/country/[countryId]/index.tsx:116
 msgid "You are already vice president of another country. Resign first."
 msgstr "أنت نائب رئيس لدولة أخرى بالفعل. استقل أولاً."
 
@@ -8349,12 +8487,12 @@ msgid "You have resigned from the government"
 msgstr "لقد استقلت من الحكومة"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:107
+#: src/pages/country/[countryId]/index.tsx:110
 msgid "You have to be level {0} to take control of a country."
 msgstr "يجب أن تكون في المستوى {0} لتولي السيطرة على دولة."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:109
+#: src/pages/country/[countryId]/index.tsx:112
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "عليك الانتظار {0} يوماً قبل تولي السيطرة على دولة مرة أخرى."
 
@@ -8584,7 +8722,7 @@ msgstr "تم قبول رايتك \"{0}\" وهي متاحة الآن في الم�
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "ستنتهي صلاحية تعزيزاتك في خلال أقل من ساعة. ستبدأ مرحلة التأثيرات السلبية قريباً"
 
-#: src/pages/country/[countryId]/index.tsx:146
+#: src/pages/country/[countryId]/index.tsx:149
 msgid "Your citizenship is going to change"
 msgstr "جنسيتك سوف تتغير"
 
