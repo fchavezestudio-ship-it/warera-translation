@@ -1291,7 +1291,7 @@ msgstr "Aktionen"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:262
+#: src/utils/translations.tsx:268
 msgid "Active"
 msgstr "Aktiv"
 
@@ -1347,23 +1347,23 @@ msgstr "Admin-Benachrichtigung"
 msgid "Admiral"
 msgstr "Admiral"
 
-#: src/utils/translations.tsx:199
+#: src/utils/translations.tsx:205
 msgid "Advanced Boots"
 msgstr "Fortgeschrittene Stiefel"
 
-#: src/utils/translations.tsx:190
+#: src/utils/translations.tsx:196
 msgid "Advanced Chest"
 msgstr "Fortgeschrittene Brustplatte"
 
-#: src/utils/translations.tsx:208
+#: src/utils/translations.tsx:214
 msgid "Advanced Gloves"
 msgstr "Fortgeschrittene Handschuhe"
 
-#: src/utils/translations.tsx:181
+#: src/utils/translations.tsx:187
 msgid "Advanced Helmet"
 msgstr "Fortgeschrittener Helm"
 
-#: src/utils/translations.tsx:217
+#: src/utils/translations.tsx:223
 msgid "Advanced Pants"
 msgstr "Fortgeschrittene Hose"
 
@@ -1593,7 +1593,7 @@ msgstr "Antragsgebühr"
 msgid "Apply"
 msgstr "Beantragen"
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:271
 msgid "Approved"
 msgstr "Genehmigt"
 
@@ -1878,23 +1878,23 @@ msgstr "Banner"
 msgid "Bans"
 msgstr "Banns"
 
-#: src/utils/translations.tsx:197
+#: src/utils/translations.tsx:203
 msgid "Basic Boots"
 msgstr "Einfache Stiefel"
 
-#: src/utils/translations.tsx:188
+#: src/utils/translations.tsx:194
 msgid "Basic Chest"
 msgstr "Einfache Brustplatte"
 
-#: src/utils/translations.tsx:206
+#: src/utils/translations.tsx:212
 msgid "Basic Gloves"
 msgstr "Einfache Handschuhe"
 
-#: src/utils/translations.tsx:179
+#: src/utils/translations.tsx:185
 msgid "Basic Helmet"
 msgstr "Einfacher Helm"
 
-#: src/utils/translations.tsx:215
+#: src/utils/translations.tsx:221
 msgid "Basic Pants"
 msgstr "Einfache Hose"
 
@@ -1904,7 +1904,7 @@ msgstr "Einfache Hose"
 msgid "Battle"
 msgstr "Schlacht"
 
-#: src/pages/alliance/[allianceId]/index.tsx:30
+#: src/pages/alliance/[allianceId]/index.tsx:31
 msgid "Battle damage bonus"
 msgstr ""
 
@@ -2009,7 +2009,7 @@ msgid "Boost your production!"
 msgstr "Kurbele deine Produktion an!"
 
 #: src/components/_user/UserEquipments.tsx:200
-#: src/utils/translations.tsx:196
+#: src/utils/translations.tsx:202
 msgid "Boots"
 msgstr "Stiefel"
 
@@ -2153,11 +2153,11 @@ msgid "Cancel Mercenary Contract"
 msgstr "Söldnervertrag kündigen"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:257
+#: src/utils/translations.tsx:263
 msgid "Cancelled"
 msgstr "Abgebrochen"
 
-#: src/utils/translations.tsx:258
+#: src/utils/translations.tsx:264
 msgid "Cancelled by admin"
 msgstr "Vom Admin abgebrochen"
 
@@ -2280,7 +2280,7 @@ msgid "Check your loot!"
 msgstr "Überprüfe deine Beute!"
 
 #: src/components/_user/UserEquipments.tsx:166
-#: src/utils/translations.tsx:187
+#: src/utils/translations.tsx:193
 msgid "Chest"
 msgstr "Brustplatte"
 
@@ -2495,7 +2495,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Schließe täglich Missionen ab, um EP zu verdienen und schneller im Level aufzusteigen. Klicken zum Einsammeln!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:260
+#: src/utils/translations.tsx:266
 msgid "Completed"
 msgstr "Abgeschlossen"
 
@@ -3327,7 +3327,7 @@ msgstr "Abstimmung geöffnet"
 msgid "Elections"
 msgstr "Wahlen"
 
-#: src/utils/translations.tsx:200
+#: src/utils/translations.tsx:206
 msgid "Elite Boots"
 msgstr "Elite-Stiefel"
 
@@ -3335,19 +3335,19 @@ msgstr "Elite-Stiefel"
 msgid "Elite Case"
 msgstr "Elite-Kiste"
 
-#: src/utils/translations.tsx:191
+#: src/utils/translations.tsx:197
 msgid "Elite Chest"
 msgstr "Elite-Brustplatte"
 
-#: src/utils/translations.tsx:209
+#: src/utils/translations.tsx:215
 msgid "Elite Gloves"
 msgstr "Elite-Handschuhe"
 
-#: src/utils/translations.tsx:182
+#: src/utils/translations.tsx:188
 msgid "Elite Helmet"
 msgstr "Elite-Helm"
 
-#: src/utils/translations.tsx:218
+#: src/utils/translations.tsx:224
 msgid "Elite Pants"
 msgstr "Elite-Hose"
 
@@ -3474,7 +3474,7 @@ msgstr "Jeder nimmt automatisch teil"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:261
+#: src/utils/translations.tsx:267
 msgid "Expired"
 msgstr "Abgelaufen"
 
@@ -3876,7 +3876,7 @@ msgid "Globe (experimental)"
 msgstr "Globus (experimentell)"
 
 #: src/components/_user/UserEquipments.tsx:217
-#: src/utils/translations.tsx:205
+#: src/utils/translations.tsx:211
 msgid "Gloves"
 msgstr "Handschuhe"
 
@@ -4034,7 +4034,7 @@ msgid "Heavy Ammo"
 msgstr "Schwere Munition"
 
 #: src/components/_user/UserEquipments.tsx:151
-#: src/utils/translations.tsx:178
+#: src/utils/translations.tsx:184
 msgid "Helmet"
 msgstr "Helm"
 
@@ -4469,7 +4469,7 @@ msgid "Law proposed"
 msgstr "Gesetz vorgeschlagen"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/pages/alliance/[allianceId]/index.tsx:59
+#: src/pages/alliance/[allianceId]/index.tsx:67
 #: src/pages/country/[countryId]/index.tsx:180
 #: src/pages/country/[countryId]/laws.tsx:24
 msgid "Laws"
@@ -4526,23 +4526,23 @@ msgstr ""
 msgid "Legend spotted!"
 msgstr "Legende gesichtet!"
 
-#: src/utils/translations.tsx:201
+#: src/utils/translations.tsx:207
 msgid "Legendary Boots"
 msgstr "Legendäre Stiefel"
 
-#: src/utils/translations.tsx:192
+#: src/utils/translations.tsx:198
 msgid "Legendary Chest"
 msgstr "Legendäre Brustplatte"
 
-#: src/utils/translations.tsx:210
+#: src/utils/translations.tsx:216
 msgid "Legendary Gloves"
 msgstr "Legendäre Handschuhe"
 
-#: src/utils/translations.tsx:183
+#: src/utils/translations.tsx:189
 msgid "Legendary Helmet"
 msgstr "Legendärer Helm"
 
-#: src/utils/translations.tsx:219
+#: src/utils/translations.tsx:225
 msgid "Legendary Pants"
 msgstr "Legendäre Hose"
 
@@ -4829,7 +4829,7 @@ msgstr "Mitgliedsanträge"
 msgid "member countries"
 msgstr ""
 
-#: src/pages/alliance/[allianceId]/index.tsx:40
+#: src/pages/alliance/[allianceId]/index.tsx:48
 #: src/pages/alliance/[allianceId]/members.tsx:23
 msgid "Member countries"
 msgstr ""
@@ -5119,23 +5119,23 @@ msgstr "Meine Unternehmen"
 msgid "Mysterious Plant"
 msgstr "Mysteriöse Pflanze"
 
-#: src/utils/translations.tsx:202
+#: src/utils/translations.tsx:208
 msgid "Mythic Boots"
 msgstr "Mythische Stiefel"
 
-#: src/utils/translations.tsx:193
+#: src/utils/translations.tsx:199
 msgid "Mythic Chest"
 msgstr "Mythische Brustplatte"
 
-#: src/utils/translations.tsx:211
+#: src/utils/translations.tsx:217
 msgid "Mythic Gloves"
 msgstr "Mythische Handschuhe"
 
-#: src/utils/translations.tsx:184
+#: src/utils/translations.tsx:190
 msgid "Mythic Helmet"
 msgstr "Mythischer Helm"
 
-#: src/utils/translations.tsx:220
+#: src/utils/translations.tsx:226
 msgid "Mythic Pants"
 msgstr "Mythische Hose"
 
@@ -5370,7 +5370,7 @@ msgstr "Noch keine Boden-Rangliste."
 msgid "No laws yet"
 msgstr "Noch keine Gesetze"
 
-#: src/pages/alliance/[allianceId]/index.tsx:45
+#: src/pages/alliance/[allianceId]/index.tsx:53
 #: src/pages/alliance/[allianceId]/members.tsx:28
 msgid "No members"
 msgstr ""
@@ -5708,7 +5708,7 @@ msgid "Packs"
 msgstr "Pakete"
 
 #: src/components/_user/UserEquipments.tsx:183
-#: src/utils/translations.tsx:214
+#: src/utils/translations.tsx:220
 msgid "Pants"
 msgstr "Hosen"
 
@@ -5823,7 +5823,7 @@ msgstr "Frieden geschlossen"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:269
 msgid "Pending"
 msgstr "Ausstehend"
 
@@ -6173,6 +6173,7 @@ msgid "Ranking reward"
 msgstr "Ranglistenbelohnung"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
+#: src/pages/alliance/[allianceId]/index.tsx:38
 #: src/pages/country/[countryId]/index.tsx:174
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
@@ -6356,23 +6357,23 @@ msgstr "Regionen"
 msgid "Register"
 msgstr "Registrieren"
 
-#: src/utils/translations.tsx:198
+#: src/utils/translations.tsx:204
 msgid "Reinforced Boots"
 msgstr "Verstärkte Stiefel"
 
-#: src/utils/translations.tsx:189
+#: src/utils/translations.tsx:195
 msgid "Reinforced Chest"
 msgstr "Verstärkter Brustpanzer"
 
-#: src/utils/translations.tsx:207
+#: src/utils/translations.tsx:213
 msgid "Reinforced Gloves"
 msgstr "Verstärkte Handschuhe"
 
-#: src/utils/translations.tsx:180
+#: src/utils/translations.tsx:186
 msgid "Reinforced Helmet"
 msgstr "Verstärkter Helm"
 
-#: src/utils/translations.tsx:216
+#: src/utils/translations.tsx:222
 msgid "Reinforced Pants"
 msgstr "Verstärkte Hose"
 
@@ -6385,7 +6386,7 @@ msgstr "Ablehnen"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:270
 msgid "Rejected"
 msgstr "Abgelehnt"
 
@@ -6619,7 +6620,7 @@ msgstr "Rechte"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "Geld zurückrollen (alle Zahlungen von ME/Benutzern zurücknehmen und den vollen Pool an das Land erstatten)"
 
-#: src/utils/translations.tsx:259
+#: src/utils/translations.tsx:265
 msgid "Rolled back by admin"
 msgstr "Vom Admin zurückgerollt"
 
