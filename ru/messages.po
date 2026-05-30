@@ -1270,7 +1270,7 @@ msgstr "Принято"
 msgid "Access war"
 msgstr ""
 
-#: src/components/_political/country/CountryHeader.tsx:76
+#: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:345
@@ -2304,7 +2304,7 @@ msgstr "Выбери свою сторону и кликни, чтобы нан�
 msgid "Citizen since <0><1/></0>"
 msgstr "Гражданин с <0><1/></0>"
 
-#: src/components/_political/country/CountryHeader.tsx:126
+#: src/components/_political/country/CountryHeader.tsx:127
 msgid "Citizens"
 msgstr "Граждане"
 
@@ -2340,7 +2340,7 @@ msgstr "Граждане получают дополнительный <0>{0}</0
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
 msgstr "Граждане получают дополнительный <0>{0}</0> бонус к урону в обороне."
 
-#: src/components/_political/country/CountryHeader.tsx:113
+#: src/components/_political/country/CountryHeader.tsx:114
 msgid "Citizenship"
 msgstr "Гражданство"
 
@@ -2643,7 +2643,7 @@ msgstr ""
 #: src/components/_military/battle/BattlesHeader.tsx:44
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:95
-#: src/components/_political/country/CountryHeader.tsx:134
+#: src/components/_political/country/CountryHeader.tsx:135
 msgid "Contracts"
 msgstr ""
 
@@ -2712,7 +2712,7 @@ msgstr "Страны"
 #: src/components/_layout/MoreButtonNav.tsx:131
 #: src/components/_military/battle/BattleCountrySide.tsx:73
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
-#: src/components/_political/country/CountryHeader.tsx:55
+#: src/components/_political/country/CountryHeader.tsx:56
 msgid "Country"
 msgstr "Страна"
 
@@ -3236,7 +3236,7 @@ msgstr "Пожертвования"
 msgid "Donation Summary"
 msgstr "Сводки Пожертвований"
 
-#: src/components/_political/country/CountryHeader.tsx:88
+#: src/components/_political/country/CountryHeader.tsx:89
 #: src/pages/country/[countryId]/donations.tsx:17
 #: src/pages/mu/[muId]/donations.tsx:17
 #: src/pages/party/[partyId]/donations.tsx:17
@@ -3320,7 +3320,7 @@ msgstr ""
 msgid "Election vote open"
 msgstr ""
 
-#: src/components/_political/country/CountryHeader.tsx:107
+#: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
 #: src/pages/country/[countryId]/index.tsx:373
 #: src/pages/party/[partyId]/index.tsx:100
@@ -3896,7 +3896,7 @@ msgstr "Перейти к навыкам"
 msgid "Gold"
 msgstr "Золото"
 
-#: src/components/_political/country/CountryHeader.tsx:94
+#: src/components/_political/country/CountryHeader.tsx:95
 msgid "Government"
 msgstr "Правительство"
 
@@ -4076,7 +4076,7 @@ msgid "Hitting for your own country while in government gives {0}% bounty effici
 msgstr ""
 
 #: src/components/_other/shop/ShopHeader.tsx:16
-#: src/components/_political/country/CountryHeader.tsx:63
+#: src/components/_political/country/CountryHeader.tsx:64
 #: src/components/_user/user/UserHeader.tsx:153
 msgid "Home"
 msgstr "Главная"
@@ -4468,7 +4468,7 @@ msgstr "Закон отклонён"
 msgid "Law proposed"
 msgstr "Закон принят"
 
-#: src/components/_political/country/CountryHeader.tsx:69
+#: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:59
 #: src/pages/country/[countryId]/index.tsx:180
 #: src/pages/country/[countryId]/laws.tsx:24
@@ -4844,6 +4844,10 @@ msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
+msgstr ""
+
+#: src/components/_political/country/CountryHeader.tsx:194
+msgid "Member of <0/>"
 msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:112
@@ -6344,7 +6348,7 @@ msgstr "Передача региона"
 msgid "regions"
 msgstr "регионов"
 
-#: src/components/_political/country/CountryHeader.tsx:120
+#: src/components/_political/country/CountryHeader.tsx:121
 msgid "Regions"
 msgstr "Регионы"
 
@@ -7748,7 +7752,7 @@ msgstr "Курсант"
 msgid "Transac."
 msgstr "Транзак."
 
-#: src/components/_political/country/CountryHeader.tsx:82
+#: src/components/_political/country/CountryHeader.tsx:83
 #: src/pages/market/index.tsx:83
 #: src/pages/user/[userId]/index.tsx:230
 msgid "Transactions"
@@ -8215,7 +8219,7 @@ msgstr ""
 msgid "Warrant Officer"
 msgstr "Прапорщик"
 
-#: src/components/_political/country/CountryHeader.tsx:100
+#: src/components/_political/country/CountryHeader.tsx:101
 msgid "Wars"
 msgstr "Войны"
 

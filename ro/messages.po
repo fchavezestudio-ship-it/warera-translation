@@ -1268,7 +1268,7 @@ msgstr "Acceptată"
 msgid "Access war"
 msgstr "Vezi război"
 
-#: src/components/_political/country/CountryHeader.tsx:76
+#: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:345
@@ -2302,7 +2302,7 @@ msgstr "Alege o parte și apasă pentru a produce <0>Daune</0>! Continua să lup
 msgid "Citizen since <0><1/></0>"
 msgstr "Cetățean de <0><1/></0>"
 
-#: src/components/_political/country/CountryHeader.tsx:126
+#: src/components/_political/country/CountryHeader.tsx:127
 msgid "Citizens"
 msgstr "Cetățeni"
 
@@ -2338,7 +2338,7 @@ msgstr "Cetățenii primesc un bonus de <0>{0}</0> când luptă pentru aliați."
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
 msgstr "Cetățenii primesc un bonus de <0>{0}</0> când luptă in defensivă."
 
-#: src/components/_political/country/CountryHeader.tsx:113
+#: src/components/_political/country/CountryHeader.tsx:114
 msgid "Citizenship"
 msgstr "Cetățenie"
 
@@ -2641,7 +2641,7 @@ msgstr "Contract inversat"
 #: src/components/_military/battle/BattlesHeader.tsx:44
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:95
-#: src/components/_political/country/CountryHeader.tsx:134
+#: src/components/_political/country/CountryHeader.tsx:135
 msgid "Contracts"
 msgstr "Contracte"
 
@@ -2710,7 +2710,7 @@ msgstr "Țări"
 #: src/components/_layout/MoreButtonNav.tsx:131
 #: src/components/_military/battle/BattleCountrySide.tsx:73
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
-#: src/components/_political/country/CountryHeader.tsx:55
+#: src/components/_political/country/CountryHeader.tsx:56
 msgid "Country"
 msgstr "Țară"
 
@@ -3234,7 +3234,7 @@ msgstr "Donație"
 msgid "Donation Summary"
 msgstr "Sumar Donații"
 
-#: src/components/_political/country/CountryHeader.tsx:88
+#: src/components/_political/country/CountryHeader.tsx:89
 #: src/pages/country/[countryId]/donations.tsx:17
 #: src/pages/mu/[muId]/donations.tsx:17
 #: src/pages/party/[partyId]/donations.tsx:17
@@ -3318,7 +3318,7 @@ msgstr "Alegerile s-au încheiat"
 msgid "Election vote open"
 msgstr "Votarea a început"
 
-#: src/components/_political/country/CountryHeader.tsx:107
+#: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
 #: src/pages/country/[countryId]/index.tsx:373
 #: src/pages/party/[partyId]/index.tsx:100
@@ -3894,7 +3894,7 @@ msgstr "Către Competențe"
 msgid "Gold"
 msgstr "Aur"
 
-#: src/components/_political/country/CountryHeader.tsx:94
+#: src/components/_political/country/CountryHeader.tsx:95
 msgid "Government"
 msgstr "Guvern"
 
@@ -4074,7 +4074,7 @@ msgid "Hitting for your own country while in government gives {0}% bounty effici
 msgstr "Loviturile pentru țara ta, cât timp ești membru al guvernului, sunt răsplătite la un factor de {0}%"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
-#: src/components/_political/country/CountryHeader.tsx:63
+#: src/components/_political/country/CountryHeader.tsx:64
 #: src/components/_user/user/UserHeader.tsx:153
 msgid "Home"
 msgstr "Acasă"
@@ -4466,7 +4466,7 @@ msgstr "Lege eșuată"
 msgid "Law proposed"
 msgstr "Lege propusă"
 
-#: src/components/_political/country/CountryHeader.tsx:69
+#: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:59
 #: src/pages/country/[countryId]/index.tsx:180
 #: src/pages/country/[countryId]/laws.tsx:24
@@ -4843,6 +4843,10 @@ msgstr "Membru demis de la comandant"
 #: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
 msgstr "Membru eliminat cu succes"
+
+#: src/components/_political/country/CountryHeader.tsx:194
+msgid "Member of <0/>"
+msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
@@ -6342,7 +6346,7 @@ msgstr "Transfer de regiune"
 msgid "regions"
 msgstr "regiuni"
 
-#: src/components/_political/country/CountryHeader.tsx:120
+#: src/components/_political/country/CountryHeader.tsx:121
 msgid "Regions"
 msgstr "Regiuni"
 
@@ -7746,7 +7750,7 @@ msgstr "Stagiar"
 msgid "Transac."
 msgstr "Transac."
 
-#: src/components/_political/country/CountryHeader.tsx:82
+#: src/components/_political/country/CountryHeader.tsx:83
 #: src/pages/market/index.tsx:83
 #: src/pages/user/[userId]/index.tsx:230
 msgid "Transactions"
@@ -8213,7 +8217,7 @@ msgstr "Atenție"
 msgid "Warrant Officer"
 msgstr "Plutonier"
 
-#: src/components/_political/country/CountryHeader.tsx:100
+#: src/components/_political/country/CountryHeader.tsx:101
 msgid "Wars"
 msgstr "Războaie"
 

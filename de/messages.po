@@ -1270,7 +1270,7 @@ msgstr "Angenommen"
 msgid "Access war"
 msgstr "Krieg aufrufen"
 
-#: src/components/_political/country/CountryHeader.tsx:76
+#: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
 #: src/pages/country/[countryId]/index.tsx:345
@@ -2304,7 +2304,7 @@ msgstr "Wähle deine Seite und klicke, um <0>Schaden</0> zu verursachen! Schlage
 msgid "Citizen since <0><1/></0>"
 msgstr "Bürger seit <0><1/></0>"
 
-#: src/components/_political/country/CountryHeader.tsx:126
+#: src/components/_political/country/CountryHeader.tsx:127
 msgid "Citizens"
 msgstr "Bürger"
 
@@ -2340,7 +2340,7 @@ msgstr "Bürger erhalten einen zusätzlichen Schlachtbonus von <0>{0}</0>, wenn 
 msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
 msgstr "Bürger erhalten einen zusätzlichen defensiven Schlachtbonus von <0>{0}</0>."
 
-#: src/components/_political/country/CountryHeader.tsx:113
+#: src/components/_political/country/CountryHeader.tsx:114
 msgid "Citizenship"
 msgstr "Staatsbürgerschaft"
 
@@ -2643,7 +2643,7 @@ msgstr "Vertrag rückgängig gemacht"
 #: src/components/_military/battle/BattlesHeader.tsx:44
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
 #: src/components/_military/battle/LootSummaryCard.tsx:95
-#: src/components/_political/country/CountryHeader.tsx:134
+#: src/components/_political/country/CountryHeader.tsx:135
 msgid "Contracts"
 msgstr "Verträge"
 
@@ -2712,7 +2712,7 @@ msgstr "Länder"
 #: src/components/_layout/MoreButtonNav.tsx:131
 #: src/components/_military/battle/BattleCountrySide.tsx:73
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
-#: src/components/_political/country/CountryHeader.tsx:55
+#: src/components/_political/country/CountryHeader.tsx:56
 msgid "Country"
 msgstr "Land"
 
@@ -3236,7 +3236,7 @@ msgstr "Spende"
 msgid "Donation Summary"
 msgstr "Spendenübersicht"
 
-#: src/components/_political/country/CountryHeader.tsx:88
+#: src/components/_political/country/CountryHeader.tsx:89
 #: src/pages/country/[countryId]/donations.tsx:17
 #: src/pages/mu/[muId]/donations.tsx:17
 #: src/pages/party/[partyId]/donations.tsx:17
@@ -3320,7 +3320,7 @@ msgstr "Wahl beendet"
 msgid "Election vote open"
 msgstr "Abstimmung geöffnet"
 
-#: src/components/_political/country/CountryHeader.tsx:107
+#: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
 #: src/pages/country/[countryId]/index.tsx:373
 #: src/pages/party/[partyId]/index.tsx:100
@@ -3896,7 +3896,7 @@ msgstr "Zu den Fertigkeiten gehen"
 msgid "Gold"
 msgstr "Gold"
 
-#: src/components/_political/country/CountryHeader.tsx:94
+#: src/components/_political/country/CountryHeader.tsx:95
 msgid "Government"
 msgstr "Regierung"
 
@@ -4076,7 +4076,7 @@ msgid "Hitting for your own country while in government gives {0}% bounty effici
 msgstr "Das Kämpfen für das eigene Land, während man in der Regierung ist, gibt {0}% Kopfgeld-Effizienz."
 
 #: src/components/_other/shop/ShopHeader.tsx:16
-#: src/components/_political/country/CountryHeader.tsx:63
+#: src/components/_political/country/CountryHeader.tsx:64
 #: src/components/_user/user/UserHeader.tsx:153
 msgid "Home"
 msgstr "Startseite"
@@ -4468,7 +4468,7 @@ msgstr "Gesetz abgelehnt"
 msgid "Law proposed"
 msgstr "Gesetz vorgeschlagen"
 
-#: src/components/_political/country/CountryHeader.tsx:69
+#: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:59
 #: src/pages/country/[countryId]/index.tsx:180
 #: src/pages/country/[countryId]/laws.tsx:24
@@ -4845,6 +4845,10 @@ msgstr "Mitglied vom Kommandeur degradiert"
 #: src/components/_military/mu/MuMemberList.tsx:108
 msgid "Member kicked successfully"
 msgstr "Mitglied erfolgreich entfernt"
+
+#: src/components/_political/country/CountryHeader.tsx:194
+msgid "Member of <0/>"
+msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:112
 msgid "Member promoted to commander"
@@ -6344,7 +6348,7 @@ msgstr "Regionstransfer"
 msgid "regions"
 msgstr "Regionen"
 
-#: src/components/_political/country/CountryHeader.tsx:120
+#: src/components/_political/country/CountryHeader.tsx:121
 msgid "Regions"
 msgstr "Regionen"
 
@@ -7748,7 +7752,7 @@ msgstr "Auszubildender"
 msgid "Transac."
 msgstr "Transak."
 
-#: src/components/_political/country/CountryHeader.tsx:82
+#: src/components/_political/country/CountryHeader.tsx:83
 #: src/pages/market/index.tsx:83
 #: src/pages/user/[userId]/index.tsx:230
 msgid "Transactions"
@@ -8215,7 +8219,7 @@ msgstr "Warnung"
 msgid "Warrant Officer"
 msgstr "Offiziersstellvertreter"
 
-#: src/components/_political/country/CountryHeader.tsx:100
+#: src/components/_political/country/CountryHeader.tsx:101
 msgid "Wars"
 msgstr "Kriege"
 
