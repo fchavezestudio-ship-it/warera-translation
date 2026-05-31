@@ -30,7 +30,7 @@ msgid " - Gear merging schemes *"
 msgstr ""
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
@@ -5354,7 +5354,7 @@ msgstr "Δεν υπάρχουν μέλη Κοινοβουλίου"
 msgid "No contributions yet"
 msgstr "Δεν υπάρχουν ακόμα συνεισφορές"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:185
+#: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr "Δεν υπάρχει ακόμα κατάταξη ζημιών."
 
@@ -5362,7 +5362,7 @@ msgstr "Δεν υπάρχει ακόμα κατάταξη ζημιών."
 msgid "No donations yet"
 msgstr "Δεν υπάρχουν ακόμα δωρεές"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:187
+#: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Δεν υπάρχει ακόμα κατάταξη εδάφους."
 
@@ -5395,7 +5395,7 @@ msgstr "Δεν βρέθηκαν στρατιωτικές μονάδες"
 msgid "No missions available"
 msgstr "Δεν υπάρχουν διαθέσιμες αποστολές"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:188
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No money ranking yet."
 msgstr "Δεν υπάρχει ακόμα κατάταξη χρημάτων."
 
@@ -6965,7 +6965,7 @@ msgstr ""
 msgid "Show all {0} bids"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:205
+#: src/components/_military/damageRanking/DamageRankingList.tsx:189
 #: src/components/_social/ArticleTags.tsx:265
 #: src/components/_social/ArticleTags.tsx:312
 #: src/components/_social/ArticleTags.tsx:370
@@ -8879,7 +8879,7 @@ msgstr "Η premium συνδρομή σου ενεργοποιήθηκε!"
 msgid "Your premium subscription has expired!"
 msgstr "Η premium συνδρομή σου έληξε!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
+#: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
 msgstr "Ο βαθμός σου"
 

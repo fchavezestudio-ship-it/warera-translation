@@ -30,8 +30,8 @@ msgid " - Gear merging schemes *"
 msgstr " - Esquemas de exploração de equipamentos *"
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
-msgstr " - Empregar ou trabalhar com salários desajustados (inferiores a 0,7x ou superiores a 1,3x do salário normal)"
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
+msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:422
@@ -5354,7 +5354,7 @@ msgstr "Sem membros do congresso"
 msgid "No contributions yet"
 msgstr "Nenhuma contribuição ainda"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:185
+#: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr "Nenhum ranking de dano ainda."
 
@@ -5362,7 +5362,7 @@ msgstr "Nenhum ranking de dano ainda."
 msgid "No donations yet"
 msgstr "Ainda não há doações"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:187
+#: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Nenhum ranking de terreno ainda."
 
@@ -5395,7 +5395,7 @@ msgstr "Nenhuma unidade militar encontrada"
 msgid "No missions available"
 msgstr "Nenhuma missão disponível"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:188
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No money ranking yet."
 msgstr "Nenhum ranking de dinheiro ainda."
 
@@ -6965,7 +6965,7 @@ msgstr ""
 msgid "Show all {0} bids"
 msgstr "Mostrar todas as {0} licitações"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:205
+#: src/components/_military/damageRanking/DamageRankingList.tsx:189
 #: src/components/_social/ArticleTags.tsx:265
 #: src/components/_social/ArticleTags.tsx:312
 #: src/components/_social/ArticleTags.tsx:370
@@ -8879,7 +8879,7 @@ msgstr "A sua subscrição premium foi ativada!"
 msgid "Your premium subscription has expired!"
 msgstr "A sua subscrição premium expirou!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
+#: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
 msgstr "O seu rank"
 

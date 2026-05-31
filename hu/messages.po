@@ -30,8 +30,8 @@ msgid " - Gear merging schemes *"
 msgstr " - Felszerelések összevonásával való visszaélés *"
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
-msgstr " - Szokatlan bérű munka (0,7x-nél alacsonyabb és 1,3x-nél magasabb fizetés)"
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
+msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:422
@@ -5354,7 +5354,7 @@ msgstr "Nincsenek kongresszusi tagok"
 msgid "No contributions yet"
 msgstr "Még nincsenek hozzájárulások"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:185
+#: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr "Még nincs sebzési rangsor."
 
@@ -5362,7 +5362,7 @@ msgstr "Még nincs sebzési rangsor."
 msgid "No donations yet"
 msgstr "Még nincsenek adományok"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:187
+#: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Még nincs földi rangsor."
 
@@ -5395,7 +5395,7 @@ msgstr "Nem található katonai egység"
 msgid "No missions available"
 msgstr "Nincs elérhető küldetés"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:188
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No money ranking yet."
 msgstr "Még nincs pénz rangsor."
 
@@ -6965,7 +6965,7 @@ msgstr ""
 msgid "Show all {0} bids"
 msgstr "Összes {0} ajánlat megjelenítése"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:205
+#: src/components/_military/damageRanking/DamageRankingList.tsx:189
 #: src/components/_social/ArticleTags.tsx:265
 #: src/components/_social/ArticleTags.tsx:312
 #: src/components/_social/ArticleTags.tsx:370
@@ -8879,7 +8879,7 @@ msgstr "Prémium előfizetésed aktiválva lett!"
 msgid "Your premium subscription has expired!"
 msgstr "Prémium előfizetésed lejárt!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
+#: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
 msgstr "Rangod"
 

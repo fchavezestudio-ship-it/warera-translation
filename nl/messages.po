@@ -30,8 +30,8 @@ msgid " - Gear merging schemes *"
 msgstr " - Uitrustingssamenvoegingsschema's *"
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
-msgstr " - Arbeid met laag loon (lager dan 0.7x en hoger dan 1.3x het normale salaris)"
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
+msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:422
@@ -5354,7 +5354,7 @@ msgstr "Geen congresleden"
 msgid "No contributions yet"
 msgstr "Nog geen bijdragen"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:185
+#: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr "Nog geen schaderanglijst."
 
@@ -5362,7 +5362,7 @@ msgstr "Nog geen schaderanglijst."
 msgid "No donations yet"
 msgstr "Nog geen donaties"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:187
+#: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Nog geen grondranglijst."
 
@@ -5395,7 +5395,7 @@ msgstr "Geen militaire eenheden gevonden"
 msgid "No missions available"
 msgstr "Geen missies beschikbaar"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:188
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No money ranking yet."
 msgstr "Nog geen geldranglijst."
 
@@ -6965,7 +6965,7 @@ msgstr ""
 msgid "Show all {0} bids"
 msgstr "Toon alle {0} biedingen"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:205
+#: src/components/_military/damageRanking/DamageRankingList.tsx:189
 #: src/components/_social/ArticleTags.tsx:265
 #: src/components/_social/ArticleTags.tsx:312
 #: src/components/_social/ArticleTags.tsx:370
@@ -8879,7 +8879,7 @@ msgstr "Je premiumabonnement is geactiveerd!"
 msgid "Your premium subscription has expired!"
 msgstr "Je premiumabonnement is verlopen!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
+#: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
 msgstr "Je rang"
 

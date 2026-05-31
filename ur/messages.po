@@ -30,8 +30,8 @@ msgid " - Gear merging schemes *"
 msgstr "* سامان ملانے کی اسکیمیں - "
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
-msgstr "کم-اجرت کی مزدوری (عام تنخواہ سے 0.7 گنہ کم یا 1.3 گنہ زیادہ) - "
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
+msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:422
@@ -5354,7 +5354,7 @@ msgstr ""
 msgid "No contributions yet"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:185
+#: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr ""
 
@@ -5362,7 +5362,7 @@ msgstr ""
 msgid "No donations yet"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:187
+#: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr ""
 
@@ -5395,7 +5395,7 @@ msgstr ""
 msgid "No missions available"
 msgstr "مشن نہیں دستیاب"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:188
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No money ranking yet."
 msgstr ""
 
@@ -6965,7 +6965,7 @@ msgstr ""
 msgid "Show all {0} bids"
 msgstr ""
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:205
+#: src/components/_military/damageRanking/DamageRankingList.tsx:189
 #: src/components/_social/ArticleTags.tsx:265
 #: src/components/_social/ArticleTags.tsx:312
 #: src/components/_social/ArticleTags.tsx:370
@@ -8879,7 +8879,7 @@ msgstr "آپ کی اعلی رکنیت فعال ہو گئی ہے!"
 msgid "Your premium subscription has expired!"
 msgstr "آپ کی اعلی رکنیت ختم ہو چکی ہے!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
+#: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
 msgstr "آپ کا درجہ"
 

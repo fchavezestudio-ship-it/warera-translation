@@ -28,7 +28,7 @@ msgid " - Gear merging schemes *"
 msgstr ""
 
 #: src/components/_common/GameRules.tsx:117
-msgid " - Low-wage labor (lower than 0.7x and above 1.3x the normal salary)"
+msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
 msgstr ""
 
 #. placeholder {0}: user.data.mute.reason
@@ -5352,7 +5352,7 @@ msgstr "Niciun parlamentar"
 msgid "No contributions yet"
 msgstr "Fără contribuții"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:185
+#: src/components/_military/damageRanking/DamageRankingList.tsx:170
 msgid "No damages ranking yet."
 msgstr "Fără clasament daune."
 
@@ -5360,7 +5360,7 @@ msgstr "Fără clasament daune."
 msgid "No donations yet"
 msgstr "Nicio donație încă"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:187
+#: src/components/_military/damageRanking/DamageRankingList.tsx:172
 msgid "No ground ranking yet."
 msgstr "Fără clasament teren."
 
@@ -5393,7 +5393,7 @@ msgstr "Fără unități militare"
 msgid "No missions available"
 msgstr "Nu există misiuni disponibile"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:188
+#: src/components/_military/damageRanking/DamageRankingList.tsx:173
 msgid "No money ranking yet."
 msgstr "Fără clasament bani."
 
@@ -6963,7 +6963,7 @@ msgstr ""
 msgid "Show all {0} bids"
 msgstr "Arată toate {0} oferte"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:205
+#: src/components/_military/damageRanking/DamageRankingList.tsx:189
 #: src/components/_social/ArticleTags.tsx:265
 #: src/components/_social/ArticleTags.tsx:312
 #: src/components/_social/ArticleTags.tsx:370
@@ -8877,7 +8877,7 @@ msgstr "Planul Susținător a fost activat!"
 msgid "Your premium subscription has expired!"
 msgstr "Planul Susținător a expirat!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:211
+#: src/components/_military/damageRanking/DamageRankingList.tsx:195
 msgid "Your rank"
 msgstr "Rangul tau"
 
