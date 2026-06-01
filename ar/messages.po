@@ -1466,7 +1466,7 @@ msgstr "انهار التحالف"
 msgid "Alliance formed"
 msgstr "تأسس التحالف"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:50
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:53
 msgid "Alliance law proposed"
 msgstr ""
 
@@ -2250,6 +2250,16 @@ msgstr "تغيير ضريبة {0} إلى <0/>"
 msgid "Change a country tax"
 msgstr "تغيير ضريبة الدولة"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:19
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:141
+msgid "Change color"
+msgstr ""
+
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:149
+msgid "Change color to <0>{0}</0>"
+msgstr ""
+
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
 msgid "Change produced item"
@@ -2264,6 +2274,15 @@ msgstr "تغيير الإنتاج"
 msgid "Change tax"
 msgstr "تغيير الضريبة"
 
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:158
+msgid "Change the alliance color scheme to <0>{0}</0> immediately on acceptance."
+msgstr ""
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:142
+msgid "Change the color scheme of the alliance."
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:469
 msgid "Change the country color scheme"
 msgstr "تغيير نظام ألوان الدولة"
@@ -2273,6 +2292,10 @@ msgstr "تغيير نظام ألوان الدولة"
 #: src/components/_political/law/law.frontConfig.tsx:475
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "تغيير نظام ألوان الدولة إلى <0>{0}</0> مع تمييز خريطة <1>{1}</1>"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:121
+msgid "Change the name of the alliance."
+msgstr ""
 
 #. placeholder {0}: law.data.taxType
 #: src/components/_political/law/law.frontConfig.tsx:74
@@ -2745,7 +2768,7 @@ msgstr "رئيس الدولة"
 msgid "Country production bonus"
 msgstr "مكافأة إنتاج الدولة"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:127
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:141
 msgid "Country to invite"
 msgstr ""
 
@@ -3186,12 +3209,12 @@ msgstr "تفكيك العنصر"
 msgid "Dismiss"
 msgstr "تجاهل"
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:16
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:117
+#: src/components/_political/alliance/alliance.frontConfig.tsx:20
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:168
 msgid "Dissolve alliance"
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:122
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:173
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr ""
 
@@ -4250,20 +4273,20 @@ msgstr "المخزون"
 msgid "Invitations"
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:43
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:46
 msgid "Invite <0/>"
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:52
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:55
 msgid "Invite <0/> to join the alliance. If accepted, the target country's government must also accept a system law before joining takes effect."
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:36
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:39
 msgid "Invite a country to join the alliance. A confirmation law is created in the target country."
 msgstr ""
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:13
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:34
+#: src/components/_political/alliance/alliance.frontConfig.tsx:15
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:37
 msgid "Invite country"
 msgstr ""
 
@@ -4391,12 +4414,12 @@ msgstr "البقاء في الشركة الحالية"
 msgid "Kick"
 msgstr "طرد"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:70
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:73
 msgid "Kick <0/>"
 msgstr ""
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:14
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:62
+#: src/components/_political/alliance/alliance.frontConfig.tsx:16
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:65
 msgid "Kick country"
 msgstr ""
 
@@ -4715,7 +4738,7 @@ msgstr "تكلفة الصيانة"
 msgid "Major"
 msgstr "رائد"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:107
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:110
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr ""
 
@@ -4843,7 +4866,7 @@ msgstr ""
 msgid "Member countries"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:139
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:153
 msgid "Member country to kick"
 msgstr ""
 
@@ -5191,6 +5214,11 @@ msgstr "لا تتوقف عن المقامرة أبدًا"
 msgid "New"
 msgstr "جديد"
 
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:172
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:173
+msgid "New alliance name"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:122
 msgid "New API Token Created"
 msgstr "تم إنشاء رمز API جديد"
@@ -5221,7 +5249,7 @@ msgstr "عرض سلعة جديد"
 msgid "New job offer"
 msgstr "عرض عمل جديد"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:147
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:161
 msgid "New leader"
 msgstr ""
 
@@ -5474,7 +5502,7 @@ msgstr "لا توجد عروض عمل"
 msgid "Nominate"
 msgstr "ترشيح"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:97
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:100
 msgid "Nominate <0/> as leader"
 msgstr ""
 
@@ -5482,12 +5510,12 @@ msgstr ""
 msgid "Nominate a {title}"
 msgstr "ترشيح {title}"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:90
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:93
 msgid "Nominate a citizen of a member country as the alliance leader."
 msgstr ""
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:15
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:88
+#: src/components/_political/alliance/alliance.frontConfig.tsx:17
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:91
 msgid "Nominate leader"
 msgstr ""
 
@@ -5852,7 +5880,7 @@ msgstr "تخفيض الأجور قيد الانتظار"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "الناس غاضبون، لقد بدأ تمرد تلقائي في <0/>"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:169
 msgid "Permanently dissolve the alliance."
 msgstr ""
 
@@ -6106,12 +6134,12 @@ msgstr "تمت الترقية إلى قائد"
 msgid "Propose a motion"
 msgstr "تقديم مقترح"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:111
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:125
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:36
 msgid "Propose alliance law"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:167
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:198
 #: src/components/_political/law/LawFormModal.tsx:337
 msgid "Propose law"
 msgstr "اقتراح قانون"
@@ -6266,7 +6294,7 @@ msgid "Rear Admiral"
 msgstr "لواء بحري"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:121
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
 #: src/components/_political/law/Law.tsx:71
 #: src/components/_political/law/LawFormModal.tsx:173
 msgid "Reason"
@@ -6419,7 +6447,7 @@ msgstr "مدة التأثير السلبي المتبقية"
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "إزالة <0/> من الكونغرس بسبب عدم النشاط"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:79
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:82
 msgid "Remove <0/> from the alliance immediately on acceptance."
 msgstr ""
 
@@ -6427,7 +6455,7 @@ msgstr ""
 msgid "Remove <0/> from the party council"
 msgstr "إزالة <0/> من مجلس الحزب"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:63
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:66
 msgid "Remove a member country from the alliance."
 msgstr ""
 
@@ -6478,10 +6506,25 @@ msgstr "تمت الإزالة من الوحدة العسكرية"
 msgid "Rename"
 msgstr "إعادة تسمية"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:18
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:120
+msgid "Rename alliance"
+msgstr ""
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:127
+msgid "Rename alliance to \"{0}\""
+msgstr ""
+
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:66
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "إعادة تسمية الشركة"
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:133
+msgid "Rename the alliance to \"{0}\" immediately on acceptance."
+msgstr ""
 
 #: src/components/_political/government/Government.tsx:219
 msgid "Replace"
@@ -8305,7 +8348,7 @@ msgstr "بينما يُسمح باستخدام أدوات جمع البيانا�
 msgid "Whole Production"
 msgstr "كامل الإنتاج"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:122
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:136
 #: src/components/_political/law/LawFormModal.tsx:174
 msgid "Why do you want to propose this law?"
 msgstr "لماذا تريد اقتراح هذا القانون؟"

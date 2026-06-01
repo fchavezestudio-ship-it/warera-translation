@@ -1466,7 +1466,7 @@ msgstr "Alliance broken"
 msgid "Alliance formed"
 msgstr "Alliance formed"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:50
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:53
 msgid "Alliance law proposed"
 msgstr "Alliance law proposed"
 
@@ -2250,6 +2250,16 @@ msgstr "Change {0} tax to <0/>"
 msgid "Change a country tax"
 msgstr "Change a country tax"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:19
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:141
+msgid "Change color"
+msgstr "Change color"
+
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:149
+msgid "Change color to <0>{0}</0>"
+msgstr "Change color to <0>{0}</0>"
+
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
 msgid "Change produced item"
@@ -2264,6 +2274,15 @@ msgstr "Change production"
 msgid "Change tax"
 msgstr "Change tax"
 
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:158
+msgid "Change the alliance color scheme to <0>{0}</0> immediately on acceptance."
+msgstr "Change the alliance color scheme to <0>{0}</0> immediately on acceptance."
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:142
+msgid "Change the color scheme of the alliance."
+msgstr "Change the color scheme of the alliance."
+
 #: src/components/_political/law/law.frontConfig.tsx:469
 msgid "Change the country color scheme"
 msgstr "Change the country color scheme"
@@ -2273,6 +2292,10 @@ msgstr "Change the country color scheme"
 #: src/components/_political/law/law.frontConfig.tsx:475
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:121
+msgid "Change the name of the alliance."
+msgstr "Change the name of the alliance."
 
 #. placeholder {0}: law.data.taxType
 #: src/components/_political/law/law.frontConfig.tsx:74
@@ -2745,7 +2768,7 @@ msgstr "Country President"
 msgid "Country production bonus"
 msgstr "Country production bonus"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:127
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:141
 msgid "Country to invite"
 msgstr "Country to invite"
 
@@ -3186,12 +3209,12 @@ msgstr "Dismantle Item"
 msgid "Dismiss"
 msgstr "Dismiss"
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:16
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:117
+#: src/components/_political/alliance/alliance.frontConfig.tsx:20
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:168
 msgid "Dissolve alliance"
 msgstr "Dissolve alliance"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:122
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:173
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr "Dissolve the alliance permanently, removing every member country."
 
@@ -4250,20 +4273,20 @@ msgstr "Inventory"
 msgid "Invitations"
 msgstr "Invitations"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:43
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:46
 msgid "Invite <0/>"
 msgstr "Invite <0/>"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:52
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:55
 msgid "Invite <0/> to join the alliance. If accepted, the target country's government must also accept a system law before joining takes effect."
 msgstr "Invite <0/> to join the alliance. If accepted, the target country's government must also accept a system law before joining takes effect."
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:36
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:39
 msgid "Invite a country to join the alliance. A confirmation law is created in the target country."
 msgstr "Invite a country to join the alliance. A confirmation law is created in the target country."
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:13
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:34
+#: src/components/_political/alliance/alliance.frontConfig.tsx:15
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:37
 msgid "Invite country"
 msgstr "Invite country"
 
@@ -4391,12 +4414,12 @@ msgstr "Keep in current company"
 msgid "Kick"
 msgstr "Kick"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:70
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:73
 msgid "Kick <0/>"
 msgstr "Kick <0/>"
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:14
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:62
+#: src/components/_political/alliance/alliance.frontConfig.tsx:16
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:65
 msgid "Kick country"
 msgstr "Kick country"
 
@@ -4715,7 +4738,7 @@ msgstr "Maintenance cost"
 msgid "Major"
 msgstr "Major"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:107
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:110
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 
@@ -4843,7 +4866,7 @@ msgstr "member countries"
 msgid "Member countries"
 msgstr "Member countries"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:139
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:153
 msgid "Member country to kick"
 msgstr "Member country to kick"
 
@@ -5191,6 +5214,11 @@ msgstr "Never stop gambling"
 msgid "New"
 msgstr "New"
 
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:172
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:173
+msgid "New alliance name"
+msgstr "New alliance name"
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:122
 msgid "New API Token Created"
 msgstr "New API Token Created"
@@ -5221,7 +5249,7 @@ msgstr "New item offer"
 msgid "New job offer"
 msgstr "New job offer"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:147
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:161
 msgid "New leader"
 msgstr "New leader"
 
@@ -5474,7 +5502,7 @@ msgstr "No work offers"
 msgid "Nominate"
 msgstr "Nominate"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:97
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:100
 msgid "Nominate <0/> as leader"
 msgstr "Nominate <0/> as leader"
 
@@ -5482,12 +5510,12 @@ msgstr "Nominate <0/> as leader"
 msgid "Nominate a {title}"
 msgstr "Nominate a {title}"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:90
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:93
 msgid "Nominate a citizen of a member country as the alliance leader."
 msgstr "Nominate a citizen of a member country as the alliance leader."
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:15
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:88
+#: src/components/_political/alliance/alliance.frontConfig.tsx:17
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:91
 msgid "Nominate leader"
 msgstr "Nominate leader"
 
@@ -5852,7 +5880,7 @@ msgstr "Pending wage reduction"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "People are angry, an auto revolt has started in <0/>"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:169
 msgid "Permanently dissolve the alliance."
 msgstr "Permanently dissolve the alliance."
 
@@ -6106,12 +6134,12 @@ msgstr "Promoted to Commander"
 msgid "Propose a motion"
 msgstr "Propose a motion"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:111
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:125
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:36
 msgid "Propose alliance law"
 msgstr "Propose alliance law"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:167
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:198
 #: src/components/_political/law/LawFormModal.tsx:337
 msgid "Propose law"
 msgstr "Propose law"
@@ -6266,7 +6294,7 @@ msgid "Rear Admiral"
 msgstr "Rear Admiral"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:121
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
 #: src/components/_political/law/Law.tsx:71
 #: src/components/_political/law/LawFormModal.tsx:173
 msgid "Reason"
@@ -6419,7 +6447,7 @@ msgstr "Remaining debuff duration"
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "Remove <0/> from congress due to inactivity"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:79
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:82
 msgid "Remove <0/> from the alliance immediately on acceptance."
 msgstr "Remove <0/> from the alliance immediately on acceptance."
 
@@ -6427,7 +6455,7 @@ msgstr "Remove <0/> from the alliance immediately on acceptance."
 msgid "Remove <0/> from the party council"
 msgstr "Remove <0/> from the party council"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:63
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:66
 msgid "Remove a member country from the alliance."
 msgstr "Remove a member country from the alliance."
 
@@ -6478,10 +6506,25 @@ msgstr "Removed from Military Unit"
 msgid "Rename"
 msgstr "Rename"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:18
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:120
+msgid "Rename alliance"
+msgstr "Rename alliance"
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:127
+msgid "Rename alliance to \"{0}\""
+msgstr "Rename alliance to \"{0}\""
+
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:66
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "Rename company"
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:133
+msgid "Rename the alliance to \"{0}\" immediately on acceptance."
+msgstr "Rename the alliance to \"{0}\" immediately on acceptance."
 
 #: src/components/_political/government/Government.tsx:219
 msgid "Replace"
@@ -8305,7 +8348,7 @@ msgstr "While data collection and display tools that use the official public API
 msgid "Whole Production"
 msgstr "Whole Production"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:122
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:136
 #: src/components/_political/law/LawFormModal.tsx:174
 msgid "Why do you want to propose this law?"
 msgstr "Why do you want to propose this law?"

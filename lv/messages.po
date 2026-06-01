@@ -1466,7 +1466,7 @@ msgstr "Alianse lauzta"
 msgid "Alliance formed"
 msgstr "Alianse noslēgta"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:50
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:53
 msgid "Alliance law proposed"
 msgstr ""
 
@@ -2250,6 +2250,16 @@ msgstr ""
 msgid "Change a country tax"
 msgstr "Pamainīt vienu no valsts nodokļiem"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:19
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:141
+msgid "Change color"
+msgstr ""
+
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:149
+msgid "Change color to <0>{0}</0>"
+msgstr ""
+
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:67
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:82
 msgid "Change produced item"
@@ -2264,6 +2274,15 @@ msgstr "Mainīt ražošanu"
 msgid "Change tax"
 msgstr "Mainīt nodokli"
 
+#. placeholder {0}: data.newScheme
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:158
+msgid "Change the alliance color scheme to <0>{0}</0> immediately on acceptance."
+msgstr ""
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:142
+msgid "Change the color scheme of the alliance."
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:469
 msgid "Change the country color scheme"
 msgstr "Pamainīt valsts krāsu"
@@ -2273,6 +2292,10 @@ msgstr "Pamainīt valsts krāsu"
 #: src/components/_political/law/law.frontConfig.tsx:475
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "Pamainīt valsts krāsu uz <0>{0}</0> ar <1>{1}</1> kartes toni"
+
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:121
+msgid "Change the name of the alliance."
+msgstr ""
 
 #. placeholder {0}: law.data.taxType
 #: src/components/_political/law/law.frontConfig.tsx:74
@@ -2745,7 +2768,7 @@ msgstr "Valsts Prezidents"
 msgid "Country production bonus"
 msgstr "Valsts ražošanas bonuss"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:127
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:141
 msgid "Country to invite"
 msgstr ""
 
@@ -3186,12 +3209,12 @@ msgstr "Izjaukts Ekipējums"
 msgid "Dismiss"
 msgstr "Aizvērt"
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:16
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:117
+#: src/components/_political/alliance/alliance.frontConfig.tsx:20
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:168
 msgid "Dissolve alliance"
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:122
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:173
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr ""
 
@@ -4250,20 +4273,20 @@ msgstr "Inventārs"
 msgid "Invitations"
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:43
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:46
 msgid "Invite <0/>"
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:52
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:55
 msgid "Invite <0/> to join the alliance. If accepted, the target country's government must also accept a system law before joining takes effect."
 msgstr ""
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:36
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:39
 msgid "Invite a country to join the alliance. A confirmation law is created in the target country."
 msgstr ""
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:13
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:34
+#: src/components/_political/alliance/alliance.frontConfig.tsx:15
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:37
 msgid "Invite country"
 msgstr ""
 
@@ -4391,12 +4414,12 @@ msgstr "Paturēt esošajā uzņēmumā"
 msgid "Kick"
 msgstr "Izraidīt"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:70
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:73
 msgid "Kick <0/>"
 msgstr ""
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:14
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:62
+#: src/components/_political/alliance/alliance.frontConfig.tsx:16
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:65
 msgid "Kick country"
 msgstr ""
 
@@ -4715,7 +4738,7 @@ msgstr "Uzturēšanas izmaksas"
 msgid "Major"
 msgstr "Majors"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:107
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:110
 msgid "Make <0/> the new alliance leader. The leader can edit the alliance avatar and color scheme directly."
 msgstr ""
 
@@ -4843,7 +4866,7 @@ msgstr ""
 msgid "Member countries"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:139
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:153
 msgid "Member country to kick"
 msgstr ""
 
@@ -5191,6 +5214,11 @@ msgstr "Nekad neatmet spēlēt azartspēles"
 msgid "New"
 msgstr "Jaunākie"
 
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:172
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:173
+msgid "New alliance name"
+msgstr ""
+
 #: src/components/_user/apiToken/ApiTokenList.tsx:122
 msgid "New API Token Created"
 msgstr "Jauns API Žetons izveidots"
@@ -5221,7 +5249,7 @@ msgstr "Jauns sludinājums"
 msgid "New job offer"
 msgstr "Jauns darba piedāvājums"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:147
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:161
 msgid "New leader"
 msgstr ""
 
@@ -5474,7 +5502,7 @@ msgstr "Nav darba piedāvājumu"
 msgid "Nominate"
 msgstr "Nominēt"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:97
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:100
 msgid "Nominate <0/> as leader"
 msgstr ""
 
@@ -5482,12 +5510,12 @@ msgstr ""
 msgid "Nominate a {title}"
 msgstr "Nominēt {title}"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:90
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:93
 msgid "Nominate a citizen of a member country as the alliance leader."
 msgstr ""
 
-#: src/components/_political/alliance/alliance.frontConfig.tsx:15
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:88
+#: src/components/_political/alliance/alliance.frontConfig.tsx:17
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:91
 msgid "Nominate leader"
 msgstr ""
 
@@ -5852,7 +5880,7 @@ msgstr "Gaidāmā algas samazināšana"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Cilvēki ir saniknoti, automātiskā sacelšanās ir sākusies <0/>"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:169
 msgid "Permanently dissolve the alliance."
 msgstr ""
 
@@ -6106,12 +6134,12 @@ msgstr "Paaugstināts Komandiera amatā"
 msgid "Propose a motion"
 msgstr "Ierosināt priekšlikumu"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:111
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:125
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:36
 msgid "Propose alliance law"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:167
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:198
 #: src/components/_political/law/LawFormModal.tsx:337
 msgid "Propose law"
 msgstr "Ierosināt likumu"
@@ -6266,7 +6294,7 @@ msgid "Rear Admiral"
 msgstr "Kontradmirālis"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:121
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
 #: src/components/_political/law/Law.tsx:71
 #: src/components/_political/law/LawFormModal.tsx:173
 msgid "Reason"
@@ -6419,7 +6447,7 @@ msgstr "Atlikušais paģiru ilgums"
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "Atlaist <0/> no kongresa neaktivitātes dēļ"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:79
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:82
 msgid "Remove <0/> from the alliance immediately on acceptance."
 msgstr ""
 
@@ -6427,7 +6455,7 @@ msgstr ""
 msgid "Remove <0/> from the party council"
 msgstr "Atlaist <0/> no partijas padomes"
 
-#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:63
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:66
 msgid "Remove a member country from the alliance."
 msgstr ""
 
@@ -6478,10 +6506,25 @@ msgstr "Izraidīts no Militārās Vienības"
 msgid "Rename"
 msgstr "Pārsaukt"
 
+#: src/components/_political/alliance/alliance.frontConfig.tsx:18
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:120
+msgid "Rename alliance"
+msgstr ""
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:127
+msgid "Rename alliance to \"{0}\""
+msgstr ""
+
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:66
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "Pārsaukt uzņēmumu"
+
+#. placeholder {0}: data.newName
+#: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:133
+msgid "Rename the alliance to \"{0}\" immediately on acceptance."
+msgstr ""
 
 #: src/components/_political/government/Government.tsx:219
 msgid "Replace"
@@ -8305,7 +8348,7 @@ msgstr ""
 msgid "Whole Production"
 msgstr "Kopā saražots"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:122
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:136
 #: src/components/_political/law/LawFormModal.tsx:174
 msgid "Why do you want to propose this law?"
 msgstr "Kādēļ gribi ierosināt šo likumu?"
