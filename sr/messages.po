@@ -570,17 +570,17 @@ msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Радника"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:115
+#: src/components/_military/battle/BattleDamageBonuses.tsx:143
 msgid "<0>{0}</0> <1/> in <2/>"
 msgstr "<0>{0}</0> <1/> у <2/>"
 
 #. placeholder {0}: sideBonus.muOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:105
+#: src/components/_military/battle/BattleDamageBonuses.tsx:133
 msgid "<0>{0}</0> <1/> orders"
 msgstr "<0>{0}</0> <1/> наређења"
 
 #. placeholder {0}: sideBonus.countryEnemyBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:83
+#: src/components/_military/battle/BattleDamageBonuses.tsx:111
 msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<0>{0}</0> против непријатеља <1/>"
 
@@ -590,17 +590,17 @@ msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Бонус напада"
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:167
+#: src/components/_military/battle/BattleDamageBonuses.tsx:195
 msgid "<0>{0}</0> because <1/> is not linked to the capital"
 msgstr "<0>{0}</0> јер <1/> није повезан са престоницом"
 
 #. placeholder {0}: sideBonus.lostAttackingRegionMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:183
+#: src/components/_military/battle/BattleDamageBonuses.tsx:211
 msgid "<0>{0}</0> because <1/> lost <2/>"
 msgstr "<0>{0}</0> јер је <1/> изгубио <2/>"
 
 #. placeholder {0}: sideBonus.occupyingYourRegionsMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:209
+#: src/components/_military/battle/BattleDamageBonuses.tsx:237
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> јер <1/> окупира најмање један регион државе <2/>"
 
@@ -615,19 +615,19 @@ msgid "<0>{0}</0> fee returned to MU."
 msgstr "<0>{0}</0> такса враћена ВЈ."
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:72
+#: src/components/_military/battle/BattleDamageBonuses.tsx:83
 msgid "<0>{0}</0> from <1/>"
 msgstr ""
 
 #. placeholder {0}: sideBonus.regionAttackBonusPercent
 #. placeholder {0}: sideBonus.regionDefenseBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:136
-#: src/components/_military/battle/BattleDamageBonuses.tsx:152
+#: src/components/_military/battle/BattleDamageBonuses.tsx:164
+#: src/components/_military/battle/BattleDamageBonuses.tsx:180
 msgid "<0>{0}</0> from <1/> in <2/>"
 msgstr "<0>{0}</0> од <1/> у <2/>"
 
 #. placeholder {0}: sideBonus.resistanceBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:199
+#: src/components/_military/battle/BattleDamageBonuses.tsx:227
 msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> од <1>Отпор</1>"
 
@@ -642,12 +642,12 @@ msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> од налазишта ресурса."
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:241
+#: src/components/_military/battle/BattleDamageBonuses.tsx:269
 msgid "<0>{0}</0> from Diplomatic ethics (fighting for ally)"
 msgstr "<0>{0}</0> из дипломатске етике (током борбе за савезника)"
 
 #. placeholder {0}: sideBonus.patrioticBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:62
+#: src/components/_military/battle/BattleDamageBonuses.tsx:73
 msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> од борбе за своју земљу"
 
@@ -657,22 +657,22 @@ msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> од бонуса за специјализацију етике индустријалаца."
 
 #. placeholder {0}: sideBonus.enemyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:251
+#: src/components/_military/battle/BattleDamageBonuses.tsx:279
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
 msgstr "<0>{0}</0> из изолационистичке етике (током борбе против непријатеља)"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:221
+#: src/components/_military/battle/BattleDamageBonuses.tsx:249
 msgid "<0>{0}</0> from Militarist ethics (attacking)"
 msgstr "<0>{0}</0> из милитаристичке етике (током напада)"
 
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:94
+#: src/components/_military/battle/BattleDamageBonuses.tsx:122
 msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> од наређења <1/>"
 
 #. placeholder {0}: sideBonus.pacifismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:231
+#: src/components/_military/battle/BattleDamageBonuses.tsx:259
 msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> из пацифистичке етике (током одбране)"
 
@@ -2003,7 +2003,7 @@ msgstr "Замућење"
 msgid "Bone Club"
 msgstr "Коштана батина"
 
-#: src/components/_military/battle/BattleDamageBonuses.tsx:51
+#: src/components/_military/battle/BattleDamageBonuses.tsx:62
 #: src/components/_political/law/law.frontConfig.tsx:242
 msgid "Bonus damages"
 msgstr "Бонус штета"
@@ -2703,6 +2703,10 @@ msgstr "Копирај"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Копирај овај токен сада. Нећеш моћи поново да га видиш! Користи га у <0>X-API-Key</0> заглављу."
 
+#: src/components/_political/alliance/AllianceHeader.tsx:79
+msgid "core development"
+msgstr ""
+
 #: src/pages/country/[countryId]/regions.tsx:28
 msgid "Core regions"
 msgstr "Матични региони"
@@ -2872,6 +2876,10 @@ msgstr "Критични удар"
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
 msgstr "Самострел"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:82
+msgid "current development"
+msgstr ""
 
 #: src/pages/user/[userId]/index.tsx:163
 msgid "Current Military Unit"
@@ -4857,7 +4865,7 @@ msgstr "Упознај друге играче у разговору. Не ст�
 msgid "Member Applications"
 msgstr "Пријаве за чланове"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:74
+#: src/components/_political/alliance/AllianceHeader.tsx:76
 msgid "member countries"
 msgstr ""
 
@@ -5362,6 +5370,14 @@ msgstr "Нема активних понуда за посао"
 #: src/pages/country/[countryId]/index.tsx:292
 msgid "No active wars"
 msgstr "Нема активних ратова"
+
+#: src/components/_military/battle/BattleDamageBonuses.tsx:101
+msgid "No alliance bonus: the allied country's membership is suspended for unpaid alliance maintenance."
+msgstr ""
+
+#: src/components/_military/battle/BattleDamageBonuses.tsx:96
+msgid "No alliance bonus: your country's membership is suspended for unpaid alliance maintenance."
+msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:50
 msgid "No alliance laws yet"
@@ -7735,10 +7751,6 @@ msgstr "Укупно отворених сандучића"
 #: src/components/_user/user/UserRankingsPanel.tsx:27
 msgid "Total damages"
 msgstr "Укупна штета"
-
-#: src/components/_political/alliance/AllianceHeader.tsx:77
-msgid "total development"
-msgstr ""
 
 #: src/components/_economy/donation/DonationList.tsx:65
 msgid "Total Donated:"

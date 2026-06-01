@@ -570,17 +570,17 @@ msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Arbeiter"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:115
+#: src/components/_military/battle/BattleDamageBonuses.tsx:143
 msgid "<0>{0}</0> <1/> in <2/>"
 msgstr "<0>{0}</0> <1/> in <2/>"
 
 #. placeholder {0}: sideBonus.muOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:105
+#: src/components/_military/battle/BattleDamageBonuses.tsx:133
 msgid "<0>{0}</0> <1/> orders"
 msgstr "<0>{0}</0> <1/> Befehle"
 
 #. placeholder {0}: sideBonus.countryEnemyBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:83
+#: src/components/_military/battle/BattleDamageBonuses.tsx:111
 msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<0>{0}</0> gegen Feind von <1/>"
 
@@ -590,17 +590,17 @@ msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Angriffsbonus"
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:167
+#: src/components/_military/battle/BattleDamageBonuses.tsx:195
 msgid "<0>{0}</0> because <1/> is not linked to the capital"
 msgstr "<0>{0}</0> weil <1/> nicht mit der Hauptstadt verbunden ist"
 
 #. placeholder {0}: sideBonus.lostAttackingRegionMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:183
+#: src/components/_military/battle/BattleDamageBonuses.tsx:211
 msgid "<0>{0}</0> because <1/> lost <2/>"
 msgstr "<0>{0}</0> weil <1/> <2/> verloren hat"
 
 #. placeholder {0}: sideBonus.occupyingYourRegionsMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:209
+#: src/components/_military/battle/BattleDamageBonuses.tsx:237
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> weil <1/> mindestens eine von <2/> Regionen besetzt"
 
@@ -615,19 +615,19 @@ msgid "<0>{0}</0> fee returned to MU."
 msgstr "<0>{0}</0> Kaution an die ME zurückgezahlt."
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:72
+#: src/components/_military/battle/BattleDamageBonuses.tsx:83
 msgid "<0>{0}</0> from <1/>"
 msgstr ""
 
 #. placeholder {0}: sideBonus.regionAttackBonusPercent
 #. placeholder {0}: sideBonus.regionDefenseBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:136
-#: src/components/_military/battle/BattleDamageBonuses.tsx:152
+#: src/components/_military/battle/BattleDamageBonuses.tsx:164
+#: src/components/_military/battle/BattleDamageBonuses.tsx:180
 msgid "<0>{0}</0> from <1/> in <2/>"
 msgstr "<0>{0}</0> von <1/> in <2/>"
 
 #. placeholder {0}: sideBonus.resistanceBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:199
+#: src/components/_military/battle/BattleDamageBonuses.tsx:227
 msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> vom <1>Widerstand</1>"
 
@@ -642,12 +642,12 @@ msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> aus Vorkommen-Ressourcen."
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:241
+#: src/components/_military/battle/BattleDamageBonuses.tsx:269
 msgid "<0>{0}</0> from Diplomatic ethics (fighting for ally)"
 msgstr "<0>{0}</0> durch diplomatische Ethik (Kampf für Verbündete)"
 
 #. placeholder {0}: sideBonus.patrioticBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:62
+#: src/components/_military/battle/BattleDamageBonuses.tsx:73
 msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> durch Kampf für dein Land"
 
@@ -657,22 +657,22 @@ msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> durch Industriellen-Ethik-Spezialisierungsbonus."
 
 #. placeholder {0}: sideBonus.enemyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:251
+#: src/components/_military/battle/BattleDamageBonuses.tsx:279
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
 msgstr "<0>{0}</0> durch isolationistische Ethik (Kampf gegen Feind)"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:221
+#: src/components/_military/battle/BattleDamageBonuses.tsx:249
 msgid "<0>{0}</0> from Militarist ethics (attacking)"
 msgstr "<0>{0}</0> durch militaristische Ethik (Angriff)"
 
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:94
+#: src/components/_military/battle/BattleDamageBonuses.tsx:122
 msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> durch Befehle von <1/>"
 
 #. placeholder {0}: sideBonus.pacifismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:231
+#: src/components/_military/battle/BattleDamageBonuses.tsx:259
 msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> durch pazifistische Ethik (Verteidigung)"
 
@@ -2003,7 +2003,7 @@ msgstr "Unschärfe"
 msgid "Bone Club"
 msgstr ""
 
-#: src/components/_military/battle/BattleDamageBonuses.tsx:51
+#: src/components/_military/battle/BattleDamageBonuses.tsx:62
 #: src/components/_political/law/law.frontConfig.tsx:242
 msgid "Bonus damages"
 msgstr "Bonusschaden"
@@ -2703,6 +2703,10 @@ msgstr "Kopieren"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Kopiere diesen Token jetzt. Du wirst ihn nicht mehr sehen können! Verwende ihn im <0>X-API-Key</0>-Header."
 
+#: src/components/_political/alliance/AllianceHeader.tsx:79
+msgid "core development"
+msgstr ""
+
 #: src/pages/country/[countryId]/regions.tsx:28
 msgid "Core regions"
 msgstr "Kernregionen"
@@ -2872,6 +2876,10 @@ msgstr "Kritischer Treffer"
 #: src/components/_other/shop/skin.frontConfig.tsx:89
 msgid "Crossbow"
 msgstr "Armbrust"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:82
+msgid "current development"
+msgstr ""
 
 #: src/pages/user/[userId]/index.tsx:163
 msgid "Current Military Unit"
@@ -4857,7 +4865,7 @@ msgstr "Triff andere Spieler im Chat. Sei nicht schüchtern, stell dich vor!"
 msgid "Member Applications"
 msgstr "Mitgliedsanträge"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:74
+#: src/components/_political/alliance/AllianceHeader.tsx:76
 msgid "member countries"
 msgstr ""
 
@@ -5362,6 +5370,14 @@ msgstr "Kein aktives Jobangebot"
 #: src/pages/country/[countryId]/index.tsx:292
 msgid "No active wars"
 msgstr "Keine aktiven Kriege"
+
+#: src/components/_military/battle/BattleDamageBonuses.tsx:101
+msgid "No alliance bonus: the allied country's membership is suspended for unpaid alliance maintenance."
+msgstr ""
+
+#: src/components/_military/battle/BattleDamageBonuses.tsx:96
+msgid "No alliance bonus: your country's membership is suspended for unpaid alliance maintenance."
+msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:50
 msgid "No alliance laws yet"
@@ -7735,10 +7751,6 @@ msgstr "Geöffnete Kisten insgesamt"
 #: src/components/_user/user/UserRankingsPanel.tsx:27
 msgid "Total damages"
 msgstr "Gesamtschaden"
-
-#: src/components/_political/alliance/AllianceHeader.tsx:77
-msgid "total development"
-msgstr ""
 
 #: src/components/_economy/donation/DonationList.tsx:65
 msgid "Total Donated:"
