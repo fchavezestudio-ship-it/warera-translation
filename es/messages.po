@@ -2704,7 +2704,8 @@ msgid "Copy this token now. You won't be able to see it again! Use it in the <0>
 msgstr "Copia este token ahora. ¡No podrás verlo de nuevo! Úsalo en el encabezado <0>X-API-Key</0>."
 
 #: src/components/_political/alliance/AllianceHeader.tsx:79
-msgid "core development"
+#: src/components/_political/government/Government.tsx:181
+msgid "Core development"
 msgstr ""
 
 #: src/pages/country/[countryId]/regions.tsx:28
@@ -2878,7 +2879,7 @@ msgid "Crossbow"
 msgstr "Ballesta"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:82
-msgid "current development"
+msgid "Current development"
 msgstr ""
 
 #: src/pages/user/[userId]/index.tsx:163
@@ -2915,7 +2916,7 @@ msgid "Daily maintenance"
 msgstr "Mantenimiento diario"
 
 #: src/pages/country/[countryId]/index.tsx:222
-msgid "Daily maintenance paid in paper: the alliance's initial development split equally between members."
+msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
 msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2112
@@ -4252,10 +4253,6 @@ msgstr "Industrialismo vs Agrarismo"
 msgid "Industrialist"
 msgstr "Industrialismo"
 
-#: src/components/_political/government/Government.tsx:181
-msgid "Initial development"
-msgstr "Desarrollo inicial"
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
 msgstr "Iniciado"
@@ -4865,10 +4862,6 @@ msgstr "Conoce a otros jugadores en el chat. ¡No seas tímido, preséntate!"
 msgid "Member Applications"
 msgstr "Aplicaciones de miembros"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
-msgid "member countries"
-msgstr ""
-
 #: src/pages/alliance/[allianceId]/index.tsx:53
 #: src/pages/alliance/[allianceId]/members.tsx:29
 msgid "Member countries"
@@ -4894,6 +4887,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr "Miembro ascendido a comandante"
 
+#: src/components/_political/alliance/AllianceHeader.tsx:76
 #: src/pages/party/[partyId]/index.tsx:75
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"

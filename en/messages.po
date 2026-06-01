@@ -2704,8 +2704,9 @@ msgid "Copy this token now. You won't be able to see it again! Use it in the <0>
 msgstr "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 
 #: src/components/_political/alliance/AllianceHeader.tsx:79
-msgid "core development"
-msgstr "core development"
+#: src/components/_political/government/Government.tsx:181
+msgid "Core development"
+msgstr "Core development"
 
 #: src/pages/country/[countryId]/regions.tsx:28
 msgid "Core regions"
@@ -2878,8 +2879,8 @@ msgid "Crossbow"
 msgstr "Crossbow"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:82
-msgid "current development"
-msgstr "current development"
+msgid "Current development"
+msgstr "Current development"
 
 #: src/pages/user/[userId]/index.tsx:163
 msgid "Current Military Unit"
@@ -2915,8 +2916,8 @@ msgid "Daily maintenance"
 msgstr "Daily maintenance"
 
 #: src/pages/country/[countryId]/index.tsx:222
-msgid "Daily maintenance paid in paper: the alliance's initial development split equally between members."
-msgstr "Daily maintenance paid in paper: the alliance's initial development split equally between members."
+msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
+msgstr "Daily maintenance paid in paper: the alliance's core development split equally between members."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2112
 msgid "Daily Missions Reset"
@@ -4252,10 +4253,6 @@ msgstr "Industrialism vs Agrarianism"
 msgid "Industrialist"
 msgstr "Industrialist"
 
-#: src/components/_political/government/Government.tsx:181
-msgid "Initial development"
-msgstr "Initial development"
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
 msgstr "Initiate"
@@ -4865,10 +4862,6 @@ msgstr "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgid "Member Applications"
 msgstr "Member Applications"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
-msgid "member countries"
-msgstr "member countries"
-
 #: src/pages/alliance/[allianceId]/index.tsx:53
 #: src/pages/alliance/[allianceId]/members.tsx:29
 msgid "Member countries"
@@ -4894,6 +4887,7 @@ msgstr "Member of <0/>"
 msgid "Member promoted to commander"
 msgstr "Member promoted to commander"
 
+#: src/components/_political/alliance/AllianceHeader.tsx:76
 #: src/pages/party/[partyId]/index.tsx:75
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"

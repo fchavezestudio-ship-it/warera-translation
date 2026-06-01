@@ -2702,7 +2702,8 @@ msgid "Copy this token now. You won't be able to see it again! Use it in the <0>
 msgstr "Copiază acest token acum. Nu îl vei mai putea vedea! Folosește-l în header-ul <0>X-API-Key</0>."
 
 #: src/components/_political/alliance/AllianceHeader.tsx:79
-msgid "core development"
+#: src/components/_political/government/Government.tsx:181
+msgid "Core development"
 msgstr ""
 
 #: src/pages/country/[countryId]/regions.tsx:28
@@ -2876,7 +2877,7 @@ msgid "Crossbow"
 msgstr "Arbaletă"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:82
-msgid "current development"
+msgid "Current development"
 msgstr ""
 
 #: src/pages/user/[userId]/index.tsx:163
@@ -2913,7 +2914,7 @@ msgid "Daily maintenance"
 msgstr "Întreținere zinlică"
 
 #: src/pages/country/[countryId]/index.tsx:222
-msgid "Daily maintenance paid in paper: the alliance's initial development split equally between members."
+msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
 msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2112
@@ -4250,10 +4251,6 @@ msgstr ""
 msgid "Industrialist"
 msgstr "Industrialist"
 
-#: src/components/_political/government/Government.tsx:181
-msgid "Initial development"
-msgstr "Dezvoltare naturală"
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:11
 msgid "Initiate"
 msgstr "Inițiat"
@@ -4863,10 +4860,6 @@ msgstr "Cunoaște alți jucători în chat. Nu fi rușinos, prezintă-te!"
 msgid "Member Applications"
 msgstr "Aplicații de adeziune"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
-msgid "member countries"
-msgstr ""
-
 #: src/pages/alliance/[allianceId]/index.tsx:53
 #: src/pages/alliance/[allianceId]/members.tsx:29
 msgid "Member countries"
@@ -4892,6 +4885,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr "Membru promovat la comandant"
 
+#: src/components/_political/alliance/AllianceHeader.tsx:76
 #: src/pages/party/[partyId]/index.tsx:75
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
