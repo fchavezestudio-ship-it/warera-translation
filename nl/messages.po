@@ -182,7 +182,7 @@ msgstr "<0/> heeft zich aangemeld om lid te worden van <1/>"
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/> bij <1>{0}</1> loon.{1}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:53
+#: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr "<0/> heeft een contract voltooid, je hebt <1/> verdiend"
 msgid "<0/> conquered the region in <1/>"
 msgstr "<0/> heeft de regio in <1/> veroverd"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:93
+#: src/components/_political/message/systemMessage.frontConfig.tsx:94
 msgid "<0/> created the conversation"
 msgstr "<0/> heeft het gesprek aangemaakt"
 
@@ -248,11 +248,11 @@ msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> heeft <1>{0}</1> gedoneerd aan <2/>"
 
 #. placeholder {0}: ts[data.caseCode]
-#: src/components/_political/message/systemMessage.frontConfig.tsx:123
+#: src/components/_political/message/systemMessage.frontConfig.tsx:124
 msgid "<0/> dropped <1/> from <2>{0}</2>"
 msgstr "<0/> heeft <1/> verwijderd van <2>{0}</2>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:161
+#: src/components/_political/message/systemMessage.frontConfig.tsx:172
 msgid "<0/> ended <1/>"
 msgstr "<0/> heeft <1/> beëindigd"
 
@@ -268,7 +268,7 @@ msgstr "<0/> heeft een opstand gefinancierd in <1/>"
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> heeft een opstand gefinancierd in <1/> voor <2/> tegen <3/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:64
+#: src/components/_political/message/systemMessage.frontConfig.tsx:65
 msgid "<0/> gifted a sub to <1/>"
 msgstr "<0/> heeft een abonnement aan <1/> gegeven"
 
@@ -380,7 +380,7 @@ msgstr "<0/> komt in opstand in <1/>"
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> komt in <1/> in opstand tegen je land"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:24
+#: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> joined the conversation"
 msgstr "<0/> doet mee aan het gesprek"
 
@@ -393,7 +393,7 @@ msgstr "<0/> heeft zich via je verwijzingslink aangemeld!"
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> is bij je bedrijf begonnen <1/> voor <2>{0}</2> loon"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:42
+#: src/components/_political/message/systemMessage.frontConfig.tsx:43
 msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/> heeft <1/> uit het gesprek verwijderd"
 
@@ -402,7 +402,7 @@ msgstr "<0/> heeft <1/> uit het gesprek verwijderd"
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> heeft zijn baan bij je bedrijf opgezegd {0}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+#: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> left the conversation"
 msgstr "<0/> heeft het gesprek verlaten"
 
@@ -438,7 +438,11 @@ msgstr "<0/> heeft vergoeding betaald"
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Prioriteit loopt af over <1/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:135
+#: src/components/_political/message/systemMessage.frontConfig.tsx:145
+msgid "<0/> proposed a new alliance law: <1/>"
+msgstr ""
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:136
 msgid "<0/> proposed a new law: <1/>"
 msgstr "<0/> heeft een nieuwe wet voorgesteld: <1/>"
 
@@ -465,7 +469,7 @@ msgstr "<0/> heeft op je bericht gereageerd {0}"
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr ""
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:152
+#: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
 msgstr "<0/> is begonnen, stem op je favoriete kandidaat"
 
@@ -503,7 +507,7 @@ msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> is genomineerd als <1>{0}</1>"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_political/message/systemMessage.frontConfig.tsx:74
+#: src/components/_political/message/systemMessage.frontConfig.tsx:75
 msgid "<0/> won round {0}"
 msgstr "<0/> heeft ronde {0} gewonnen"
 
@@ -513,7 +517,7 @@ msgstr "<0/> heeft de veiling gewonnen voor een contract met <1/>"
 
 #. placeholder {0}: data.attackerWonRoundsCount
 #. placeholder {1}: data.defenderWonRoundsCount
-#: src/components/_political/message/systemMessage.frontConfig.tsx:83
+#: src/components/_political/message/systemMessage.frontConfig.tsx:84
 msgid "<0/> won the battle ({0}-{1})"
 msgstr "<0/> heeft het gevecht ({0}-{1}) gewonnen"
 
@@ -713,8 +717,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> van <1/> industriële ethiek specialis
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> van <1/> strategische grondstofproductiebonus."
 
-#: src/pages/country/[countryId]/index.tsx:440
-#: src/pages/country/[countryId]/index.tsx:489
+#: src/pages/country/[countryId]/index.tsx:448
+#: src/pages/country/[countryId]/index.tsx:497
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> grondstof van elk type = <1>{value}</1>"
 
@@ -1236,7 +1240,7 @@ msgstr "Onthouding"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "Het misbruiken of spammen van het rapportagesysteem kan leiden tot sancties."
 
-#: src/pages/country/[countryId]/index.tsx:144
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Het misbruiken van deze macht om een ander land te bevoordelen zal leiden tot een <0>ban.</0>"
 
@@ -1273,7 +1277,7 @@ msgstr "Naar oorlog"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:341
+#: src/pages/country/[countryId]/index.tsx:349
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1299,7 +1303,7 @@ msgstr "Actief"
 msgid "Active battle"
 msgstr "Actief gevecht"
 
-#: src/pages/country/[countryId]/index.tsx:292
+#: src/pages/country/[countryId]/index.tsx:300
 msgid "Active battles"
 msgstr "Actieve gevechten"
 
@@ -1315,7 +1319,7 @@ msgstr "Actieve bouw"
 msgid "Active War"
 msgstr "Actieve oorlog"
 
-#: src/pages/country/[countryId]/index.tsx:280
+#: src/pages/country/[countryId]/index.tsx:288
 msgid "Active wars"
 msgstr "Actieve oorlogen"
 
@@ -1836,7 +1840,7 @@ msgstr "Insigne verdiend"
 msgid "Badge Won"
 msgstr "Insigne gekregen"
 
-#: src/pages/country/[countryId]/index.tsx:348
+#: src/pages/country/[countryId]/index.tsx:356
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Insignes"
@@ -1904,7 +1908,7 @@ msgstr "Standaardbroek"
 msgid "Battle"
 msgstr "Gevecht"
 
-#: src/pages/alliance/[allianceId]/index.tsx:46
+#: src/pages/alliance/[allianceId]/index.tsx:36
 msgid "Battle damage bonus"
 msgstr ""
 
@@ -2165,7 +2169,7 @@ msgstr "Geannuleerd door admin"
 msgid "Cancelled by Admin"
 msgstr "Geannuleerd door admin"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:144
+#: src/components/_political/message/systemMessage.frontConfig.tsx:155
 msgid "Candidacy is open for <0/>"
 msgstr "Kandidaatstelling is open voor <0/>"
 
@@ -2308,7 +2312,7 @@ msgstr "Burger sinds <0><1/></0>"
 msgid "Citizens"
 msgstr "Burgers"
 
-#: src/pages/country/[countryId]/index.tsx:197
+#: src/pages/country/[countryId]/index.tsx:199
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Burgers krijgen een bonus wanneer ze vechten voor bondgenoten, of tegen de gezworen vijand"
 
@@ -2716,7 +2720,7 @@ msgstr "Landen"
 msgid "Country"
 msgstr "Land"
 
-#: src/pages/country/[countryId]/index.tsx:483
+#: src/pages/country/[countryId]/index.tsx:491
 msgid "Country development income bonus"
 msgstr "Inkomstenbonus voor landontwikkeling"
 
@@ -2737,7 +2741,7 @@ msgstr "Land betaalde <0>{0}</0> voor toegebrachte schade."
 msgid "Country President"
 msgstr "President van het land"
 
-#: src/pages/country/[countryId]/index.tsx:434
+#: src/pages/country/[countryId]/index.tsx:442
 msgid "Country production bonus"
 msgstr "Landproductiebonus"
 
@@ -2874,11 +2878,12 @@ msgstr "d. Elke vorm van discriminatie, racisme, xenofobie, antisemitisme, homof
 msgid "Daily"
 msgstr "Dagelijks"
 
+#: src/components/_political/alliance/AllianceMemberRow.tsx:39
 #: src/components/_political/law/LawTypeSelect.tsx:170
 msgid "Daily maintenance"
 msgstr "Dagelijks onderhoud"
 
-#: src/pages/country/[countryId]/index.tsx:217
+#: src/pages/country/[countryId]/index.tsx:222
 msgid "Daily maintenance paid in paper: the alliance's initial development split equally between members."
 msgstr ""
 
@@ -3147,7 +3152,7 @@ msgstr "Verminder de ontvangen schade van <0/> met <1>Armor</1> in gevechten"
 msgid "Diminish Received Damages"
 msgstr "Verminder ontvangen schade"
 
-#: src/pages/country/[countryId]/index.tsx:203
+#: src/pages/country/[countryId]/index.tsx:205
 msgid "Diplomacy"
 msgstr "Diplomatie"
 
@@ -3326,7 +3331,7 @@ msgstr "Stemming geopend"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:369
+#: src/pages/country/[countryId]/index.tsx:377
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Verkiezingen"
@@ -3468,7 +3473,7 @@ msgstr "Ethiek punten:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:354
+#: src/pages/country/[countryId]/index.tsx:362
 msgid "Events"
 msgstr "Evenementen"
 
@@ -3745,7 +3750,7 @@ msgid "Font style"
 msgstr "Lettertypestijl"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:457
+#: src/pages/country/[countryId]/index.tsx:465
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "voor bedrijven die <0>{0}</0> produceren gevestigd in <1/>."
 
@@ -4170,7 +4175,7 @@ msgstr "Inactief"
 msgid "Income"
 msgstr "Inkomen"
 
-#: src/pages/country/[countryId]/index.tsx:506
+#: src/pages/country/[countryId]/index.tsx:514
 msgid "income from <0>Development</0> in <1/>."
 msgstr "inkomsten uit <0>Ontwikkeling</0> in <1/>."
 
@@ -4473,8 +4478,8 @@ msgid "Law proposed"
 msgstr "Wet voorgesteld"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/pages/alliance/[allianceId]/index.tsx:108
-#: src/pages/country/[countryId]/index.tsx:189
+#: src/pages/alliance/[allianceId]/index.tsx:76
+#: src/pages/country/[countryId]/index.tsx:191
 #: src/pages/country/[countryId]/laws.tsx:24
 msgid "Laws"
 msgstr "Wetten"
@@ -4702,10 +4707,6 @@ msgstr "Eindelijk staat er geluk op de loonstrook"
 msgid "Mage Robe"
 msgstr "Magiër Gewaad"
 
-#: src/pages/alliance/[allianceId]/index.tsx:82
-msgid "Maintenance"
-msgstr ""
-
 #: src/components/_political/law/Law.tsx:96
 msgid "Maintenance cost"
 msgstr "Onderhoudskosten"
@@ -4837,8 +4838,8 @@ msgstr "Ledenaanvragen"
 msgid "member countries"
 msgstr ""
 
-#: src/pages/alliance/[allianceId]/index.tsx:63
-#: src/pages/alliance/[allianceId]/members.tsx:23
+#: src/pages/alliance/[allianceId]/index.tsx:53
+#: src/pages/alliance/[allianceId]/members.tsx:29
 msgid "Member countries"
 msgstr ""
 
@@ -4867,7 +4868,7 @@ msgstr "Lid gepromoveerd tot commandant"
 msgid "Members"
 msgstr "Leden"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:20
+#: src/components/_political/alliance/AllianceMemberRow.tsx:27
 msgid "Membership suspended"
 msgstr ""
 
@@ -4876,12 +4877,12 @@ msgid "Mentioned in message"
 msgstr "Vermeld in bericht"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:392
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "Mercenary Auctions"
 msgstr "Huurlingenveilingen"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:380
+#: src/pages/country/[countryId]/index.tsx:388
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Huurlingencontracten"
@@ -5107,7 +5108,7 @@ msgid "MU Ownership Transferred"
 msgstr "Overdracht van het eigendom van ME"
 
 #. placeholder {0}: data.level
-#: src/components/_political/message/systemMessage.frontConfig.tsx:114
+#: src/components/_political/message/systemMessage.frontConfig.tsx:115
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "ME heeft level {0} bereikt! Beloning: {rewardDisplay}"
 
@@ -5330,7 +5331,7 @@ msgstr "Geen actieve ethiek - Evenwichtig"
 msgid "No active job offer"
 msgstr "Geen actief baanaanbod"
 
-#: src/pages/country/[countryId]/index.tsx:284
+#: src/pages/country/[countryId]/index.tsx:292
 msgid "No active wars"
 msgstr "Geen actieve oorlogen"
 
@@ -5382,8 +5383,8 @@ msgstr "Nog geen grondranglijst."
 msgid "No laws yet"
 msgstr "Nog geen wetten"
 
-#: src/pages/alliance/[allianceId]/index.tsx:68
-#: src/pages/alliance/[allianceId]/members.tsx:28
+#: src/pages/alliance/[allianceId]/index.tsx:58
+#: src/pages/alliance/[allianceId]/members.tsx:34
 msgid "No members"
 msgstr ""
 
@@ -5431,7 +5432,7 @@ msgstr "Geen orders"
 msgid "No parties found"
 msgstr "Geen partijen gevonden"
 
-#: src/pages/country/[countryId]/index.tsx:470
+#: src/pages/country/[countryId]/index.tsx:478
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Geen productiebonus van grondstoffen. Dit land heeft geen specialisatie."
 
@@ -5447,7 +5448,7 @@ msgstr "Nog geen werver"
 msgid "No skins equipped"
 msgstr "Geen skins uitgerust"
 
-#: src/pages/country/[countryId]/index.tsx:275
+#: src/pages/country/[countryId]/index.tsx:283
 msgid "No sworn enemy"
 msgstr "Geen gezworen vijand"
 
@@ -5507,7 +5508,7 @@ msgstr "Niet alle vormen van helpen worden behandeld als boosting of exploiteren
 msgid "Not bad!"
 msgstr "Niet slecht!"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:21
+#: src/components/_political/alliance/AllianceMemberRow.tsx:28
 msgid "Not enough paper to pay the daily alliance maintenance. Alliance damage bonuses are disabled for this country until it pays."
 msgstr ""
 
@@ -5515,7 +5516,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Niet indrukwekkend, maar ook niet beschamend"
 
-#: src/pages/country/[countryId]/index.tsx:229
+#: src/pages/country/[countryId]/index.tsx:233
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5850,10 +5851,6 @@ msgstr "Loonsverlaging in behandeling"
 #: src/components/_political/event/event.frontConfig.tsx:342
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Mensen zijn boos, een automatische opstand is begonnen in <0/>"
-
-#: src/pages/alliance/[allianceId]/index.tsx:96
-msgid "Per member per day"
-msgstr ""
 
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
 msgid "Permanently dissolve the alliance."
@@ -6193,8 +6190,8 @@ msgid "Ranking reward"
 msgstr "Ranglijstbeloning"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
-#: src/pages/alliance/[allianceId]/index.tsx:53
-#: src/pages/country/[countryId]/index.tsx:183
+#: src/pages/alliance/[allianceId]/index.tsx:43
+#: src/pages/country/[countryId]/index.tsx:185
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Ranglijsten"
@@ -6579,7 +6576,7 @@ msgstr "Bijdragers aan het verzet"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:315
+#: src/pages/country/[countryId]/index.tsx:323
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Grondstoffen"
@@ -6712,7 +6709,7 @@ msgstr "Gewonnen rondes"
 msgid "Rules"
 msgstr "Regels"
 
-#: src/pages/country/[countryId]/index.tsx:323
+#: src/pages/country/[countryId]/index.tsx:331
 msgid "Ruling Party"
 msgstr "Regerende Partij"
 
@@ -7313,7 +7310,7 @@ msgstr "Met het Supporter Plan kun je tot {maxKits} aangepaste uitrustingsconfig
 msgid "Supreme Commander"
 msgstr "Opperbevelhebber"
 
-#: src/pages/country/[countryId]/index.tsx:234
+#: src/pages/country/[countryId]/index.tsx:242
 msgid "Sworn enemy"
 msgstr "Gezworen vijand"
 
@@ -7325,9 +7322,9 @@ msgstr "Systeemopstand"
 msgid "Table"
 msgstr "Tabel"
 
-#: src/pages/country/[countryId]/index.tsx:133
-#: src/pages/country/[countryId]/index.tsx:157
-#: src/pages/country/[countryId]/index.tsx:162
+#: src/pages/country/[countryId]/index.tsx:135
+#: src/pages/country/[countryId]/index.tsx:159
+#: src/pages/country/[countryId]/index.tsx:164
 msgid "Take control"
 msgstr "Neem de controle"
 
@@ -7469,7 +7466,7 @@ msgstr "Deze beloning is alleen gereserveerd voor staatsburgers."
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Dit bedrijf is uitgeschakeld omdat de eigenaar de bedrijfslimiet heeft bereikt."
 
-#: src/pages/country/[countryId]/index.tsx:137
+#: src/pages/country/[countryId]/index.tsx:139
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Dit land heeft geen president of actief congreslid, je kunt de controle overnemen."
 
@@ -7704,10 +7701,6 @@ msgstr ""
 msgid "Total Donated:"
 msgstr "Totaal gedoneerd:"
 
-#: src/pages/alliance/[allianceId]/index.tsx:88
-msgid "Total per day"
-msgstr ""
-
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
 msgstr "Totale beloning"
@@ -7878,7 +7871,7 @@ msgstr "Onwerkelijk. Dit gebeurt niet"
 msgid "Unregister"
 msgstr "Deregistreren"
 
-#: src/pages/country/[countryId]/index.tsx:306
+#: src/pages/country/[countryId]/index.tsx:314
 msgid "Unrest"
 msgstr "Onrust"
 
@@ -8431,15 +8424,15 @@ msgstr "Je bent een prachtig persoon"
 msgid "You are a lucky bastard"
 msgstr "Je bent een geluksvogel"
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:129
 msgid "You are already congress member of another country. Resign first."
 msgstr "Je bent al congreslid van een ander land. Neem eerst ontslag."
 
-#: src/pages/country/[countryId]/index.tsx:123
+#: src/pages/country/[countryId]/index.tsx:125
 msgid "You are already president of another country. Resign first."
 msgstr "Je bent al president van een ander land. Neem eerst ontslag."
 
-#: src/pages/country/[countryId]/index.tsx:125
+#: src/pages/country/[countryId]/index.tsx:127
 msgid "You are already vice president of another country. Resign first."
 msgstr "Je bent al vicepresident van een ander land. Neem eerst ontslag."
 
@@ -8567,12 +8560,12 @@ msgid "You have resigned from the government"
 msgstr "Je bent afgetreden uit de regering"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:119
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "You have to be level {0} to take control of a country."
 msgstr "Je moet level {0} zijn om de controle over een land te krijgen."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:121
+#: src/pages/country/[countryId]/index.tsx:123
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Je moet {0} dagen wachten voordat je weer de controle over een land kunt krijgen."
 
@@ -8802,7 +8795,7 @@ msgstr "Je banner \"{0}\" is geaccepteerd en is nu verkrijgbaar in de winkel! He
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Je buff(s) verlopen binnen 1 uur. De debuff-fase begint binnenkort."
 
-#: src/pages/country/[countryId]/index.tsx:158
+#: src/pages/country/[countryId]/index.tsx:160
 msgid "Your citizenship is going to change"
 msgstr "Je burgerschap gaat veranderen"
 

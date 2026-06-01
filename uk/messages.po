@@ -182,7 +182,7 @@ msgstr "<0/> подав заявку на приєднання до <1/>"
 msgid "<0/> at <1>{0}</1> wage.{1}"
 msgstr "<0/> з зарплатою <1>{0}</1>.{1}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:53
+#: src/components/_political/message/systemMessage.frontConfig.tsx:54
 msgid "<0/> banned <1/> from the conversation"
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr "<0/> виконав контракт, ви отримали <1/>"
 msgid "<0/> conquered the region in <1/>"
 msgstr "Держава <0/> завоювала регіон у <1/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:93
+#: src/components/_political/message/systemMessage.frontConfig.tsx:94
 msgid "<0/> created the conversation"
 msgstr "<0/> створив розмову"
 
@@ -248,11 +248,11 @@ msgid "<0/> donated <1>{0}</1> to <2/>"
 msgstr "<0/> пожертвував <1>{0}</1> до <2/>"
 
 #. placeholder {0}: ts[data.caseCode]
-#: src/components/_political/message/systemMessage.frontConfig.tsx:123
+#: src/components/_political/message/systemMessage.frontConfig.tsx:124
 msgid "<0/> dropped <1/> from <2>{0}</2>"
 msgstr ""
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:161
+#: src/components/_political/message/systemMessage.frontConfig.tsx:172
 msgid "<0/> ended <1/>"
 msgstr ""
 
@@ -268,7 +268,7 @@ msgstr "<0/> профіансувала повстання у <1/>"
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> профінансувала повстання у <1/> за <2/> проти <3/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:64
+#: src/components/_political/message/systemMessage.frontConfig.tsx:65
 msgid "<0/> gifted a sub to <1/>"
 msgstr "<0/> подарував підписку <1/>"
 
@@ -380,7 +380,7 @@ msgstr "<0/> повстає у <1/>"
 msgid "<0/> is revolting in <1/> against your country"
 msgstr "<0/> повстає у <1/> проти вашої держави"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:24
+#: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> joined the conversation"
 msgstr "<0/> приєднався до розмови"
 
@@ -393,7 +393,7 @@ msgstr "<0/> приєднався до гри за вашим посилання
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> приєднався до вашої фабрики <1/> з зарплатнею <2>{0}</2>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:42
+#: src/components/_political/message/systemMessage.frontConfig.tsx:43
 msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/> вигнав <1/> з розмови"
 
@@ -402,7 +402,7 @@ msgstr "<0/> вигнав <1/> з розмови"
 msgid "<0/> left his job in your company {0}"
 msgstr "<0/> покинув роботу на вашій фабриці {0}"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+#: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> left the conversation"
 msgstr "<0/> покинув розмову"
 
@@ -438,7 +438,11 @@ msgstr "<0/> сплатили завдаток"
 msgid "<0/> Priority ends in <1/>"
 msgstr "Пріоритет <0/> закінчується через <1/>"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:135
+#: src/components/_political/message/systemMessage.frontConfig.tsx:145
+msgid "<0/> proposed a new alliance law: <1/>"
+msgstr ""
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:136
 msgid "<0/> proposed a new law: <1/>"
 msgstr "<0/> запропонував новий закон: <1/>"
 
@@ -465,7 +469,7 @@ msgstr "<0/> відповів на ваше повідомлення {0}"
 msgid "<0/> responded to your message in <1/>{0}"
 msgstr ""
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:152
+#: src/components/_political/message/systemMessage.frontConfig.tsx:163
 msgid "<0/> started, vote for your favorite candidate"
 msgstr ""
 
@@ -503,7 +507,7 @@ msgid "<0/> was nominated as <1>{0}</1>"
 msgstr "<0/> отримав посаду <1>{0}</1>"
 
 #. placeholder {0}: data.roundNumber
-#: src/components/_political/message/systemMessage.frontConfig.tsx:74
+#: src/components/_political/message/systemMessage.frontConfig.tsx:75
 msgid "<0/> won round {0}"
 msgstr "<0/> здобула перемогу в раунді {0}"
 
@@ -513,7 +517,7 @@ msgstr ""
 
 #. placeholder {0}: data.attackerWonRoundsCount
 #. placeholder {1}: data.defenderWonRoundsCount
-#: src/components/_political/message/systemMessage.frontConfig.tsx:83
+#: src/components/_political/message/systemMessage.frontConfig.tsx:84
 msgid "<0/> won the battle ({0}-{1})"
 msgstr "<0/> перемогла у битві ({0}-{1})"
 
@@ -713,8 +717,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> через бонус індустрі
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> завдяки бонусу виробництва <1/> від стратегічних ресурсів."
 
-#: src/pages/country/[countryId]/index.tsx:440
-#: src/pages/country/[countryId]/index.tsx:489
+#: src/pages/country/[countryId]/index.tsx:448
+#: src/pages/country/[countryId]/index.tsx:497
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0>-й ресурс кожного типу = <1>{value}</1>"
 
@@ -1236,7 +1240,7 @@ msgstr "Утриматись"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "Зловживання системою скарг або спам може призвести до санкцій щодо вас."
 
-#: src/pages/country/[countryId]/index.tsx:144
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Зловживання цією владою на користь іншої держави призведе до <0>бану.</0>"
 
@@ -1273,7 +1277,7 @@ msgstr "Перейти до війни"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:341
+#: src/pages/country/[countryId]/index.tsx:349
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1299,7 +1303,7 @@ msgstr "Активно"
 msgid "Active battle"
 msgstr "Активна битва"
 
-#: src/pages/country/[countryId]/index.tsx:292
+#: src/pages/country/[countryId]/index.tsx:300
 msgid "Active battles"
 msgstr "Активні битви"
 
@@ -1315,7 +1319,7 @@ msgstr "Активне будівництво"
 msgid "Active War"
 msgstr "Активна війна"
 
-#: src/pages/country/[countryId]/index.tsx:280
+#: src/pages/country/[countryId]/index.tsx:288
 msgid "Active wars"
 msgstr "Активні війни"
 
@@ -1836,7 +1840,7 @@ msgstr "Значок отримано"
 msgid "Badge Won"
 msgstr "Отримано значок"
 
-#: src/pages/country/[countryId]/index.tsx:348
+#: src/pages/country/[countryId]/index.tsx:356
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Значки"
@@ -1904,7 +1908,7 @@ msgstr "Базові штани"
 msgid "Battle"
 msgstr "Битва"
 
-#: src/pages/alliance/[allianceId]/index.tsx:46
+#: src/pages/alliance/[allianceId]/index.tsx:36
 msgid "Battle damage bonus"
 msgstr ""
 
@@ -2165,7 +2169,7 @@ msgstr "Скасовано адміном"
 msgid "Cancelled by Admin"
 msgstr "Скасовано адміном"
 
-#: src/components/_political/message/systemMessage.frontConfig.tsx:144
+#: src/components/_political/message/systemMessage.frontConfig.tsx:155
 msgid "Candidacy is open for <0/>"
 msgstr ""
 
@@ -2308,7 +2312,7 @@ msgstr "Долучився <0><1/></0>"
 msgid "Citizens"
 msgstr "Громадяни"
 
-#: src/pages/country/[countryId]/index.tsx:197
+#: src/pages/country/[countryId]/index.tsx:199
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Громадяни отримують бойовий бонус, воюючи на боці союзників або проти заклятого ворога"
 
@@ -2716,7 +2720,7 @@ msgstr "Держави"
 msgid "Country"
 msgstr "Держава"
 
-#: src/pages/country/[countryId]/index.tsx:483
+#: src/pages/country/[countryId]/index.tsx:491
 msgid "Country development income bonus"
 msgstr "Бонус до доходу від розвитку країни"
 
@@ -2737,7 +2741,7 @@ msgstr "Держава сплатила <0>{0}</0> за вчинену шкод�
 msgid "Country President"
 msgstr "Президент держави"
 
-#: src/pages/country/[countryId]/index.tsx:434
+#: src/pages/country/[countryId]/index.tsx:442
 msgid "Country production bonus"
 msgstr "Бонус до виробництва країни"
 
@@ -2874,11 +2878,12 @@ msgstr "d. Будь-які форми дискримінації, расизму
 msgid "Daily"
 msgstr "Щоденні"
 
+#: src/components/_political/alliance/AllianceMemberRow.tsx:39
 #: src/components/_political/law/LawTypeSelect.tsx:170
 msgid "Daily maintenance"
 msgstr "Щоденне утримання"
 
-#: src/pages/country/[countryId]/index.tsx:217
+#: src/pages/country/[countryId]/index.tsx:222
 msgid "Daily maintenance paid in paper: the alliance's initial development split equally between members."
 msgstr ""
 
@@ -3147,7 +3152,7 @@ msgstr "Зменшіть <0/> шкоди у битві завдяки <1>Зах�
 msgid "Diminish Received Damages"
 msgstr "Зменшіть отриману шкоду"
 
-#: src/pages/country/[countryId]/index.tsx:203
+#: src/pages/country/[countryId]/index.tsx:205
 msgid "Diplomacy"
 msgstr "Дипломатія"
 
@@ -3326,7 +3331,7 @@ msgstr "Розпочалось голосування"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:369
+#: src/pages/country/[countryId]/index.tsx:377
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Вибори"
@@ -3468,7 +3473,7 @@ msgstr "Бали принципів:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:354
+#: src/pages/country/[countryId]/index.tsx:362
 msgid "Events"
 msgstr "Події"
 
@@ -3745,7 +3750,7 @@ msgid "Font style"
 msgstr "Стиль шрифту"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:457
+#: src/pages/country/[countryId]/index.tsx:465
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "для компаній, що виробляють <0>{0}</0> у <1/>."
 
@@ -4170,7 +4175,7 @@ msgstr "Неактивний"
 msgid "Income"
 msgstr "Дохід"
 
-#: src/pages/country/[countryId]/index.tsx:506
+#: src/pages/country/[countryId]/index.tsx:514
 msgid "income from <0>Development</0> in <1/>."
 msgstr "доходу від <0>Розвитку</0> у <1/>."
 
@@ -4473,8 +4478,8 @@ msgid "Law proposed"
 msgstr "Законопроєкт подано"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/pages/alliance/[allianceId]/index.tsx:108
-#: src/pages/country/[countryId]/index.tsx:189
+#: src/pages/alliance/[allianceId]/index.tsx:76
+#: src/pages/country/[countryId]/index.tsx:191
 #: src/pages/country/[countryId]/laws.tsx:24
 msgid "Laws"
 msgstr "Закони"
@@ -4702,10 +4707,6 @@ msgstr "Нарешті удача на правильному боці"
 msgid "Mage Robe"
 msgstr "Плащ мага"
 
-#: src/pages/alliance/[allianceId]/index.tsx:82
-msgid "Maintenance"
-msgstr ""
-
 #: src/components/_political/law/Law.tsx:96
 msgid "Maintenance cost"
 msgstr "Вартість забезпечення"
@@ -4837,8 +4838,8 @@ msgstr "Заявки на членство"
 msgid "member countries"
 msgstr ""
 
-#: src/pages/alliance/[allianceId]/index.tsx:63
-#: src/pages/alliance/[allianceId]/members.tsx:23
+#: src/pages/alliance/[allianceId]/index.tsx:53
+#: src/pages/alliance/[allianceId]/members.tsx:29
 msgid "Member countries"
 msgstr ""
 
@@ -4867,7 +4868,7 @@ msgstr "Бійця підвищено до командира"
 msgid "Members"
 msgstr "Члени"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:20
+#: src/components/_political/alliance/AllianceMemberRow.tsx:27
 msgid "Membership suspended"
 msgstr ""
 
@@ -4876,12 +4877,12 @@ msgid "Mentioned in message"
 msgstr "Згадано у повідомленні"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:392
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "Mercenary Auctions"
 msgstr "Найманські аукціони"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:380
+#: src/pages/country/[countryId]/index.tsx:388
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Найманські контракти"
@@ -5107,7 +5108,7 @@ msgid "MU Ownership Transferred"
 msgstr "ВП передано"
 
 #. placeholder {0}: data.level
-#: src/components/_political/message/systemMessage.frontConfig.tsx:114
+#: src/components/_political/message/systemMessage.frontConfig.tsx:115
 msgid "MU reached level {0}! Reward: {rewardDisplay}"
 msgstr "ВП досяг рівня {0}! Нагорода: {rewardDisplay}"
 
@@ -5330,7 +5331,7 @@ msgstr "Діючих принципів немає - збалансовано"
 msgid "No active job offer"
 msgstr "Активних вакансій немає"
 
-#: src/pages/country/[countryId]/index.tsx:284
+#: src/pages/country/[countryId]/index.tsx:292
 msgid "No active wars"
 msgstr "Активних війн немає"
 
@@ -5382,8 +5383,8 @@ msgstr "Рейтингу за балами контролю ще немає."
 msgid "No laws yet"
 msgstr "Законів ще немає"
 
-#: src/pages/alliance/[allianceId]/index.tsx:68
-#: src/pages/alliance/[allianceId]/members.tsx:28
+#: src/pages/alliance/[allianceId]/index.tsx:58
+#: src/pages/alliance/[allianceId]/members.tsx:34
 msgid "No members"
 msgstr ""
 
@@ -5431,7 +5432,7 @@ msgstr "Наказів немає"
 msgid "No parties found"
 msgstr "Партії не знайдено"
 
-#: src/pages/country/[countryId]/index.tsx:470
+#: src/pages/country/[countryId]/index.tsx:478
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Виробничого бонусу від ресурсу немає. Ця країна не має спеціалізації."
 
@@ -5447,7 +5448,7 @@ msgstr "Запрошувача ще немає"
 msgid "No skins equipped"
 msgstr "Ніякі скіни не одягнуто"
 
-#: src/pages/country/[countryId]/index.tsx:275
+#: src/pages/country/[countryId]/index.tsx:283
 msgid "No sworn enemy"
 msgstr "Без заклятого ворога"
 
@@ -5507,7 +5508,7 @@ msgstr ""
 msgid "Not bad!"
 msgstr "Не погано!"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:21
+#: src/components/_political/alliance/AllianceMemberRow.tsx:28
 msgid "Not enough paper to pay the daily alliance maintenance. Alliance damage bonuses are disabled for this country until it pays."
 msgstr ""
 
@@ -5515,7 +5516,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Не вражаюче, але і не соромно"
 
-#: src/pages/country/[countryId]/index.tsx:229
+#: src/pages/country/[countryId]/index.tsx:233
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5850,10 +5851,6 @@ msgstr "Очікуване зниження зарплатні"
 #: src/components/_political/event/event.frontConfig.tsx:342
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Народ озлоблений, автоматичне повстання розпочалось у <0/>"
-
-#: src/pages/alliance/[allianceId]/index.tsx:96
-msgid "Per member per day"
-msgstr ""
 
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
 msgid "Permanently dissolve the alliance."
@@ -6193,8 +6190,8 @@ msgid "Ranking reward"
 msgstr "Нагорода за рейтинг"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
-#: src/pages/alliance/[allianceId]/index.tsx:53
-#: src/pages/country/[countryId]/index.tsx:183
+#: src/pages/alliance/[allianceId]/index.tsx:43
+#: src/pages/country/[countryId]/index.tsx:185
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Рейтинги"
@@ -6579,7 +6576,7 @@ msgstr "Сприячі спротиву"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:315
+#: src/pages/country/[countryId]/index.tsx:323
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Ресурси"
@@ -6712,7 +6709,7 @@ msgstr "Виграно раундів"
 msgid "Rules"
 msgstr "Правила"
 
-#: src/pages/country/[countryId]/index.tsx:323
+#: src/pages/country/[countryId]/index.tsx:331
 msgid "Ruling Party"
 msgstr "Правляча партія"
 
@@ -7313,7 +7310,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Верховний командувач"
 
-#: src/pages/country/[countryId]/index.tsx:234
+#: src/pages/country/[countryId]/index.tsx:242
 msgid "Sworn enemy"
 msgstr "Заклятий ворог"
 
@@ -7325,9 +7322,9 @@ msgstr "Системне повстання"
 msgid "Table"
 msgstr "Таблиця"
 
-#: src/pages/country/[countryId]/index.tsx:133
-#: src/pages/country/[countryId]/index.tsx:157
-#: src/pages/country/[countryId]/index.tsx:162
+#: src/pages/country/[countryId]/index.tsx:135
+#: src/pages/country/[countryId]/index.tsx:159
+#: src/pages/country/[countryId]/index.tsx:164
 msgid "Take control"
 msgstr "Захопити владу"
 
@@ -7469,7 +7466,7 @@ msgstr "Ця винагорода лише для місцевого насел�
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Фабрику вашого роботодавця було зупинено через перевищення ним ліміту."
 
-#: src/pages/country/[countryId]/index.tsx:137
+#: src/pages/country/[countryId]/index.tsx:139
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Ця держава не має активного президента чи парламентарів, ви можете захопити владу."
 
@@ -7704,10 +7701,6 @@ msgstr ""
 msgid "Total Donated:"
 msgstr "Всього пожертвувано:"
 
-#: src/pages/alliance/[allianceId]/index.tsx:88
-msgid "Total per day"
-msgstr ""
-
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
 msgstr "Загальна нагорода"
@@ -7878,7 +7871,7 @@ msgstr "Неймовірно. Цього не могло статись"
 msgid "Unregister"
 msgstr "Скасувати реєстрацію"
 
-#: src/pages/country/[countryId]/index.tsx:306
+#: src/pages/country/[countryId]/index.tsx:314
 msgid "Unrest"
 msgstr "Заворушення"
 
@@ -8431,15 +8424,15 @@ msgstr "Ти чудова людина"
 msgid "You are a lucky bastard"
 msgstr "Ти бляха везучий"
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:129
 msgid "You are already congress member of another country. Resign first."
 msgstr "Ви вже є парламентарем іншої держави. Спочатку подайте у відставку."
 
-#: src/pages/country/[countryId]/index.tsx:123
+#: src/pages/country/[countryId]/index.tsx:125
 msgid "You are already president of another country. Resign first."
 msgstr "Ви вже є президентом іншої держави. Спочатку подайте у відставку."
 
-#: src/pages/country/[countryId]/index.tsx:125
+#: src/pages/country/[countryId]/index.tsx:127
 msgid "You are already vice president of another country. Resign first."
 msgstr "Ви вже є віцепрезидентом іншої держави. Спочатку подайте у відставку."
 
@@ -8567,12 +8560,12 @@ msgid "You have resigned from the government"
 msgstr "Ви покинули уряд"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:119
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "You have to be level {0} to take control of a country."
 msgstr "Вам потрібно мати {0} рівень, щоб захопити владу у державі."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:121
+#: src/pages/country/[countryId]/index.tsx:123
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Вам потрібно зачекати {0} днів перед тим, як знову захопити владу."
 
@@ -8802,7 +8795,7 @@ msgstr "Ваш банер \"{0}\" був прийнятий, і тепер до�
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Ваше підсилення скінчиться менш ніж за годину. Невдовзі почнеться фаза послаблення."
 
-#: src/pages/country/[countryId]/index.tsx:158
+#: src/pages/country/[countryId]/index.tsx:160
 msgid "Your citizenship is going to change"
 msgstr "Ваше громадянство зміниться"
 
