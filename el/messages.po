@@ -70,7 +70,7 @@ msgid "{0} & allies"
 msgstr "{0} & σύμμαχοι"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:120
+#: src/components/_political/law/Law.tsx:126
 msgid "{0} active citizens required"
 msgstr "{0} ενεργοί πολίτες απαιτούνται"
 
@@ -91,7 +91,7 @@ msgstr "{0} Δωρεάν"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:111
+#: src/components/_political/law/Law.tsx:117
 #: src/components/_political/partyMotion/PartyMotion.tsx:109
 msgid "{0} hours"
 msgstr "{0} ώρες"
@@ -205,12 +205,12 @@ msgid "<0/> bought your banner{0}!"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:463
+#: src/components/_political/law/law.frontConfig.tsx:466
 msgid "<0/> buys <1/> for <2>{0}</2>"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:474
+#: src/components/_political/law/law.frontConfig.tsx:477
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> αγοράζει την περιοχή σου <1/> για <2>{0}</2>"
 
@@ -331,7 +331,7 @@ msgstr "<0/> χρηματοδότησε αντίσταση στο <1/>"
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "<0/> σχημάτισε συμμαχία με το <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:412
+#: src/components/_political/law/law.frontConfig.tsx:415
 msgid "<0/> has invited your country to join."
 msgstr ""
 
@@ -438,7 +438,7 @@ msgstr ""
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Η προτεραιότητα λήγει σε <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:317
+#: src/components/_political/law/law.frontConfig.tsx:318
 msgid "<0/> proposed a mutual defensive pact to your country."
 msgstr ""
 
@@ -493,11 +493,11 @@ msgstr "<0/> ανέλαβε τον έλεγχο του <1/>"
 msgid "<0/> vs <1/> war"
 msgstr "Πόλεμος <0/> εναντίον <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:93
+#: src/components/_political/law/law.frontConfig.tsx:94
 msgid "<0/> wants peace"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:103
+#: src/components/_political/law/law.frontConfig.tsx:104
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> θέλει να κάνει ειρήνη με τη χώρα σου"
 
@@ -705,8 +705,8 @@ msgstr ""
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Χωρητικότητα αποθήκης"
 
-#. placeholder {0}: -lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:99
+#. placeholder {0}: lawConfig.maintenanceCost
+#: src/components/_political/law/Law.tsx:102
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/ημέρα"
 
@@ -726,8 +726,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> από μπόνους εξειδίκε
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> από μπόνους παραγωγής στρατηγικών πόρων <1/>."
 
-#: src/pages/country/[countryId]/index.tsx:496
-#: src/pages/country/[countryId]/index.tsx:545
+#: src/pages/country/[countryId]/index.tsx:491
+#: src/pages/country/[countryId]/index.tsx:540
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> πόρος κάθε τύπου = <1>{value}</1>"
 
@@ -1240,7 +1240,7 @@ msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:170
+#: src/components/_political/law/Law.tsx:176
 #: src/components/_political/partyMotion/PartyMotion.tsx:169
 msgid "Abstain"
 msgstr "Αποχή"
@@ -1249,36 +1249,36 @@ msgstr "Αποχή"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:158
+#: src/pages/country/[countryId]/index.tsx:157
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Η κατάχρηση αυτής της εξουσίας για όφελος άλλης χώρας θα οδηγήσει σε <0>αποκλεισμό.</0>"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:159
+#: src/components/_political/law/Law.tsx:165
 #: src/components/_political/partyMotion/PartyMotion.tsx:158
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "Αποδοχή"
 
-#: src/components/_political/law/law.frontConfig.tsx:308
+#: src/components/_political/law/law.frontConfig.tsx:309
 msgid "Accept a defensive pact with <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:302
+#: src/components/_political/law/law.frontConfig.tsx:303
 #: src/components/_political/law/lawNames.tsx:41
 msgid "Accept defensive pact"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:459
+#: src/components/_political/law/law.frontConfig.tsx:462
 msgid "Accept or reject a region buy offer"
 msgstr "Αποδοχή ή απόρριψη προσφοράς αγοράς περιοχής"
 
-#: src/components/_political/law/law.frontConfig.tsx:88
+#: src/components/_political/law/law.frontConfig.tsx:89
 #: src/components/_political/law/lawNames.tsx:13
 msgid "Accept peace"
 msgstr "Αποδοχή ειρήνης"
 
-#: src/components/_political/law/law.frontConfig.tsx:89
+#: src/components/_political/law/law.frontConfig.tsx:90
 msgid "Accept to make peace with the other country"
 msgstr "Αποδοχή ειρήνης με την άλλη χώρα"
 
@@ -1295,7 +1295,7 @@ msgstr "Πρόσβαση πολέμου"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:397
+#: src/pages/country/[countryId]/index.tsx:392
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1321,7 +1321,7 @@ msgstr "Ενεργό"
 msgid "Active battle"
 msgstr "Ενεργή μάχη"
 
-#: src/pages/country/[countryId]/index.tsx:348
+#: src/pages/country/[countryId]/index.tsx:343
 msgid "Active battles"
 msgstr "Ενεργές μάχες"
 
@@ -1337,7 +1337,7 @@ msgstr "Ενεργή κατασκευή"
 msgid "Active War"
 msgstr "Ενεργός Πόλεμος"
 
-#: src/pages/country/[countryId]/index.tsx:336
+#: src/pages/country/[countryId]/index.tsx:331
 msgid "Active wars"
 msgstr "Ενεργοί πόλεμοι"
 
@@ -1349,8 +1349,8 @@ msgstr ""
 msgid "Add User"
 msgstr "Προσθήκη χρήστη"
 
-#: src/components/_political/law/Law.tsx:87
-#: src/components/_political/law/LawFormModal.tsx:324
+#: src/components/_political/law/Law.tsx:90
+#: src/components/_political/law/LawFormModal.tsx:322
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
@@ -1464,7 +1464,7 @@ msgid "All types"
 msgstr "Όλοι οι τύποι"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/pages/country/[countryId]/index.tsx:221
+#: src/pages/country/[countryId]/index.tsx:220
 msgid "Alliance"
 msgstr ""
 
@@ -1528,8 +1528,8 @@ msgstr "Πυρομαχικά"
 msgid "Ammo:"
 msgstr "Πυρομαχικά:"
 
-#: src/components/_political/law/LawFormModal.tsx:272
-#: src/components/_political/law/LawFormModal.tsx:273
+#: src/components/_political/law/LawFormModal.tsx:270
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Amount"
 msgstr "Ποσό"
 
@@ -1558,7 +1558,7 @@ msgstr "Μια συμμαχία διαλύθηκε"
 msgid "An alliance has been formed"
 msgstr "Μια συμμαχία δημιουργήθηκε"
 
-#: src/components/_political/law/law.frontConfig.tsx:399
+#: src/components/_political/law/law.frontConfig.tsx:402
 msgid "An alliance has invited your country to join"
 msgstr ""
 
@@ -1574,7 +1574,7 @@ msgstr "Εστάλη email με τον κωδικό επαλήθευσης στ�
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Κινούμενο <0>GIF</0> ως avatar"
 
-#: src/components/_political/law/law.frontConfig.tsx:303
+#: src/components/_political/law/law.frontConfig.tsx:304
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
 
@@ -1689,7 +1689,7 @@ msgstr ""
 msgid "Armor"
 msgstr "Πανοπλία"
 
-#: src/components/_political/law/LawFormModal.tsx:239
+#: src/components/_political/law/LawFormModal.tsx:237
 msgid "Article ID"
 msgstr "ID Άρθρου"
 
@@ -1862,7 +1862,7 @@ msgstr "Κέρδισες σήμα"
 msgid "Badge Won"
 msgstr "Κέρδιδες Σήμα"
 
-#: src/pages/country/[countryId]/index.tsx:404
+#: src/pages/country/[countryId]/index.tsx:399
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Σήματα"
@@ -2026,7 +2026,7 @@ msgid "Bone Club"
 msgstr ""
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:62
-#: src/components/_political/law/law.frontConfig.tsx:243
+#: src/components/_political/law/law.frontConfig.tsx:244
 msgid "Bonus damages"
 msgstr "Μπόνους ζημιές"
 
@@ -2056,7 +2056,7 @@ msgstr ""
 msgid "Bread"
 msgstr "Ψωμί"
 
-#: src/components/_political/law/law.frontConfig.tsx:327
+#: src/components/_political/law/law.frontConfig.tsx:328
 #: src/components/_political/law/lawNames.tsx:42
 msgid "Break defensive pact"
 msgstr ""
@@ -2065,7 +2065,7 @@ msgstr ""
 msgid "Break room"
 msgstr "Αίθουσα ανάπαυσης"
 
-#: src/components/_political/law/law.frontConfig.tsx:333
+#: src/components/_political/law/law.frontConfig.tsx:334
 msgid "Break the defensive pact with <0/>"
 msgstr ""
 
@@ -2122,7 +2122,7 @@ msgid "Buy <0/>"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:491
+#: src/components/_political/law/law.frontConfig.tsx:494
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr ""
 
@@ -2273,11 +2273,11 @@ msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "Πιθανότητα να χτυπήσεις τον στόχο.<0/>Τα χαμένα χτυπήματα δεν μπορούν να γίνουν κρίσιμα και κάνουν μισή ζημιά."
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:64
+#: src/components/_political/law/law.frontConfig.tsx:65
 msgid "Change {0} tax to <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:60
+#: src/components/_political/law/law.frontConfig.tsx:61
 msgid "Change a country tax"
 msgstr "Αλλαγή φόρου χώρας"
 
@@ -2300,7 +2300,7 @@ msgstr "Αλλαγή παραγόμενου αντικειμένου"
 msgid "Change production"
 msgstr "Αλλαγή παραγωγής"
 
-#: src/components/_political/law/law.frontConfig.tsx:59
+#: src/components/_political/law/law.frontConfig.tsx:60
 #: src/components/_political/law/lawNames.tsx:12
 msgid "Change tax"
 msgstr "Αλλαγή φόρου"
@@ -2314,13 +2314,13 @@ msgstr ""
 msgid "Change the color scheme of the alliance."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:565
+#: src/components/_political/law/law.frontConfig.tsx:568
 msgid "Change the country color scheme"
 msgstr "Αλλαγή χρωματικής παλέτας χώρας"
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:571
+#: src/components/_political/law/law.frontConfig.tsx:574
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr "Αλλαγή χρωματικής παλέτας χώρας σε <0>{0}</0> με τόνο χάρτη <1>{1}</1>"
 
@@ -2329,7 +2329,7 @@ msgid "Change the name of the alliance."
 msgstr ""
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:75
+#: src/components/_political/law/law.frontConfig.tsx:76
 msgid "Change the tax of {0} to"
 msgstr "Αλλαγή φόρου {0} σε"
 
@@ -2366,7 +2366,7 @@ msgstr "Πολίτης από <0><1/></0>"
 msgid "Citizens"
 msgstr "Πολίτες"
 
-#: src/pages/country/[countryId]/index.tsx:211
+#: src/pages/country/[countryId]/index.tsx:210
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Οι πολίτες λαμβάνουν μπόνους όταν μάχονται για συμμάχους ή εναντίον ορκισμένου εχθρού"
 
@@ -2713,7 +2713,7 @@ msgstr ""
 msgid "Cooked Fish"
 msgstr "Μαγειρεμένο Ψάρι"
 
-#: src/components/_political/law/Law.tsx:108
+#: src/components/_political/law/Law.tsx:114
 #: src/components/_political/partyMotion/PartyMotion.tsx:106
 msgid "Cool down"
 msgstr "Περίοδος αναμονής"
@@ -2747,8 +2747,8 @@ msgstr "Κύριες περιοχές"
 msgid "Corporal"
 msgstr "Δεκανέας"
 
-#: src/components/_political/law/law.frontConfig.tsx:234
-#: src/components/_political/law/law.frontConfig.tsx:287
+#: src/components/_political/law/law.frontConfig.tsx:235
+#: src/components/_political/law/law.frontConfig.tsx:288
 msgid "Cost"
 msgstr "Κόστος"
 
@@ -2780,7 +2780,7 @@ msgstr "Χώρες"
 msgid "Country"
 msgstr "Χώρα"
 
-#: src/pages/country/[countryId]/index.tsx:539
+#: src/pages/country/[countryId]/index.tsx:534
 msgid "Country development income bonus"
 msgstr "Μπόνους εισοδήματος ανάπτυξης χώρας"
 
@@ -2801,7 +2801,7 @@ msgstr ""
 msgid "Country President"
 msgstr "Πρόεδρος της χώρας"
 
-#: src/pages/country/[countryId]/index.tsx:490
+#: src/pages/country/[countryId]/index.tsx:485
 msgid "Country production bonus"
 msgstr "Μπόνους παραγωγής χώρας"
 
@@ -2841,7 +2841,7 @@ msgstr "Δημιουργία Εταιρείας"
 
 #. placeholder {0}: law.data.name
 #. placeholder {1}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:362
+#: src/components/_political/law/law.frontConfig.tsx:364
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr ""
 
@@ -2854,13 +2854,13 @@ msgstr "Δημιουργία νέας εταιρείας"
 msgid "Create a party"
 msgstr "Δημιουργία κόμματος"
 
-#: src/components/_political/law/law.frontConfig.tsx:352
+#: src/components/_political/law/law.frontConfig.tsx:353
 #: src/components/_political/law/lawNames.tsx:25
 msgid "Create alliance"
 msgstr ""
 
 #. placeholder {0}: law.data.name
-#: src/components/_political/law/law.frontConfig.tsx:356
+#: src/components/_political/law/law.frontConfig.tsx:358
 msgid "Create alliance {0}"
 msgstr ""
 
@@ -2943,11 +2943,11 @@ msgid "Daily"
 msgstr "Ημερήσιο"
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:39
-#: src/components/_political/law/LawTypeSelect.tsx:170
+#: src/components/_political/law/LawTypeSelect.tsx:174
 msgid "Daily maintenance"
 msgstr "Ημερήσια συντήρηση"
 
-#: src/pages/country/[countryId]/index.tsx:234
+#: src/pages/country/[countryId]/index.tsx:233
 msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
 msgstr ""
 
@@ -2989,8 +2989,8 @@ msgstr "Μωρέ τυχερός είσαι"
 msgid "Danger zone"
 msgstr "Επικίνδυνη ζώνη"
 
-#: src/components/_political/law/LawFormModal.tsx:214
-#: src/components/_political/law/LawFormModal.tsx:293
+#: src/components/_political/law/LawFormModal.tsx:212
+#: src/components/_political/law/LawFormModal.tsx:291
 msgid "Dark"
 msgstr "Σκοτεινό"
 
@@ -3066,17 +3066,17 @@ msgstr "Το Debuff τέλειωσε"
 msgid "Debuffs:"
 msgstr "Debuffs:"
 
-#: src/components/_political/law/law.frontConfig.tsx:113
+#: src/components/_political/law/law.frontConfig.tsx:114
 #: src/components/_political/law/lawNames.tsx:14
 msgid "Declare war"
 msgstr "Κήρυξη πολέμου"
 
-#: src/components/_political/law/law.frontConfig.tsx:118
-#: src/components/_political/law/law.frontConfig.tsx:127
+#: src/components/_political/law/law.frontConfig.tsx:119
+#: src/components/_political/law/law.frontConfig.tsx:128
 msgid "Declare war to <0/>"
 msgstr "Κήρυξε πόλεμο στο <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:114
+#: src/components/_political/law/law.frontConfig.tsx:115
 msgid "Declare war to another country"
 msgstr "Κήρυξε πόλεμο σε άλλη χώρα"
 
@@ -3106,23 +3106,23 @@ msgstr "Υπερασπιστής"
 msgid "Defenders"
 msgstr "Υπερασπιστές"
 
-#: src/pages/country/[countryId]/index.tsx:313
+#: src/pages/country/[countryId]/index.tsx:308
 msgid "Defensive pact"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:227
+#: src/components/_political/law/law.frontConfig.tsx:228
 msgid "Define <0/> as an enemy, increasing damages when defending against them"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:217
+#: src/components/_political/law/law.frontConfig.tsx:218
 msgid "Define <0/> as enemy"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:213
+#: src/components/_political/law/law.frontConfig.tsx:214
 msgid "Define a country as an enemy to get bonus against"
 msgstr "Ορισμός χώρας ως εχθρός για μπόνους εναντίον της"
 
-#: src/components/_political/law/law.frontConfig.tsx:212
+#: src/components/_political/law/law.frontConfig.tsx:213
 #: src/components/_political/law/lawNames.tsx:24
 msgid "Define a sworn enemy"
 msgstr "Ορισμός ορκισμένου εχθρού"
@@ -3220,7 +3220,7 @@ msgstr ""
 msgid "Diminish Received Damages"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:217
+#: src/pages/country/[countryId]/index.tsx:216
 msgid "Diplomacy"
 msgstr "Διπλωματία"
 
@@ -3399,7 +3399,7 @@ msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:425
+#: src/pages/country/[countryId]/index.tsx:420
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Εκλογές"
@@ -3442,7 +3442,7 @@ msgstr "Ενεργοποίηση εταιρείας"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:78
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:79
+#: src/components/_political/law/Law.tsx:80
 #: src/components/_political/law/LawTypeSelect.tsx:162
 #: src/components/_political/partyMotion/PartyMotion.tsx:89
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
@@ -3453,11 +3453,11 @@ msgstr "Κόστος θέσπισης"
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:328
+#: src/components/_political/law/law.frontConfig.tsx:329
 msgid "End an existing defensive pact with another country"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:342
+#: src/components/_political/law/law.frontConfig.tsx:343
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
@@ -3485,7 +3485,7 @@ msgstr "Ενέργεια"
 msgid "Ensign"
 msgstr "Σημαιοφόρος"
 
-#: src/components/_political/law/LawFormModal.tsx:240
+#: src/components/_political/law/LawFormModal.tsx:238
 msgid "Enter article ID"
 msgstr "Εισήγαγε το ID του άρθρου"
 
@@ -3549,7 +3549,7 @@ msgstr "Πόντοι Ηθικής:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:410
+#: src/pages/country/[countryId]/index.tsx:405
 msgid "Events"
 msgstr "Εκδηλώσεις"
 
@@ -3742,15 +3742,15 @@ msgstr "Χρηματοδότησε αγώνα αντίστασης στο <0/>"
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr "Χρηματοδότησε αγώνα αντίστασης σε κατεχόμενη περιοχή της χώρας σου"
 
-#: src/components/_political/law/law.frontConfig.tsx:634
+#: src/components/_political/law/law.frontConfig.tsx:637
 msgid "Finance a resistance to liberate an occupied region"
 msgstr "Χρηματοδότησε αντίσταση για την απελευθέρωση κατεχόμενης περιοχής"
 
-#: src/components/_political/law/law.frontConfig.tsx:647
+#: src/components/_political/law/law.frontConfig.tsx:650
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Χρηματοδότησε εξέγερση για την απελευθέρωση <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:633
+#: src/components/_political/law/law.frontConfig.tsx:636
 #: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
 msgstr "Χρηματοδότηση ξένης αντίστασης"
@@ -3759,7 +3759,7 @@ msgstr "Χρηματοδότηση ξένης αντίστασης"
 msgid "Finance local resistance"
 msgstr "Χρηματοδότηση τοπικής αντίστασης"
 
-#: src/components/_political/law/law.frontConfig.tsx:638
+#: src/components/_political/law/law.frontConfig.tsx:641
 msgid "Finance resistance in <0/>"
 msgstr ""
 
@@ -3826,11 +3826,11 @@ msgid "Font style"
 msgstr "Στυλ γραμματοσειράς"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:513
+#: src/pages/country/[countryId]/index.tsx:508
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "για εταιρείες που παράγουν <0>{0}</0> στο <1/>."
 
-#: src/components/_political/law/law.frontConfig.tsx:353
+#: src/components/_political/law/law.frontConfig.tsx:355
 msgid "Found a new alliance with your country as founding member"
 msgstr ""
 
@@ -4207,11 +4207,11 @@ msgstr "Φαντάσου να σταματήσεις ακριβώς πριν τ�
 msgid "Imagine wasting your click on this"
 msgstr "Φαντάσου να χαραμίζεις το κλικ σου σε αυτό"
 
-#: src/components/_political/law/law.frontConfig.tsx:189
+#: src/components/_political/law/law.frontConfig.tsx:190
 msgid "Impeach <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:183
+#: src/components/_political/law/law.frontConfig.tsx:184
 #: src/components/_political/law/lawNames.tsx:22
 msgid "Impeach congress member"
 msgstr "Καθαίρεση μέλους Κοινοβουλίου"
@@ -4220,13 +4220,13 @@ msgstr "Καθαίρεση μέλους Κοινοβουλίου"
 msgid "Impeach party leader"
 msgstr "Καθαίρεση του αρχηγού κόμματος"
 
-#: src/components/_political/law/law.frontConfig.tsx:175
+#: src/components/_political/law/law.frontConfig.tsx:176
 #: src/components/_political/law/lawNames.tsx:20
 msgid "Impeach president"
 msgstr "Καθαίρεση του προέδρου"
 
-#: src/components/_political/law/law.frontConfig.tsx:176
-#: src/components/_political/law/law.frontConfig.tsx:178
+#: src/components/_political/law/law.frontConfig.tsx:177
+#: src/components/_political/law/law.frontConfig.tsx:179
 msgid "Impeach the current president"
 msgstr "Καθαίρεση του τρέχοντος προέδρου"
 
@@ -4251,7 +4251,7 @@ msgstr "Ανενεργό"
 msgid "Income"
 msgstr "Εισόδημα"
 
-#: src/pages/country/[countryId]/index.tsx:562
+#: src/pages/country/[countryId]/index.tsx:557
 msgid "income from <0>Development</0> in <1/>."
 msgstr "εισόδημα από <0>Ανάπτυξη</0> στο <1/>."
 
@@ -4270,7 +4270,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Το εισόδημα από φόρους αυξάνεται κατά <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:248
 msgid "Income tax"
 msgstr "Φόρος εισοδήματος"
 
@@ -4398,7 +4398,7 @@ msgstr "Προσφορές εργασίας"
 msgid "Jobs"
 msgstr "Δουλειές"
 
-#: src/components/_political/law/law.frontConfig.tsx:404
+#: src/components/_political/law/law.frontConfig.tsx:407
 msgid "Join <0/>"
 msgstr ""
 
@@ -4406,7 +4406,7 @@ msgstr ""
 msgid "Join a Military Unit"
 msgstr "Ένταξη σε Στρατιωτική Μονάδα"
 
-#: src/components/_political/law/law.frontConfig.tsx:398
+#: src/components/_political/law/law.frontConfig.tsx:401
 #: src/components/_political/law/lawNames.tsx:27
 msgid "Join alliance"
 msgstr ""
@@ -4540,7 +4540,7 @@ msgid "Launch primary election"
 msgstr "Έναρξη προκριματικών εκλογών"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:57
+#: src/components/_political/law/Law.tsx:58
 msgid "Law failed"
 msgstr "Ο νόμος απέτυχε"
 
@@ -4550,8 +4550,8 @@ msgid "Law proposed"
 msgstr "Νόμος προτάθηκε"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/pages/alliance/[allianceId]/index.tsx:76
-#: src/pages/country/[countryId]/index.tsx:203
+#: src/pages/alliance/[allianceId]/index.tsx:82
+#: src/pages/country/[countryId]/index.tsx:202
 #: src/pages/country/[countryId]/laws.tsx:24
 msgid "Laws"
 msgstr "Νόμοι"
@@ -4568,15 +4568,15 @@ msgstr ""
 msgid "Leave"
 msgstr "Αποχώρηση"
 
-#: src/components/_political/law/law.frontConfig.tsx:379
+#: src/components/_political/law/law.frontConfig.tsx:381
 msgid "Leave <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:387
+#: src/components/_political/law/law.frontConfig.tsx:390
 msgid "Leave <0/>."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:373
+#: src/components/_political/law/law.frontConfig.tsx:375
 #: src/components/_political/law/lawNames.tsx:26
 msgid "Leave alliance"
 msgstr ""
@@ -4595,7 +4595,7 @@ msgstr "Αποχώρηση από Κοινοβούλιο"
 msgid "Leave government"
 msgstr "Αποχώρηση από κυβέρνηση"
 
-#: src/components/_political/law/law.frontConfig.tsx:374
+#: src/components/_political/law/law.frontConfig.tsx:376
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
@@ -4640,15 +4640,15 @@ msgstr "Αναβάθμισε τις ικανότητές σου!"
 msgid "Level up!"
 msgstr "Ανέβηκες επίπεδο!"
 
-#: src/components/_political/law/law.frontConfig.tsx:518
+#: src/components/_political/law/law.frontConfig.tsx:521
 msgid "Liberate <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:527
+#: src/components/_political/law/law.frontConfig.tsx:530
 msgid "Liberate <0/> and return it to its original country"
 msgstr "Απελευθέρωσε <0/> και επέστρεψέ το στην αρχική χώρα"
 
-#: src/components/_political/law/law.frontConfig.tsx:513
+#: src/components/_political/law/law.frontConfig.tsx:516
 #: src/components/_political/law/lawNames.tsx:32
 msgid "Liberate a region"
 msgstr "Απελευθέρωση περιοχής"
@@ -4657,8 +4657,8 @@ msgstr "Απελευθέρωση περιοχής"
 msgid "Lieutenant"
 msgstr "Υπολοχαγός"
 
-#: src/components/_political/law/LawFormModal.tsx:212
-#: src/components/_political/law/LawFormModal.tsx:291
+#: src/components/_political/law/LawFormModal.tsx:210
+#: src/components/_political/law/LawFormModal.tsx:289
 msgid "Light"
 msgstr "Φωτεινό"
 
@@ -4779,7 +4779,7 @@ msgstr "Η τύχη επιτέλους είναι στο μισθολόγιο"
 msgid "Mage Robe"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:96
+#: src/components/_political/law/Law.tsx:99
 msgid "Maintenance cost"
 msgstr "Κόστος συντήρησης"
 
@@ -4809,8 +4809,8 @@ msgstr "χάρτης"
 msgid "Map"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:209
-#: src/components/_political/law/LawFormModal.tsx:288
+#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:286
 msgid "Map Accent"
 msgstr "Τόνος Χάρτη"
 
@@ -4823,7 +4823,7 @@ msgid "Market"
 msgstr "Αγορά"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:254
+#: src/components/_political/law/LawFormModal.tsx:252
 msgid "Market tax"
 msgstr "Φόρος αγοράς"
 
@@ -4946,12 +4946,12 @@ msgid "Mentioned in message"
 msgstr "Αναφέρθηκε σε μήνυμα"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:448
+#: src/pages/country/[countryId]/index.tsx:443
 msgid "Mercenary Auctions"
 msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:436
+#: src/pages/country/[countryId]/index.tsx:431
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr ""
@@ -5034,7 +5034,7 @@ msgstr ""
 msgid "Min reached"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:118
+#: src/components/_political/law/Law.tsx:124
 msgid "Min. active citizens"
 msgstr "Ελάχ. ενεργοί πολίτες"
 
@@ -5405,7 +5405,7 @@ msgstr "Δεν υπάρχει ενεργή ηθική - Ισορροπημένο
 msgid "No active job offer"
 msgstr "Δεν υπάρχει ενεργή προσφορά εργασίας"
 
-#: src/pages/country/[countryId]/index.tsx:340
+#: src/pages/country/[countryId]/index.tsx:335
 msgid "No active wars"
 msgstr "Δεν υπάρχουν ενεργοί πόλεμοι"
 
@@ -5453,7 +5453,7 @@ msgstr "Δεν υπάρχουν ακόμα συνεισφορές"
 msgid "No damages ranking yet."
 msgstr "Δεν υπάρχει ακόμα κατάταξη ζημιών."
 
-#: src/pages/country/[countryId]/index.tsx:331
+#: src/pages/country/[countryId]/index.tsx:326
 msgid "No defensive pact"
 msgstr ""
 
@@ -5518,7 +5518,7 @@ msgstr ""
 msgid "No parties found"
 msgstr "Δεν βρέθηκαν κόμματα"
 
-#: src/pages/country/[countryId]/index.tsx:526
+#: src/pages/country/[countryId]/index.tsx:521
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Δεν υπάρχει μπόνους παραγωγής από πόρους. Αυτή η χώρα δεν έχει εξειδίκευση."
 
@@ -5534,7 +5534,7 @@ msgstr "Δεν υπάρχει ακόμα παραπέμπων"
 msgid "No skins equipped"
 msgstr "Δεν υπάρχουν εξοπλισμένα skins"
 
-#: src/pages/country/[countryId]/index.tsx:308
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "No sworn enemy"
 msgstr "Δεν υπάρχει ορκισμένος εχθρός"
 
@@ -5581,8 +5581,8 @@ msgstr ""
 msgid "Nominated at government"
 msgstr "Ορίστηκε στην κυβέρνηση"
 
-#: src/components/_political/law/LawFormModal.tsx:213
-#: src/components/_political/law/LawFormModal.tsx:292
+#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:290
 msgid "Normal"
 msgstr "Κανονικό"
 
@@ -5602,7 +5602,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Όχι εντυπωσιακό, αλλά όχι ντροπιαστικό"
 
-#: src/pages/country/[countryId]/index.tsx:245
+#: src/pages/country/[countryId]/index.tsx:244
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5759,7 +5759,7 @@ msgid "Other"
 msgstr "Άλλο"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:64
+#: src/components/_political/law/Law.tsx:65
 #: src/components/_political/partyMotion/PartyMotion.tsx:81
 msgid "Outcome"
 msgstr "Αποτέλεσμα"
@@ -6187,7 +6187,7 @@ msgstr ""
 msgid "Promoted to Commander"
 msgstr "Προήχθη σε Διοικητή"
 
-#: src/components/_political/law/law.frontConfig.tsx:268
+#: src/components/_political/law/law.frontConfig.tsx:269
 msgid "Propose a defensive pact with <0/>"
 msgstr ""
 
@@ -6196,11 +6196,11 @@ msgstr ""
 msgid "Propose a motion"
 msgstr "Υποβολή πρότασης"
 
-#: src/components/_political/law/law.frontConfig.tsx:278
+#: src/components/_political/law/law.frontConfig.tsx:279
 msgid "Propose a mutual defensive pact with <0/>. Once accepted, defenders of either country get a bonus that starts at 1% and grows +1% per day up to 10%."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:263
+#: src/components/_political/law/law.frontConfig.tsx:264
 msgid "Propose a mutual defensive pact with another country to get a growing defensive bonus"
 msgstr ""
 
@@ -6209,13 +6209,13 @@ msgstr ""
 msgid "Propose alliance law"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:261
+#: src/components/_political/law/law.frontConfig.tsx:262
 #: src/components/_political/law/lawNames.tsx:40
 msgid "Propose defensive pact"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:198
-#: src/components/_political/law/LawFormModal.tsx:339
+#: src/components/_political/law/LawFormModal.tsx:337
 msgid "Propose law"
 msgstr "Πρόταση νόμου"
 
@@ -6223,31 +6223,31 @@ msgstr "Πρόταση νόμου"
 msgid "Propose motion"
 msgstr "Υποβολή πρότασης"
 
-#: src/components/_political/law/law.frontConfig.tsx:136
+#: src/components/_political/law/law.frontConfig.tsx:137
 #: src/components/_political/law/lawNames.tsx:15
 msgid "Propose peace"
 msgstr "Πρόταση ειρήνης"
 
-#: src/components/_political/law/law.frontConfig.tsx:141
-#: src/components/_political/law/law.frontConfig.tsx:150
+#: src/components/_political/law/law.frontConfig.tsx:142
+#: src/components/_political/law/law.frontConfig.tsx:151
 msgid "Propose peace to <0/>"
 msgstr "Πρότεινε ειρήνη στο <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:137
+#: src/components/_political/law/law.frontConfig.tsx:138
 msgid "Propose peace to another country"
 msgstr "Πρότεινε ειρήνη σε άλλη χώρα"
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:502
+#: src/components/_political/law/law.frontConfig.tsx:505
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr "Πρότεινε αγορά <0/> από <1/> για <2>{0}</2>"
 
-#: src/components/_political/law/law.frontConfig.tsx:486
+#: src/components/_political/law/law.frontConfig.tsx:489
 #: src/components/_political/law/lawNames.tsx:31
 msgid "Propose to buy a region"
 msgstr "Πρόταση αγοράς περιοχής"
 
-#: src/components/_political/law/law.frontConfig.tsx:487
+#: src/components/_political/law/law.frontConfig.tsx:490
 msgid "Propose to buy a region from another country"
 msgstr "Πρότεινε αγορά περιοχής από άλλη χώρα"
 
@@ -6294,7 +6294,7 @@ msgstr ""
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:43
-#: src/pages/country/[countryId]/index.tsx:197
+#: src/pages/country/[countryId]/index.tsx:196
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Κατατάξεις"
@@ -6370,7 +6370,7 @@ msgstr "Αντιναύαρχος"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:71
+#: src/components/_political/law/Law.tsx:72
 #: src/components/_political/law/LawFormModal.tsx:173
 msgid "Reason"
 msgstr "Αιτία"
@@ -6448,7 +6448,7 @@ msgstr ""
 msgid "Region"
 msgstr "Περιοχή"
 
-#: src/components/_political/law/law.frontConfig.tsx:458
+#: src/components/_political/law/law.frontConfig.tsx:461
 #: src/components/_political/law/lawNames.tsx:30
 msgid "Region buy offer"
 msgstr "Προσφορά αγοράς περιοχής"
@@ -6498,7 +6498,7 @@ msgid "Reinforced Pants"
 msgstr "Ενισχυμένο Παντελόνι"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:181
+#: src/components/_political/law/Law.tsx:187
 #: src/components/_political/partyMotion/PartyMotion.tsx:180
 msgid "Reject"
 msgstr "Απόρριψη"
@@ -6518,7 +6518,7 @@ msgstr "Εναπομένουσα διάρκεια buff"
 msgid "Remaining debuff duration"
 msgstr "Εναπομένουσα διάρκεια debuff"
 
-#: src/components/_political/law/law.frontConfig.tsx:200
+#: src/components/_political/law/law.frontConfig.tsx:201
 msgid "Remove <0/> from congress due to inactivity"
 msgstr "Αφαίρεση <0/> από το Κοινοβούλιο λόγω αδράνειας"
 
@@ -6543,7 +6543,7 @@ msgstr "Αφαίρεση μέλους από το κομματικό συμβο�
 msgid "Remove all"
 msgstr "Αφαίρεση όλων"
 
-#: src/components/_political/law/law.frontConfig.tsx:184
+#: src/components/_political/law/law.frontConfig.tsx:185
 msgid "Remove an inactive congress member from its position"
 msgstr "Αφαίρεση ανενεργού μέλους Κοινοβουλίου από τη θέση του"
 
@@ -6563,7 +6563,7 @@ msgstr "Αφαίρεση μέλους συμβουλίου"
 msgid "Remove Description"
 msgstr "Αφαίρεση Περιγραφής"
 
-#: src/components/_political/law/law.frontConfig.tsx:448
+#: src/components/_political/law/law.frontConfig.tsx:451
 #: src/components/_political/law/lawNames.tsx:29
 msgid "Remove enemy"
 msgstr "Αφαίρεση εχθρού"
@@ -6694,7 +6694,7 @@ msgstr "Συνεισφέροντες Αντίστασης"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:366
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Πόροι"
@@ -6711,7 +6711,7 @@ msgstr "Απάντηση σε μήνυμα"
 msgid "Restore your health!"
 msgstr "Ανάκτησε την υγεία σου!"
 
-#: src/components/_political/law/law.frontConfig.tsx:514
+#: src/components/_political/law/law.frontConfig.tsx:517
 msgid "Return a region to its original country"
 msgstr "Επιστροφή περιοχής στην αρχική χώρα"
 
@@ -6827,7 +6827,7 @@ msgstr "Γύροι που Κερδήθηκαν"
 msgid "Rules"
 msgstr "Κανόνες"
 
-#: src/pages/country/[countryId]/index.tsx:379
+#: src/pages/country/[countryId]/index.tsx:374
 msgid "Ruling Party"
 msgstr "Κυβερνών Κόμμα"
 
@@ -6914,8 +6914,8 @@ msgstr "Επίλεξε banner"
 msgid "Select law type"
 msgstr "Επίλεξε τύπο νόμου"
 
-#: src/components/_political/law/LawFormModal.tsx:210
-#: src/components/_political/law/LawFormModal.tsx:289
+#: src/components/_political/law/LawFormModal.tsx:208
+#: src/components/_political/law/LawFormModal.tsx:287
 msgid "Select map accent"
 msgstr "Επίλεξε τόνο χάρτη"
 
@@ -6966,7 +6966,7 @@ msgid "sells"
 msgstr "πωλεί"
 
 #. placeholder {0}: law.data.amount
-#: src/components/_political/law/law.frontConfig.tsx:438
+#: src/components/_political/law/law.frontConfig.tsx:441
 msgid "Send <0>{0}</0> to <1/>"
 msgstr "Στείλε <0>{0}</0> στο <1/>"
 
@@ -6994,7 +6994,7 @@ msgstr "Αποστολή Δώρου"
 msgid "Send Message"
 msgstr "Αποστολή Μηνύματος"
 
-#: src/components/_political/law/law.frontConfig.tsx:423
+#: src/components/_political/law/law.frontConfig.tsx:426
 msgid "Send money to another country"
 msgstr "Στείλε χρήματα σε άλλη χώρα"
 
@@ -7010,11 +7010,11 @@ msgstr "Ορισμός <0>περιγραφής</0>"
 msgid "Set a referrer"
 msgstr "Ορισμός παραπέμποντος"
 
-#: src/components/_political/law/law.frontConfig.tsx:538
+#: src/components/_political/law/law.frontConfig.tsx:541
 msgid "Set a welcome article for your country"
 msgstr "Ορισμός άρθρου καλωσορίσματος για τη χώρα σου"
 
-#: src/components/_political/law/law.frontConfig.tsx:543
+#: src/components/_political/law/law.frontConfig.tsx:546
 msgid "Set a welcome article for your country<0/>"
 msgstr "Ορισμός άρθρου καλωσορίσματος για τη χώρα σου<0/>"
 
@@ -7022,13 +7022,13 @@ msgstr "Ορισμός άρθρου καλωσορίσματος για τη χ�
 msgid "Set bounty"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:564
+#: src/components/_political/law/law.frontConfig.tsx:567
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
 msgstr "Ορισμός χρώματος χώρας"
 
 #. placeholder {0}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:556
+#: src/components/_political/law/law.frontConfig.tsx:559
 msgid "Set country color to <0>{0}</0> "
 msgstr ""
 
@@ -7048,17 +7048,17 @@ msgstr "Ορισμός κομματικής ηθικής"
 msgid "Set Profile Picture"
 msgstr "Ορισμός Εικόνας Προφίλ"
 
-#: src/components/_political/law/law.frontConfig.tsx:610
+#: src/components/_political/law/law.frontConfig.tsx:613
 #: src/components/_political/law/lawNames.tsx:36
 msgid "Set specialization item"
 msgstr "Ορισμός αντικειμένου εξειδίκευσης"
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:616
+#: src/components/_political/law/law.frontConfig.tsx:619
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
 msgstr "Ορισμός εξειδικευμένου αντικειμένου χώρας σε <0>{0}</0>.<1/>Το <2>Μπόνους Παραγωγής</2> στρατηγικών πόρων χώρας θα είναι διαθέσιμο για τοπικές εταιρείες που παράγουν αυτό το αντικείμενο."
 
-#: src/components/_political/law/law.frontConfig.tsx:611
+#: src/components/_political/law/law.frontConfig.tsx:614
 msgid "Set the country's specialized production item"
 msgstr "Ορισμός εξειδικευμένου αντικειμένου παραγωγής χώρας"
 
@@ -7066,7 +7066,7 @@ msgstr "Ορισμός εξειδικευμένου αντικειμένου π�
 msgid "Set Username"
 msgstr "Ορισμός Ονόματος Χρήστη"
 
-#: src/components/_political/law/law.frontConfig.tsx:537
+#: src/components/_political/law/law.frontConfig.tsx:540
 #: src/components/_political/law/lawNames.tsx:33
 msgid "Set welcome article"
 msgstr "Ορισμός άρθρου καλωσορίσματος"
@@ -7220,7 +7220,7 @@ msgstr "Ειδικός"
 msgid "Specialization"
 msgstr "Εξειδίκευση"
 
-#: src/components/_political/law/LawFormModal.tsx:315
+#: src/components/_political/law/LawFormModal.tsx:313
 msgid "Specialization item"
 msgstr "Αντικείμενο εξειδίκευσης"
 
@@ -7236,8 +7236,8 @@ msgstr "Ξόδεψε την <0>Ενέργεια</0> σου εργαζόμενο�
 msgid "Spendings"
 msgstr "Έξοδα"
 
-#: src/components/_political/law/law.frontConfig.tsx:168
-#: src/components/_political/law/law.frontConfig.tsx:170
+#: src/components/_political/law/law.frontConfig.tsx:169
+#: src/components/_political/law/law.frontConfig.tsx:171
 msgid "Start a congress election, now"
 msgstr "Ξεκίνα εκλογές Κοινοβουλίου, τώρα"
 
@@ -7256,8 +7256,8 @@ msgstr "Ξεκίνα εκλογές αρχηγού κόμματος αμέσως
 msgid "Start a party primary election immediately"
 msgstr "Ξεκίνα προκριματικές εκλογές κόμματος αμέσως"
 
-#: src/components/_political/law/law.frontConfig.tsx:160
-#: src/components/_political/law/law.frontConfig.tsx:162
+#: src/components/_political/law/law.frontConfig.tsx:161
+#: src/components/_political/law/law.frontConfig.tsx:163
 msgid "Start a presidential election, now"
 msgstr "Ξεκίνα προεδρικές εκλογές, τώρα"
 
@@ -7266,12 +7266,12 @@ msgstr "Ξεκίνα προεδρικές εκλογές, τώρα"
 msgid "Start a revolution to overthrow the government"
 msgstr "Ξεκίνα επανάσταση για να ανατρέψεις την κυβέρνηση"
 
-#: src/components/_political/law/law.frontConfig.tsx:167
+#: src/components/_political/law/law.frontConfig.tsx:168
 #: src/components/_political/law/lawNames.tsx:19
 msgid "Start congress election"
 msgstr "Έναρξη εκλογών Κοινοβουλίου"
 
-#: src/components/_political/law/law.frontConfig.tsx:159
+#: src/components/_political/law/law.frontConfig.tsx:160
 #: src/components/_political/law/lawNames.tsx:17
 msgid "Start presidential election"
 msgstr "Έναρξη προεδρικών εκλογών"
@@ -7298,7 +7298,7 @@ msgid "Starting from the bottom..."
 msgstr "Ξεκινώντας από κάτω..."
 
 #. placeholder {0}: gameConfig?.battle.enemyDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:245
+#: src/components/_political/law/law.frontConfig.tsx:246
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0> when defending"
 msgstr ""
 
@@ -7433,7 +7433,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Ανώτατος Στρατηγός"
 
-#: src/pages/country/[countryId]/index.tsx:254
+#: src/pages/country/[countryId]/index.tsx:253
 msgid "Sworn enemy"
 msgstr "Ορκισμένος εχθρός"
 
@@ -7445,9 +7445,9 @@ msgstr "Αυτόματη εξέγερση"
 msgid "Table"
 msgstr "Πίνακας"
 
-#: src/pages/country/[countryId]/index.tsx:147
-#: src/pages/country/[countryId]/index.tsx:171
-#: src/pages/country/[countryId]/index.tsx:176
+#: src/pages/country/[countryId]/index.tsx:146
+#: src/pages/country/[countryId]/index.tsx:170
+#: src/pages/country/[countryId]/index.tsx:175
 msgid "Take control"
 msgstr "Ανάληψη ελέγχου"
 
@@ -7463,15 +7463,15 @@ msgstr "Άρμα Μάχης"
 msgid "Target country"
 msgstr "Χώρα στόχος"
 
-#: src/components/_political/law/LawFormModal.tsx:227
+#: src/components/_political/law/LawFormModal.tsx:225
 msgid "Target region"
 msgstr "Περιοχή στόχος"
 
-#: src/components/_political/law/LawFormModal.tsx:302
+#: src/components/_political/law/LawFormModal.tsx:300
 msgid "Target user"
 msgstr "Χρήστης στόχος"
 
-#: src/components/_political/law/LawFormModal.tsx:247
+#: src/components/_political/law/LawFormModal.tsx:245
 msgid "Tax type"
 msgstr "Τύπος φόρου"
 
@@ -7589,7 +7589,7 @@ msgstr ""
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Αυτή η εταιρεία είναι απενεργοποιημένη γιατί ο ιδιοκτήτης έφτασε το όριο εταιρειών."
 
-#: src/pages/country/[countryId]/index.tsx:151
+#: src/pages/country/[countryId]/index.tsx:150
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Αυτή η χώρα δεν έχει πρόεδρο ή ενεργό μέλος Κοινοβουλίου, μπορείς να αναλάβεις τον έλεγχό της."
 
@@ -7609,16 +7609,16 @@ msgstr ""
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr "Αυτό είναι το κέντρο εταιρειών σου. Εδώ μπορείς να παράγεις αντικείμενα και να χτίσεις την αυτοκρατορία σου."
 
-#: src/components/_political/law/LawTypeSelect.tsx:182
+#: src/components/_political/law/LawTypeSelect.tsx:186
 msgid "This law can be abusive and requires 5+ possible voters in the country."
 msgstr "Αυτός ο νόμος μπορεί να είναι καταχρηστικός και απαιτεί 5+ πιθανούς ψηφοφόρους στη χώρα."
 
-#: src/components/_political/law/LawTypeSelect.tsx:176
+#: src/components/_political/law/LawTypeSelect.tsx:180
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:138
 msgid "This law has an additional variable cost"
 msgstr "Αυτός ο νόμος έχει επιπλέον μεταβλητό κόστος"
 
-#: src/components/_political/law/LawTypeSelect.tsx:191
+#: src/components/_political/law/LawTypeSelect.tsx:195
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Αυτός ο νόμος απαιτεί τουλάχιστον {minActiveCitizen} ενεργούς πολίτες (επίπεδο 10+) στη χώρα."
 
@@ -7895,7 +7895,7 @@ msgstr "Συναλλ."
 msgid "Transactions"
 msgstr "Συναλλαγές"
 
-#: src/components/_political/law/law.frontConfig.tsx:422
+#: src/components/_political/law/law.frontConfig.tsx:425
 #: src/components/_political/law/lawNames.tsx:28
 msgid "Transfer money"
 msgstr "Μεταφορά χρημάτων"
@@ -7908,7 +7908,7 @@ msgstr ""
 msgid "Transfer to company (optional)"
 msgstr "Μεταφορά σε εταιρεία (προαιρετικό)"
 
-#: src/components/_political/law/law.frontConfig.tsx:427
+#: src/components/_political/law/law.frontConfig.tsx:430
 msgid "Transfer<0/> to <1/>"
 msgstr ""
 
@@ -7990,7 +7990,7 @@ msgstr "Απίστευτο. Αυτό δεν συμβαίνει"
 msgid "Unregister"
 msgstr "Απεγγραφή"
 
-#: src/pages/country/[countryId]/index.tsx:362
+#: src/pages/country/[countryId]/index.tsx:357
 msgid "Unrest"
 msgstr "Αναταραχή"
 
@@ -8002,8 +8002,8 @@ msgstr "Συνεισφέροντες Αναταραχής"
 msgid "Unselect all"
 msgstr "Αποεπιλογή όλων"
 
-#: src/components/_political/law/law.frontConfig.tsx:449
-#: src/components/_political/law/law.frontConfig.tsx:451
+#: src/components/_political/law/law.frontConfig.tsx:452
+#: src/components/_political/law/law.frontConfig.tsx:454
 msgid "Unset the sworn enemy country"
 msgstr "Αφαίρεση χώρας ορκισμένου εχθρού"
 
@@ -8543,15 +8543,15 @@ msgstr "Είσαι ωραίος άνθρωπος"
 msgid "You are a lucky bastard"
 msgstr "Είσαι τυχερός τύπος"
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:140
 msgid "You are already congress member of another country. Resign first."
 msgstr "Είσαι ήδη μέλος Κοινοβουλίου άλλης χώρας. Παραιτήσου πρώτα."
 
-#: src/pages/country/[countryId]/index.tsx:137
+#: src/pages/country/[countryId]/index.tsx:136
 msgid "You are already president of another country. Resign first."
 msgstr "Είσαι ήδη πρόεδρος άλλης χώρας. Παραιτήσου πρώτα."
 
-#: src/pages/country/[countryId]/index.tsx:139
+#: src/pages/country/[countryId]/index.tsx:138
 msgid "You are already vice president of another country. Resign first."
 msgstr "Είσαι ήδη αντιπρόεδρος άλλης χώρας. Παραιτήσου πρώτα."
 
@@ -8679,12 +8679,12 @@ msgid "You have resigned from the government"
 msgstr "Παραιτήθηκες από την κυβέρνηση"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:133
+#: src/pages/country/[countryId]/index.tsx:132
 msgid "You have to be level {0} to take control of a country."
 msgstr "Πρέπει να είσαι επίπεδο {0} για να αναλάβεις τον έλεγχο μιας χώρας."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:135
+#: src/pages/country/[countryId]/index.tsx:134
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Πρέπει να περιμένεις {0} ημέρες πριν αναλάβεις ξανά τον έλεγχο μιας χώρας."
 
@@ -8914,7 +8914,7 @@ msgstr "Το banner σου \"{0}\" έγινε αποδεκτό και είναι
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:171
 msgid "Your citizenship is going to change"
 msgstr "Η υπηκοότητά σου πρόκειται να αλλάξει"
 
