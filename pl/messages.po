@@ -713,8 +713,8 @@ msgstr ""
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> z bonusu produkcji zasobów strategicznych <1/>."
 
-#: src/pages/country/[countryId]/index.tsx:444
-#: src/pages/country/[countryId]/index.tsx:493
+#: src/pages/country/[countryId]/index.tsx:440
+#: src/pages/country/[countryId]/index.tsx:489
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "Zasób <0>#{key}</0> każdego typu = <1>{value}</1>"
 
@@ -1236,7 +1236,7 @@ msgstr "Wstrzymaj się"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:135
+#: src/pages/country/[countryId]/index.tsx:144
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Nadużywanie tej władzy na korzyść innego kraju doprowadzi do <0>bana.</0>"
 
@@ -1273,7 +1273,7 @@ msgstr ""
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:345
+#: src/pages/country/[countryId]/index.tsx:341
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1299,7 +1299,7 @@ msgstr "Aktywne"
 msgid "Active battle"
 msgstr "Aktywna bitwa"
 
-#: src/pages/country/[countryId]/index.tsx:296
+#: src/pages/country/[countryId]/index.tsx:292
 msgid "Active battles"
 msgstr "Aktywne bitwy"
 
@@ -1315,7 +1315,7 @@ msgstr "Aktywna budowa"
 msgid "Active War"
 msgstr "Aktywna wojna"
 
-#: src/pages/country/[countryId]/index.tsx:284
+#: src/pages/country/[countryId]/index.tsx:280
 msgid "Active wars"
 msgstr "Aktywne wojny"
 
@@ -1442,7 +1442,7 @@ msgid "All types"
 msgstr "Wszystkie typy"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/pages/country/[countryId]/index.tsx:200
+#: src/pages/country/[countryId]/index.tsx:209
 msgid "Alliance"
 msgstr ""
 
@@ -1836,7 +1836,7 @@ msgstr "Odznaka zdobyta"
 msgid "Badge Won"
 msgstr "Odznaka zdobyta"
 
-#: src/pages/country/[countryId]/index.tsx:352
+#: src/pages/country/[countryId]/index.tsx:348
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Odznaki"
@@ -1904,7 +1904,7 @@ msgstr "Podstawowe Spodnie"
 msgid "Battle"
 msgstr "Bitwa"
 
-#: src/pages/alliance/[allianceId]/index.tsx:31
+#: src/pages/alliance/[allianceId]/index.tsx:46
 msgid "Battle damage bonus"
 msgstr ""
 
@@ -2308,7 +2308,7 @@ msgstr "Obywatel od <0><1/></0>"
 msgid "Citizens"
 msgstr "Obywatele"
 
-#: src/pages/country/[countryId]/index.tsx:188
+#: src/pages/country/[countryId]/index.tsx:197
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Obywatele otrzymują bonus walcząc za sojuszników lub przeciwko zaprzysięgłemu wrogowi"
 
@@ -2716,7 +2716,7 @@ msgstr "Kraje"
 msgid "Country"
 msgstr "Kraj"
 
-#: src/pages/country/[countryId]/index.tsx:487
+#: src/pages/country/[countryId]/index.tsx:483
 msgid "Country development income bonus"
 msgstr "Bonus dochodu z rozwoju kraju"
 
@@ -2737,11 +2737,11 @@ msgstr ""
 msgid "Country President"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:438
+#: src/pages/country/[countryId]/index.tsx:434
 msgid "Country production bonus"
 msgstr "Bonus produkcji kraju"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:125
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:127
 msgid "Country to invite"
 msgstr ""
 
@@ -2877,6 +2877,10 @@ msgstr "Dzienne"
 #: src/components/_political/law/LawTypeSelect.tsx:170
 msgid "Daily maintenance"
 msgstr "Dzienny koszt utrzymania"
+
+#: src/pages/country/[countryId]/index.tsx:217
+msgid "Daily maintenance paid in paper: the alliance's initial development split equally between members."
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2112
 msgid "Daily Missions Reset"
@@ -3143,7 +3147,7 @@ msgstr ""
 msgid "Diminish Received Damages"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:194
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Diplomacy"
 msgstr "Dyplomacja"
 
@@ -3322,7 +3326,7 @@ msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:373
+#: src/pages/country/[countryId]/index.tsx:369
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Wybory"
@@ -3464,7 +3468,7 @@ msgstr ""
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:354
 msgid "Events"
 msgstr "Wydarzenia"
 
@@ -3741,7 +3745,7 @@ msgid "Font style"
 msgstr "Styl czcionki"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:461
+#: src/pages/country/[countryId]/index.tsx:457
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr ""
 
@@ -4166,7 +4170,7 @@ msgstr "Nieaktywny"
 msgid "Income"
 msgstr "Dochód"
 
-#: src/pages/country/[countryId]/index.tsx:510
+#: src/pages/country/[countryId]/index.tsx:506
 msgid "income from <0>Development</0> in <1/>."
 msgstr "dochód z <0>Rozwoju</0> w <1/>."
 
@@ -4469,8 +4473,8 @@ msgid "Law proposed"
 msgstr "Prawo zaproponowane"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/pages/alliance/[allianceId]/index.tsx:67
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/alliance/[allianceId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:189
 #: src/pages/country/[countryId]/laws.tsx:24
 msgid "Laws"
 msgstr "Prawa"
@@ -4698,6 +4702,10 @@ msgstr "Szczęście w końcu po twojej stronie"
 msgid "Mage Robe"
 msgstr ""
 
+#: src/pages/alliance/[allianceId]/index.tsx:82
+msgid "Maintenance"
+msgstr ""
+
 #: src/components/_political/law/Law.tsx:96
 msgid "Maintenance cost"
 msgstr "Koszt utrzymania"
@@ -4829,12 +4837,12 @@ msgstr ""
 msgid "member countries"
 msgstr ""
 
-#: src/pages/alliance/[allianceId]/index.tsx:48
+#: src/pages/alliance/[allianceId]/index.tsx:63
 #: src/pages/alliance/[allianceId]/members.tsx:23
 msgid "Member countries"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:137
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:139
 msgid "Member country to kick"
 msgstr ""
 
@@ -4859,17 +4867,21 @@ msgstr ""
 msgid "Members"
 msgstr ""
 
+#: src/components/_political/alliance/AllianceMemberRow.tsx:20
+msgid "Membership suspended"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2105
 msgid "Mentioned in message"
 msgstr "Wspomniano w wiadomości"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:396
+#: src/pages/country/[countryId]/index.tsx:392
 msgid "Mercenary Auctions"
 msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:380
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr ""
@@ -5208,7 +5220,7 @@ msgstr "Nowa oferta przedmiotu"
 msgid "New job offer"
 msgstr "Nowa oferta pracy"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:145
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:147
 msgid "New leader"
 msgstr ""
 
@@ -5318,7 +5330,7 @@ msgstr ""
 msgid "No active job offer"
 msgstr "Brak aktywnej oferty pracy"
 
-#: src/pages/country/[countryId]/index.tsx:288
+#: src/pages/country/[countryId]/index.tsx:284
 msgid "No active wars"
 msgstr "Brak aktywnych wojen"
 
@@ -5370,7 +5382,7 @@ msgstr "Brak rankingu terenu."
 msgid "No laws yet"
 msgstr "Brak praw"
 
-#: src/pages/alliance/[allianceId]/index.tsx:53
+#: src/pages/alliance/[allianceId]/index.tsx:68
 #: src/pages/alliance/[allianceId]/members.tsx:28
 msgid "No members"
 msgstr ""
@@ -5419,7 +5431,7 @@ msgstr ""
 msgid "No parties found"
 msgstr "Nie znaleziono partii"
 
-#: src/pages/country/[countryId]/index.tsx:474
+#: src/pages/country/[countryId]/index.tsx:470
 msgid "No production bonus from resources. This country has no specialization."
 msgstr ""
 
@@ -5435,7 +5447,7 @@ msgstr "Brak polecającego"
 msgid "No skins equipped"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:279
+#: src/pages/country/[countryId]/index.tsx:275
 msgid "No sworn enemy"
 msgstr "Brak zaprzysięgłego wroga"
 
@@ -5495,11 +5507,15 @@ msgstr ""
 msgid "Not bad!"
 msgstr "Nieźle!"
 
+#: src/components/_political/alliance/AllianceMemberRow.tsx:21
+msgid "Not enough paper to pay the daily alliance maintenance. Alliance damage bonuses are disabled for this country until it pays."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:36
 msgid "Not impressive, but not shameful"
 msgstr "Nie imponujące, ale nie wstydliwe"
 
-#: src/pages/country/[countryId]/index.tsx:233
+#: src/pages/country/[countryId]/index.tsx:229
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5835,6 +5851,10 @@ msgstr "Oczekująca obniżka wynagrodzenia"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr ""
 
+#: src/pages/alliance/[allianceId]/index.tsx:96
+msgid "Per member per day"
+msgstr ""
+
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:118
 msgid "Permanently dissolve the alliance."
 msgstr ""
@@ -6089,12 +6109,12 @@ msgstr "Awansowany na Dowódcę"
 msgid "Propose a motion"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:109
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:111
 #: src/components/_political/allianceLaw/AllianceLawList.tsx:36
 msgid "Propose alliance law"
 msgstr ""
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:165
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:167
 #: src/components/_political/law/LawFormModal.tsx:337
 msgid "Propose law"
 msgstr "Zaproponuj prawo"
@@ -6173,8 +6193,8 @@ msgid "Ranking reward"
 msgstr ""
 
 #: src/components/_layout/MoreButtonNav.tsx:120
-#: src/pages/alliance/[allianceId]/index.tsx:38
-#: src/pages/country/[countryId]/index.tsx:174
+#: src/pages/alliance/[allianceId]/index.tsx:53
+#: src/pages/country/[countryId]/index.tsx:183
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Rankingi"
@@ -6249,7 +6269,7 @@ msgid "Rear Admiral"
 msgstr "Kontradmirał"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:119
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:121
 #: src/components/_political/law/Law.tsx:71
 #: src/components/_political/law/LawFormModal.tsx:173
 msgid "Reason"
@@ -6559,7 +6579,7 @@ msgstr ""
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:319
+#: src/pages/country/[countryId]/index.tsx:315
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Zasoby"
@@ -6692,7 +6712,7 @@ msgstr "Wygrane Rundy"
 msgid "Rules"
 msgstr "Zasady"
 
-#: src/pages/country/[countryId]/index.tsx:327
+#: src/pages/country/[countryId]/index.tsx:323
 msgid "Ruling Party"
 msgstr ""
 
@@ -7293,7 +7313,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Najwyższy Dowódca"
 
-#: src/pages/country/[countryId]/index.tsx:238
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Sworn enemy"
 msgstr "Zaprzysięgły wróg"
 
@@ -7305,9 +7325,9 @@ msgstr "Bunt systemowy"
 msgid "Table"
 msgstr "Tabela"
 
-#: src/pages/country/[countryId]/index.tsx:124
-#: src/pages/country/[countryId]/index.tsx:148
-#: src/pages/country/[countryId]/index.tsx:153
+#: src/pages/country/[countryId]/index.tsx:133
+#: src/pages/country/[countryId]/index.tsx:157
+#: src/pages/country/[countryId]/index.tsx:162
 msgid "Take control"
 msgstr "Przejmij kontrolę"
 
@@ -7449,7 +7469,7 @@ msgstr ""
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Ta firma jest wyłączona, ponieważ właściciel osiągnął limit firm."
 
-#: src/pages/country/[countryId]/index.tsx:128
+#: src/pages/country/[countryId]/index.tsx:137
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Ten kraj nie ma prezydenta ani aktywnego członka kongresu, możesz przejąć nad nim kontrolę."
 
@@ -7684,6 +7704,10 @@ msgstr ""
 msgid "Total Donated:"
 msgstr "Łącznie przekazano:"
 
+#: src/pages/alliance/[allianceId]/index.tsx:88
+msgid "Total per day"
+msgstr ""
+
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
 msgstr ""
@@ -7854,7 +7878,7 @@ msgstr "Nierealne. To się nie dzieje"
 msgid "Unregister"
 msgstr "Wyrejestruj"
 
-#: src/pages/country/[countryId]/index.tsx:310
+#: src/pages/country/[countryId]/index.tsx:306
 msgid "Unrest"
 msgstr ""
 
@@ -8288,7 +8312,7 @@ msgstr ""
 msgid "Whole Production"
 msgstr "Cała produkcja"
 
-#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:120
+#: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:122
 #: src/components/_political/law/LawFormModal.tsx:174
 msgid "Why do you want to propose this law?"
 msgstr "Dlaczego chcesz zaproponować to prawo?"
@@ -8407,15 +8431,15 @@ msgstr "Jesteś pięknym człowiekiem"
 msgid "You are a lucky bastard"
 msgstr "Masz cholerne szczęście"
 
-#: src/pages/country/[countryId]/index.tsx:118
+#: src/pages/country/[countryId]/index.tsx:127
 msgid "You are already congress member of another country. Resign first."
 msgstr "Jesteś już członkiem kongresu innego kraju. Najpierw zrezygnuj."
 
-#: src/pages/country/[countryId]/index.tsx:114
+#: src/pages/country/[countryId]/index.tsx:123
 msgid "You are already president of another country. Resign first."
 msgstr "Jesteś już prezydentem innego kraju. Najpierw zrezygnuj."
 
-#: src/pages/country/[countryId]/index.tsx:116
+#: src/pages/country/[countryId]/index.tsx:125
 msgid "You are already vice president of another country. Resign first."
 msgstr "Jesteś już wiceprezydentem innego kraju. Najpierw zrezygnuj."
 
@@ -8543,12 +8567,12 @@ msgid "You have resigned from the government"
 msgstr "Zrezygnowałeś z rządu"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:119
 msgid "You have to be level {0} to take control of a country."
 msgstr "Musisz być na poziomie {0}, aby przejąć kontrolę nad krajem."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:112
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Musisz poczekać {0} dni, zanim ponownie przejmiesz kontrolę nad krajem."
 
@@ -8778,7 +8802,7 @@ msgstr ""
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:149
+#: src/pages/country/[countryId]/index.tsx:158
 msgid "Your citizenship is going to change"
 msgstr "Twoje obywatelstwo się zmieni"
 
