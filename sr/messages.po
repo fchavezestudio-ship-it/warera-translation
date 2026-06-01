@@ -4879,7 +4879,7 @@ msgstr "Члану одузето звање команданта"
 msgid "Member kicked successfully"
 msgstr "Члан успешно избачен"
 
-#: src/components/_political/country/CountryHeader.tsx:194
+#: src/components/_political/country/CountryHeader.tsx:214
 msgid "Member of <0/>"
 msgstr ""
 

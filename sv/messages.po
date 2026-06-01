@@ -4879,7 +4879,7 @@ msgstr "Medlem degraderad från befälhavare"
 msgid "Member kicked successfully"
 msgstr "Medlemmen har uteslutits"
 
-#: src/components/_political/country/CountryHeader.tsx:194
+#: src/components/_political/country/CountryHeader.tsx:214
 msgid "Member of <0/>"
 msgstr ""
 

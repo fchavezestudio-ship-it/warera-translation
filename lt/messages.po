@@ -4879,7 +4879,7 @@ msgstr "Pažemintas iš vado pareigų"
 msgid "Member kicked successfully"
 msgstr "Narys sėkmingai pašalintas"
 
-#: src/components/_political/country/CountryHeader.tsx:194
+#: src/components/_political/country/CountryHeader.tsx:214
 msgid "Member of <0/>"
 msgstr ""
 

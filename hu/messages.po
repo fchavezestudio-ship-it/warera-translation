@@ -4879,7 +4879,7 @@ msgstr "Tag lefokozva parancsnoki rangból"
 msgid "Member kicked successfully"
 msgstr "Tag sikeresen kirúgva"
 
-#: src/components/_political/country/CountryHeader.tsx:194
+#: src/components/_political/country/CountryHeader.tsx:214
 msgid "Member of <0/>"
 msgstr ""
 

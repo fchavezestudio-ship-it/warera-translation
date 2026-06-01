@@ -4879,7 +4879,7 @@ msgstr "Anggota diturunkan dari komandan"
 msgid "Member kicked successfully"
 msgstr "Anggota berhasil dikeluarkan"
 
-#: src/components/_political/country/CountryHeader.tsx:194
+#: src/components/_political/country/CountryHeader.tsx:214
 msgid "Member of <0/>"
 msgstr ""
 

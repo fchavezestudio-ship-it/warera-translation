@@ -4879,7 +4879,7 @@ msgstr "Membro despromovido do cargo de comandante"
 msgid "Member kicked successfully"
 msgstr "Membro expulso com sucesso"
 
-#: src/components/_political/country/CountryHeader.tsx:194
+#: src/components/_political/country/CountryHeader.tsx:214
 msgid "Member of <0/>"
 msgstr ""
 
