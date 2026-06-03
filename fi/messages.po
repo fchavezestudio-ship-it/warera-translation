@@ -575,12 +575,12 @@ msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> Työntekijät"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:153
+#: src/components/_military/battle/BattleDamageBonuses.tsx:157
 msgid "<0>{0}</0> <1/> in <2/>"
 msgstr "<0>{0}</0> <1/> kohdassa <2/>"
 
 #. placeholder {0}: sideBonus.muOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:143
+#: src/components/_military/battle/BattleDamageBonuses.tsx:147
 msgid "<0>{0}</0> <1/> orders"
 msgstr "<0>{0}</0> <1/> tilauksia"
 
@@ -595,17 +595,17 @@ msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Hyökkäysbonus"
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:205
+#: src/components/_military/battle/BattleDamageBonuses.tsx:209
 msgid "<0>{0}</0> because <1/> is not linked to the capital"
 msgstr "<0>{0}</0> koska <1/> ei ole yhteydessä pääkaupunkiin"
 
 #. placeholder {0}: sideBonus.lostAttackingRegionMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:221
+#: src/components/_military/battle/BattleDamageBonuses.tsx:225
 msgid "<0>{0}</0> because <1/> lost <2/>"
 msgstr "<0>{0}</0> koska <1/> hävisi <2/>"
 
 #. placeholder {0}: sideBonus.occupyingYourRegionsMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:247
+#: src/components/_military/battle/BattleDamageBonuses.tsx:251
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<0>{0}</0> koska <1/> miehittää ainakin yhden <2/>:n alueista"
 
@@ -626,19 +626,19 @@ msgstr ""
 
 #. placeholder {0}: sideBonus.regionAttackBonusPercent
 #. placeholder {0}: sideBonus.regionDefenseBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:174
-#: src/components/_military/battle/BattleDamageBonuses.tsx:190
+#: src/components/_military/battle/BattleDamageBonuses.tsx:178
+#: src/components/_military/battle/BattleDamageBonuses.tsx:194
 msgid "<0>{0}</0> from <1/> in <2/>"
 msgstr "<0>{0}</0> joukkoyksiköltä <1/> alueella <2/>"
 
 #. placeholder {0}: sideBonus.resistanceBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:237
+#: src/components/_military/battle/BattleDamageBonuses.tsx:241
 msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<0>{0}</0> <1>Vastarinnasta</1>"
 
 #. placeholder {0}: sideBonus.defensivePactBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:122
-msgid "<0>{0}</0> from a defensive pact"
+msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr ""
 
 #. placeholder {0}: region.ethicDepositBonus
@@ -652,7 +652,7 @@ msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> talletusresursseista."
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:279
+#: src/components/_military/battle/BattleDamageBonuses.tsx:283
 msgid "<0>{0}</0> from Diplomatic ethics (fighting for ally)"
 msgstr "<0>{0}</0> diplomaattisesta etiikasta (taistelu liittolaisen puolesta)"
 
@@ -667,22 +667,22 @@ msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> teollisuusetiikan erikoistumisbonuksesta."
 
 #. placeholder {0}: sideBonus.enemyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:289
+#: src/components/_military/battle/BattleDamageBonuses.tsx:293
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
 msgstr "<0>{0}</0> isolaationistisesta etiikasta (vihollista vastaan ​​taisteleminen)"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:259
+#: src/components/_military/battle/BattleDamageBonuses.tsx:263
 msgid "<0>{0}</0> from Militarist ethics (attacking)"
 msgstr "<0>{0}</0> militaristisesta etiikasta (hyökkäys)"
 
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:132
+#: src/components/_military/battle/BattleDamageBonuses.tsx:136
 msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> <1/> tilauksista"
 
 #. placeholder {0}: sideBonus.pacifismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:269
+#: src/components/_military/battle/BattleDamageBonuses.tsx:273
 msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "<0>{0}</0> pasifistisesta etiikasta (puolustelee)"
 
@@ -1338,7 +1338,7 @@ msgstr "Aktiivinen rakentaminen"
 msgid "Active War"
 msgstr "Aktiivinen sota"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:175
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:188
 msgid "Active wars"
 msgstr "Aktiiviset sodat"
 
@@ -1465,7 +1465,7 @@ msgid "All types"
 msgstr "Kaikki tyypit"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:134
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:147
 msgid "Alliance"
 msgstr ""
 
@@ -2948,11 +2948,11 @@ msgstr "Päivittäin"
 msgid "Daily maintenance"
 msgstr "Päivittäinen huolto"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:268
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:279
 msgid "Daily maintenance paid in paper per active pact, scaled by your average development."
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:159
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:172
 msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
 msgstr ""
 
@@ -3111,7 +3111,7 @@ msgstr "Puolustaja"
 msgid "Defenders"
 msgstr "Puolustajat"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:249
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:260
 msgid "Defensive pact"
 msgstr ""
 
@@ -5411,7 +5411,7 @@ msgstr "Ei aktiivista etiikkaa - Tasapainoinen"
 msgid "No active job offer"
 msgstr "Ei aktiivista työtarjousta"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:183
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:196
 msgid "No active wars"
 msgstr "Ei aktiivisia sotia"
 
@@ -5459,7 +5459,7 @@ msgstr "Ei vielä lahjoituksia"
 msgid "No damages ranking yet."
 msgstr "Ei vielä vahinkoluokitusta."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:283
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:291
 msgid "No defensive pact"
 msgstr ""
 
@@ -5541,7 +5541,7 @@ msgstr "Ei viittausta vielä"
 msgid "No skins equipped"
 msgstr "Ei skinejä varustettuja"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:241
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:252
 msgid "No sworn enemy"
 msgstr "Ei vannottua vihollista"
 
@@ -5609,7 +5609,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Ei vaikuttava, mutta ei häpeällinen"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:149
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:162
 msgid "Not in any alliance"
 msgstr ""
 
@@ -7440,7 +7440,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Ylipäällikkö"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:192
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:205
 msgid "Sworn enemy"
 msgstr "Valannut vihollinen"
 
@@ -7826,6 +7826,10 @@ msgstr "Kokonaisvahingot"
 #: src/components/_economy/donation/DonationList.tsx:65
 msgid "Total Donated:"
 msgstr "Lahjoitetut yhteensä:"
+
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:297
+msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
+msgstr ""
 
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"

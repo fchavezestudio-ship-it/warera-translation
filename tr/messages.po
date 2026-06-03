@@ -574,12 +574,12 @@ msgid "<0>{0}/{1}</0> Workers"
 msgstr "<0>{0}/{1}</0> İşçi"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:153
+#: src/components/_military/battle/BattleDamageBonuses.tsx:157
 msgid "<0>{0}</0> <1/> in <2/>"
 msgstr "<2/> AB'nden gelen <1/> <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.muOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:143
+#: src/components/_military/battle/BattleDamageBonuses.tsx:147
 msgid "<0>{0}</0> <1/> orders"
 msgstr "<1/> ülkesinin savaş emirlerinden gelen <0>{0}</0>"
 
@@ -594,17 +594,17 @@ msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Saldırı bonusu"
 
 #. placeholder {0}: sideBonus.regionNotLinkedToCapitalMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:205
+#: src/components/_military/battle/BattleDamageBonuses.tsx:209
 msgid "<0>{0}</0> because <1/> is not linked to the capital"
 msgstr "<1/> başkente bağlı olmadığı için <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.lostAttackingRegionMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:221
+#: src/components/_military/battle/BattleDamageBonuses.tsx:225
 msgid "<0>{0}</0> because <1/> lost <2/>"
 msgstr "<1/> <2/> kaybettiği için <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.occupyingYourRegionsMalusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:247
+#: src/components/_military/battle/BattleDamageBonuses.tsx:251
 msgid "<0>{0}</0> because <1/> occupies at least one of <2/> regions"
 msgstr "<1/> <2/> bölgelerinden en az birini işgal ettiği için <0>{0}</0>"
 
@@ -625,19 +625,19 @@ msgstr ""
 
 #. placeholder {0}: sideBonus.regionAttackBonusPercent
 #. placeholder {0}: sideBonus.regionDefenseBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:174
-#: src/components/_military/battle/BattleDamageBonuses.tsx:190
+#: src/components/_military/battle/BattleDamageBonuses.tsx:178
+#: src/components/_military/battle/BattleDamageBonuses.tsx:194
 msgid "<0>{0}</0> from <1/> in <2/>"
 msgstr "<2/>'daki <1/>'dan <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.resistanceBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:237
+#: src/components/_military/battle/BattleDamageBonuses.tsx:241
 msgid "<0>{0}</0> from <1>Resistance</1>"
 msgstr "<1>Direniş</1>'ten <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.defensivePactBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:122
-msgid "<0>{0}</0> from a defensive pact"
+msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr ""
 
 #. placeholder {0}: region.ethicDepositBonus
@@ -651,7 +651,7 @@ msgid "<0>{0}</0> from deposit resources."
 msgstr "Maden yataklarından <0>{0}</0> bonus"
 
 #. placeholder {0}: sideBonus.allyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:279
+#: src/components/_military/battle/BattleDamageBonuses.tsx:283
 msgid "<0>{0}</0> from Diplomatic ethics (fighting for ally)"
 msgstr "Diplomatik İlkeler'den <0>{0}</0> bonus"
 
@@ -666,22 +666,22 @@ msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "Sanayicilik İlkesi uzmanlık bonusundan <0>{0}</0>."
 
 #. placeholder {0}: sideBonus.enemyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:289
+#: src/components/_military/battle/BattleDamageBonuses.tsx:293
 msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
 msgstr "İzolasyoncu İlke (düşmanla savaşma) bonusundan <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.militarismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:259
+#: src/components/_military/battle/BattleDamageBonuses.tsx:263
 msgid "<0>{0}</0> from Militarist ethics (attacking)"
 msgstr "Militarist İlke (saldırma) bonusundan <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:132
+#: src/components/_military/battle/BattleDamageBonuses.tsx:136
 msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<1/>'ın savaş emirlerinden <0>{0}</0>"
 
 #. placeholder {0}: sideBonus.pacifismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:269
+#: src/components/_military/battle/BattleDamageBonuses.tsx:273
 msgid "<0>{0}</0> from Pacifist ethics (defending)"
 msgstr "Pasifist İlke (savunma) bonusundan <0>{0}</0>"
 
@@ -1337,7 +1337,7 @@ msgstr "Aktif inşaat"
 msgid "Active War"
 msgstr "Aktif Savaş"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:175
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:188
 msgid "Active wars"
 msgstr "Aktif savaşlar"
 
@@ -1464,7 +1464,7 @@ msgid "All types"
 msgstr "Tüm türler"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:134
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:147
 msgid "Alliance"
 msgstr ""
 
@@ -2947,11 +2947,11 @@ msgstr "Günlük"
 msgid "Daily maintenance"
 msgstr "Günlük bakım ücreti"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:268
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:279
 msgid "Daily maintenance paid in paper per active pact, scaled by your average development."
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:159
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:172
 msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
 msgstr ""
 
@@ -3110,7 +3110,7 @@ msgstr "Savunan"
 msgid "Defenders"
 msgstr "Savunanlar"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:249
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:260
 msgid "Defensive pact"
 msgstr ""
 
@@ -5410,7 +5410,7 @@ msgstr "Aktif ilke yok - Dengeli"
 msgid "No active job offer"
 msgstr "Aktif iş teklifi yok"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:183
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:196
 msgid "No active wars"
 msgstr "Aktif savaş yok"
 
@@ -5458,7 +5458,7 @@ msgstr "Henüz katkı yok"
 msgid "No damages ranking yet."
 msgstr "Henüz hasar sıralaması yok."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:283
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:291
 msgid "No defensive pact"
 msgstr ""
 
@@ -5540,7 +5540,7 @@ msgstr "Davetçi belirlenmedi"
 msgid "No skins equipped"
 msgstr "Giyilen kostüm yok"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:241
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:252
 msgid "No sworn enemy"
 msgstr "Baş düşman yok"
 
@@ -5608,7 +5608,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Ne övgülük ne utançlık"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:149
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:162
 msgid "Not in any alliance"
 msgstr ""
 
@@ -7439,7 +7439,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Başkomutan"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:192
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:205
 msgid "Sworn enemy"
 msgstr "Baş düşman"
 
@@ -7825,6 +7825,10 @@ msgstr "Toplam hasar"
 #: src/components/_economy/donation/DonationList.tsx:65
 msgid "Total Donated:"
 msgstr "Toplam bağış:"
+
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:297
+msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
+msgstr ""
 
 #: src/components/_user/badgeCollection/Badge.tsx:57
 msgid "Total reward"
