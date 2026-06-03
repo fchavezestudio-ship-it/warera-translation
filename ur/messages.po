@@ -70,7 +70,7 @@ msgid "{0} & allies"
 msgstr "{0} اور اتحادی"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:126
+#: src/components/_political/law/Law.tsx:137
 msgid "{0} active citizens required"
 msgstr "{0} فعال شہریوں کی ضرورت"
 
@@ -91,7 +91,7 @@ msgstr "{0} مفت"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:117
+#: src/components/_political/law/Law.tsx:128
 #: src/components/_political/partyMotion/PartyMotion.tsx:109
 msgid "{0} hours"
 msgstr "{0} گھنٹے"
@@ -205,12 +205,12 @@ msgid "<0/> bought your banner{0}!"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:464
+#: src/components/_political/law/law.frontConfig.tsx:443
 msgid "<0/> buys <1/> for <2>{0}</2>"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:475
+#: src/components/_political/law/law.frontConfig.tsx:454
 msgid "<0/> buys your region <1/> for <2>{0}</2>"
 msgstr "<0/> نے آپ کا علاقہ <1/> <2>{0}</2> پر خرید لیا ہے"
 
@@ -331,7 +331,7 @@ msgstr "<0/> نے <1/> میں بغاوت کے لیے پیسا مہیا کیا ہ
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "<0/> <1/> کے اتحادی بنے ہیں"
 
-#: src/components/_political/law/law.frontConfig.tsx:413
+#: src/components/_political/law/law.frontConfig.tsx:392
 msgid "<0/> has invited your country to join."
 msgstr ""
 
@@ -438,7 +438,7 @@ msgstr "<0/> نے فیس ادا کی"
 msgid "<0/> Priority ends in <1/>"
 msgstr "<0/> Priority ends in <1/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:316
+#: src/components/_political/law/law.frontConfig.tsx:295
 msgid "<0/> proposed a mutual defensive pact to your country."
 msgstr ""
 
@@ -493,11 +493,11 @@ msgstr "<0/> نے <1/> پر قابو پا لیا ہے"
 msgid "<0/> vs <1/> war"
 msgstr "<0/> بمقابلہ <1/> جنگ"
 
-#: src/components/_political/law/law.frontConfig.tsx:95
+#: src/components/_political/law/law.frontConfig.tsx:93
 msgid "<0/> wants peace"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:105
+#: src/components/_political/law/law.frontConfig.tsx:103
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> آپ کے ملک ساتھ امن کرنا چاہتا "
 
@@ -706,7 +706,7 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr ""
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:102
+#: src/components/_political/law/Law.tsx:113
 msgid "<0>{0}</0>/day"
 msgstr ""
 
@@ -1240,7 +1240,7 @@ msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:176
+#: src/components/_political/law/Law.tsx:187
 #: src/components/_political/partyMotion/PartyMotion.tsx:169
 msgid "Abstain"
 msgstr "اجتناب کریں"
@@ -1254,31 +1254,31 @@ msgid "Abusing this power to advantage another country will lead to a <0>ban.</0
 msgstr "کسی دوسرے ملک کو فائدہ پہنچانے کے لیے اس سکت کا ناجائذ استعمال <0>پابندی</0> کا باعث بنے گا۔"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:165
+#: src/components/_political/law/Law.tsx:176
 #: src/components/_political/partyMotion/PartyMotion.tsx:158
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "قبول کریں"
 
-#: src/components/_political/law/law.frontConfig.tsx:307
+#: src/components/_political/law/law.frontConfig.tsx:286
 msgid "Accept a defensive pact with <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:301
+#: src/components/_political/law/law.frontConfig.tsx:280
 #: src/components/_political/law/lawNames.tsx:41
 msgid "Accept defensive pact"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:460
+#: src/components/_political/law/law.frontConfig.tsx:439
 msgid "Accept or reject a region buy offer"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:90
+#: src/components/_political/law/law.frontConfig.tsx:88
 #: src/components/_political/law/lawNames.tsx:13
 msgid "Accept peace"
 msgstr "امن کو قبول کریں"
 
-#: src/components/_political/law/law.frontConfig.tsx:91
+#: src/components/_political/law/law.frontConfig.tsx:89
 msgid "Accept to make peace with the other country"
 msgstr ""
 
@@ -1337,7 +1337,7 @@ msgstr ""
 msgid "Active War"
 msgstr "فعال جنگ"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:188
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:190
 msgid "Active wars"
 msgstr "فعال جنگیں"
 
@@ -1349,8 +1349,8 @@ msgstr "سرگرمی"
 msgid "Add User"
 msgstr "اس صارف کو ڈالیں"
 
-#: src/components/_political/law/Law.tsx:90
-#: src/components/_political/law/LawFormModal.tsx:328
+#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/LawFormModal.tsx:327
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
@@ -1464,7 +1464,7 @@ msgid "All types"
 msgstr "ساری قسمیں"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:147
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:149
 msgid "Alliance"
 msgstr ""
 
@@ -1493,8 +1493,8 @@ msgstr ""
 msgid "Alliance laws"
 msgstr ""
 
+#: src/components/_political/law/LawFormModal.tsx:201
 #: src/components/_political/law/LawFormModal.tsx:202
-#: src/components/_political/law/LawFormModal.tsx:203
 msgid "Alliance name"
 msgstr ""
 
@@ -1528,8 +1528,8 @@ msgstr "گولہ بارود"
 msgid "Ammo:"
 msgstr "گولہ بارود:"
 
+#: src/components/_political/law/LawFormModal.tsx:275
 #: src/components/_political/law/LawFormModal.tsx:276
-#: src/components/_political/law/LawFormModal.tsx:277
 msgid "Amount"
 msgstr ""
 
@@ -1558,7 +1558,7 @@ msgstr ""
 msgid "An alliance has been formed"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:400
+#: src/components/_political/law/law.frontConfig.tsx:379
 msgid "An alliance has invited your country to join"
 msgstr ""
 
@@ -1574,7 +1574,7 @@ msgstr ""
 msgid "Animated <0>GIF</0> as avatar"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:302
+#: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
 
@@ -1689,7 +1689,7 @@ msgstr ""
 msgid "Armor"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:243
+#: src/components/_political/law/LawFormModal.tsx:242
 msgid "Article ID"
 msgstr ""
 
@@ -1846,6 +1846,10 @@ msgstr "خودکار انجن"
 msgid "Avatar removed"
 msgstr "اوتار حذف ہو گیا"
 
+#: src/components/_political/law/LawCostExplanation.tsx:44
+msgid "Average development"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:200
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
 msgstr ""
@@ -1902,6 +1906,10 @@ msgstr ""
 #: src/components/_user/user/UserHeader.tsx:185
 #: src/components/_user/user/UserHeader.tsx:233
 msgid "Bans"
+msgstr ""
+
+#: src/components/_political/law/LawCostExplanation.tsx:38
+msgid "Base cost"
 msgstr ""
 
 #: src/utils/translations.tsx:203
@@ -2026,7 +2034,7 @@ msgid "Bone Club"
 msgstr ""
 
 #: src/components/_military/battle/BattleDamageBonuses.tsx:62
-#: src/components/_political/law/law.frontConfig.tsx:245
+#: src/components/_political/law/law.frontConfig.tsx:234
 msgid "Bonus damages"
 msgstr ""
 
@@ -2056,7 +2064,7 @@ msgstr ""
 msgid "Bread"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:326
+#: src/components/_political/law/law.frontConfig.tsx:305
 #: src/components/_political/law/lawNames.tsx:42
 msgid "Break defensive pact"
 msgstr ""
@@ -2065,7 +2073,7 @@ msgstr ""
 msgid "Break room"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:332
+#: src/components/_political/law/law.frontConfig.tsx:311
 msgid "Break the defensive pact with <0/>"
 msgstr ""
 
@@ -2122,7 +2130,7 @@ msgid "Buy <0/>"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:492
+#: src/components/_political/law/law.frontConfig.tsx:471
 msgid "Buy <0/> from <1/> for <2>{0}</2>"
 msgstr ""
 
@@ -2273,11 +2281,11 @@ msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr ""
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:66
+#: src/components/_political/law/law.frontConfig.tsx:64
 msgid "Change {0} tax to <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:62
+#: src/components/_political/law/law.frontConfig.tsx:60
 msgid "Change a country tax"
 msgstr ""
 
@@ -2300,7 +2308,7 @@ msgstr ""
 msgid "Change production"
 msgstr "پیداوار بدلیں"
 
-#: src/components/_political/law/law.frontConfig.tsx:61
+#: src/components/_political/law/law.frontConfig.tsx:59
 #: src/components/_political/law/lawNames.tsx:12
 msgid "Change tax"
 msgstr "حصولی بدلیں"
@@ -2314,13 +2322,13 @@ msgstr ""
 msgid "Change the color scheme of the alliance."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:566
+#: src/components/_political/law/law.frontConfig.tsx:545
 msgid "Change the country color scheme"
 msgstr ""
 
 #. placeholder {0}: law.data.scheme
 #. placeholder {1}: law.data.mapAccent
-#: src/components/_political/law/law.frontConfig.tsx:572
+#: src/components/_political/law/law.frontConfig.tsx:551
 msgid "Change the country color scheme to <0>{0}</0> with a <1>{1}</1> map accent"
 msgstr ""
 
@@ -2329,7 +2337,7 @@ msgid "Change the name of the alliance."
 msgstr ""
 
 #. placeholder {0}: law.data.taxType
-#: src/components/_political/law/law.frontConfig.tsx:77
+#: src/components/_political/law/law.frontConfig.tsx:75
 msgid "Change the tax of {0} to"
 msgstr ""
 
@@ -2453,7 +2461,7 @@ msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:41
-#: src/components/_political/law/LawTypeSelect.tsx:57
+#: src/components/_political/law/LawTypeSelect.tsx:60
 msgid "Click to select law"
 msgstr ""
 
@@ -2713,7 +2721,7 @@ msgstr ""
 msgid "Cooked Fish"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:114
+#: src/components/_political/law/Law.tsx:125
 #: src/components/_political/partyMotion/PartyMotion.tsx:106
 msgid "Cool down"
 msgstr ""
@@ -2745,11 +2753,6 @@ msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:46
 msgid "Corporal"
-msgstr ""
-
-#: src/components/_political/law/law.frontConfig.tsx:236
-#: src/components/_political/law/law.frontConfig.tsx:288
-msgid "Cost"
 msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:223
@@ -2841,7 +2844,7 @@ msgstr ""
 
 #. placeholder {0}: law.data.name
 #. placeholder {1}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:362
+#: src/components/_political/law/law.frontConfig.tsx:341
 msgid "Create a new alliance named <0>{0}</0> with <1>{1}</1> color scheme."
 msgstr ""
 
@@ -2854,13 +2857,13 @@ msgstr ""
 msgid "Create a party"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:351
+#: src/components/_political/law/law.frontConfig.tsx:330
 #: src/components/_political/law/lawNames.tsx:25
 msgid "Create alliance"
 msgstr ""
 
 #. placeholder {0}: law.data.name
-#: src/components/_political/law/law.frontConfig.tsx:356
+#: src/components/_political/law/law.frontConfig.tsx:335
 msgid "Create alliance {0}"
 msgstr ""
 
@@ -2943,15 +2946,11 @@ msgid "Daily"
 msgstr ""
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:39
-#: src/components/_political/law/LawTypeSelect.tsx:174
+#: src/components/_political/law/LawTypeSelect.tsx:188
 msgid "Daily maintenance"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:279
-msgid "Daily maintenance paid in paper per active pact, scaled by your average development."
-msgstr ""
-
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:172
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:174
 msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
 msgstr ""
 
@@ -2993,8 +2992,8 @@ msgstr ""
 msgid "Danger zone"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:218
-#: src/components/_political/law/LawFormModal.tsx:297
+#: src/components/_political/law/LawFormModal.tsx:217
+#: src/components/_political/law/LawFormModal.tsx:296
 msgid "Dark"
 msgstr ""
 
@@ -3070,17 +3069,17 @@ msgstr ""
 msgid "Debuffs:"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:115
+#: src/components/_political/law/law.frontConfig.tsx:113
 #: src/components/_political/law/lawNames.tsx:14
 msgid "Declare war"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:120
-#: src/components/_political/law/law.frontConfig.tsx:129
+#: src/components/_political/law/law.frontConfig.tsx:118
+#: src/components/_political/law/law.frontConfig.tsx:127
 msgid "Declare war to <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:116
+#: src/components/_political/law/law.frontConfig.tsx:114
 msgid "Declare war to another country"
 msgstr ""
 
@@ -3110,23 +3109,23 @@ msgstr ""
 msgid "Defenders"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:260
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:262
 msgid "Defensive pact"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:229
+#: src/components/_political/law/law.frontConfig.tsx:227
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:219
+#: src/components/_political/law/law.frontConfig.tsx:217
 msgid "Define <0/> as enemy"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:215
+#: src/components/_political/law/law.frontConfig.tsx:213
 msgid "Define a country as an enemy to get bonus against"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:214
+#: src/components/_political/law/law.frontConfig.tsx:212
 #: src/components/_political/law/lawNames.tsx:24
 msgid "Define a sworn enemy"
 msgstr ""
@@ -3362,7 +3361,7 @@ msgstr ""
 msgid "Eco Mode"
 msgstr ""
 
-#: src/components/_political/law/LawTypeSelect.tsx:108
+#: src/components/_political/law/LawTypeSelect.tsx:111
 msgid "Economic laws"
 msgstr ""
 
@@ -3447,8 +3446,9 @@ msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:78
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:80
-#: src/components/_political/law/LawTypeSelect.tsx:162
+#: src/components/_political/law/Law.tsx:83
+#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/LawTypeSelect.tsx:176
 #: src/components/_political/partyMotion/PartyMotion.tsx:89
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
 msgid "Enacting cost"
@@ -3458,11 +3458,11 @@ msgstr ""
 msgid "Enchanted Trousers"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:327
+#: src/components/_political/law/law.frontConfig.tsx:306
 msgid "End an existing defensive pact with another country"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:341
+#: src/components/_political/law/law.frontConfig.tsx:320
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
@@ -3490,7 +3490,7 @@ msgstr ""
 msgid "Ensign"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:244
+#: src/components/_political/law/LawFormModal.tsx:243
 msgid "Enter article ID"
 msgstr ""
 
@@ -3747,15 +3747,15 @@ msgstr ""
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:635
+#: src/components/_political/law/law.frontConfig.tsx:614
 msgid "Finance a resistance to liberate an occupied region"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:648
+#: src/components/_political/law/law.frontConfig.tsx:627
 msgid "Finance a revolt to liberate <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:634
+#: src/components/_political/law/law.frontConfig.tsx:613
 #: src/components/_political/law/lawNames.tsx:38
 msgid "Finance foreign resistance"
 msgstr ""
@@ -3764,7 +3764,7 @@ msgstr ""
 msgid "Finance local resistance"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:639
+#: src/components/_political/law/law.frontConfig.tsx:618
 msgid "Finance resistance in <0/>"
 msgstr ""
 
@@ -3835,7 +3835,7 @@ msgstr ""
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:353
+#: src/components/_political/law/law.frontConfig.tsx:332
 msgid "Found a new alliance with your country as founding member"
 msgstr ""
 
@@ -4212,11 +4212,11 @@ msgstr ""
 msgid "Imagine wasting your click on this"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:191
+#: src/components/_political/law/law.frontConfig.tsx:189
 msgid "Impeach <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:185
+#: src/components/_political/law/law.frontConfig.tsx:183
 #: src/components/_political/law/lawNames.tsx:22
 msgid "Impeach congress member"
 msgstr ""
@@ -4225,13 +4225,13 @@ msgstr ""
 msgid "Impeach party leader"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:177
+#: src/components/_political/law/law.frontConfig.tsx:175
 #: src/components/_political/law/lawNames.tsx:20
 msgid "Impeach president"
 msgstr ""
 
+#: src/components/_political/law/law.frontConfig.tsx:176
 #: src/components/_political/law/law.frontConfig.tsx:178
-#: src/components/_political/law/law.frontConfig.tsx:180
 msgid "Impeach the current president"
 msgstr ""
 
@@ -4275,7 +4275,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:254
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Income tax"
 msgstr ""
 
@@ -4403,7 +4403,7 @@ msgstr ""
 msgid "Jobs"
 msgstr "نوکریاں"
 
-#: src/components/_political/law/law.frontConfig.tsx:405
+#: src/components/_political/law/law.frontConfig.tsx:384
 msgid "Join <0/>"
 msgstr ""
 
@@ -4411,7 +4411,7 @@ msgstr ""
 msgid "Join a Military Unit"
 msgstr "عسکری دستے میں شریک ہوئیں"
 
-#: src/components/_political/law/law.frontConfig.tsx:399
+#: src/components/_political/law/law.frontConfig.tsx:378
 #: src/components/_political/law/lawNames.tsx:27
 msgid "Join alliance"
 msgstr ""
@@ -4545,7 +4545,7 @@ msgid "Launch primary election"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:58
+#: src/components/_political/law/Law.tsx:61
 msgid "Law failed"
 msgstr "قانون ناکامیاب ہو گیا"
 
@@ -4557,7 +4557,7 @@ msgstr "قانون پیش کیا گیا"
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
 #: src/pages/country/[countryId]/index.tsx:172
-#: src/pages/country/[countryId]/laws.tsx:24
+#: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "قانون"
 
@@ -4573,15 +4573,15 @@ msgstr ""
 msgid "Leave"
 msgstr "نکلیں"
 
-#: src/components/_political/law/law.frontConfig.tsx:379
+#: src/components/_political/law/law.frontConfig.tsx:358
 msgid "Leave <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:388
+#: src/components/_political/law/law.frontConfig.tsx:367
 msgid "Leave <0/>."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:373
+#: src/components/_political/law/law.frontConfig.tsx:352
 #: src/components/_political/law/lawNames.tsx:26
 msgid "Leave alliance"
 msgstr ""
@@ -4600,7 +4600,7 @@ msgstr "کانگریس سے نکلیں"
 msgid "Leave government"
 msgstr "حکومت سے نکلیں"
 
-#: src/components/_political/law/law.frontConfig.tsx:374
+#: src/components/_political/law/law.frontConfig.tsx:353
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
@@ -4645,15 +4645,15 @@ msgstr ""
 msgid "Level up!"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:519
+#: src/components/_political/law/law.frontConfig.tsx:498
 msgid "Liberate <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:528
+#: src/components/_political/law/law.frontConfig.tsx:507
 msgid "Liberate <0/> and return it to its original country"
 msgstr "<0/> کو آزاد کریں اور اس کو اس کے اصل ملک لٹائیں"
 
-#: src/components/_political/law/law.frontConfig.tsx:514
+#: src/components/_political/law/law.frontConfig.tsx:493
 #: src/components/_political/law/lawNames.tsx:32
 msgid "Liberate a region"
 msgstr "ایک علاقے کو آزاد کریں"
@@ -4662,8 +4662,8 @@ msgstr "ایک علاقے کو آزاد کریں"
 msgid "Lieutenant"
 msgstr "لیفٹیننٹ"
 
-#: src/components/_political/law/LawFormModal.tsx:216
-#: src/components/_political/law/LawFormModal.tsx:295
+#: src/components/_political/law/LawFormModal.tsx:215
+#: src/components/_political/law/LawFormModal.tsx:294
 msgid "Light"
 msgstr ""
 
@@ -4784,7 +4784,7 @@ msgstr "قسمت آخرکار چھا گئی"
 msgid "Mage Robe"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:99
+#: src/components/_political/law/Law.tsx:110
 msgid "Maintenance cost"
 msgstr "استقراری لاگت"
 
@@ -4814,8 +4814,8 @@ msgstr "نقشہ"
 msgid "Map"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:213
-#: src/components/_political/law/LawFormModal.tsx:292
+#: src/components/_political/law/LawFormModal.tsx:212
+#: src/components/_political/law/LawFormModal.tsx:291
 msgid "Map Accent"
 msgstr ""
 
@@ -4828,7 +4828,7 @@ msgid "Market"
 msgstr "منڈی"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:258
+#: src/components/_political/law/LawFormModal.tsx:257
 msgid "Market tax"
 msgstr ""
 
@@ -4998,7 +4998,7 @@ msgstr ""
 msgid "Military base"
 msgstr ""
 
-#: src/components/_political/law/LawTypeSelect.tsx:73
+#: src/components/_political/law/LawTypeSelect.tsx:76
 msgid "Military laws"
 msgstr ""
 
@@ -5039,7 +5039,7 @@ msgstr ""
 msgid "Min reached"
 msgstr ""
 
-#: src/components/_political/law/Law.tsx:124
+#: src/components/_political/law/Law.tsx:135
 msgid "Min. active citizens"
 msgstr ""
 
@@ -5410,7 +5410,7 @@ msgstr ""
 msgid "No active job offer"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:196
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:198
 msgid "No active wars"
 msgstr ""
 
@@ -5458,7 +5458,7 @@ msgstr ""
 msgid "No damages ranking yet."
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:291
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:306
 msgid "No defensive pact"
 msgstr ""
 
@@ -5540,7 +5540,7 @@ msgstr ""
 msgid "No skins equipped"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:252
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:254
 msgid "No sworn enemy"
 msgstr ""
 
@@ -5587,8 +5587,8 @@ msgstr ""
 msgid "Nominated at government"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:217
-#: src/components/_political/law/LawFormModal.tsx:296
+#: src/components/_political/law/LawFormModal.tsx:216
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Normal"
 msgstr ""
 
@@ -5608,7 +5608,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:162
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:164
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5765,7 +5765,7 @@ msgid "Other"
 msgstr "دوسرا"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:65
+#: src/components/_political/law/Law.tsx:68
 #: src/components/_political/partyMotion/PartyMotion.tsx:81
 msgid "Outcome"
 msgstr "نتیجہ"
@@ -6007,7 +6007,7 @@ msgstr "براہِ مہربانی ایک خطہ چنیں"
 msgid "Political"
 msgstr "سیاسی"
 
-#: src/components/_political/law/LawTypeSelect.tsx:90
+#: src/components/_political/law/LawTypeSelect.tsx:93
 msgid "Political laws"
 msgstr "سیاسی قانون"
 
@@ -6193,7 +6193,7 @@ msgstr ""
 msgid "Promoted to Commander"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:269
+#: src/components/_political/law/law.frontConfig.tsx:258
 msgid "Propose a defensive pact with <0/>"
 msgstr ""
 
@@ -6202,11 +6202,11 @@ msgstr ""
 msgid "Propose a motion"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:279
+#: src/components/_political/law/law.frontConfig.tsx:267
 msgid "Propose a mutual defensive pact with <0/>. Once accepted, defenders of either country get a bonus that starts at 1% and grows +1% per day up to 10%."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:264
+#: src/components/_political/law/law.frontConfig.tsx:253
 msgid "Propose a mutual defensive pact with another country to get a growing defensive bonus"
 msgstr ""
 
@@ -6215,13 +6215,13 @@ msgstr ""
 msgid "Propose alliance law"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:262
+#: src/components/_political/law/law.frontConfig.tsx:251
 #: src/components/_political/law/lawNames.tsx:40
 msgid "Propose defensive pact"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:198
-#: src/components/_political/law/LawFormModal.tsx:343
+#: src/components/_political/law/LawFormModal.tsx:342
 msgid "Propose law"
 msgstr ""
 
@@ -6229,31 +6229,31 @@ msgstr ""
 msgid "Propose motion"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:138
+#: src/components/_political/law/law.frontConfig.tsx:136
 #: src/components/_political/law/lawNames.tsx:15
 msgid "Propose peace"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:143
-#: src/components/_political/law/law.frontConfig.tsx:152
+#: src/components/_political/law/law.frontConfig.tsx:141
+#: src/components/_political/law/law.frontConfig.tsx:150
 msgid "Propose peace to <0/>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:139
+#: src/components/_political/law/law.frontConfig.tsx:137
 msgid "Propose peace to another country"
 msgstr ""
 
 #. placeholder {0}: law.data.amount ?? 0
-#: src/components/_political/law/law.frontConfig.tsx:503
+#: src/components/_political/law/law.frontConfig.tsx:482
 msgid "Propose to buy <0/> from <1/> for <2>{0}</2>"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:487
+#: src/components/_political/law/law.frontConfig.tsx:466
 #: src/components/_political/law/lawNames.tsx:31
 msgid "Propose to buy a region"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:488
+#: src/components/_political/law/law.frontConfig.tsx:467
 msgid "Propose to buy a region from another country"
 msgstr ""
 
@@ -6376,8 +6376,8 @@ msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:72
-#: src/components/_political/law/LawFormModal.tsx:179
+#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/LawFormModal.tsx:178
 msgid "Reason"
 msgstr ""
 
@@ -6454,7 +6454,7 @@ msgstr ""
 msgid "Region"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:459
+#: src/components/_political/law/law.frontConfig.tsx:438
 #: src/components/_political/law/lawNames.tsx:30
 msgid "Region buy offer"
 msgstr ""
@@ -6504,7 +6504,7 @@ msgid "Reinforced Pants"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:187
+#: src/components/_political/law/Law.tsx:198
 #: src/components/_political/partyMotion/PartyMotion.tsx:180
 msgid "Reject"
 msgstr ""
@@ -6524,7 +6524,7 @@ msgstr ""
 msgid "Remaining debuff duration"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:202
+#: src/components/_political/law/law.frontConfig.tsx:200
 msgid "Remove <0/> from congress due to inactivity"
 msgstr ""
 
@@ -6549,7 +6549,7 @@ msgstr ""
 msgid "Remove all"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:186
+#: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr ""
 
@@ -6569,7 +6569,7 @@ msgstr ""
 msgid "Remove Description"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:449
+#: src/components/_political/law/law.frontConfig.tsx:428
 #: src/components/_political/law/lawNames.tsx:29
 msgid "Remove enemy"
 msgstr ""
@@ -6717,7 +6717,7 @@ msgstr ""
 msgid "Restore your health!"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:515
+#: src/components/_political/law/law.frontConfig.tsx:494
 msgid "Return a region to its original country"
 msgstr ""
 
@@ -6916,12 +6916,12 @@ msgid "Select banner"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:50
-#: src/components/_political/law/LawTypeSelect.tsx:66
+#: src/components/_political/law/LawTypeSelect.tsx:69
 msgid "Select law type"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:214
-#: src/components/_political/law/LawFormModal.tsx:293
+#: src/components/_political/law/LawFormModal.tsx:213
+#: src/components/_political/law/LawFormModal.tsx:292
 msgid "Select map accent"
 msgstr ""
 
@@ -6972,7 +6972,7 @@ msgid "sells"
 msgstr ""
 
 #. placeholder {0}: law.data.amount
-#: src/components/_political/law/law.frontConfig.tsx:439
+#: src/components/_political/law/law.frontConfig.tsx:418
 msgid "Send <0>{0}</0> to <1/>"
 msgstr ""
 
@@ -7000,7 +7000,7 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:424
+#: src/components/_political/law/law.frontConfig.tsx:403
 msgid "Send money to another country"
 msgstr ""
 
@@ -7016,11 +7016,11 @@ msgstr ""
 msgid "Set a referrer"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:539
+#: src/components/_political/law/law.frontConfig.tsx:518
 msgid "Set a welcome article for your country"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:544
+#: src/components/_political/law/law.frontConfig.tsx:523
 msgid "Set a welcome article for your country<0/>"
 msgstr ""
 
@@ -7028,13 +7028,13 @@ msgstr ""
 msgid "Set bounty"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:565
+#: src/components/_political/law/law.frontConfig.tsx:544
 #: src/components/_political/law/lawNames.tsx:34
 msgid "Set country color"
 msgstr ""
 
 #. placeholder {0}: law.data.scheme
-#: src/components/_political/law/law.frontConfig.tsx:557
+#: src/components/_political/law/law.frontConfig.tsx:536
 msgid "Set country color to <0>{0}</0> "
 msgstr ""
 
@@ -7054,17 +7054,17 @@ msgstr ""
 msgid "Set Profile Picture"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:611
+#: src/components/_political/law/law.frontConfig.tsx:590
 #: src/components/_political/law/lawNames.tsx:36
 msgid "Set specialization item"
 msgstr ""
 
 #. placeholder {0}: ts[law.data.itemCode]
-#: src/components/_political/law/law.frontConfig.tsx:617
+#: src/components/_political/law/law.frontConfig.tsx:596
 msgid "Set the country's specialized item to <0>{0}</0>.<1/>The country strategic resources <2>Production Bonus</2> will be available for local companies producing this item."
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:612
+#: src/components/_political/law/law.frontConfig.tsx:591
 msgid "Set the country's specialized production item"
 msgstr ""
 
@@ -7072,7 +7072,7 @@ msgstr ""
 msgid "Set Username"
 msgstr ""
 
-#: src/components/_political/law/law.frontConfig.tsx:538
+#: src/components/_political/law/law.frontConfig.tsx:517
 #: src/components/_political/law/lawNames.tsx:33
 msgid "Set welcome article"
 msgstr ""
@@ -7226,7 +7226,7 @@ msgstr ""
 msgid "Specialization"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:319
+#: src/components/_political/law/LawFormModal.tsx:318
 msgid "Specialization item"
 msgstr ""
 
@@ -7242,8 +7242,8 @@ msgstr ""
 msgid "Spendings"
 msgstr ""
 
+#: src/components/_political/law/law.frontConfig.tsx:168
 #: src/components/_political/law/law.frontConfig.tsx:170
-#: src/components/_political/law/law.frontConfig.tsx:172
 msgid "Start a congress election, now"
 msgstr "کانگریس انتخابات شروع کریں، ابھی"
 
@@ -7262,8 +7262,8 @@ msgstr "ابھی کے ابھی جماعتی سربراہ کے انتخابات �
 msgid "Start a party primary election immediately"
 msgstr ""
 
+#: src/components/_political/law/law.frontConfig.tsx:160
 #: src/components/_political/law/law.frontConfig.tsx:162
-#: src/components/_political/law/law.frontConfig.tsx:164
 msgid "Start a presidential election, now"
 msgstr "صدراتی انتخابات شروع کریں، ابھی"
 
@@ -7272,12 +7272,12 @@ msgstr "صدراتی انتخابات شروع کریں، ابھی"
 msgid "Start a revolution to overthrow the government"
 msgstr "حکومت کو نیچے گرانے کے لیے انقلاب شروع کریں"
 
-#: src/components/_political/law/law.frontConfig.tsx:169
+#: src/components/_political/law/law.frontConfig.tsx:167
 #: src/components/_political/law/lawNames.tsx:19
 msgid "Start congress election"
 msgstr "کونگریس انتخابات شروع کریں"
 
-#: src/components/_political/law/law.frontConfig.tsx:161
+#: src/components/_political/law/law.frontConfig.tsx:159
 #: src/components/_political/law/lawNames.tsx:17
 msgid "Start presidential election"
 msgstr "صدراتی انتخابات شروع کریں"
@@ -7304,7 +7304,7 @@ msgid "Starting from the bottom..."
 msgstr ""
 
 #. placeholder {0}: gameConfig?.battle.enemyDamagesBonusPercent
-#: src/components/_political/law/law.frontConfig.tsx:247
+#: src/components/_political/law/law.frontConfig.tsx:236
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr ""
 
@@ -7439,7 +7439,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:205
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:207
 msgid "Sworn enemy"
 msgstr ""
 
@@ -7465,19 +7465,19 @@ msgstr ""
 msgid "Tank"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:193
+#: src/components/_political/law/LawFormModal.tsx:192
 msgid "Target country"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:231
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Target region"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:306
+#: src/components/_political/law/LawFormModal.tsx:305
 msgid "Target user"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:251
+#: src/components/_political/law/LawFormModal.tsx:250
 msgid "Tax type"
 msgstr ""
 
@@ -7535,6 +7535,10 @@ msgstr ""
 #. placeholder {0}: data.moneyRolledBack
 #: src/components/_user/notification/notification.frontConfig.tsx:1656
 msgid "The contract has been rolled back. <0>{0}</0> sent back to <1/>."
+msgstr ""
+
+#: src/components/_political/law/LawCostExplanation.tsx:32
+msgid "The cost is the law's base cost scaled by your country's average development."
 msgstr ""
 
 #: src/components/_user/user/skills.frontConfig.tsx:59
@@ -7615,16 +7619,16 @@ msgstr "یہ اس سب لوٹ کا خلاصہ ہے جو آپ نے اس جنگ س
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr ""
 
-#: src/components/_political/law/LawTypeSelect.tsx:186
+#: src/components/_political/law/LawTypeSelect.tsx:200
 msgid "This law can be abusive and requires 5+ possible voters in the country."
 msgstr ""
 
-#: src/components/_political/law/LawTypeSelect.tsx:180
+#: src/components/_political/law/LawTypeSelect.tsx:194
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:138
 msgid "This law has an additional variable cost"
 msgstr ""
 
-#: src/components/_political/law/LawTypeSelect.tsx:195
+#: src/components/_political/law/LawTypeSelect.tsx:209
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr ""
 
@@ -7808,6 +7812,7 @@ msgstr "کل"
 #: src/components/_economy/itemTrading/TradingOrders.tsx:88
 #: src/components/_economy/work/WorkChart.tsx:199
 #: src/components/_military/mu/MuMemberList.tsx:190
+#: src/components/_political/law/LawCostExplanation.tsx:50
 #: src/components/_user/user/WealthPanel.tsx:28
 #: src/pages/market/index.tsx:139
 #: src/pages/market/index.tsx:191
@@ -7826,7 +7831,7 @@ msgstr ""
 msgid "Total Donated:"
 msgstr "کل عطیہ دیا ہوا"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:297
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:312
 msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
 msgstr ""
 
@@ -7905,7 +7910,7 @@ msgstr "سودا"
 msgid "Transactions"
 msgstr "سودے"
 
-#: src/components/_political/law/law.frontConfig.tsx:423
+#: src/components/_political/law/law.frontConfig.tsx:402
 #: src/components/_political/law/lawNames.tsx:28
 msgid "Transfer money"
 msgstr "پیسے منتقل کریں"
@@ -7918,7 +7923,7 @@ msgstr "ملکیت منتقل کریں"
 msgid "Transfer to company (optional)"
 msgstr "کمپنی میں منتقل کریں (مرضی پر)"
 
-#: src/components/_political/law/law.frontConfig.tsx:428
+#: src/components/_political/law/law.frontConfig.tsx:407
 msgid "Transfer<0/> to <1/>"
 msgstr ""
 
@@ -8012,8 +8017,8 @@ msgstr "اضطراب کے شرکتی"
 msgid "Unselect all"
 msgstr "سب کچھ غیر منتخب کریں"
 
-#: src/components/_political/law/law.frontConfig.tsx:450
-#: src/components/_political/law/law.frontConfig.tsx:452
+#: src/components/_political/law/law.frontConfig.tsx:429
+#: src/components/_political/law/law.frontConfig.tsx:431
 msgid "Unset the sworn enemy country"
 msgstr ""
 
@@ -8435,7 +8440,7 @@ msgid "Whole Production"
 msgstr "ساری پیداوار"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:136
-#: src/components/_political/law/LawFormModal.tsx:180
+#: src/components/_political/law/LawFormModal.tsx:179
 msgid "Why do you want to propose this law?"
 msgstr "آپ یہ قانون کیوں پیش کرنا چاہتے ہیں؟"
 
@@ -8519,7 +8524,7 @@ msgstr ""
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:169
+#: src/components/_political/law/LawFormModal.tsx:168
 #: src/components/_political/law/LawList.tsx:52
 msgid "Write a law"
 msgstr "قانون لکھیں"
