@@ -113,11 +113,6 @@ msgstr ""
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} kierrosta tarvitaan taistelun voittamiseen."
 
-#. placeholder {0}: announcement.views ?? 0
-#: src/components/_political/government/GovernmentAnnouncement.tsx:40
-msgid "{0} views"
-msgstr ""
-
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -240,7 +235,7 @@ msgstr "<0/> valloitti alueen <1/>"
 msgid "<0/> created the conversation"
 msgstr "<0/> loi keskustelun"
 
-#: src/components/_political/event/event.frontConfig.tsx:174
+#: src/components/_political/event/event.frontConfig.tsx:180
 msgid "<0/> declared war on <1/>"
 msgstr "<0/> julisti sodan <1/> vastaan"
 
@@ -262,15 +257,15 @@ msgstr ""
 msgid "<0/> ended <1/>"
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:142
+#: src/components/_political/event/event.frontConfig.tsx:148
 msgid "<0/> financed a resistance war for <1/> in <2/>"
 msgstr "<0/> rahoitti vastarintasodan <1/>:lle alueella <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:149
+#: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> financed a revolt in <1/>"
 msgstr "<0/> rahoitti kapinan alueella <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:445
+#: src/components/_political/event/event.frontConfig.tsx:525
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> rahoitti kapinan alueella <1/> <2/>:n puolesta <3/> vastaan"
 
@@ -308,32 +303,40 @@ msgstr "<0/> on luotu, ja se alkaa pian!"
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> on valittu <1/>:n presidentiksi"
 
+#: src/components/_political/event/event.frontConfig.tsx:379
+msgid "<0/> has been excluded from the alliance <1/>"
+msgstr ""
+
 #. placeholder {0}: data.amount
-#: src/components/_political/event/event.frontConfig.tsx:210
+#: src/components/_political/event/event.frontConfig.tsx:216
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
 msgstr "<0/> on ostanut <1/> <2/>:n maalta hintaan <3>{0}</3>"
 
-#: src/components/_political/event/event.frontConfig.tsx:326
+#: src/components/_political/event/event.frontConfig.tsx:332
 msgid "<0/> has broken their alliance with <1/>"
 msgstr "<0/> on katkaissut liittonsa <1/> kanssa"
 
-#: src/components/_political/event/event.frontConfig.tsx:97
+#: src/components/_political/event/event.frontConfig.tsx:407
+msgid "<0/> has broken their defensive pact with <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:103
 msgid "<0/> has conquered <1/> against <2/>"
 msgstr "<0/> on valloittanut <1/> <2/>:n maalta"
 
-#: src/components/_political/event/event.frontConfig.tsx:116
+#: src/components/_political/event/event.frontConfig.tsx:122
 msgid "<0/> has defended <1/> against <2/>"
 msgstr "<0/> on puolustanut <1/> <2/> vastaan"
 
-#: src/components/_political/event/event.frontConfig.tsx:452
+#: src/components/_political/event/event.frontConfig.tsx:532
 msgid "<0/> has financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> on rahoittanut <2/>:n tukeman kapinan alueella <1/> <3/> vastaan"
 
-#: src/components/_political/event/event.frontConfig.tsx:369
+#: src/components/_political/event/event.frontConfig.tsx:449
 msgid "<0/> has financed resistance in <1/>"
 msgstr "<0/> on rahoittanut vastarintaa maassa <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:311
+#: src/components/_political/event/event.frontConfig.tsx:317
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "<0/> on muodostanut liiton <1/> kanssa"
 
@@ -341,9 +344,21 @@ msgstr "<0/> on muodostanut liiton <1/> kanssa"
 msgid "<0/> has invited your country to join."
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:226
+#: src/components/_political/event/event.frontConfig.tsx:349
+msgid "<0/> has joined the alliance <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:364
+msgid "<0/> has left the alliance <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:232
 msgid "<0/> has liberated <1/> and returned it to <2/>"
 msgstr "<0/> on vapauttanut <1/> ja palauttanut sen <2/>:lle"
+
+#: src/components/_political/event/event.frontConfig.tsx:393
+msgid "<0/> has signed a defensive pact with <1/>"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:951
 msgid "<0/> has started a revolution in <1/>"
@@ -353,12 +368,12 @@ msgstr "<0/> on aloittanut vallankumouksen maassa <1/>"
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> on alkanut! Taistelut alkakoon!"
 
-#: src/components/_political/event/event.frontConfig.tsx:383
+#: src/components/_political/event/event.frontConfig.tsx:463
 msgid "<0/> has suppressed resistance in <1/>"
 msgstr "<0/> on tukahduttanut vastarinnan maassa <1/>"
 
 #. placeholder {0}: data.money
-#: src/components/_political/event/event.frontConfig.tsx:253
+#: src/components/_political/event/event.frontConfig.tsx:259
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
 msgstr "<0/> on siirtänyt <1>{0}</1> <2/>:lle"
 
@@ -366,7 +381,7 @@ msgstr "<0/> on siirtänyt <1>{0}</1> <2/>:lle"
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> hyökkää kohteeseen <1/> maassa <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:160
+#: src/components/_political/event/event.frontConfig.tsx:166
 msgid "<0/> is attacking in <1/>"
 msgstr "<0/> hyökkää alueella <1/>"
 
@@ -374,11 +389,11 @@ msgstr "<0/> hyökkää alueella <1/>"
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> hyökkää maahasi alueella <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:298
+#: src/components/_political/event/event.frontConfig.tsx:304
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
 msgstr "<0/> on mennyt konkurssiin. Liittoutumat puretaan ja aluepäivitykset poistetaan käytöstä."
 
-#: src/components/_political/event/event.frontConfig.tsx:155
+#: src/components/_political/event/event.frontConfig.tsx:161
 msgid "<0/> is revolting in <1/>"
 msgstr "<0/> kapinoi alueella <1/>"
 
@@ -424,7 +439,7 @@ msgstr "<0/> pidin viestistäsi <1/>"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:241
+#: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> teki rauhan <1/>:n kanssa"
 
@@ -491,7 +506,7 @@ msgstr "<0/> tilasi sinulle artikkelisi <1/>"
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> antoi vihjeen artikkelillesi <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:196
+#: src/components/_political/event/event.frontConfig.tsx:202
 msgid "<0/> took control of <1/>"
 msgstr "<0/> otti haltuunsa <1/>"
 
@@ -507,7 +522,7 @@ msgstr ""
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> haluaa tehdä rauhan maasi kanssa"
 
-#: src/components/_political/event/event.frontConfig.tsx:191
+#: src/components/_political/event/event.frontConfig.tsx:197
 msgid "<0/> was elected president of <1/>"
 msgstr "<0/> valittiin <1/>:n presidentiksi"
 
@@ -1204,7 +1219,7 @@ msgstr "<0>tukimerkki</0>"
 msgid "A beautiful colored username that will make you very popular"
 msgstr "Kaunis värillinen käyttäjätunnus, joka tekee sinusta erittäin suositun"
 
-#: src/components/_political/event/event.frontConfig.tsx:398
+#: src/components/_political/event/event.frontConfig.tsx:478
 msgid "A civil war has started by <0/> in <1/>"
 msgstr "Sisällissota on syttynyt <0/>:n toimesta maassa <1/>"
 
@@ -1215,7 +1230,7 @@ msgstr "Tältä alueelta on löydetty talletus, jota yritykset voivat hyödyntä
 #. placeholder {0}: ts[data.itemCode]
 #. placeholder {1}: data.bonusPercent
 #. placeholder {2}: data.durationDays
-#: src/components/_political/event/event.frontConfig.tsx:266
+#: src/components/_political/event/event.frontConfig.tsx:272
 msgid "A deposit of <0>{0}</0> <1>{1}</1> has been found in <2/> for {2} days"
 msgstr "Talletus <0>{0}</0> <1>{1}</1> on löydetty <2/> {2} päivältä"
 
@@ -1229,7 +1244,7 @@ msgstr ""
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:137
+#: src/components/_political/event/event.frontConfig.tsx:143
 msgid "A revolution has started in <0/>"
 msgstr "Vallankumous on alkanut maassa <0/>"
 
@@ -1311,7 +1326,7 @@ msgstr "Tili"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:84
 msgid "Actions"
 msgstr "Toiminnot"
 
@@ -1428,7 +1443,7 @@ msgstr "Kaikki rajojesi koka-, vilja-, karja- ja kalavarannot antavat <0>+{0}</0
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr "Kaikki yritykset rajoillasi saavat <0>+{0}</0> bonusta ammuksiin tai rakennusalan erikoistumiseen."
 
-#: src/components/_political/event/EventList.tsx:134
+#: src/components/_political/event/EventList.tsx:154
 msgid "All event types"
 msgstr "Kaikki tapahtumatyypit"
 
@@ -1556,11 +1571,11 @@ msgstr "Niiden yritysten määrä, jotka voit omistaa"
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:331
+#: src/components/_political/event/event.frontConfig.tsx:337
 msgid "An alliance has been broken"
 msgstr "Liitto on katkennut"
 
-#: src/components/_political/event/event.frontConfig.tsx:316
+#: src/components/_political/event/event.frontConfig.tsx:322
 msgid "An alliance has been formed"
 msgstr "Liitto on muodostettu"
 
@@ -1581,7 +1596,7 @@ msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animoitu <0>GIF</0> avatarina"
 
 #: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:141
+#: src/pages/country/[countryId]/government.tsx:144
 msgid "Announcement"
 msgstr ""
 
@@ -1654,11 +1669,11 @@ msgstr "Oletko varma, että haluat irtisanoa tämän työntekijän?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Oletko varma, että haluat potkia tämän jäsenen?"
 
-#: src/pages/country/[countryId]/government.tsx:109
+#: src/pages/country/[countryId]/government.tsx:112
 msgid "Are you sure you want to leave the congress?"
 msgstr "Oletko varma, että haluat poistua kongressista?"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:96
 msgid "Are you sure you want to leave the government?"
 msgstr "Oletko varma, että haluat erota hallituksesta?"
 
@@ -1678,7 +1693,7 @@ msgstr "Haluatko varmasti poistaa kaikki ostotilaukset?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Haluatko varmasti poistaa kaikki myyntitilaukset?"
 
-#: src/pages/country/[countryId]/government.tsx:166
+#: src/pages/country/[countryId]/government.tsx:160
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -1982,7 +1997,7 @@ msgstr "Taistelusaalisallas"
 msgid "Battle opened"
 msgstr "Taistelu avattu"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:99
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:103
 msgid "Battle Orders"
 msgstr "Taistelukäskyt"
 
@@ -2488,7 +2503,7 @@ msgstr "Valitse liike napsauttamalla"
 msgid "Climate"
 msgstr "Ilmasto"
 
-#: ../__ui/src/components/Modal/Modal.tsx:239
+#: ../__ui/src/components/Modal/Modal.tsx:240
 msgid "Close"
 msgstr "Sulje"
 
@@ -2658,7 +2673,7 @@ msgstr "Kongressissa on vähintään <0>{0} paikkaa</0>."
 msgid "Congress Member"
 msgstr "Kongressin jäsen"
 
-#: src/pages/country/[countryId]/government.tsx:73
+#: src/pages/country/[countryId]/government.tsx:75
 msgid "Congress members"
 msgstr "kongressin jäseniä"
 
@@ -2802,11 +2817,23 @@ msgstr "Maa"
 msgid "Country development income bonus"
 msgstr "Maan kehitystulopalkkio"
 
+#: src/components/_political/event/EventList.tsx:86
+msgid "Country excluded from alliance"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:78
+msgid "Country joined alliance"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:82
+msgid "Country left alliance"
+msgstr ""
+
 #: src/components/_economy/transaction/TransactionList.tsx:102
 msgid "Country Money Transfer"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:40
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:62
 msgid "Country Orders"
 msgstr "Maatilaukset"
 
@@ -3128,6 +3155,14 @@ msgstr "Puolustajat"
 msgid "Defensive pact"
 msgstr ""
 
+#: src/components/_political/event/EventList.tsx:94
+msgid "Defensive pact broken"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:90
+msgid "Defensive pact signed"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:227
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
 msgstr ""
@@ -3183,7 +3218,7 @@ msgid "Deposit discovered"
 msgstr "Talletus löydetty"
 
 #. placeholder {0}: ts[data.itemCode]
-#: src/components/_political/event/event.frontConfig.tsx:284
+#: src/components/_political/event/event.frontConfig.tsx:290
 msgid "Deposit of <0>{0}</0> has been depleted in <1/>"
 msgstr "Talletus <0>{0}</0> on käytetty loppuun <1/>"
 
@@ -4606,13 +4641,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Lähdetkö yrityksestä?"
 
-#: src/pages/country/[countryId]/government.tsx:108
-#: src/pages/country/[countryId]/government.tsx:113
+#: src/pages/country/[countryId]/government.tsx:111
+#: src/pages/country/[countryId]/government.tsx:116
 msgid "Leave congress"
 msgstr "Lähde kongressista"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:95
+#: src/pages/country/[countryId]/government.tsx:100
 msgid "Leave government"
 msgstr "Jätä hallitus"
 
@@ -5192,7 +5227,7 @@ msgstr "MU-taso nousi!"
 msgid "MU Monthly Levels"
 msgstr "MU:n kuukausitasot"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:59
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:72
 msgid "MU Orders"
 msgstr "MU tilaukset"
 
@@ -5465,7 +5500,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "Ei kansalaisia"
 
-#: src/pages/country/[countryId]/government.tsx:193
+#: src/pages/country/[countryId]/government.tsx:194
 msgid "No congress members"
 msgstr "Ei kongressin jäseniä"
 
@@ -5535,7 +5570,7 @@ msgstr "Tarjouksia ei löytynyt"
 msgid "No one nominated yet"
 msgstr "Kukaan ei ole vielä ehdolla"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:109
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:113
 msgid "No orders"
 msgstr "Ei tilauksia"
 
@@ -5762,7 +5797,7 @@ msgstr "Tiedustelija"
 msgid "Options"
 msgstr "Vaihtoehdot"
 
-#: src/components/_military/order/BattleOrderTags.tsx:24
+#: src/components/_military/order/BattleOrderTags.tsx:25
 msgid "Order"
 msgstr "Tilata"
 
@@ -5959,7 +5994,7 @@ msgstr "Odottaa"
 msgid "Pending wage reduction"
 msgstr "Odottaa palkan alennusta"
 
-#: src/components/_political/event/event.frontConfig.tsx:342
+#: src/components/_political/event/event.frontConfig.tsx:422
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Ihmiset ovat vihaisia, autokapina on alkanut <0/>"
 
@@ -6046,8 +6081,8 @@ msgstr "Politiikka ja hallitus"
 msgid "Popular Article"
 msgstr "Suosittu artikkeli"
 
-#: src/components/_political/government/AnnouncementForm.tsx:28
-#: src/pages/country/[countryId]/government.tsx:154
+#: src/components/_political/government/AnnouncementForm.tsx:17
+#: src/pages/country/[countryId]/government.tsx:171
 msgid "Post announcement"
 msgstr ""
 
@@ -6578,8 +6613,8 @@ msgstr "Poista kaikki"
 msgid "Remove an inactive congress member from its position"
 msgstr "Poista ei-aktiivinen kongressin jäsen asemastaan"
 
-#: src/pages/country/[countryId]/government.tsx:165
-#: src/pages/country/[countryId]/government.tsx:170
+#: src/pages/country/[countryId]/government.tsx:159
+#: src/pages/country/[countryId]/government.tsx:164
 msgid "Remove announcement"
 msgstr ""
 
@@ -6735,7 +6770,7 @@ msgstr ""
 msgid "Resources"
 msgstr "Resurssit"
 
-#: src/components/_political/event/EventList.tsx:80
+#: src/components/_political/event/EventList.tsx:100
 msgid "Resources reshuffled"
 msgstr "Resurssit jaettu uudelleen"
 
@@ -6763,11 +6798,11 @@ msgstr "Kapina alkoi!"
 msgid "Revolution {score}"
 msgstr ""
 
-#: src/components/_political/event/EventList.tsx:77
+#: src/components/_political/event/EventList.tsx:97
 msgid "Revolution ended"
 msgstr "Vallankumous päättyi"
 
-#: src/components/_political/event/EventList.tsx:76
+#: src/components/_political/event/EventList.tsx:96
 msgid "Revolution started"
 msgstr "Vallankumous alkoi"
 
@@ -7392,7 +7427,7 @@ msgstr "Strateginen resurssi"
 msgid "Strategic resources"
 msgstr "Strategiset resurssit"
 
-#: src/components/_political/event/event.frontConfig.tsx:356
+#: src/components/_political/event/event.frontConfig.tsx:436
 msgid "Strategic resources have been reshuffled across the whole map."
 msgstr "Strategiset resurssit on jaettu uudelleen koko kartalla."
 
@@ -7549,11 +7584,11 @@ msgstr "<0>Tuotantopisteet</0>, jotka keräät joka kerta kun työskentelet"
 msgid "The base value for <0>Damages</0> calculation."
 msgstr "Perusarvo <0>Vahinkojen</0> laskennassa."
 
-#: src/components/_political/event/event.frontConfig.tsx:430
+#: src/components/_political/event/event.frontConfig.tsx:510
 msgid "The civil war started by <0/> in <1/> has been suppressed"
 msgstr "Sisällissota, jonka <0/> aloitti maassa <1/>, on tukahdutettu"
 
-#: src/components/_political/event/event.frontConfig.tsx:414
+#: src/components/_political/event/event.frontConfig.tsx:494
 msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the government has been overthrown."
 msgstr "Sisällissota, jonka <0/> aloitti maassa <1/>, on onnistunut <2/>:n ansiosta ja hallitus on kaadettu."
 
@@ -7593,11 +7628,11 @@ msgstr "Käyttämiesi buffien vaikutus on päättynyt. Debuff-vaihe on alkanut j
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:82
+#: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
 msgstr "Vallankumous maassa <0/> on tukahdutettu. Hallitus pysyy vallassa."
 
-#: src/components/_political/event/event.frontConfig.tsx:68
+#: src/components/_political/event/event.frontConfig.tsx:74
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
 msgstr "<0/>:n vallankumous on onnistunut! Hallitus on kaadettu."
 
@@ -8064,10 +8099,6 @@ msgstr "Tuleva Turnaus"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Päivitä"
-
-#: src/pages/country/[countryId]/government.tsx:152
-msgid "Update announcement"
-msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8720,11 +8751,11 @@ msgstr "Sinut on siirretty paikasta <0/> paikkaan <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Olet käyttänyt <0>{0}</0>, sen vaikutus alkaa nyt ja päättyy <1>{buffDuration}h</1>:n kuluttua."
 
-#: src/pages/country/[countryId]/government.tsx:44
+#: src/pages/country/[countryId]/government.tsx:46
 msgid "You have resigned from the congress"
 msgstr "Olet eronnut kongressista"
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:38
 msgid "You have resigned from the government"
 msgstr "Olet eronnut hallituksesta"
 
@@ -8946,7 +8977,7 @@ msgstr "Tilisi on ilmoitettu automaattisesti huijaamisesta"
 msgid "Your ancestors are proud"
 msgstr "Esivanhempasi ovat ylpeitä"
 
-#: src/components/_political/government/AnnouncementForm.tsx:35
+#: src/components/_political/government/AnnouncementForm.tsx:23
 msgid "Your announcement to the country..."
 msgstr ""
 

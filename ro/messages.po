@@ -110,11 +110,6 @@ msgstr ""
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} runde sunt necesare pentru a câștiga această luptă."
 
-#. placeholder {0}: announcement.views ?? 0
-#: src/components/_political/government/GovernmentAnnouncement.tsx:40
-msgid "{0} views"
-msgstr ""
-
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -237,7 +232,7 @@ msgstr "<0/> a cucerit regiunea <1/>"
 msgid "<0/> created the conversation"
 msgstr "<0/> a creat convorbirea"
 
-#: src/components/_political/event/event.frontConfig.tsx:174
+#: src/components/_political/event/event.frontConfig.tsx:180
 msgid "<0/> declared war on <1/>"
 msgstr "<0/> a declarat război împotriva <1/>"
 
@@ -259,15 +254,15 @@ msgstr ""
 msgid "<0/> ended <1/>"
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:142
+#: src/components/_political/event/event.frontConfig.tsx:148
 msgid "<0/> financed a resistance war for <1/> in <2/>"
 msgstr "<0/> a finanțat o luptă de rezistență pentru <1/> în <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:149
+#: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> financed a revolt in <1/>"
 msgstr "<0/> a finanțat o revoltă în <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:445
+#: src/components/_political/event/event.frontConfig.tsx:525
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> a finanțat o revoltă în <1/> pentru <2/> împotriva <3/>"
 
@@ -305,32 +300,40 @@ msgstr "<0/> a fost creat, va începe în curând!"
 msgid "<0/> has been elected president of <1/>"
 msgstr "<0/> a fost ales președinte al <1/>"
 
+#: src/components/_political/event/event.frontConfig.tsx:379
+msgid "<0/> has been excluded from the alliance <1/>"
+msgstr ""
+
 #. placeholder {0}: data.amount
-#: src/components/_political/event/event.frontConfig.tsx:210
+#: src/components/_political/event/event.frontConfig.tsx:216
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
 msgstr "<0/> a cumpărat <1/> de la <2/> pentru <3>{0}</3>"
 
-#: src/components/_political/event/event.frontConfig.tsx:326
+#: src/components/_political/event/event.frontConfig.tsx:332
 msgid "<0/> has broken their alliance with <1/>"
 msgstr "<0/> a rupt alianța cu <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:97
+#: src/components/_political/event/event.frontConfig.tsx:407
+msgid "<0/> has broken their defensive pact with <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:103
 msgid "<0/> has conquered <1/> against <2/>"
 msgstr "<0/> a cucerit <1/> de la <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:116
+#: src/components/_political/event/event.frontConfig.tsx:122
 msgid "<0/> has defended <1/> against <2/>"
 msgstr "<0/> a apărat <1/> contra <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:452
+#: src/components/_political/event/event.frontConfig.tsx:532
 msgid "<0/> has financed a revolt in <1/> for <2/> against <3/>"
 msgstr "<0/> a finanțat o revoltă în <1/> pentru <2/> contra <3/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:369
+#: src/components/_political/event/event.frontConfig.tsx:449
 msgid "<0/> has financed resistance in <1/>"
 msgstr "<0/> a finanțat o luptă de rezistență în <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:311
+#: src/components/_political/event/event.frontConfig.tsx:317
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "<0/> s-a aliat cu <1/>"
 
@@ -338,9 +341,21 @@ msgstr "<0/> s-a aliat cu <1/>"
 msgid "<0/> has invited your country to join."
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:226
+#: src/components/_political/event/event.frontConfig.tsx:349
+msgid "<0/> has joined the alliance <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:364
+msgid "<0/> has left the alliance <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:232
 msgid "<0/> has liberated <1/> and returned it to <2/>"
 msgstr "<0/> a eliberat <1/> înapoi către <2/>"
+
+#: src/components/_political/event/event.frontConfig.tsx:393
+msgid "<0/> has signed a defensive pact with <1/>"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:951
 msgid "<0/> has started a revolution in <1/>"
@@ -350,12 +365,12 @@ msgstr "<0/> a început o revoluție în <1/>"
 msgid "<0/> has started! Let the battles begin!"
 msgstr "<0/> a început! Să înceapă luptele!"
 
-#: src/components/_political/event/event.frontConfig.tsx:383
+#: src/components/_political/event/event.frontConfig.tsx:463
 msgid "<0/> has suppressed resistance in <1/>"
 msgstr "<0/> a redus rezistența în <1/>"
 
 #. placeholder {0}: data.money
-#: src/components/_political/event/event.frontConfig.tsx:253
+#: src/components/_political/event/event.frontConfig.tsx:259
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
 msgstr "<0/> a transferat <1>{0}</1> la <2/>"
 
@@ -363,7 +378,7 @@ msgstr "<0/> a transferat <1>{0}</1> la <2/>"
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "<0/> atacă <1/> în <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:160
+#: src/components/_political/event/event.frontConfig.tsx:166
 msgid "<0/> is attacking in <1/>"
 msgstr "<0/> atacă la <1/>"
 
@@ -371,11 +386,11 @@ msgstr "<0/> atacă la <1/>"
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> atacă țara ta în <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:298
+#: src/components/_political/event/event.frontConfig.tsx:304
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
 msgstr "<0/> a dat faliment. Se rup toate alianțele și se dezactivează toate fortificațile."
 
-#: src/components/_political/event/event.frontConfig.tsx:155
+#: src/components/_political/event/event.frontConfig.tsx:161
 msgid "<0/> is revolting in <1/>"
 msgstr "<0/> se revoltă în <1/>"
 
@@ -421,7 +436,7 @@ msgstr "<0/> a apreciat mesajul tău <1/>"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:241
+#: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "<0/> a făcut pace cu <1/>"
 
@@ -488,7 +503,7 @@ msgstr "<0/> s-a abonat la tine de la articolul tău <1/>"
 msgid "<0/> tipped your article <1/>"
 msgstr "<0/> ți-a sponsorizat articolul <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:196
+#: src/components/_political/event/event.frontConfig.tsx:202
 msgid "<0/> took control of <1/>"
 msgstr "<0/> a preluat controlul în <1/>"
 
@@ -504,7 +519,7 @@ msgstr ""
 msgid "<0/> wants to make peace with your country"
 msgstr "<0/> propune un tratat de pace"
 
-#: src/components/_political/event/event.frontConfig.tsx:191
+#: src/components/_political/event/event.frontConfig.tsx:197
 msgid "<0/> was elected president of <1/>"
 msgstr "<0/> a fost ales președinte în <1/>"
 
@@ -1201,7 +1216,7 @@ msgstr "O <0>insignă de Susținător</0>"
 msgid "A beautiful colored username that will make you very popular"
 msgstr "Un nume de utilizator colorat care te va face foarte popular"
 
-#: src/components/_political/event/event.frontConfig.tsx:398
+#: src/components/_political/event/event.frontConfig.tsx:478
 msgid "A civil war has started by <0/> in <1/>"
 msgstr "Un război civil a fost declanșat de <0/> în <1/>"
 
@@ -1212,7 +1227,7 @@ msgstr "Un zăcământ a fost găsit în această regiune, poate fi exploatat de
 #. placeholder {0}: ts[data.itemCode]
 #. placeholder {1}: data.bonusPercent
 #. placeholder {2}: data.durationDays
-#: src/components/_political/event/event.frontConfig.tsx:266
+#: src/components/_political/event/event.frontConfig.tsx:272
 msgid "A deposit of <0>{0}</0> <1>{1}</1> has been found in <2/> for {2} days"
 msgstr "Un zăcământ de <0>{0}</0> <1>{1}</1> a fost descoperit în <2/>, care va dura {2} zile"
 
@@ -1226,7 +1241,7 @@ msgstr "O taxă de <0>{0}</0> e necesară pentru a accepta acest contract. Taxa 
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr "O taxă de <0>{0}</0> a fost necesară pentru acceptarea contractului. Taxa a fost returnată după îndeplinirea minimului de daune."
 
-#: src/components/_political/event/event.frontConfig.tsx:137
+#: src/components/_political/event/event.frontConfig.tsx:143
 msgid "A revolution has started in <0/>"
 msgstr "O revoluție a început în <0/>"
 
@@ -1308,7 +1323,7 @@ msgstr "Cont"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:84
 msgid "Actions"
 msgstr "Acțiuni"
 
@@ -1425,7 +1440,7 @@ msgstr "Toate zăcămintele de plante, cereale sau animale de pe teritoriul ță
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr "Toate companiile de pe teritoriul țării primesc un bonus de <0>+{0}</0> pentru producția specializată a articolelor de muniție sau construcție"
 
-#: src/components/_political/event/EventList.tsx:134
+#: src/components/_political/event/EventList.tsx:154
 msgid "All event types"
 msgstr "Toate tipurile de evenimente"
 
@@ -1553,11 +1568,11 @@ msgstr "Numărul de companii pe care le poți deține"
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr "Un admin a anulat contractul. <0>{0}</0> returnat la <1/>."
 
-#: src/components/_political/event/event.frontConfig.tsx:331
+#: src/components/_political/event/event.frontConfig.tsx:337
 msgid "An alliance has been broken"
 msgstr "O alianță a fost ruptă"
 
-#: src/components/_political/event/event.frontConfig.tsx:316
+#: src/components/_political/event/event.frontConfig.tsx:322
 msgid "An alliance has been formed"
 msgstr "O alianță a fost formată"
 
@@ -1578,7 +1593,7 @@ msgid "Animated <0>GIF</0> as avatar"
 msgstr "<0>GIF</0> animat ca avatar"
 
 #: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:141
+#: src/pages/country/[countryId]/government.tsx:144
 msgid "Announcement"
 msgstr ""
 
@@ -1651,11 +1666,11 @@ msgstr "Ești sigur că vrei să concediezi acest muncitor?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Ești sigur că vrei să dai afară acest membru?"
 
-#: src/pages/country/[countryId]/government.tsx:109
+#: src/pages/country/[countryId]/government.tsx:112
 msgid "Are you sure you want to leave the congress?"
 msgstr "Ești sigur că vrei să demisionezi din parlament?"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:96
 msgid "Are you sure you want to leave the government?"
 msgstr "Ești sigur că vrei să demisionezi din guvern?"
 
@@ -1675,7 +1690,7 @@ msgstr "Ești sigur că vrei să elimini toate comenzile de cumpărare?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Ești sigur că vrei să elimini toate comenzile de vânzare?"
 
-#: src/pages/country/[countryId]/government.tsx:166
+#: src/pages/country/[countryId]/government.tsx:160
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -1979,7 +1994,7 @@ msgstr "Prada luptei"
 msgid "Battle opened"
 msgstr "Bătălie deschisă"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:99
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:103
 msgid "Battle Orders"
 msgstr "Ordine de luptă"
 
@@ -2485,7 +2500,7 @@ msgstr "Click pentru a selecta o moțiune"
 msgid "Climate"
 msgstr "Climă"
 
-#: ../__ui/src/components/Modal/Modal.tsx:239
+#: ../__ui/src/components/Modal/Modal.tsx:240
 msgid "Close"
 msgstr "Închide"
 
@@ -2655,7 +2670,7 @@ msgstr "Parlamentul are minim <0>{0} locuri</0>."
 msgid "Congress Member"
 msgstr "Parlamentar"
 
-#: src/pages/country/[countryId]/government.tsx:73
+#: src/pages/country/[countryId]/government.tsx:75
 msgid "Congress members"
 msgstr "Parlamentari"
 
@@ -2799,11 +2814,23 @@ msgstr "Țară"
 msgid "Country development income bonus"
 msgstr "Venit bonus din dezvoltare pe țară"
 
+#: src/components/_political/event/EventList.tsx:86
+msgid "Country excluded from alliance"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:78
+msgid "Country joined alliance"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:82
+msgid "Country left alliance"
+msgstr ""
+
 #: src/components/_economy/transaction/TransactionList.tsx:102
 msgid "Country Money Transfer"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:40
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:62
 msgid "Country Orders"
 msgstr "Ordine țară"
 
@@ -3125,6 +3152,14 @@ msgstr "Apărători"
 msgid "Defensive pact"
 msgstr ""
 
+#: src/components/_political/event/EventList.tsx:94
+msgid "Defensive pact broken"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:90
+msgid "Defensive pact signed"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:227
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
 msgstr ""
@@ -3180,7 +3215,7 @@ msgid "Deposit discovered"
 msgstr "Zăcământ descoperit"
 
 #. placeholder {0}: ts[data.itemCode]
-#: src/components/_political/event/event.frontConfig.tsx:284
+#: src/components/_political/event/event.frontConfig.tsx:290
 msgid "Deposit of <0>{0}</0> has been depleted in <1/>"
 msgstr "Zăcământul de <0>{0}</0> din <1/> a fost epuizat."
 
@@ -4603,13 +4638,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Părăsești compania?"
 
-#: src/pages/country/[countryId]/government.tsx:108
-#: src/pages/country/[countryId]/government.tsx:113
+#: src/pages/country/[countryId]/government.tsx:111
+#: src/pages/country/[countryId]/government.tsx:116
 msgid "Leave congress"
 msgstr "Demisionează din parlament"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:95
+#: src/pages/country/[countryId]/government.tsx:100
 msgid "Leave government"
 msgstr "Demisionează din guvern"
 
@@ -5189,7 +5224,7 @@ msgstr "Avansare nivel UM!"
 msgid "MU Monthly Levels"
 msgstr "Nivele UM lunare"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:59
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:72
 msgid "MU Orders"
 msgstr "Ordine UM"
 
@@ -5462,7 +5497,7 @@ msgstr "Fără oferte"
 msgid "No citizens"
 msgstr "Niciun cetățean"
 
-#: src/pages/country/[countryId]/government.tsx:193
+#: src/pages/country/[countryId]/government.tsx:194
 msgid "No congress members"
 msgstr "Niciun parlamentar"
 
@@ -5532,7 +5567,7 @@ msgstr "Nu s-au găsit oferte"
 msgid "No one nominated yet"
 msgstr "Nimeni nominalizat"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:109
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:113
 msgid "No orders"
 msgstr "Fără ordine"
 
@@ -5759,7 +5794,7 @@ msgstr "Agent"
 msgid "Options"
 msgstr "Opțiuni"
 
-#: src/components/_military/order/BattleOrderTags.tsx:24
+#: src/components/_military/order/BattleOrderTags.tsx:25
 msgid "Order"
 msgstr "Ordin"
 
@@ -5956,7 +5991,7 @@ msgstr "În așteptare"
 msgid "Pending wage reduction"
 msgstr "Reducere salarială în așteptare"
 
-#: src/components/_political/event/event.frontConfig.tsx:342
+#: src/components/_political/event/event.frontConfig.tsx:422
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Oamenii sunt nervoși, o revoltă automată a început în <0/>"
 
@@ -6043,8 +6078,8 @@ msgstr "Politică & Guvernare"
 msgid "Popular Article"
 msgstr "Articol Popular"
 
-#: src/components/_political/government/AnnouncementForm.tsx:28
-#: src/pages/country/[countryId]/government.tsx:154
+#: src/components/_political/government/AnnouncementForm.tsx:17
+#: src/pages/country/[countryId]/government.tsx:171
 msgid "Post announcement"
 msgstr ""
 
@@ -6575,8 +6610,8 @@ msgstr "Elimină tot"
 msgid "Remove an inactive congress member from its position"
 msgstr "Demite un membru inactiv din parlament"
 
-#: src/pages/country/[countryId]/government.tsx:165
-#: src/pages/country/[countryId]/government.tsx:170
+#: src/pages/country/[countryId]/government.tsx:159
+#: src/pages/country/[countryId]/government.tsx:164
 msgid "Remove announcement"
 msgstr ""
 
@@ -6732,7 +6767,7 @@ msgstr ""
 msgid "Resources"
 msgstr "Resurse"
 
-#: src/components/_political/event/EventList.tsx:80
+#: src/components/_political/event/EventList.tsx:100
 msgid "Resources reshuffled"
 msgstr "Resurse redistribuite"
 
@@ -6760,11 +6795,11 @@ msgstr "Revolta a început!"
 msgid "Revolution {score}"
 msgstr ""
 
-#: src/components/_political/event/EventList.tsx:77
+#: src/components/_political/event/EventList.tsx:97
 msgid "Revolution ended"
 msgstr "Revoluția s-a încheiat"
 
-#: src/components/_political/event/EventList.tsx:76
+#: src/components/_political/event/EventList.tsx:96
 msgid "Revolution started"
 msgstr "Revoluția a început"
 
@@ -7389,7 +7424,7 @@ msgstr "Resursă strategică"
 msgid "Strategic resources"
 msgstr "Resurse strategice"
 
-#: src/components/_political/event/event.frontConfig.tsx:356
+#: src/components/_political/event/event.frontConfig.tsx:436
 msgid "Strategic resources have been reshuffled across the whole map."
 msgstr "Resursele strategice au fost reamestecate pe toată harta."
 
@@ -7546,11 +7581,11 @@ msgstr "Câte <0>Puncte de Producție</0> generezi când muncești"
 msgid "The base value for <0>Damages</0> calculation."
 msgstr "Valoarea de bază pentru calculul <0>Daunelor</0>"
 
-#: src/components/_political/event/event.frontConfig.tsx:430
+#: src/components/_political/event/event.frontConfig.tsx:510
 msgid "The civil war started by <0/> in <1/> has been suppressed"
 msgstr "Războiul civil pornit de <0/> în <1/> a fost suprimat"
 
-#: src/components/_political/event/event.frontConfig.tsx:414
+#: src/components/_political/event/event.frontConfig.tsx:494
 msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the government has been overthrown."
 msgstr "Războiul civil pornit de <0/> în <1/> a avut succes, iar guvernul și președintele au fost demiși."
 
@@ -7590,11 +7625,11 @@ msgstr "Efectul buffurilor tale consumate s-a încheiat. Faza de debuff a încep
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "UM va primi taxa de acceptare înapoi, plată parțială pentru daunele efectuate, și 10% taxă de penalizare de <0>{0}</0>. Ești sigur?"
 
-#: src/components/_political/event/event.frontConfig.tsx:82
+#: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
 msgstr "Revoluția din <0/> a fost suprimată. Guvernul rămâne la putere."
 
-#: src/components/_political/event/event.frontConfig.tsx:68
+#: src/components/_political/event/event.frontConfig.tsx:74
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
 msgstr "Revoluția din <0/> a avut succes! Guvernul și președintele au fost demiși."
 
@@ -8061,10 +8096,6 @@ msgstr "Turneu Viitor"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Schimbă"
-
-#: src/pages/country/[countryId]/government.tsx:152
-msgid "Update announcement"
-msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8717,11 +8748,11 @@ msgstr "Ai fost transferat de la <0/> la <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Ai consumat <0>{0}</0>, efectul începe acum și se termină în <1>{buffDuration}h</1>."
 
-#: src/pages/country/[countryId]/government.tsx:44
+#: src/pages/country/[countryId]/government.tsx:46
 msgid "You have resigned from the congress"
 msgstr "Ai demisionat din parlament"
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:38
 msgid "You have resigned from the government"
 msgstr "Ai demisionat din guvern"
 
@@ -8943,7 +8974,7 @@ msgstr "Contul tău a fost raportat automat pentru trișat"
 msgid "Your ancestors are proud"
 msgstr "Strămoșii tăi sunt mândri"
 
-#: src/components/_political/government/AnnouncementForm.tsx:35
+#: src/components/_political/government/AnnouncementForm.tsx:23
 msgid "Your announcement to the country..."
 msgstr ""
 

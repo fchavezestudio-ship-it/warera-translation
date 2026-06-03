@@ -112,11 +112,6 @@ msgstr "{0} اقترح قانوناً جديداً <0/>"
 msgid "{0} rounds are needed to win the battle."
 msgstr "مطلوب {0} جولات للفوز بالمعركة."
 
-#. placeholder {0}: announcement.views ?? 0
-#: src/components/_political/government/GovernmentAnnouncement.tsx:40
-msgid "{0} views"
-msgstr ""
-
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -239,7 +234,7 @@ msgstr "احتل <0/> المنطقة في <1/>"
 msgid "<0/> created the conversation"
 msgstr "قام <0/> بإنشاء المحادثة"
 
-#: src/components/_political/event/event.frontConfig.tsx:174
+#: src/components/_political/event/event.frontConfig.tsx:180
 msgid "<0/> declared war on <1/>"
 msgstr "أعلن <0/> الحرب على <1/>"
 
@@ -261,15 +256,15 @@ msgstr "قام <0/> بالحصول على <1/> من <2>{0}</2>"
 msgid "<0/> ended <1/>"
 msgstr "<0/> أنهى <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:142
+#: src/components/_political/event/event.frontConfig.tsx:148
 msgid "<0/> financed a resistance war for <1/> in <2/>"
 msgstr "موّل <0/> حرب مقاومة لصالح <1/> في <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:149
+#: src/components/_political/event/event.frontConfig.tsx:155
 msgid "<0/> financed a revolt in <1/>"
 msgstr "موّلت <0/> تمردًا في <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:445
+#: src/components/_political/event/event.frontConfig.tsx:525
 msgid "<0/> financed a revolt in <1/> for <2/> against <3/>"
 msgstr "موّل <0/> تمردًا في <1/> لصالح <2/> ضد <3/>"
 
@@ -307,32 +302,40 @@ msgstr "تم إنشاء <0/>، وسوف تبدأ قريباً!"
 msgid "<0/> has been elected president of <1/>"
 msgstr "تم انتخاب <0/> رئيساً لـ <1/>"
 
+#: src/components/_political/event/event.frontConfig.tsx:379
+msgid "<0/> has been excluded from the alliance <1/>"
+msgstr ""
+
 #. placeholder {0}: data.amount
-#: src/components/_political/event/event.frontConfig.tsx:210
+#: src/components/_political/event/event.frontConfig.tsx:216
 msgid "<0/> has bought <1/> from <2/> for <3>{0}</3>"
 msgstr "اشترى <0/> <1/> من <2/> مقابل <3>{0}</3>"
 
-#: src/components/_political/event/event.frontConfig.tsx:326
+#: src/components/_political/event/event.frontConfig.tsx:332
 msgid "<0/> has broken their alliance with <1/>"
 msgstr "أنهى <0/> تحالفها مع <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:97
+#: src/components/_political/event/event.frontConfig.tsx:407
+msgid "<0/> has broken their defensive pact with <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:103
 msgid "<0/> has conquered <1/> against <2/>"
 msgstr "احتل <0/> <1/> ضد <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:116
+#: src/components/_political/event/event.frontConfig.tsx:122
 msgid "<0/> has defended <1/> against <2/>"
 msgstr "دافع <0/> عن <1/> ضد <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:452
+#: src/components/_political/event/event.frontConfig.tsx:532
 msgid "<0/> has financed a revolt in <1/> for <2/> against <3/>"
 msgstr "موّل <0/> تمردًا في <1/> لصالح <2/> ضد <3/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:369
+#: src/components/_political/event/event.frontConfig.tsx:449
 msgid "<0/> has financed resistance in <1/>"
 msgstr "موّل <0/> المقاومة في <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:311
+#: src/components/_political/event/event.frontConfig.tsx:317
 msgid "<0/> has formed an alliance with <1/>"
 msgstr "عقد <0/> تحالفًا مع <1/>"
 
@@ -340,9 +343,21 @@ msgstr "عقد <0/> تحالفًا مع <1/>"
 msgid "<0/> has invited your country to join."
 msgstr ""
 
-#: src/components/_political/event/event.frontConfig.tsx:226
+#: src/components/_political/event/event.frontConfig.tsx:349
+msgid "<0/> has joined the alliance <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:364
+msgid "<0/> has left the alliance <1/>"
+msgstr ""
+
+#: src/components/_political/event/event.frontConfig.tsx:232
 msgid "<0/> has liberated <1/> and returned it to <2/>"
 msgstr "حرر <0/> <1/> وأعادها إلى <2/>"
+
+#: src/components/_political/event/event.frontConfig.tsx:393
+msgid "<0/> has signed a defensive pact with <1/>"
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:951
 msgid "<0/> has started a revolution in <1/>"
@@ -352,12 +367,12 @@ msgstr "بدأ <0/> ثورة في <1/>"
 msgid "<0/> has started! Let the battles begin!"
 msgstr "بدأت <0/>! لتبدأ المعارك!"
 
-#: src/components/_political/event/event.frontConfig.tsx:383
+#: src/components/_political/event/event.frontConfig.tsx:463
 msgid "<0/> has suppressed resistance in <1/>"
 msgstr "قمع <0/> المقاومة في <1/>"
 
 #. placeholder {0}: data.money
-#: src/components/_political/event/event.frontConfig.tsx:253
+#: src/components/_political/event/event.frontConfig.tsx:259
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
 msgstr "حوّل <0/> <1>{0}</1> إلى <2/>"
 
@@ -365,7 +380,7 @@ msgstr "حوّل <0/> <1>{0}</1> إلى <2/>"
 msgid "<0/> is attacking <1/> in <2/>"
 msgstr "يهاجم <0/> <1/> في <2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:160
+#: src/components/_political/event/event.frontConfig.tsx:166
 msgid "<0/> is attacking in <1/>"
 msgstr "<0/> يهاجم في <1/>"
 
@@ -373,11 +388,11 @@ msgstr "<0/> يهاجم في <1/>"
 msgid "<0/> is attacking your country in <1/>"
 msgstr "يهاجم <0/> بلدك في <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:298
+#: src/components/_political/event/event.frontConfig.tsx:304
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
 msgstr "<0/> في حالة إفلاس. سيتم إلغاء كافة التحالفات وتعطيل جميع تطويرات المناطق."
 
-#: src/components/_political/event/event.frontConfig.tsx:155
+#: src/components/_political/event/event.frontConfig.tsx:161
 msgid "<0/> is revolting in <1/>"
 msgstr "<0/> يثور في <1/>"
 
@@ -423,7 +438,7 @@ msgstr "أعجب <0/> برسالتك <1/>"
 msgid "<0/> liked your message in <1/><2/>"
 msgstr "أعجب <0/> برسالتك في <1/><2/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:241
+#: src/components/_political/event/event.frontConfig.tsx:247
 msgid "<0/> made peace with <1/>"
 msgstr "عقد <0/> صلحاً مع <1/>"
 
@@ -490,7 +505,7 @@ msgstr "اشترك <0/> بك في مقالك <1/>"
 msgid "<0/> tipped your article <1/>"
 msgstr "أرسل <0/> إكرامية لمقالك <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:196
+#: src/components/_political/event/event.frontConfig.tsx:202
 msgid "<0/> took control of <1/>"
 msgstr "سيطر <0/> على <1/>"
 
@@ -506,7 +521,7 @@ msgstr "<0/> يريد السلام"
 msgid "<0/> wants to make peace with your country"
 msgstr "يريد <0/> عقد سلام مع بلدك"
 
-#: src/components/_political/event/event.frontConfig.tsx:191
+#: src/components/_political/event/event.frontConfig.tsx:197
 msgid "<0/> was elected president of <1/>"
 msgstr "انتُخب <0/> رئيساً لـ <1/>"
 
@@ -1203,7 +1218,7 @@ msgstr "شارة <0>داعم</0>"
 msgid "A beautiful colored username that will make you very popular"
 msgstr "اسم مستخدم ملون جميل سيجعلك مشهوراً جداً"
 
-#: src/components/_political/event/event.frontConfig.tsx:398
+#: src/components/_political/event/event.frontConfig.tsx:478
 msgid "A civil war has started by <0/> in <1/>"
 msgstr "بدأت حرب أهلية بواسطة <0/> في <1/>"
 
@@ -1214,7 +1229,7 @@ msgstr "تم العثور على مورد في هذه المنطقة، يمكن 
 #. placeholder {0}: ts[data.itemCode]
 #. placeholder {1}: data.bonusPercent
 #. placeholder {2}: data.durationDays
-#: src/components/_political/event/event.frontConfig.tsx:266
+#: src/components/_political/event/event.frontConfig.tsx:272
 msgid "A deposit of <0>{0}</0> <1>{1}</1> has been found in <2/> for {2} days"
 msgstr "تم العثور على مخزون من <0>{0}</0> <1>{1}</1> في <2/> لمدة {2} أيام"
 
@@ -1228,7 +1243,7 @@ msgstr "يلزم دفع رسوم قدرها <0>{0}</0> لقبول هذا الع�
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr "كان يلزم دفع رسوم قدرها <0>{0}</0> لقبول هذا العقد. تمت إعادة الرسوم بعد إكمال الحد الأدنى من الضرر."
 
-#: src/components/_political/event/event.frontConfig.tsx:137
+#: src/components/_political/event/event.frontConfig.tsx:143
 msgid "A revolution has started in <0/>"
 msgstr "بدأت ثورة في <0/>"
 
@@ -1310,7 +1325,7 @@ msgstr "الحساب"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr "لا يُسمح بالحسابات التي يتم إنشاؤها لغرض وحيد وهو إفادة لاعب أو مجموعة أو وحدة عسكرية أو دولة معينة, يمكن أن تتخذ الحسابات المستغلة أشكالاً عديدة، وتشمل على سبيل المثال لا الحصر:"
 
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:84
 msgid "Actions"
 msgstr "الإجراءات"
 
@@ -1427,7 +1442,7 @@ msgstr "جميع رواسب الكوكا والحبوب والماشية وال�
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr "جميع الشركات داخل حدودك تحصل على مكافأة <0>+{0}</0> تجاه تخصص سلع الذخيرة أو البناء."
 
-#: src/components/_political/event/EventList.tsx:134
+#: src/components/_political/event/EventList.tsx:154
 msgid "All event types"
 msgstr "جميع أنواع الأحداث"
 
@@ -1555,11 +1570,11 @@ msgstr "عدد الشركات التي يمكنك امتلاكها"
 msgid "An admin cancelled the contract. <0>{0}</0> returned to <1/>."
 msgstr "قام المسؤول بإلغاء العقد, تمت إعادة <0>{0}</0> إلى <1/>."
 
-#: src/components/_political/event/event.frontConfig.tsx:331
+#: src/components/_political/event/event.frontConfig.tsx:337
 msgid "An alliance has been broken"
 msgstr "تم نقض التحالف"
 
-#: src/components/_political/event/event.frontConfig.tsx:316
+#: src/components/_political/event/event.frontConfig.tsx:322
 msgid "An alliance has been formed"
 msgstr "تم تشكيل تحالف"
 
@@ -1580,7 +1595,7 @@ msgid "Animated <0>GIF</0> as avatar"
 msgstr "<0>GIF</0> متحرك كصورة رمزية"
 
 #: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:141
+#: src/pages/country/[countryId]/government.tsx:144
 msgid "Announcement"
 msgstr ""
 
@@ -1653,11 +1668,11 @@ msgstr "هل أنت متأكد أنك تريد طرد هذا العامل؟"
 msgid "Are you sure you want to kick this member?"
 msgstr "هل أنت متأكد من رغبتك في طرد هذا العضو؟"
 
-#: src/pages/country/[countryId]/government.tsx:109
+#: src/pages/country/[countryId]/government.tsx:112
 msgid "Are you sure you want to leave the congress?"
 msgstr "هل أنت متأكد أنك تريد مغادرة الكونغرس؟"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:96
 msgid "Are you sure you want to leave the government?"
 msgstr "هل أنت متأكد أنك تريد مغادرة الحكومة؟"
 
@@ -1677,7 +1692,7 @@ msgstr "هل أنت متأكد أنك تريد إزالة جميع أوامر ا
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "هل أنت متأكد أنك تريد إزالة جميع أوامر البيع؟"
 
-#: src/pages/country/[countryId]/government.tsx:166
+#: src/pages/country/[countryId]/government.tsx:160
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -1981,7 +1996,7 @@ msgstr "مجموعة غنائم المعركة"
 msgid "Battle opened"
 msgstr "بدأت المعركة"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:99
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:103
 msgid "Battle Orders"
 msgstr "أوامر المعركة"
 
@@ -2487,7 +2502,7 @@ msgstr "اضغط لاختيار الاقتراح"
 msgid "Climate"
 msgstr "المناخ"
 
-#: ../__ui/src/components/Modal/Modal.tsx:239
+#: ../__ui/src/components/Modal/Modal.tsx:240
 msgid "Close"
 msgstr "إغلاق"
 
@@ -2657,7 +2672,7 @@ msgstr "يمتلك الكونغرس حداً أدنى من المقاعد يبل
 msgid "Congress Member"
 msgstr "عضو الكونغرس"
 
-#: src/pages/country/[countryId]/government.tsx:73
+#: src/pages/country/[countryId]/government.tsx:75
 msgid "Congress members"
 msgstr "أعضاء الكونغرس"
 
@@ -2801,11 +2816,23 @@ msgstr "الدولة"
 msgid "Country development income bonus"
 msgstr "مكافأة دخل تطوير الدولة"
 
+#: src/components/_political/event/EventList.tsx:86
+msgid "Country excluded from alliance"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:78
+msgid "Country joined alliance"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:82
+msgid "Country left alliance"
+msgstr ""
+
 #: src/components/_economy/transaction/TransactionList.tsx:102
 msgid "Country Money Transfer"
 msgstr ""
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:40
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:62
 msgid "Country Orders"
 msgstr "أوامر الدولة"
 
@@ -3127,6 +3154,14 @@ msgstr "المدافعون"
 msgid "Defensive pact"
 msgstr ""
 
+#: src/components/_political/event/EventList.tsx:94
+msgid "Defensive pact broken"
+msgstr ""
+
+#: src/components/_political/event/EventList.tsx:90
+msgid "Defensive pact signed"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:227
 msgid "Define <0/> as an enemy, increasing damages when fighting them"
 msgstr ""
@@ -3182,7 +3217,7 @@ msgid "Deposit discovered"
 msgstr "تم اكتشاف مخزون"
 
 #. placeholder {0}: ts[data.itemCode]
-#: src/components/_political/event/event.frontConfig.tsx:284
+#: src/components/_political/event/event.frontConfig.tsx:290
 msgid "Deposit of <0>{0}</0> has been depleted in <1/>"
 msgstr "تم استنفاد مخزون <0>{0}</0> في <1/>"
 
@@ -4605,13 +4640,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "مغادرة الشركة؟"
 
-#: src/pages/country/[countryId]/government.tsx:108
-#: src/pages/country/[countryId]/government.tsx:113
+#: src/pages/country/[countryId]/government.tsx:111
+#: src/pages/country/[countryId]/government.tsx:116
 msgid "Leave congress"
 msgstr "مغادرة الكونغرس"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:95
+#: src/pages/country/[countryId]/government.tsx:100
 msgid "Leave government"
 msgstr "مغادرة الحكومة"
 
@@ -5191,7 +5226,7 @@ msgstr "ارتفع مستوى الوحدة العسكرية!"
 msgid "MU Monthly Levels"
 msgstr "المستويات الشهرية للوحدة العسكرية"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:59
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:72
 msgid "MU Orders"
 msgstr "أوامر الوحدة العسكرية"
 
@@ -5464,7 +5499,7 @@ msgstr "لا توجد مزايدات بعد"
 msgid "No citizens"
 msgstr "لا يوجد مواطنون"
 
-#: src/pages/country/[countryId]/government.tsx:193
+#: src/pages/country/[countryId]/government.tsx:194
 msgid "No congress members"
 msgstr "لا يوجد أعضاء كونغرس"
 
@@ -5534,7 +5569,7 @@ msgstr "لم يتم العثور على عروض"
 msgid "No one nominated yet"
 msgstr "لم يتم ترشيح أحد بعد"
 
-#: src/components/_military/battle/BattleSideOrdersModal.tsx:109
+#: src/components/_military/battle/BattleSideOrdersModal.tsx:113
 msgid "No orders"
 msgstr "لا توجد أوامر"
 
@@ -5761,7 +5796,7 @@ msgstr "عميل"
 msgid "Options"
 msgstr "خيارات"
 
-#: src/components/_military/order/BattleOrderTags.tsx:24
+#: src/components/_military/order/BattleOrderTags.tsx:25
 msgid "Order"
 msgstr "ترتيب"
 
@@ -5958,7 +5993,7 @@ msgstr "قيد الانتظار"
 msgid "Pending wage reduction"
 msgstr "تخفيض الأجور قيد الانتظار"
 
-#: src/components/_political/event/event.frontConfig.tsx:342
+#: src/components/_political/event/event.frontConfig.tsx:422
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "الناس غاضبون، لقد بدأ تمرد تلقائي في <0/>"
 
@@ -6045,8 +6080,8 @@ msgstr "السياسة والحكومة"
 msgid "Popular Article"
 msgstr "مقال شائع"
 
-#: src/components/_political/government/AnnouncementForm.tsx:28
-#: src/pages/country/[countryId]/government.tsx:154
+#: src/components/_political/government/AnnouncementForm.tsx:17
+#: src/pages/country/[countryId]/government.tsx:171
 msgid "Post announcement"
 msgstr ""
 
@@ -6577,8 +6612,8 @@ msgstr "إزالة الكل"
 msgid "Remove an inactive congress member from its position"
 msgstr "إزالة عضو كونغرس غير نشط من منصبه"
 
-#: src/pages/country/[countryId]/government.tsx:165
-#: src/pages/country/[countryId]/government.tsx:170
+#: src/pages/country/[countryId]/government.tsx:159
+#: src/pages/country/[countryId]/government.tsx:164
 msgid "Remove announcement"
 msgstr ""
 
@@ -6734,7 +6769,7 @@ msgstr "مقاومة من اجل {regionName} {score}"
 msgid "Resources"
 msgstr "الموارد"
 
-#: src/components/_political/event/EventList.tsx:80
+#: src/components/_political/event/EventList.tsx:100
 msgid "Resources reshuffled"
 msgstr "تم إعادة خلط الموارد"
 
@@ -6762,11 +6797,11 @@ msgstr "بدأ التمرد!"
 msgid "Revolution {score}"
 msgstr "ثورة {score}"
 
-#: src/components/_political/event/EventList.tsx:77
+#: src/components/_political/event/EventList.tsx:97
 msgid "Revolution ended"
 msgstr "انتهت الثورة"
 
-#: src/components/_political/event/EventList.tsx:76
+#: src/components/_political/event/EventList.tsx:96
 msgid "Revolution started"
 msgstr "بدأت الثورة"
 
@@ -7391,7 +7426,7 @@ msgstr "مورد استراتيجي"
 msgid "Strategic resources"
 msgstr "الموارد الاستراتيجية"
 
-#: src/components/_political/event/event.frontConfig.tsx:356
+#: src/components/_political/event/event.frontConfig.tsx:436
 msgid "Strategic resources have been reshuffled across the whole map."
 msgstr "تمت إعادة توزيع الموارد الاستراتيجية عبر الخريطة بأكملها"
 
@@ -7548,11 +7583,11 @@ msgstr "<0>نقاط الإنتاج</0> التي تولدها في كل مرة ت
 msgid "The base value for <0>Damages</0> calculation."
 msgstr "القيمة الأساسية لحساب <0>الأضرار</0>."
 
-#: src/components/_political/event/event.frontConfig.tsx:430
+#: src/components/_political/event/event.frontConfig.tsx:510
 msgid "The civil war started by <0/> in <1/> has been suppressed"
 msgstr "تم إخماد الحرب الأهلية التي بدأها <0/> في <1/>"
 
-#: src/components/_political/event/event.frontConfig.tsx:414
+#: src/components/_political/event/event.frontConfig.tsx:494
 msgid "The civil war started by <0/> in <1/> has succeeded of <2/> and the government has been overthrown."
 msgstr "نجحت الحرب الأهلية التي بدأها <0/> في <1/> بواسطة <2/> وتمت الإطاحة بالحكومة."
 
@@ -7592,11 +7627,11 @@ msgstr "انتهى تأثير المعززات التي استهلكتها. بد
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
 msgstr "سوف تسترد الوحدة العسكرية رسوم القبول، مع دفعة جزئية مقابل الضرر المُلحق، وغرامة بنسبة 10% قدرها <0>{0}</0>, هل أنت متأكد؟"
 
-#: src/components/_political/event/event.frontConfig.tsx:82
+#: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
 msgstr "تم إخماد الثورة في <0/>. ولا تزال الحكومة في السلطة."
 
-#: src/components/_political/event/event.frontConfig.tsx:68
+#: src/components/_political/event/event.frontConfig.tsx:74
 msgid "The revolution in <0/> has succeeded! The government has been overthrown."
 msgstr "نجحت الثورة في <0/>! وتمت الإطاحة بالحكومة."
 
@@ -8063,10 +8098,6 @@ msgstr "البطولة القادمة"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "تحديث"
-
-#: src/pages/country/[countryId]/government.tsx:152
-msgid "Update announcement"
-msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8719,11 +8750,11 @@ msgstr "تم نقلك من <0/> إلى <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "لقد استهلكت <0>{0}</0>، يبدأ تأثيره الآن وينتهي خلال <1>{buffDuration} ساعة</1>."
 
-#: src/pages/country/[countryId]/government.tsx:44
+#: src/pages/country/[countryId]/government.tsx:46
 msgid "You have resigned from the congress"
 msgstr "لقد استقلت من الكونغرس"
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:38
 msgid "You have resigned from the government"
 msgstr "لقد استقلت من الحكومة"
 
@@ -8945,7 +8976,7 @@ msgstr "تم الإبلاغ عن حسابك تلقائياً بسبب الغش"
 msgid "Your ancestors are proud"
 msgstr "أسلافك فخورون بك"
 
-#: src/components/_political/government/AnnouncementForm.tsx:35
+#: src/components/_political/government/AnnouncementForm.tsx:23
 msgid "Your announcement to the country..."
 msgstr ""
 
