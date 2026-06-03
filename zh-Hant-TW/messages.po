@@ -112,6 +112,11 @@ msgstr ""
 msgid "{0} rounds are needed to win the battle."
 msgstr "還需要 {0} 回合獲勝"
 
+#. placeholder {0}: announcement.views ?? 0
+#: src/components/_political/government/GovernmentAnnouncement.tsx:40
+msgid "{0} views"
+msgstr ""
+
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -726,8 +731,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> 來自於工業主義特產加成。"
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> 來自於 <1/> 的戰略資源產量加成。"
 
-#: src/pages/country/[countryId]/index.tsx:341
-#: src/pages/country/[countryId]/index.tsx:390
+#: src/pages/country/[countryId]/index.tsx:351
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "各類資源第 <0>{key}</0> 種 = <1>{value}</1>"
 
@@ -1249,7 +1254,7 @@ msgstr "棄權"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "濫用此權力向其他國家提供優勢將會導致停權"
 
@@ -1295,7 +1300,7 @@ msgstr "訪問戰爭"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:242
+#: src/pages/country/[countryId]/index.tsx:252
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1305,7 +1310,7 @@ msgstr "帳號"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:69
+#: src/pages/country/[countryId]/government.tsx:82
 msgid "Actions"
 msgstr "行動"
 
@@ -1313,7 +1318,7 @@ msgstr "行動"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Active"
 msgstr "進行中"
 
@@ -1321,7 +1326,7 @@ msgstr "進行中"
 msgid "Active battle"
 msgstr "進行中戰鬥"
 
-#: src/pages/country/[countryId]/index.tsx:193
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Active battles"
 msgstr "進行中戰鬥"
 
@@ -1574,6 +1579,11 @@ msgstr "一封包含認證密碼的 email 已經送至 {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "把會動的 <0>GIF</0> 當作頭像"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/pages/country/[countryId]/government.tsx:141
+msgid "Announcement"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
@@ -1619,7 +1629,7 @@ msgstr "申請費"
 msgid "Apply"
 msgstr "申請"
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Approved"
 msgstr ""
 
@@ -1643,11 +1653,11 @@ msgstr "你確定要開除這位員工嗎？"
 msgid "Are you sure you want to kick this member?"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:109
 msgid "Are you sure you want to leave the congress?"
 msgstr "你確定要離開國會嗎？"
 
-#: src/pages/country/[countryId]/government.tsx:78
+#: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the government?"
 msgstr "你確定要離開政府嗎？"
 
@@ -1666,6 +1676,10 @@ msgstr "你確定要移除所有買單嗎？"
 #: src/pages/market/index.tsx:236
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "你確定要移除所有賣單嗎？"
+
+#: src/pages/country/[countryId]/government.tsx:166
+msgid "Are you sure you want to remove this announcement?"
+msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:115
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1866,7 +1880,7 @@ msgstr "獲取的徽章"
 msgid "Badge Won"
 msgstr "獲取了徽章"
 
-#: src/pages/country/[countryId]/index.tsx:249
+#: src/pages/country/[countryId]/index.tsx:259
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "徽章"
@@ -2196,11 +2210,11 @@ msgid "Cancel Mercenary Contract"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:264
 msgid "Cancelled"
 msgstr ""
 
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:265
 msgid "Cancelled by admin"
 msgstr ""
 
@@ -2374,7 +2388,7 @@ msgstr "自 <0><1/></0> 以來是公民"
 msgid "Citizens"
 msgstr "公民"
 
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "公民為盟友或宿敵戰鬥會獲得加成。"
 
@@ -2561,7 +2575,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "完成每日任務賺取經驗值來讓等級增加的更快。點擊以領取！"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Completed"
 msgstr ""
 
@@ -2643,7 +2657,7 @@ msgstr "國會有最小席次 <0>{0} 席</0>。"
 msgid "Congress Member"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:64
+#: src/pages/country/[countryId]/government.tsx:73
 msgid "Congress members"
 msgstr "國會議員"
 
@@ -2783,7 +2797,7 @@ msgstr "國家"
 msgid "Country"
 msgstr "國家"
 
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:394
 msgid "Country development income bonus"
 msgstr "國家發展度收入加成"
 
@@ -2804,7 +2818,7 @@ msgstr ""
 msgid "Country President"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:335
+#: src/pages/country/[countryId]/index.tsx:345
 msgid "Country production bonus"
 msgstr "國家生產加成"
 
@@ -3224,7 +3238,7 @@ msgid "Diminish Received Damages"
 msgstr ""
 
 #: src/pages/alliance/[allianceId]/index.tsx:86
-#: src/pages/country/[countryId]/index.tsx:186
+#: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "外交"
 
@@ -3403,7 +3417,7 @@ msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:270
+#: src/pages/country/[countryId]/index.tsx:280
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "選舉"
@@ -3554,7 +3568,7 @@ msgstr "傳統點數："
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:255
+#: src/pages/country/[countryId]/index.tsx:265
 msgid "Events"
 msgstr "活動"
 
@@ -3564,7 +3578,7 @@ msgstr "每個人會自動參加"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Expired"
 msgstr ""
 
@@ -3831,7 +3845,7 @@ msgid "Font style"
 msgstr "字體"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:368
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "給在 <1/> 生產 <0>{0}</0> 的公司。"
 
@@ -3987,6 +4001,7 @@ msgid "Gold"
 msgstr "黃金"
 
 #: src/components/_political/country/CountryHeader.tsx:95
+#: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "政府"
 
@@ -4256,7 +4271,7 @@ msgstr "不活躍的"
 msgid "Income"
 msgstr "收入"
 
-#: src/pages/country/[countryId]/index.tsx:407
+#: src/pages/country/[countryId]/index.tsx:417
 msgid "income from <0>Development</0> in <1/>."
 msgstr "來自在 <1/> <0>發展度</0>的收入"
 
@@ -4556,7 +4571,7 @@ msgstr "法案已提出"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "法案"
@@ -4590,13 +4605,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "離開公司？"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:108
+#: src/pages/country/[countryId]/government.tsx:113
 msgid "Leave congress"
 msgstr "離開國會"
 
-#: src/pages/country/[countryId]/government.tsx:77
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:92
+#: src/pages/country/[countryId]/government.tsx:97
 msgid "Leave government"
 msgstr "離開政府"
 
@@ -4951,12 +4966,12 @@ msgid "Mentioned in message"
 msgstr "在訊息中提及"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:293
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "Mercenary Auctions"
 msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:291
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr ""
@@ -5044,14 +5059,17 @@ msgid "Min. active citizens"
 msgstr "最少活躍公民"
 
 #: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "國防部長"
 
 #: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "經濟部長"
 
 #: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "外交部長"
 
@@ -5446,7 +5464,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "沒有公民"
 
-#: src/pages/country/[countryId]/government.tsx:117
+#: src/pages/country/[countryId]/government.tsx:193
 msgid "No congress members"
 msgstr "沒有國會議員"
 
@@ -5524,7 +5542,7 @@ msgstr ""
 msgid "No parties found"
 msgstr "找不到政黨"
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:381
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "沒有資源生產加成。這個國家沒有特產。"
 
@@ -5932,7 +5950,7 @@ msgstr "達成和平"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr ""
 
@@ -6027,6 +6045,11 @@ msgstr ""
 msgid "Popular Article"
 msgstr ""
 
+#: src/components/_political/government/AnnouncementForm.tsx:28
+#: src/pages/country/[countryId]/government.tsx:154
+msgid "Post announcement"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
 msgid "Precision"
@@ -6069,6 +6092,7 @@ msgid "Premium has started working"
 msgstr "高帳已經開始有用了"
 
 #: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "總統"
 
@@ -6300,7 +6324,7 @@ msgstr ""
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:47
-#: src/pages/country/[countryId]/index.tsx:166
+#: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "排名"
@@ -6512,7 +6536,7 @@ msgstr "反對"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "已否決"
 
@@ -6552,6 +6576,11 @@ msgstr "移除所有"
 #: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr "移除一位不活躍的國會議員"
+
+#: src/pages/country/[countryId]/government.tsx:165
+#: src/pages/country/[countryId]/government.tsx:170
+msgid "Remove announcement"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:395
 msgid "Remove Avatar"
@@ -6700,7 +6729,7 @@ msgstr "抵抗度貢獻者"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:216
+#: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "資源"
@@ -6761,7 +6790,7 @@ msgstr "權利"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr ""
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Rolled back by admin"
 msgstr ""
 
@@ -6833,7 +6862,7 @@ msgstr "回合獲勝"
 msgid "Rules"
 msgstr "規則"
 
-#: src/pages/country/[countryId]/index.tsx:224
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Ruling Party"
 msgstr "執政黨"
 
@@ -7451,9 +7480,9 @@ msgstr "系統叛亂"
 msgid "Table"
 msgstr "表格"
 
-#: src/pages/country/[countryId]/index.tsx:116
-#: src/pages/country/[countryId]/index.tsx:140
-#: src/pages/country/[countryId]/index.tsx:145
+#: src/pages/country/[countryId]/index.tsx:117
+#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Take control"
 msgstr "控制"
 
@@ -7599,7 +7628,7 @@ msgstr ""
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "該公司已強制停用，因為已超過其雇主可開設的公司上限。"
 
-#: src/pages/country/[countryId]/index.tsx:120
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "該國家沒有在任總統或活躍中的國會議員，你可以接管它。"
 
@@ -8005,7 +8034,7 @@ msgstr "不可能，絕對不可能"
 msgid "Unregister"
 msgstr "註銷"
 
-#: src/pages/country/[countryId]/index.tsx:207
+#: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
 msgstr "動盪值"
 
@@ -8034,6 +8063,10 @@ msgstr "即將舉行的錦標賽"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "更新"
+
+#: src/pages/country/[countryId]/government.tsx:152
+msgid "Update announcement"
+msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8288,6 +8321,7 @@ msgid "Vice Admiral"
 msgstr "中將"
 
 #: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "副總統"
@@ -8558,15 +8592,15 @@ msgstr "你真是美麗動人"
 msgid "You are a lucky bastard"
 msgstr "你個可惡的籤王"
 
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:111
 msgid "You are already congress member of another country. Resign first."
 msgstr "你已是其他國家的國會議員了，請先卸任。"
 
-#: src/pages/country/[countryId]/index.tsx:106
+#: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
 msgstr "你已是其他國家的總統了，請先卸任。"
 
-#: src/pages/country/[countryId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already vice president of another country. Resign first."
 msgstr "你已是其他國家的副總統了，請先卸任。"
 
@@ -8685,21 +8719,21 @@ msgstr "你已被從 <0/> 轉移至 <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "你已經使用 <0>{0}</0>，它的效果現在開始，且結束於 <1>{buffDuration} 小時</1>。"
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:44
 msgid "You have resigned from the congress"
 msgstr "你已從國會中辭職"
 
-#: src/pages/country/[countryId]/government.tsx:28
+#: src/pages/country/[countryId]/government.tsx:36
 msgid "You have resigned from the government"
 msgstr "你已從政府中辭職"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:102
+#: src/pages/country/[countryId]/index.tsx:103
 msgid "You have to be level {0} to take control of a country."
 msgstr "你至少需要 {0} 等才能接管一個國家。"
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:104
+#: src/pages/country/[countryId]/index.tsx:105
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "你必須等待 {0} 天後才能再次接管一個國家。"
 
@@ -8911,6 +8945,10 @@ msgstr "你的帳號因作弊嫌疑而遭自動檢舉"
 msgid "Your ancestors are proud"
 msgstr "你的老祖宗備感驕傲"
 
+#: src/components/_political/government/AnnouncementForm.tsx:35
+msgid "Your announcement to the country..."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:366
 #: src/components/_user/notification/notification.frontConfig.tsx:1066
 msgid "Your application to <0/> has been rejected"
@@ -8929,7 +8967,7 @@ msgstr "你的橫幅 \"{0}\" 已被接受且現在已上架商店！它已向你
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "你將改變國籍"
 

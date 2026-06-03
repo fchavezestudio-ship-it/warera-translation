@@ -112,6 +112,11 @@ msgstr "{0} föreslog en ny lag <0/>"
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} ronder krävs för att vinna striden."
 
+#. placeholder {0}: announcement.views ?? 0
+#: src/components/_political/government/GovernmentAnnouncement.tsx:40
+msgid "{0} views"
+msgstr ""
+
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -726,8 +731,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> från bonus för industriell ideologi 
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> från produktionsbonus för strategiska resurser i <1/>."
 
-#: src/pages/country/[countryId]/index.tsx:341
-#: src/pages/country/[countryId]/index.tsx:390
+#: src/pages/country/[countryId]/index.tsx:351
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> resurs av varje typ = <1>{value}</1>"
 
@@ -1249,7 +1254,7 @@ msgstr "Avstå"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "Missbruk eller spam av rapporteringssystemet kan leda till sanktioner."
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Missbruk av denna makt för att gynna ett annat land leder till <0>avstängning.</0>"
 
@@ -1295,7 +1300,7 @@ msgstr "Visa krig"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:242
+#: src/pages/country/[countryId]/index.tsx:252
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1305,7 +1310,7 @@ msgstr "Konto"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr "Konton som skapats uteslutande i syfte att gynna en enskild spelare, grupp, ett militärt förband eller en stat är ej tillåtna. Otillbörligt utnyttjande av konton kan anta många former. Detta inkluderar, men är inte begränsat till:"
 
-#: src/pages/country/[countryId]/government.tsx:69
+#: src/pages/country/[countryId]/government.tsx:82
 msgid "Actions"
 msgstr "Åtgärder"
 
@@ -1313,7 +1318,7 @@ msgstr "Åtgärder"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Active"
 msgstr "Aktiv"
 
@@ -1321,7 +1326,7 @@ msgstr "Aktiv"
 msgid "Active battle"
 msgstr "Pågående strid"
 
-#: src/pages/country/[countryId]/index.tsx:193
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Active battles"
 msgstr "Pågående strider"
 
@@ -1574,6 +1579,11 @@ msgstr "Ett e-postmeddelande med verifieringskod har skickats till {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animerad <0>GIF</0> som profilbild"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/pages/country/[countryId]/government.tsx:141
+msgid "Announcement"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
@@ -1619,7 +1629,7 @@ msgstr "Ansökningsavgift"
 msgid "Apply"
 msgstr "Ansök"
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Approved"
 msgstr "Beviljad"
 
@@ -1643,11 +1653,11 @@ msgstr "Är du säker på att du vill säga upp denna anställde?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Är du säker på att du vill slänga ut denna medlem?"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:109
 msgid "Are you sure you want to leave the congress?"
 msgstr "Är du säker på att du vill lämna Riksdagen?"
 
-#: src/pages/country/[countryId]/government.tsx:78
+#: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the government?"
 msgstr "Är du säker på att du vill avgå ur regeringen?"
 
@@ -1666,6 +1676,10 @@ msgstr "Är du säker på att du vill ta bort samtliga köpordrar?"
 #: src/pages/market/index.tsx:236
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Är du säker på att du vill ta bort samtliga säljordrar?"
+
+#: src/pages/country/[countryId]/government.tsx:166
+msgid "Are you sure you want to remove this announcement?"
+msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:115
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1866,7 +1880,7 @@ msgstr "Emblem erhållet"
 msgid "Badge Won"
 msgstr "Emblem erhållet"
 
-#: src/pages/country/[countryId]/index.tsx:249
+#: src/pages/country/[countryId]/index.tsx:259
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Emblem"
@@ -2196,11 +2210,11 @@ msgid "Cancel Mercenary Contract"
 msgstr "Häv legoknektskontrakt"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:264
 msgid "Cancelled"
 msgstr "Avbrutet"
 
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:265
 msgid "Cancelled by admin"
 msgstr "Avbrutet av administratör"
 
@@ -2374,7 +2388,7 @@ msgstr "Medborgare sedan <0><1/></0>"
 msgid "Citizens"
 msgstr "Medborgare"
 
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Medborgare får bonus vid strid för allierade eller mot svurna fiender"
 
@@ -2561,7 +2575,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Slutför dagliga uppdrag för att erhålla erfarenhetspoäng och stiga i nivå. Klicka för att hämta belöning."
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Completed"
 msgstr "Slutfört"
 
@@ -2643,7 +2657,7 @@ msgstr "Riksdagen har minst <0>{0} platser</0>."
 msgid "Congress Member"
 msgstr "Riksdagsledamot"
 
-#: src/pages/country/[countryId]/government.tsx:64
+#: src/pages/country/[countryId]/government.tsx:73
 msgid "Congress members"
 msgstr "Riksdagsledamöter"
 
@@ -2783,7 +2797,7 @@ msgstr "Länder"
 msgid "Country"
 msgstr "Land"
 
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:394
 msgid "Country development income bonus"
 msgstr "Nationell bonus för bebyggelseinkomst"
 
@@ -2804,7 +2818,7 @@ msgstr "Landet betalade <0>{0}</0> för utdelad skada."
 msgid "Country President"
 msgstr "Landets Statsminister"
 
-#: src/pages/country/[countryId]/index.tsx:335
+#: src/pages/country/[countryId]/index.tsx:345
 msgid "Country production bonus"
 msgstr "Nationell produktionsbonus"
 
@@ -3224,7 +3238,7 @@ msgid "Diminish Received Damages"
 msgstr "Minska mottagen skada"
 
 #: src/pages/alliance/[allianceId]/index.tsx:86
-#: src/pages/country/[countryId]/index.tsx:186
+#: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "Diplomati"
 
@@ -3403,7 +3417,7 @@ msgstr "Röstning öppen"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:270
+#: src/pages/country/[countryId]/index.tsx:280
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Val"
@@ -3554,7 +3568,7 @@ msgstr "Ideologiska poäng:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:255
+#: src/pages/country/[countryId]/index.tsx:265
 msgid "Events"
 msgstr "Händelser"
 
@@ -3564,7 +3578,7 @@ msgstr "Alla deltar automatiskt"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Expired"
 msgstr "Utgått"
 
@@ -3831,7 +3845,7 @@ msgid "Font style"
 msgstr "Typsnittsstil"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:368
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "för företag som producerar <0>{0}</0> i <1/>."
 
@@ -3987,6 +4001,7 @@ msgid "Gold"
 msgstr "Guld"
 
 #: src/components/_political/country/CountryHeader.tsx:95
+#: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "Regering"
 
@@ -4256,7 +4271,7 @@ msgstr "Inaktiv"
 msgid "Income"
 msgstr "Inkomst"
 
-#: src/pages/country/[countryId]/index.tsx:407
+#: src/pages/country/[countryId]/index.tsx:417
 msgid "income from <0>Development</0> in <1/>."
 msgstr "inkomst från <0>bebyggelse</0> i <1/>."
 
@@ -4556,7 +4571,7 @@ msgstr "Lagförslag framlagt"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "Lagar"
@@ -4590,13 +4605,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Lämna företaget?"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:108
+#: src/pages/country/[countryId]/government.tsx:113
 msgid "Leave congress"
 msgstr "Lämna riksdagen"
 
-#: src/pages/country/[countryId]/government.tsx:77
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:92
+#: src/pages/country/[countryId]/government.tsx:97
 msgid "Leave government"
 msgstr "Lämna regeringen"
 
@@ -4951,12 +4966,12 @@ msgid "Mentioned in message"
 msgstr "Omnämnd i meddelande"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:293
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "Mercenary Auctions"
 msgstr "Legoknektsauktioner"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:291
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Legoknektskontrakt"
@@ -5044,14 +5059,17 @@ msgid "Min. active citizens"
 msgstr "Min. antal aktiva medborgare"
 
 #: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Försvarsminister"
 
 #: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Finansminister"
 
 #: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Utrikesminister"
 
@@ -5446,7 +5464,7 @@ msgstr "Inga bud ännu"
 msgid "No citizens"
 msgstr "Inga medborgare"
 
-#: src/pages/country/[countryId]/government.tsx:117
+#: src/pages/country/[countryId]/government.tsx:193
 msgid "No congress members"
 msgstr "Inga riksdagsledamöter"
 
@@ -5524,7 +5542,7 @@ msgstr "Inga order"
 msgid "No parties found"
 msgstr "Inga partier hittades"
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:381
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Ingen produktionsbonus från resurser. Detta land saknar specialisering."
 
@@ -5932,7 +5950,7 @@ msgstr "Fred har slutits"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "Väntande"
 
@@ -6027,6 +6045,11 @@ msgstr "Politik och regering"
 msgid "Popular Article"
 msgstr "Populär artikel"
 
+#: src/components/_political/government/AnnouncementForm.tsx:28
+#: src/pages/country/[countryId]/government.tsx:154
+msgid "Post announcement"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
 msgid "Precision"
@@ -6069,6 +6092,7 @@ msgid "Premium has started working"
 msgstr "Premium har börjat ge effekt"
 
 #: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Statsminister"
 
@@ -6300,7 +6324,7 @@ msgstr "Rankningbelöning"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:47
-#: src/pages/country/[countryId]/index.tsx:166
+#: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Ranking"
@@ -6512,7 +6536,7 @@ msgstr "Neka"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Avslagen"
 
@@ -6552,6 +6576,11 @@ msgstr "Rensa alla"
 #: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr "Avlägsna en inaktiv riksdagsledamot från sin post"
+
+#: src/pages/country/[countryId]/government.tsx:165
+#: src/pages/country/[countryId]/government.tsx:170
+msgid "Remove announcement"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:395
 msgid "Remove Avatar"
@@ -6700,7 +6729,7 @@ msgstr "Motståndets stöttepelare"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:216
+#: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Resurser"
@@ -6761,7 +6790,7 @@ msgstr "Rättigheter"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "Återställ valuta (ta tillbaka alla betalningar från förband/användare och återför hela poolen till landet)"
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Rolled back by admin"
 msgstr "Återställt av administratör"
 
@@ -6833,7 +6862,7 @@ msgstr "Vunna ronder"
 msgid "Rules"
 msgstr "Regler"
 
-#: src/pages/country/[countryId]/index.tsx:224
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Ruling Party"
 msgstr "Regeringsparti"
 
@@ -7451,9 +7480,9 @@ msgstr "Systemrevolt"
 msgid "Table"
 msgstr "Tabell"
 
-#: src/pages/country/[countryId]/index.tsx:116
-#: src/pages/country/[countryId]/index.tsx:140
-#: src/pages/country/[countryId]/index.tsx:145
+#: src/pages/country/[countryId]/index.tsx:117
+#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Take control"
 msgstr "Ta kontroll"
 
@@ -7599,7 +7628,7 @@ msgstr "Denna prissumma är reserverad för landets egna medborgare."
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Detta företag är inaktivt eftersom ägaren har nått företagsgränsen."
 
-#: src/pages/country/[countryId]/index.tsx:120
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Detta land saknar statsminister eller aktiv riksdagsledamot; du kan ta kontroll över det."
 
@@ -8005,7 +8034,7 @@ msgstr "Otroligt. Det här händer inte"
 msgid "Unregister"
 msgstr "Avregistrera"
 
-#: src/pages/country/[countryId]/index.tsx:207
+#: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
 msgstr "Oroligheter"
 
@@ -8034,6 +8063,10 @@ msgstr "Kommande turnering"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Uppdatera"
+
+#: src/pages/country/[countryId]/government.tsx:152
+msgid "Update announcement"
+msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8288,6 +8321,7 @@ msgid "Vice Admiral"
 msgstr "Viceamiral"
 
 #: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vice Statsminister"
@@ -8558,15 +8592,15 @@ msgstr "Du är en fin människa"
 msgid "You are a lucky bastard"
 msgstr "Din tursamma jävel"
 
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:111
 msgid "You are already congress member of another country. Resign first."
 msgstr "Du är redan riksdagsledamot i ett annat land. Avgå först."
 
-#: src/pages/country/[countryId]/index.tsx:106
+#: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
 msgstr "Du är redan statsminister i ett annat land. Avgå först."
 
-#: src/pages/country/[countryId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already vice president of another country. Resign first."
 msgstr "Du är redan vice statsminister i ett annat land. Avgå först."
 
@@ -8685,21 +8719,21 @@ msgstr "Du har flyttats från <0/> till <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Du har konsumerat <0>{0}</0>, dess effekt börjar nu och upphör om <1>{buffDuration}h</1>."
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:44
 msgid "You have resigned from the congress"
 msgstr "Du har avgått från riksdagen"
 
-#: src/pages/country/[countryId]/government.tsx:28
+#: src/pages/country/[countryId]/government.tsx:36
 msgid "You have resigned from the government"
 msgstr "Du har avgått från regeringen"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:102
+#: src/pages/country/[countryId]/index.tsx:103
 msgid "You have to be level {0} to take control of a country."
 msgstr "Du måste vara nivå {0} för att ta kontroll över ett land."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:104
+#: src/pages/country/[countryId]/index.tsx:105
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Du måste vänta {0} dagar innan du kan ta kontroll över ett land igen."
 
@@ -8911,6 +8945,10 @@ msgstr "Ditt konto har automatiskt rapporterats för fusk"
 msgid "Your ancestors are proud"
 msgstr "Dina förfäder är stolta"
 
+#: src/components/_political/government/AnnouncementForm.tsx:35
+msgid "Your announcement to the country..."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:366
 #: src/components/_user/notification/notification.frontConfig.tsx:1066
 msgid "Your application to <0/> has been rejected"
@@ -8929,7 +8967,7 @@ msgstr "Ditt baner \"{0}\" har godkänts och finns nu i butiken. Det har automat
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Dina förstärkningar går ut om mindre än 1 timme. Försvagningsfasen börjar snart."
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Ditt medborgarskap kommer att ändras"
 

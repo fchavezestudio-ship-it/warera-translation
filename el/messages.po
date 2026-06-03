@@ -112,6 +112,11 @@ msgstr ""
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} γύροι χρειάζονται για να κερδίσεις τη μάχη."
 
+#. placeholder {0}: announcement.views ?? 0
+#: src/components/_political/government/GovernmentAnnouncement.tsx:40
+msgid "{0} views"
+msgstr ""
+
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -726,8 +731,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> από μπόνους εξειδίκε
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> από μπόνους παραγωγής στρατηγικών πόρων <1/>."
 
-#: src/pages/country/[countryId]/index.tsx:341
-#: src/pages/country/[countryId]/index.tsx:390
+#: src/pages/country/[countryId]/index.tsx:351
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> πόρος κάθε τύπου = <1>{value}</1>"
 
@@ -1249,7 +1254,7 @@ msgstr "Αποχή"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Η κατάχρηση αυτής της εξουσίας για όφελος άλλης χώρας θα οδηγήσει σε <0>αποκλεισμό.</0>"
 
@@ -1295,7 +1300,7 @@ msgstr "Πρόσβαση πολέμου"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:242
+#: src/pages/country/[countryId]/index.tsx:252
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1305,7 +1310,7 @@ msgstr "Λογαριασμός"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:69
+#: src/pages/country/[countryId]/government.tsx:82
 msgid "Actions"
 msgstr "Ενέργειες"
 
@@ -1313,7 +1318,7 @@ msgstr "Ενέργειες"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Active"
 msgstr "Ενεργό"
 
@@ -1321,7 +1326,7 @@ msgstr "Ενεργό"
 msgid "Active battle"
 msgstr "Ενεργή μάχη"
 
-#: src/pages/country/[countryId]/index.tsx:193
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Active battles"
 msgstr "Ενεργές μάχες"
 
@@ -1574,6 +1579,11 @@ msgstr "Εστάλη email με τον κωδικό επαλήθευσης στ�
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Κινούμενο <0>GIF</0> ως avatar"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/pages/country/[countryId]/government.tsx:141
+msgid "Announcement"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
@@ -1619,7 +1629,7 @@ msgstr "Τέλος αίτησης"
 msgid "Apply"
 msgstr "Υποβολή αίτησης"
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Approved"
 msgstr "Εγκρίθηκε"
 
@@ -1643,11 +1653,11 @@ msgstr "Είσαι σίγουρος ότι θέλεις να απολύσεις 
 msgid "Are you sure you want to kick this member?"
 msgstr "Είσαι σίγουρος ότι θέλεις να διώξεις αυτό το μέλος;"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:109
 msgid "Are you sure you want to leave the congress?"
 msgstr "Είσαι σίγουρος ότι θέλεις να αποχωρήσεις από το Κοινοβούλιο;"
 
-#: src/pages/country/[countryId]/government.tsx:78
+#: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the government?"
 msgstr "Είσαι σίγουρος ότι θέλεις να αποχωρήσεις από την κυβέρνηση;"
 
@@ -1666,6 +1676,10 @@ msgstr "Είσαι σίγουρος ότι θέλεις να αφαιρέσει�
 #: src/pages/market/index.tsx:236
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Είσαι σίγουρος ότι θέλεις να αφαιρέσεις όλες τις εντολές πώλησης;"
+
+#: src/pages/country/[countryId]/government.tsx:166
+msgid "Are you sure you want to remove this announcement?"
+msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:115
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1866,7 +1880,7 @@ msgstr "Κέρδισες σήμα"
 msgid "Badge Won"
 msgstr "Κέρδιδες Σήμα"
 
-#: src/pages/country/[countryId]/index.tsx:249
+#: src/pages/country/[countryId]/index.tsx:259
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Σήματα"
@@ -2196,11 +2210,11 @@ msgid "Cancel Mercenary Contract"
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:264
 msgid "Cancelled"
 msgstr ""
 
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:265
 msgid "Cancelled by admin"
 msgstr ""
 
@@ -2374,7 +2388,7 @@ msgstr "Πολίτης από <0><1/></0>"
 msgid "Citizens"
 msgstr "Πολίτες"
 
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Οι πολίτες λαμβάνουν μπόνους όταν μάχονται για συμμάχους ή εναντίον ορκισμένου εχθρού"
 
@@ -2561,7 +2575,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Ολοκλήρωσε αποστολές καθημερινά για να κερδίσεις XP και να ανέβεις επίπεδο γρηγορότερα. Κάνε κλικ για να διεκδικήσεις!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Completed"
 msgstr ""
 
@@ -2643,7 +2657,7 @@ msgstr "Το Κοινοβούλιο έχει ελάχιστο <0>{0} έδρες<
 msgid "Congress Member"
 msgstr "Μέλος του Κογκρέσου"
 
-#: src/pages/country/[countryId]/government.tsx:64
+#: src/pages/country/[countryId]/government.tsx:73
 msgid "Congress members"
 msgstr "Μέλη Κοινοβουλίου"
 
@@ -2783,7 +2797,7 @@ msgstr "Χώρες"
 msgid "Country"
 msgstr "Χώρα"
 
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:394
 msgid "Country development income bonus"
 msgstr "Μπόνους εισοδήματος ανάπτυξης χώρας"
 
@@ -2804,7 +2818,7 @@ msgstr ""
 msgid "Country President"
 msgstr "Πρόεδρος της χώρας"
 
-#: src/pages/country/[countryId]/index.tsx:335
+#: src/pages/country/[countryId]/index.tsx:345
 msgid "Country production bonus"
 msgstr "Μπόνους παραγωγής χώρας"
 
@@ -3224,7 +3238,7 @@ msgid "Diminish Received Damages"
 msgstr ""
 
 #: src/pages/alliance/[allianceId]/index.tsx:86
-#: src/pages/country/[countryId]/index.tsx:186
+#: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "Διπλωματία"
 
@@ -3403,7 +3417,7 @@ msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:270
+#: src/pages/country/[countryId]/index.tsx:280
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Εκλογές"
@@ -3554,7 +3568,7 @@ msgstr "Πόντοι Ηθικής:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:255
+#: src/pages/country/[countryId]/index.tsx:265
 msgid "Events"
 msgstr "Εκδηλώσεις"
 
@@ -3564,7 +3578,7 @@ msgstr "Όλοι συμμετέχουν αυτόματα"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Expired"
 msgstr "Έληξε"
 
@@ -3831,7 +3845,7 @@ msgid "Font style"
 msgstr "Στυλ γραμματοσειράς"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:368
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "για εταιρείες που παράγουν <0>{0}</0> στο <1/>."
 
@@ -3987,6 +4001,7 @@ msgid "Gold"
 msgstr "Χρυσός"
 
 #: src/components/_political/country/CountryHeader.tsx:95
+#: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "Κυβέρνηση"
 
@@ -4256,7 +4271,7 @@ msgstr "Ανενεργό"
 msgid "Income"
 msgstr "Εισόδημα"
 
-#: src/pages/country/[countryId]/index.tsx:407
+#: src/pages/country/[countryId]/index.tsx:417
 msgid "income from <0>Development</0> in <1/>."
 msgstr "εισόδημα από <0>Ανάπτυξη</0> στο <1/>."
 
@@ -4556,7 +4571,7 @@ msgstr "Νόμος προτάθηκε"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "Νόμοι"
@@ -4590,13 +4605,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Αποχώρηση από εταιρεία;"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:108
+#: src/pages/country/[countryId]/government.tsx:113
 msgid "Leave congress"
 msgstr "Αποχώρηση από Κοινοβούλιο"
 
-#: src/pages/country/[countryId]/government.tsx:77
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:92
+#: src/pages/country/[countryId]/government.tsx:97
 msgid "Leave government"
 msgstr "Αποχώρηση από κυβέρνηση"
 
@@ -4951,12 +4966,12 @@ msgid "Mentioned in message"
 msgstr "Αναφέρθηκε σε μήνυμα"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:293
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "Mercenary Auctions"
 msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:291
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr ""
@@ -5044,14 +5059,17 @@ msgid "Min. active citizens"
 msgstr "Ελάχ. ενεργοί πολίτες"
 
 #: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Υπουργός Άμυνας"
 
 #: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Υπουργός Οικονομίας"
 
 #: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Υπουργός Εξωτερικών"
 
@@ -5446,7 +5464,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "Δεν υπάρχουν πολίτες"
 
-#: src/pages/country/[countryId]/government.tsx:117
+#: src/pages/country/[countryId]/government.tsx:193
 msgid "No congress members"
 msgstr "Δεν υπάρχουν μέλη Κοινοβουλίου"
 
@@ -5524,7 +5542,7 @@ msgstr ""
 msgid "No parties found"
 msgstr "Δεν βρέθηκαν κόμματα"
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:381
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Δεν υπάρχει μπόνους παραγωγής από πόρους. Αυτή η χώρα δεν έχει εξειδίκευση."
 
@@ -5932,7 +5950,7 @@ msgstr "Ειρήνη έγινε"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr ""
 
@@ -6027,6 +6045,11 @@ msgstr ""
 msgid "Popular Article"
 msgstr "Δημοφιλές άρθρο"
 
+#: src/components/_political/government/AnnouncementForm.tsx:28
+#: src/pages/country/[countryId]/government.tsx:154
+msgid "Post announcement"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
 msgid "Precision"
@@ -6069,6 +6092,7 @@ msgid "Premium has started working"
 msgstr "Το Premium άρχισε να λειτουργεί"
 
 #: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Πρόεδρος"
 
@@ -6300,7 +6324,7 @@ msgstr ""
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:47
-#: src/pages/country/[countryId]/index.tsx:166
+#: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Κατατάξεις"
@@ -6512,7 +6536,7 @@ msgstr "Απόρριψη"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Απορρίφθηκε"
 
@@ -6552,6 +6576,11 @@ msgstr "Αφαίρεση όλων"
 #: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr "Αφαίρεση ανενεργού μέλους Κοινοβουλίου από τη θέση του"
+
+#: src/pages/country/[countryId]/government.tsx:165
+#: src/pages/country/[countryId]/government.tsx:170
+msgid "Remove announcement"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:395
 msgid "Remove Avatar"
@@ -6700,7 +6729,7 @@ msgstr "Συνεισφέροντες Αντίστασης"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:216
+#: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Πόροι"
@@ -6761,7 +6790,7 @@ msgstr "Δικαιώματα"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr ""
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Rolled back by admin"
 msgstr ""
 
@@ -6833,7 +6862,7 @@ msgstr "Γύροι που Κερδήθηκαν"
 msgid "Rules"
 msgstr "Κανόνες"
 
-#: src/pages/country/[countryId]/index.tsx:224
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Ruling Party"
 msgstr "Κυβερνών Κόμμα"
 
@@ -7451,9 +7480,9 @@ msgstr "Αυτόματη εξέγερση"
 msgid "Table"
 msgstr "Πίνακας"
 
-#: src/pages/country/[countryId]/index.tsx:116
-#: src/pages/country/[countryId]/index.tsx:140
-#: src/pages/country/[countryId]/index.tsx:145
+#: src/pages/country/[countryId]/index.tsx:117
+#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Take control"
 msgstr "Ανάληψη ελέγχου"
 
@@ -7599,7 +7628,7 @@ msgstr ""
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Αυτή η εταιρεία είναι απενεργοποιημένη γιατί ο ιδιοκτήτης έφτασε το όριο εταιρειών."
 
-#: src/pages/country/[countryId]/index.tsx:120
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Αυτή η χώρα δεν έχει πρόεδρο ή ενεργό μέλος Κοινοβουλίου, μπορείς να αναλάβεις τον έλεγχό της."
 
@@ -8005,7 +8034,7 @@ msgstr "Απίστευτο. Αυτό δεν συμβαίνει"
 msgid "Unregister"
 msgstr "Απεγγραφή"
 
-#: src/pages/country/[countryId]/index.tsx:207
+#: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
 msgstr "Αναταραχή"
 
@@ -8034,6 +8063,10 @@ msgstr "Επερχόμενο Τουρνουά"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Ενημέρωση"
+
+#: src/pages/country/[countryId]/government.tsx:152
+msgid "Update announcement"
+msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8288,6 +8321,7 @@ msgid "Vice Admiral"
 msgstr "Υποναύαρχος"
 
 #: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Αντιπρόεδρος"
@@ -8558,15 +8592,15 @@ msgstr "Είσαι ωραίος άνθρωπος"
 msgid "You are a lucky bastard"
 msgstr "Είσαι τυχερός τύπος"
 
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:111
 msgid "You are already congress member of another country. Resign first."
 msgstr "Είσαι ήδη μέλος Κοινοβουλίου άλλης χώρας. Παραιτήσου πρώτα."
 
-#: src/pages/country/[countryId]/index.tsx:106
+#: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
 msgstr "Είσαι ήδη πρόεδρος άλλης χώρας. Παραιτήσου πρώτα."
 
-#: src/pages/country/[countryId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already vice president of another country. Resign first."
 msgstr "Είσαι ήδη αντιπρόεδρος άλλης χώρας. Παραιτήσου πρώτα."
 
@@ -8685,21 +8719,21 @@ msgstr "Μεταφέρθηκες από <0/> σε <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Κατανάλωσες <0>{0}</0>, το αποτέλεσμά του ξεκινά τώρα και τελειώνει σε <1>{buffDuration}ω</1>."
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:44
 msgid "You have resigned from the congress"
 msgstr "Παραιτήθηκες από το Κοινοβούλιο"
 
-#: src/pages/country/[countryId]/government.tsx:28
+#: src/pages/country/[countryId]/government.tsx:36
 msgid "You have resigned from the government"
 msgstr "Παραιτήθηκες από την κυβέρνηση"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:102
+#: src/pages/country/[countryId]/index.tsx:103
 msgid "You have to be level {0} to take control of a country."
 msgstr "Πρέπει να είσαι επίπεδο {0} για να αναλάβεις τον έλεγχο μιας χώρας."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:104
+#: src/pages/country/[countryId]/index.tsx:105
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Πρέπει να περιμένεις {0} ημέρες πριν αναλάβεις ξανά τον έλεγχο μιας χώρας."
 
@@ -8911,6 +8945,10 @@ msgstr "Ο λογαριασμός σου αναφέρθηκε αυτόματα �
 msgid "Your ancestors are proud"
 msgstr "Οι πρόγονοί σου είναι περήφανοι"
 
+#: src/components/_political/government/AnnouncementForm.tsx:35
+msgid "Your announcement to the country..."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:366
 #: src/components/_user/notification/notification.frontConfig.tsx:1066
 msgid "Your application to <0/> has been rejected"
@@ -8929,7 +8967,7 @@ msgstr "Το banner σου \"{0}\" έγινε αποδεκτό και είναι
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Η υπηκοότητά σου πρόκειται να αλλάξει"
 

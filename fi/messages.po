@@ -113,6 +113,11 @@ msgstr ""
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} kierrosta tarvitaan taistelun voittamiseen."
 
+#. placeholder {0}: announcement.views ?? 0
+#: src/components/_political/government/GovernmentAnnouncement.tsx:40
+msgid "{0} views"
+msgstr ""
+
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -727,8 +732,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> <1/> teollisen etiikan erikoistumisbon
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> <1/> strategisten resurssien tuotantobonuksesta."
 
-#: src/pages/country/[countryId]/index.tsx:341
-#: src/pages/country/[countryId]/index.tsx:390
+#: src/pages/country/[countryId]/index.tsx:351
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> kunkin tyypin resurssi = <1>{value}</1>"
 
@@ -1250,7 +1255,7 @@ msgstr "Pidättäytyä äänestämästä"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "Ilmoitusjärjestelmän väärinkäyttö tai roskapostittaminen voi johtaa seuraamuksiin."
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Tämän vallan väärinkäyttö toisen maan hyväksi johtaa <0>kieltoon.</0>"
 
@@ -1296,7 +1301,7 @@ msgstr "Siirry sotaan"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:242
+#: src/pages/country/[countryId]/index.tsx:252
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1306,7 +1311,7 @@ msgstr "Tili"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:69
+#: src/pages/country/[countryId]/government.tsx:82
 msgid "Actions"
 msgstr "Toiminnot"
 
@@ -1314,7 +1319,7 @@ msgstr "Toiminnot"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Active"
 msgstr "Aktiivinen"
 
@@ -1322,7 +1327,7 @@ msgstr "Aktiivinen"
 msgid "Active battle"
 msgstr "Aktiivinen taistelu"
 
-#: src/pages/country/[countryId]/index.tsx:193
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Active battles"
 msgstr "Aktiiviset taistelut"
 
@@ -1575,6 +1580,11 @@ msgstr "Vahvistuskoodin sisältävä sähköposti on lähetetty osoitteeseen {em
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animoitu <0>GIF</0> avatarina"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/pages/country/[countryId]/government.tsx:141
+msgid "Announcement"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
@@ -1620,7 +1630,7 @@ msgstr "Hakemusmaksu"
 msgid "Apply"
 msgstr "Hae"
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Approved"
 msgstr "Hyväksytty"
 
@@ -1644,11 +1654,11 @@ msgstr "Oletko varma, että haluat irtisanoa tämän työntekijän?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Oletko varma, että haluat potkia tämän jäsenen?"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:109
 msgid "Are you sure you want to leave the congress?"
 msgstr "Oletko varma, että haluat poistua kongressista?"
 
-#: src/pages/country/[countryId]/government.tsx:78
+#: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the government?"
 msgstr "Oletko varma, että haluat erota hallituksesta?"
 
@@ -1667,6 +1677,10 @@ msgstr "Haluatko varmasti poistaa kaikki ostotilaukset?"
 #: src/pages/market/index.tsx:236
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Haluatko varmasti poistaa kaikki myyntitilaukset?"
+
+#: src/pages/country/[countryId]/government.tsx:166
+msgid "Are you sure you want to remove this announcement?"
+msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:115
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1867,7 +1881,7 @@ msgstr "Merkki ansaittu"
 msgid "Badge Won"
 msgstr "Merkki voitettu"
 
-#: src/pages/country/[countryId]/index.tsx:249
+#: src/pages/country/[countryId]/index.tsx:259
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Tunnusmerkit"
@@ -2197,11 +2211,11 @@ msgid "Cancel Mercenary Contract"
 msgstr "Peruuta palkkasoturisopimus"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:264
 msgid "Cancelled"
 msgstr "Peruutettu"
 
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:265
 msgid "Cancelled by admin"
 msgstr "Järjestelmänvalvoja peruutti"
 
@@ -2375,7 +2389,7 @@ msgstr "Kansalainen vuodesta <0><1/></0>"
 msgid "Citizens"
 msgstr "Kansalaiset"
 
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Kansalaiset saavat bonuksen taistellessaan liittolaisten puolesta tai vannottua vihollista vastaan"
 
@@ -2562,7 +2576,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Suorita tehtäviä päivittäin ansaitaksesi XP ja noustaksesi nopeammin. Napsauta lunastaaksesi!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Completed"
 msgstr "Valmis"
 
@@ -2644,7 +2658,7 @@ msgstr "Kongressissa on vähintään <0>{0} paikkaa</0>."
 msgid "Congress Member"
 msgstr "Kongressin jäsen"
 
-#: src/pages/country/[countryId]/government.tsx:64
+#: src/pages/country/[countryId]/government.tsx:73
 msgid "Congress members"
 msgstr "kongressin jäseniä"
 
@@ -2784,7 +2798,7 @@ msgstr "maat"
 msgid "Country"
 msgstr "Maa"
 
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:394
 msgid "Country development income bonus"
 msgstr "Maan kehitystulopalkkio"
 
@@ -2805,7 +2819,7 @@ msgstr ""
 msgid "Country President"
 msgstr "Maan presidentti"
 
-#: src/pages/country/[countryId]/index.tsx:335
+#: src/pages/country/[countryId]/index.tsx:345
 msgid "Country production bonus"
 msgstr "Maatuotannon bonus"
 
@@ -3225,7 +3239,7 @@ msgid "Diminish Received Damages"
 msgstr "Pienennä saatuja vahingonkorvauksia"
 
 #: src/pages/alliance/[allianceId]/index.tsx:86
-#: src/pages/country/[countryId]/index.tsx:186
+#: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "Diplomatia"
 
@@ -3404,7 +3418,7 @@ msgstr "Vaaliäänestys auki"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:270
+#: src/pages/country/[countryId]/index.tsx:280
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "vaalit"
@@ -3555,7 +3569,7 @@ msgstr "Eettiset kohdat:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:255
+#: src/pages/country/[countryId]/index.tsx:265
 msgid "Events"
 msgstr "Tapahtumat"
 
@@ -3565,7 +3579,7 @@ msgstr "Kaikki osallistuvat automaattisesti"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Expired"
 msgstr "Vanhentunut"
 
@@ -3832,7 +3846,7 @@ msgid "Font style"
 msgstr "Fonttityyli"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:368
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "yrityksille, jotka tuottavat <0>{0}</0>, jotka sijaitsevat <1/>."
 
@@ -3988,6 +4002,7 @@ msgid "Gold"
 msgstr "Kulta"
 
 #: src/components/_political/country/CountryHeader.tsx:95
+#: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "Hallitus"
 
@@ -4257,7 +4272,7 @@ msgstr "Ei-aktiivinen"
 msgid "Income"
 msgstr "Tulot"
 
-#: src/pages/country/[countryId]/index.tsx:407
+#: src/pages/country/[countryId]/index.tsx:417
 msgid "income from <0>Development</0> in <1/>."
 msgstr "tulot <0>Kehityksestä</0> alueella <1/>."
 
@@ -4557,7 +4572,7 @@ msgstr "Lakiehdotus"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "lait"
@@ -4591,13 +4606,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Lähdetkö yrityksestä?"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:108
+#: src/pages/country/[countryId]/government.tsx:113
 msgid "Leave congress"
 msgstr "Lähde kongressista"
 
-#: src/pages/country/[countryId]/government.tsx:77
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:92
+#: src/pages/country/[countryId]/government.tsx:97
 msgid "Leave government"
 msgstr "Jätä hallitus"
 
@@ -4952,12 +4967,12 @@ msgid "Mentioned in message"
 msgstr "Viestissä mainittu"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:293
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "Mercenary Auctions"
 msgstr ""
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:291
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Palkkasoturisopimukset"
@@ -5045,14 +5060,17 @@ msgid "Min. active citizens"
 msgstr "Min. aktiivisia kansalaisia"
 
 #: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Puolustusministeri"
 
 #: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "talousministeri"
 
 #: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "ulkoministeri"
 
@@ -5447,7 +5465,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "Ei kansalaisia"
 
-#: src/pages/country/[countryId]/government.tsx:117
+#: src/pages/country/[countryId]/government.tsx:193
 msgid "No congress members"
 msgstr "Ei kongressin jäseniä"
 
@@ -5525,7 +5543,7 @@ msgstr "Ei tilauksia"
 msgid "No parties found"
 msgstr "Puolueita ei löytynyt"
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:381
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Ei tuotantobonusta resursseista. Tällä maalla ei ole erikoisalaa."
 
@@ -5933,7 +5951,7 @@ msgstr "Rauha tehty"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "Odottaa"
 
@@ -6028,6 +6046,11 @@ msgstr "Politiikka ja hallitus"
 msgid "Popular Article"
 msgstr "Suosittu artikkeli"
 
+#: src/components/_political/government/AnnouncementForm.tsx:28
+#: src/pages/country/[countryId]/government.tsx:154
+msgid "Post announcement"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
 msgid "Precision"
@@ -6070,6 +6093,7 @@ msgid "Premium has started working"
 msgstr "Premium on alkanut toimia"
 
 #: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Presidentti"
 
@@ -6301,7 +6325,7 @@ msgstr "Sijoituspalkinto"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:47
-#: src/pages/country/[countryId]/index.tsx:166
+#: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Rankingit"
@@ -6513,7 +6537,7 @@ msgstr "Hylkää"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Hylätty"
 
@@ -6553,6 +6577,11 @@ msgstr "Poista kaikki"
 #: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr "Poista ei-aktiivinen kongressin jäsen asemastaan"
+
+#: src/pages/country/[countryId]/government.tsx:165
+#: src/pages/country/[countryId]/government.tsx:170
+msgid "Remove announcement"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:395
 msgid "Remove Avatar"
@@ -6701,7 +6730,7 @@ msgstr "Vastarinnan tukijat"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:216
+#: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Resurssit"
@@ -6762,7 +6791,7 @@ msgstr "Oikeudet"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "Rahan palautus (ota takaisin kaikki maksut MU:lta/käyttäjiltä ja hyvitä koko pooli maahan)"
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Rolled back by admin"
 msgstr "Järjestelmänvalvoja peruutti"
 
@@ -6834,7 +6863,7 @@ msgstr "Voitetut kierrokset"
 msgid "Rules"
 msgstr "säännöt"
 
-#: src/pages/country/[countryId]/index.tsx:224
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Ruling Party"
 msgstr "Hallitseva puolue"
 
@@ -7452,9 +7481,9 @@ msgstr "Järjestelmän kapina"
 msgid "Table"
 msgstr "Taulukko"
 
-#: src/pages/country/[countryId]/index.tsx:116
-#: src/pages/country/[countryId]/index.tsx:140
-#: src/pages/country/[countryId]/index.tsx:145
+#: src/pages/country/[countryId]/index.tsx:117
+#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Take control"
 msgstr "Ota hallintaasi"
 
@@ -7600,7 +7629,7 @@ msgstr "Tämä palkkio on varattu vain kansalaisille."
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Tämä yritys on poistettu käytöstä, koska omistaja saavutti yritysrajan."
 
-#: src/pages/country/[countryId]/index.tsx:120
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Tällä maalla ei ole presidenttiä tai aktiivista kongressin jäsentä, voit ottaa sen hallintaansa."
 
@@ -8006,7 +8035,7 @@ msgstr "Epätodellinen. Tätä ei tapahdu"
 msgid "Unregister"
 msgstr "Peruuta rekisteröinti"
 
-#: src/pages/country/[countryId]/index.tsx:207
+#: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
 msgstr "Levottomuus"
 
@@ -8035,6 +8064,10 @@ msgstr "Tuleva Turnaus"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Päivitä"
+
+#: src/pages/country/[countryId]/government.tsx:152
+msgid "Update announcement"
+msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8289,6 +8322,7 @@ msgid "Vice Admiral"
 msgstr "Vara-amiraali"
 
 #: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Varapresidentti"
@@ -8559,15 +8593,15 @@ msgstr "Olet kaunis ihminen"
 msgid "You are a lucky bastard"
 msgstr "Olet onnekas paskiainen"
 
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:111
 msgid "You are already congress member of another country. Resign first."
 msgstr "Olet jo toisen maan kongressin jäsen. Irtisanoudu ensin."
 
-#: src/pages/country/[countryId]/index.tsx:106
+#: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
 msgstr "Olet jo toisen maan presidentti. Irtisanoudu ensin."
 
-#: src/pages/country/[countryId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already vice president of another country. Resign first."
 msgstr "Olet jo toisen maan varapresidentti. Irtisanoudu ensin."
 
@@ -8686,21 +8720,21 @@ msgstr "Sinut on siirretty paikasta <0/> paikkaan <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Olet käyttänyt <0>{0}</0>, sen vaikutus alkaa nyt ja päättyy <1>{buffDuration}h</1>:n kuluttua."
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:44
 msgid "You have resigned from the congress"
 msgstr "Olet eronnut kongressista"
 
-#: src/pages/country/[countryId]/government.tsx:28
+#: src/pages/country/[countryId]/government.tsx:36
 msgid "You have resigned from the government"
 msgstr "Olet eronnut hallituksesta"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:102
+#: src/pages/country/[countryId]/index.tsx:103
 msgid "You have to be level {0} to take control of a country."
 msgstr "Sinun on oltava tasolla {0} hallitaksesi maata."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:104
+#: src/pages/country/[countryId]/index.tsx:105
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Sinun on odotettava {0} päivää ennen kuin otat maan uudelleen hallintaan."
 
@@ -8912,6 +8946,10 @@ msgstr "Tilisi on ilmoitettu automaattisesti huijaamisesta"
 msgid "Your ancestors are proud"
 msgstr "Esivanhempasi ovat ylpeitä"
 
+#: src/components/_political/government/AnnouncementForm.tsx:35
+msgid "Your announcement to the country..."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:366
 #: src/components/_user/notification/notification.frontConfig.tsx:1066
 msgid "Your application to <0/> has been rejected"
@@ -8930,7 +8968,7 @@ msgstr "Bannerisi \"{0}\" on hyväksytty ja on nyt saatavilla myymälässä! Se 
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Buffisi vanhenee alle 1 tunnin kuluttua. Debuff-vaihe alkaa pian."
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Kansalaisuutesi tulee muuttumaan"
 

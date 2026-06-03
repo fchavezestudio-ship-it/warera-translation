@@ -110,6 +110,11 @@ msgstr ""
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} runde sunt necesare pentru a câștiga această luptă."
 
+#. placeholder {0}: announcement.views ?? 0
+#: src/components/_political/government/GovernmentAnnouncement.tsx:40
+msgid "{0} views"
+msgstr ""
+
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -724,8 +729,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> bonus specializare de la etica <1/> in
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> din <1/> bonus de producție oferit de resurse strategice."
 
-#: src/pages/country/[countryId]/index.tsx:341
-#: src/pages/country/[countryId]/index.tsx:390
+#: src/pages/country/[countryId]/index.tsx:351
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> resursă din fiecare tip = <1>{value}</1>"
 
@@ -1247,7 +1252,7 @@ msgstr "Abținere"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "Abuzul sau spamarea sistemului de raportare va fi sancționat."
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Abuzarea acestei puteri în avantajul altei țări duce la o <0>suspensie.</0>"
 
@@ -1293,7 +1298,7 @@ msgstr "Vezi război"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:242
+#: src/pages/country/[countryId]/index.tsx:252
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1303,7 +1308,7 @@ msgstr "Cont"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr ""
 
-#: src/pages/country/[countryId]/government.tsx:69
+#: src/pages/country/[countryId]/government.tsx:82
 msgid "Actions"
 msgstr "Acțiuni"
 
@@ -1311,7 +1316,7 @@ msgstr "Acțiuni"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Active"
 msgstr "Active"
 
@@ -1319,7 +1324,7 @@ msgstr "Active"
 msgid "Active battle"
 msgstr "Bătălie activă"
 
-#: src/pages/country/[countryId]/index.tsx:193
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Active battles"
 msgstr "Lupte active"
 
@@ -1572,6 +1577,11 @@ msgstr "Un email cu codul de verificare a fost trimis la {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "<0>GIF</0> animat ca avatar"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/pages/country/[countryId]/government.tsx:141
+msgid "Announcement"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
@@ -1617,7 +1627,7 @@ msgstr "Taxă aplicare"
 msgid "Apply"
 msgstr "Aplică"
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Approved"
 msgstr "Aprobat"
 
@@ -1641,11 +1651,11 @@ msgstr "Ești sigur că vrei să concediezi acest muncitor?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Ești sigur că vrei să dai afară acest membru?"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:109
 msgid "Are you sure you want to leave the congress?"
 msgstr "Ești sigur că vrei să demisionezi din parlament?"
 
-#: src/pages/country/[countryId]/government.tsx:78
+#: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the government?"
 msgstr "Ești sigur că vrei să demisionezi din guvern?"
 
@@ -1664,6 +1674,10 @@ msgstr "Ești sigur că vrei să elimini toate comenzile de cumpărare?"
 #: src/pages/market/index.tsx:236
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Ești sigur că vrei să elimini toate comenzile de vânzare?"
+
+#: src/pages/country/[countryId]/government.tsx:166
+msgid "Are you sure you want to remove this announcement?"
+msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:115
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1864,7 +1878,7 @@ msgstr "Insignă câștigată"
 msgid "Badge Won"
 msgstr "Insignă câștigată"
 
-#: src/pages/country/[countryId]/index.tsx:249
+#: src/pages/country/[countryId]/index.tsx:259
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Insigne"
@@ -2194,11 +2208,11 @@ msgid "Cancel Mercenary Contract"
 msgstr "Anulează Contract Mercenar"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:264
 msgid "Cancelled"
 msgstr "Anulat"
 
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:265
 msgid "Cancelled by admin"
 msgstr "Anulat de admin"
 
@@ -2372,7 +2386,7 @@ msgstr "Cetățean de <0><1/></0>"
 msgid "Citizens"
 msgstr "Cetățeni"
 
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Cetățenii primesc un bonus când luptă pentru aliați, sau împotriva inamicului principal"
 
@@ -2559,7 +2573,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Completează misiunile zilnice pentru a câștiga XP și a creșste mai rapid în nivel. Apasă pentru a revendica recompensa!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Completed"
 msgstr "Completat"
 
@@ -2641,7 +2655,7 @@ msgstr "Parlamentul are minim <0>{0} locuri</0>."
 msgid "Congress Member"
 msgstr "Parlamentar"
 
-#: src/pages/country/[countryId]/government.tsx:64
+#: src/pages/country/[countryId]/government.tsx:73
 msgid "Congress members"
 msgstr "Parlamentari"
 
@@ -2781,7 +2795,7 @@ msgstr "Țări"
 msgid "Country"
 msgstr "Țară"
 
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:394
 msgid "Country development income bonus"
 msgstr "Venit bonus din dezvoltare pe țară"
 
@@ -2802,7 +2816,7 @@ msgstr "Țara a plătit <0>{0}</0> pentru daunele contractate."
 msgid "Country President"
 msgstr "Președintele Țării"
 
-#: src/pages/country/[countryId]/index.tsx:335
+#: src/pages/country/[countryId]/index.tsx:345
 msgid "Country production bonus"
 msgstr "Bonus de producție pe țară"
 
@@ -3222,7 +3236,7 @@ msgid "Diminish Received Damages"
 msgstr "Redu daunele primite"
 
 #: src/pages/alliance/[allianceId]/index.tsx:86
-#: src/pages/country/[countryId]/index.tsx:186
+#: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "Diplomație"
 
@@ -3401,7 +3415,7 @@ msgstr "Votarea a început"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:270
+#: src/pages/country/[countryId]/index.tsx:280
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Alegeri"
@@ -3552,7 +3566,7 @@ msgstr "Puncte etici:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:255
+#: src/pages/country/[countryId]/index.tsx:265
 msgid "Events"
 msgstr "Noutăți"
 
@@ -3562,7 +3576,7 @@ msgstr "Toată lumea participă automat"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Expired"
 msgstr "Expirat"
 
@@ -3829,7 +3843,7 @@ msgid "Font style"
 msgstr "Stil text (font)"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:368
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "pentru companii care produc <0>{0}</0> în <1/>."
 
@@ -3985,6 +3999,7 @@ msgid "Gold"
 msgstr "Aur"
 
 #: src/components/_political/country/CountryHeader.tsx:95
+#: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "Guvern"
 
@@ -4254,7 +4269,7 @@ msgstr "Inactiv"
 msgid "Income"
 msgstr "Venit"
 
-#: src/pages/country/[countryId]/index.tsx:407
+#: src/pages/country/[countryId]/index.tsx:417
 msgid "income from <0>Development</0> in <1/>."
 msgstr "venit din <0>Dezvoltare</0> în <1/>."
 
@@ -4554,7 +4569,7 @@ msgstr "Lege propusă"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "Legi"
@@ -4588,13 +4603,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Părăsești compania?"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:108
+#: src/pages/country/[countryId]/government.tsx:113
 msgid "Leave congress"
 msgstr "Demisionează din parlament"
 
-#: src/pages/country/[countryId]/government.tsx:77
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:92
+#: src/pages/country/[countryId]/government.tsx:97
 msgid "Leave government"
 msgstr "Demisionează din guvern"
 
@@ -4949,12 +4964,12 @@ msgid "Mentioned in message"
 msgstr "Menționat în mesaj"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:293
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "Mercenary Auctions"
 msgstr "Licitații pentru Mercenari"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:291
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Contracte mercenar"
@@ -5042,14 +5057,17 @@ msgid "Min. active citizens"
 msgstr "Min. cetățeni activi"
 
 #: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Ministrul Apărării"
 
 #: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Ministrul Finanțelor"
 
 #: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Ministrul Externelor"
 
@@ -5444,7 +5462,7 @@ msgstr "Fără oferte"
 msgid "No citizens"
 msgstr "Niciun cetățean"
 
-#: src/pages/country/[countryId]/government.tsx:117
+#: src/pages/country/[countryId]/government.tsx:193
 msgid "No congress members"
 msgstr "Niciun parlamentar"
 
@@ -5522,7 +5540,7 @@ msgstr "Fără ordine"
 msgid "No parties found"
 msgstr "Nu s-au găsit partide"
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:381
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Niciun bonus de producție. Țara nu are specializarea setată."
 
@@ -5930,7 +5948,7 @@ msgstr "Pace încheiată"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "În așteptare"
 
@@ -6025,6 +6043,11 @@ msgstr "Politică & Guvernare"
 msgid "Popular Article"
 msgstr "Articol Popular"
 
+#: src/components/_political/government/AnnouncementForm.tsx:28
+#: src/pages/country/[countryId]/government.tsx:154
+msgid "Post announcement"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
 msgid "Precision"
@@ -6067,6 +6090,7 @@ msgid "Premium has started working"
 msgstr "Planul Susținător a început să funcționeze"
 
 #: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Președinte"
 
@@ -6298,7 +6322,7 @@ msgstr "Recompense clasament"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:47
-#: src/pages/country/[countryId]/index.tsx:166
+#: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Clasamente"
@@ -6510,7 +6534,7 @@ msgstr "Contra"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Respinsă"
 
@@ -6550,6 +6574,11 @@ msgstr "Elimină tot"
 #: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr "Demite un membru inactiv din parlament"
+
+#: src/pages/country/[countryId]/government.tsx:165
+#: src/pages/country/[countryId]/government.tsx:170
+msgid "Remove announcement"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:395
 msgid "Remove Avatar"
@@ -6698,7 +6727,7 @@ msgstr "Contribuții rezistență"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:216
+#: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Resurse"
@@ -6759,7 +6788,7 @@ msgstr "Drepturi"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr ""
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Rolled back by admin"
 msgstr "Inversat de admin"
 
@@ -6831,7 +6860,7 @@ msgstr "Runde câștigate"
 msgid "Rules"
 msgstr "Reguli"
 
-#: src/pages/country/[countryId]/index.tsx:224
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Ruling Party"
 msgstr "Partid guvernant"
 
@@ -7449,9 +7478,9 @@ msgstr "Revoltă de sistem"
 msgid "Table"
 msgstr "Tabel"
 
-#: src/pages/country/[countryId]/index.tsx:116
-#: src/pages/country/[countryId]/index.tsx:140
-#: src/pages/country/[countryId]/index.tsx:145
+#: src/pages/country/[countryId]/index.tsx:117
+#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Take control"
 msgstr "Preia controlul"
 
@@ -7597,7 +7626,7 @@ msgstr "Răsplată doar pentru cetățenii țării."
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Compania este dezactivată deoarece patronul a atins limita de companii."
 
-#: src/pages/country/[countryId]/index.tsx:120
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Această țară nu are președinte sau parlament activ, deci poți prelua controlul acesteia."
 
@@ -8003,7 +8032,7 @@ msgstr "Incredibil. Asta nu se întâmplă deobicei"
 msgid "Unregister"
 msgstr "Anulează înregistrarea"
 
-#: src/pages/country/[countryId]/index.tsx:207
+#: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
 msgstr "Tensiune"
 
@@ -8032,6 +8061,10 @@ msgstr "Turneu Viitor"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Schimbă"
+
+#: src/pages/country/[countryId]/government.tsx:152
+msgid "Update announcement"
+msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8286,6 +8319,7 @@ msgid "Vice Admiral"
 msgstr "Viceamiral"
 
 #: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Vicepreședinte"
@@ -8556,15 +8590,15 @@ msgstr "Ești o persoană minunată"
 msgid "You are a lucky bastard"
 msgstr "Ai un noroc nebun"
 
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:111
 msgid "You are already congress member of another country. Resign first."
 msgstr "Ești deja un parlamentar al altei țări. Întăi demisionează."
 
-#: src/pages/country/[countryId]/index.tsx:106
+#: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
 msgstr "Ești deja președintele altei țări. Întăi demisionează."
 
-#: src/pages/country/[countryId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already vice president of another country. Resign first."
 msgstr "Ești deja vice președintele altei țări. Întăi demisionează."
 
@@ -8683,21 +8717,21 @@ msgstr "Ai fost transferat de la <0/> la <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Ai consumat <0>{0}</0>, efectul începe acum și se termină în <1>{buffDuration}h</1>."
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:44
 msgid "You have resigned from the congress"
 msgstr "Ai demisionat din parlament"
 
-#: src/pages/country/[countryId]/government.tsx:28
+#: src/pages/country/[countryId]/government.tsx:36
 msgid "You have resigned from the government"
 msgstr "Ai demisionat din guvern"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:102
+#: src/pages/country/[countryId]/index.tsx:103
 msgid "You have to be level {0} to take control of a country."
 msgstr "Trebuie să fii nivelul {0} ca să poți prelua controlul unei țări."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:104
+#: src/pages/country/[countryId]/index.tsx:105
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Trebuie să aștepți {0} zile până vei putea lua controlul unei țări."
 
@@ -8909,6 +8943,10 @@ msgstr "Contul tău a fost raportat automat pentru trișat"
 msgid "Your ancestors are proud"
 msgstr "Strămoșii tăi sunt mândri"
 
+#: src/components/_political/government/AnnouncementForm.tsx:35
+msgid "Your announcement to the country..."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:366
 #: src/components/_user/notification/notification.frontConfig.tsx:1066
 msgid "Your application to <0/> has been rejected"
@@ -8927,7 +8965,7 @@ msgstr "Coperta ta \"{0}\" a fost acceptată și este acum disponibilă în maga
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "Bufful tău expiră în mai puțin de o oră. Perioada de debuff începe curând."
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Cetățenia ta se va schimba"
 

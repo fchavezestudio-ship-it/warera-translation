@@ -112,6 +112,11 @@ msgstr "{0} új törvényt javasolt <0/>"
 msgid "{0} rounds are needed to win the battle."
 msgstr "{0} kör szükséges a csata megnyeréséhez."
 
+#. placeholder {0}: announcement.views ?? 0
+#: src/components/_political/government/GovernmentAnnouncement.tsx:40
+msgid "{0} views"
+msgstr ""
+
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:85
 msgid "{0}'s Companies"
@@ -726,8 +731,8 @@ msgstr "<0>{ethicSpecializationBonus}</0> az <1/> Iparos etika specializációs 
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> az <1/> stratégiai erőforrások termelési bónuszából."
 
-#: src/pages/country/[countryId]/index.tsx:341
-#: src/pages/country/[countryId]/index.tsx:390
+#: src/pages/country/[countryId]/index.tsx:351
+#: src/pages/country/[countryId]/index.tsx:400
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> erőforrás minden típusból = <1>{value}</1>"
 
@@ -1249,7 +1254,7 @@ msgstr "Tartózkodás"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "A jelentési rendszer visszaélésszerű használata vagy spammelése szankciókhoz vezethet."
 
-#: src/pages/country/[countryId]/index.tsx:127
+#: src/pages/country/[countryId]/index.tsx:128
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Ezen hatalom visszaélésszerű használata egy másik ország előnyére <0>kitiltáshoz</0> vezet."
 
@@ -1295,7 +1300,7 @@ msgstr "Háború megtekintése"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:242
+#: src/pages/country/[countryId]/index.tsx:252
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1305,7 +1310,7 @@ msgstr "Fiók"
 msgid "Accounts created solely to benefit a player, group, military unit or country are not permitted. Exploited accounts can take many forms. This includes, but is not limited to:"
 msgstr "A kizárólag egy játékos, csoport, katonai egység vagy ország előnyére létrehozott fiókok nem megengedettek. A kihasznált fiókok számos formát ölthetnek. Ez magában foglalja, de nem kizárólagosan:"
 
-#: src/pages/country/[countryId]/government.tsx:69
+#: src/pages/country/[countryId]/government.tsx:82
 msgid "Actions"
 msgstr "Műveletek"
 
@@ -1313,7 +1318,7 @@ msgstr "Műveletek"
 #: src/components/_military/mercenaryContract/MercenaryAuctionList.tsx:134
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:85
 #: src/pages/events/index.tsx:94
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Active"
 msgstr "Aktív"
 
@@ -1321,7 +1326,7 @@ msgstr "Aktív"
 msgid "Active battle"
 msgstr "Aktív csata"
 
-#: src/pages/country/[countryId]/index.tsx:193
+#: src/pages/country/[countryId]/index.tsx:203
 msgid "Active battles"
 msgstr "Aktív csaták"
 
@@ -1574,6 +1579,11 @@ msgstr "Az ellenőrző kódot tartalmazó e-mailt elküldtük a következő cím
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animált <0>GIF</0> profilképként"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+#: src/pages/country/[countryId]/government.tsx:141
+msgid "Announcement"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:281
 msgid "Another country proposed a defensive pact to yours"
 msgstr ""
@@ -1619,7 +1629,7 @@ msgstr "Jelentkezési díj"
 msgid "Apply"
 msgstr "Jelentkezés"
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Approved"
 msgstr "Jóváhagyva"
 
@@ -1643,11 +1653,11 @@ msgstr "Biztosan el akarod bocsátani ezt a dolgozót?"
 msgid "Are you sure you want to kick this member?"
 msgstr "Biztosan ki akarod rúgni ezt a tagot?"
 
-#: src/pages/country/[countryId]/government.tsx:93
+#: src/pages/country/[countryId]/government.tsx:109
 msgid "Are you sure you want to leave the congress?"
 msgstr "Biztosan el akarod hagyni a kongresszust?"
 
-#: src/pages/country/[countryId]/government.tsx:78
+#: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the government?"
 msgstr "Biztosan el akarod hagyni a kormányt?"
 
@@ -1666,6 +1676,10 @@ msgstr "Biztosan törölni akarod az összes vételi megbízást?"
 #: src/pages/market/index.tsx:236
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Biztosan törölni akarod az összes eladási megbízást?"
+
+#: src/pages/country/[countryId]/government.tsx:166
+msgid "Are you sure you want to remove this announcement?"
+msgstr ""
 
 #: src/components/_user/mission/MissionItem.tsx:115
 msgid "Are you sure you want to reroll this mission? Your current progress will be lost."
@@ -1866,7 +1880,7 @@ msgstr "Jelvény megszerzve"
 msgid "Badge Won"
 msgstr "Jelvény Megszerzve"
 
-#: src/pages/country/[countryId]/index.tsx:249
+#: src/pages/country/[countryId]/index.tsx:259
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Jelvények"
@@ -2196,11 +2210,11 @@ msgid "Cancel Mercenary Contract"
 msgstr "Zsoldosszerződés megszakítása"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
-#: src/utils/translations.tsx:263
+#: src/utils/translations.tsx:264
 msgid "Cancelled"
 msgstr "Megszakítva"
 
-#: src/utils/translations.tsx:264
+#: src/utils/translations.tsx:265
 msgid "Cancelled by admin"
 msgstr "Admin által megszakítva"
 
@@ -2374,7 +2388,7 @@ msgstr "Állampolgár <0><1/></0> óta"
 msgid "Citizens"
 msgstr "Állampolgárok"
 
-#: src/pages/country/[countryId]/index.tsx:180
+#: src/pages/country/[countryId]/index.tsx:190
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Az állampolgárok bónuszt kapnak, amikor szövetségesekért harcolnak, vagy az esküdt ellenség ellen"
 
@@ -2561,7 +2575,7 @@ msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Teljesíts napi küldetéseket, hogy XP-t szerezz és gyorsabban szintet lépj. Kattints az igényléshez!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Completed"
 msgstr "Befejezve"
 
@@ -2643,7 +2657,7 @@ msgstr "A kongresszusnak minimum <0>{0} helye</0> van."
 msgid "Congress Member"
 msgstr "Kongresszusi tag"
 
-#: src/pages/country/[countryId]/government.tsx:64
+#: src/pages/country/[countryId]/government.tsx:73
 msgid "Congress members"
 msgstr "Kongresszusi tagok"
 
@@ -2783,7 +2797,7 @@ msgstr "Országok"
 msgid "Country"
 msgstr "Ország"
 
-#: src/pages/country/[countryId]/index.tsx:384
+#: src/pages/country/[countryId]/index.tsx:394
 msgid "Country development income bonus"
 msgstr "Országfejlesztési jövedelem bónusz"
 
@@ -2804,7 +2818,7 @@ msgstr "Az ország <0>{0}</0>-t fizetett az okozott károkért."
 msgid "Country President"
 msgstr "Ország elnöke"
 
-#: src/pages/country/[countryId]/index.tsx:335
+#: src/pages/country/[countryId]/index.tsx:345
 msgid "Country production bonus"
 msgstr "Országos termelési bónusz"
 
@@ -3224,7 +3238,7 @@ msgid "Diminish Received Damages"
 msgstr "Kapott sebzés csökkentése"
 
 #: src/pages/alliance/[allianceId]/index.tsx:86
-#: src/pages/country/[countryId]/index.tsx:186
+#: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "Diplomácia"
 
@@ -3403,7 +3417,7 @@ msgstr "Szavazás megnyílt"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:270
+#: src/pages/country/[countryId]/index.tsx:280
 #: src/pages/party/[partyId]/index.tsx:100
 msgid "Elections"
 msgstr "Választások"
@@ -3554,7 +3568,7 @@ msgstr "Etika pontok:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:255
+#: src/pages/country/[countryId]/index.tsx:265
 msgid "Events"
 msgstr "Események"
 
@@ -3564,7 +3578,7 @@ msgstr "Mindenki automatikusan részt vesz"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Expired"
 msgstr "Lejárt"
 
@@ -3831,7 +3845,7 @@ msgid "Font style"
 msgstr "Betűstílus"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:358
+#: src/pages/country/[countryId]/index.tsx:368
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "a <1/>-ban/ben található, <0>{0}</0> termelő cégek számára."
 
@@ -3987,6 +4001,7 @@ msgid "Gold"
 msgstr "Arany"
 
 #: src/components/_political/country/CountryHeader.tsx:95
+#: src/pages/country/[countryId]/index.tsx:176
 msgid "Government"
 msgstr "Kormány"
 
@@ -4256,7 +4271,7 @@ msgstr "Inaktív"
 msgid "Income"
 msgstr "Bevétel"
 
-#: src/pages/country/[countryId]/index.tsx:407
+#: src/pages/country/[countryId]/index.tsx:417
 msgid "income from <0>Development</0> in <1/>."
 msgstr "bevétel a(z) <1/> <0>Fejlesztéséből</0>."
 
@@ -4556,7 +4571,7 @@ msgstr "Törvényjavaslatot benyújtottak"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/pages/alliance/[allianceId]/index.tsx:106
-#: src/pages/country/[countryId]/index.tsx:172
+#: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "Törvények"
@@ -4590,13 +4605,13 @@ msgstr ""
 msgid "Leave company?"
 msgstr "Elhagyod a vállalatot?"
 
-#: src/pages/country/[countryId]/government.tsx:92
-#: src/pages/country/[countryId]/government.tsx:97
+#: src/pages/country/[countryId]/government.tsx:108
+#: src/pages/country/[countryId]/government.tsx:113
 msgid "Leave congress"
 msgstr "Kongresszus elhagyása"
 
-#: src/pages/country/[countryId]/government.tsx:77
-#: src/pages/country/[countryId]/government.tsx:82
+#: src/pages/country/[countryId]/government.tsx:92
+#: src/pages/country/[countryId]/government.tsx:97
 msgid "Leave government"
 msgstr "Kormány elhagyása"
 
@@ -4951,12 +4966,12 @@ msgid "Mentioned in message"
 msgstr "Üzenetben említve"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:293
+#: src/pages/country/[countryId]/index.tsx:303
 msgid "Mercenary Auctions"
 msgstr "Zsoldos árverések"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:291
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Zsoldos szerződések"
@@ -5044,14 +5059,17 @@ msgid "Min. active citizens"
 msgstr "Min. aktív állampolgár"
 
 #: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Honvédelmi miniszter"
 
 #: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Gazdasági miniszter"
 
 #: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Külügyminiszter"
 
@@ -5446,7 +5464,7 @@ msgstr "Még nincsenek ajánlatok"
 msgid "No citizens"
 msgstr "Nincsenek állampolgárok"
 
-#: src/pages/country/[countryId]/government.tsx:117
+#: src/pages/country/[countryId]/government.tsx:193
 msgid "No congress members"
 msgstr "Nincsenek kongresszusi tagok"
 
@@ -5524,7 +5542,7 @@ msgstr "Nincsenek parancsok"
 msgid "No parties found"
 msgstr "Nem található párt"
 
-#: src/pages/country/[countryId]/index.tsx:371
+#: src/pages/country/[countryId]/index.tsx:381
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Nincs termelési bónusz az erőforrásokból. Ennek az országnak nincs specializációja."
 
@@ -5932,7 +5950,7 @@ msgstr "Béke kötve"
 msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
 msgstr ""
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "Függőben"
 
@@ -6027,6 +6045,11 @@ msgstr "Politika és kormányzat"
 msgid "Popular Article"
 msgstr "Népszerű cikk"
 
+#: src/components/_political/government/AnnouncementForm.tsx:28
+#: src/pages/country/[countryId]/government.tsx:154
+msgid "Post announcement"
+msgstr ""
+
 #: src/components/_user/user/skills.frontConfig.tsx:130
 #: src/components/_user/user/skills.frontConfig.tsx:131
 msgid "Precision"
@@ -6069,6 +6092,7 @@ msgid "Premium has started working"
 msgstr "A prémium elkezdett működni"
 
 #: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Elnök"
 
@@ -6300,7 +6324,7 @@ msgstr "Rangsori jutalom"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
 #: src/pages/alliance/[allianceId]/index.tsx:47
-#: src/pages/country/[countryId]/index.tsx:166
+#: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
 msgstr "Ranglisták"
@@ -6512,7 +6536,7 @@ msgstr "Elutasít"
 #: src/components/_political/allianceLaw/AllianceLawStatus.tsx:45
 #: src/components/_political/law/LawStatus.tsx:45
 #: src/components/_political/partyMotion/PartyMotionStatus.tsx:54
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Rejected"
 msgstr "Elutasítva"
 
@@ -6552,6 +6576,11 @@ msgstr "Összes eltávolítása"
 #: src/components/_political/law/law.frontConfig.tsx:184
 msgid "Remove an inactive congress member from its position"
 msgstr "Inaktív kongresszusi tag eltávolítása posztjáról"
+
+#: src/pages/country/[countryId]/government.tsx:165
+#: src/pages/country/[countryId]/government.tsx:170
+msgid "Remove announcement"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:395
 msgid "Remove Avatar"
@@ -6700,7 +6729,7 @@ msgstr "Ellenállás támogatói"
 msgid "Resistance for {regionName} {score}"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:216
+#: src/pages/country/[countryId]/index.tsx:226
 #: src/pages/region/[regionId]/index.tsx:49
 msgid "Resources"
 msgstr "Erőforrások"
@@ -6761,7 +6790,7 @@ msgstr "Jogok"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "Pénz visszaállítása (minden kifizetés visszavétele KE-től/felhasználóktól és teljes alap visszatérítése az országnak)"
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Rolled back by admin"
 msgstr "Admin által visszavonva"
 
@@ -6833,7 +6862,7 @@ msgstr "Megnyert körök"
 msgid "Rules"
 msgstr "Szabályok"
 
-#: src/pages/country/[countryId]/index.tsx:224
+#: src/pages/country/[countryId]/index.tsx:234
 msgid "Ruling Party"
 msgstr "Kormányzó párt"
 
@@ -7451,9 +7480,9 @@ msgstr "Rendszer lázadás"
 msgid "Table"
 msgstr "Táblázat"
 
-#: src/pages/country/[countryId]/index.tsx:116
-#: src/pages/country/[countryId]/index.tsx:140
-#: src/pages/country/[countryId]/index.tsx:145
+#: src/pages/country/[countryId]/index.tsx:117
+#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:146
 msgid "Take control"
 msgstr "Vedd át az irányítást"
 
@@ -7599,7 +7628,7 @@ msgstr "Ez a fejvadászdíj csak állampolgárok számára elérhető."
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Ez a vállalat letiltva van, mert a tulajdonos elérte a vállalati limitet."
 
-#: src/pages/country/[countryId]/index.tsx:120
+#: src/pages/country/[countryId]/index.tsx:121
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Ennek az országnak nincs elnöke vagy aktív kongresszusi tagja, átveheted felette az irányítást."
 
@@ -8005,7 +8034,7 @@ msgstr "Hihetetlen. Ez nem szokott megtörténni"
 msgid "Unregister"
 msgstr "Leiratkozás"
 
-#: src/pages/country/[countryId]/index.tsx:207
+#: src/pages/country/[countryId]/index.tsx:217
 msgid "Unrest"
 msgstr "Zavargás"
 
@@ -8034,6 +8063,10 @@ msgstr "Közelgő Torna"
 #: src/components/_user/user/UserForm.tsx:52
 msgid "Update"
 msgstr "Frissítés"
+
+#: src/pages/country/[countryId]/government.tsx:152
+msgid "Update announcement"
+msgstr ""
 
 #: src/pages/user/[userId]/settings.tsx:59
 msgid "Update infos"
@@ -8288,6 +8321,7 @@ msgid "Vice Admiral"
 msgstr "Altengernagy"
 
 #: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
 msgstr "Alelnök"
@@ -8558,15 +8592,15 @@ msgstr "Te egy csodálatos ember vagy"
 msgid "You are a lucky bastard"
 msgstr "Te egy szerencsés fickó vagy"
 
-#: src/pages/country/[countryId]/index.tsx:110
+#: src/pages/country/[countryId]/index.tsx:111
 msgid "You are already congress member of another country. Resign first."
 msgstr "Már egy másik ország kongresszusi tagja vagy. Először lépj vissza."
 
-#: src/pages/country/[countryId]/index.tsx:106
+#: src/pages/country/[countryId]/index.tsx:107
 msgid "You are already president of another country. Resign first."
 msgstr "Már egy másik ország elnöke vagy. Először lépj vissza."
 
-#: src/pages/country/[countryId]/index.tsx:108
+#: src/pages/country/[countryId]/index.tsx:109
 msgid "You are already vice president of another country. Resign first."
 msgstr "Már egy másik ország alelnöke vagy. Először lépj vissza."
 
@@ -8685,21 +8719,21 @@ msgstr "Át lettél helyezve <0/> helyről <1/> helyre"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Elfogyasztottad: <0>{0}</0>, a hatása most kezdődik és <1>{buffDuration}h</1> múlva ér véget."
 
-#: src/pages/country/[countryId]/government.tsx:36
+#: src/pages/country/[countryId]/government.tsx:44
 msgid "You have resigned from the congress"
 msgstr "Lemondtál a kongresszusi pozícióról"
 
-#: src/pages/country/[countryId]/government.tsx:28
+#: src/pages/country/[countryId]/government.tsx:36
 msgid "You have resigned from the government"
 msgstr "Lemondtál a kormányzati pozícióról"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:102
+#: src/pages/country/[countryId]/index.tsx:103
 msgid "You have to be level {0} to take control of a country."
 msgstr "{0} szintűnek kell lenned, hogy átvedd egy ország irányítását."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:104
+#: src/pages/country/[countryId]/index.tsx:105
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "{0} napot kell várnod, mielőtt újra átvehetsz egy ország irányítását."
 
@@ -8911,6 +8945,10 @@ msgstr "A fiókod automatikusan jelentve lett csalásért"
 msgid "Your ancestors are proud"
 msgstr "Őseided büszkék"
 
+#: src/components/_political/government/AnnouncementForm.tsx:35
+msgid "Your announcement to the country..."
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:366
 #: src/components/_user/notification/notification.frontConfig.tsx:1066
 msgid "Your application to <0/> has been rejected"
@@ -8929,7 +8967,7 @@ msgstr "A bannered (\"{0}\") elfogadásra került és most elérhető a boltban!
 msgid "Your buff(s) will expire in less than 1 hour. The debuff phase will begin soon."
 msgstr "A bónuszod/bónuszaid kevesebb mint 1 óra múlva lejárnak. A büntetőfázis hamarosan kezdődik."
 
-#: src/pages/country/[countryId]/index.tsx:141
+#: src/pages/country/[countryId]/index.tsx:142
 msgid "Your citizenship is going to change"
 msgstr "Az állampolgárságod meg fog változni"
 
