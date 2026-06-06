@@ -64,6 +64,19 @@ msgstr "- Ennek a régiónak a védelme <0>{0}</0> büntetéssel jár."
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- A fejlettségi bevétel 50%-kal csökken:<0>{0}</0>."
 
+#: src/components/_political/alliance/AllianceMemberRow.tsx:70
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:196
+msgid "(alliance average development)"
+msgstr ""
+
+#: src/components/_political/alliance/AllianceMemberRow.tsx:65
+msgid "(member average development)"
+msgstr ""
+
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:190
+msgid "(own development)"
+msgstr ""
+
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
 msgid "{0} & allies"
@@ -92,7 +105,7 @@ msgstr "{0} ingyenes"
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
 #: src/components/_political/law/Law.tsx:128
-#: src/components/_political/partyMotion/PartyMotion.tsx:109
+#: src/components/_political/partyMotion/PartyMotion.tsx:113
 msgid "{0} hours"
 msgstr "{0} óra"
 
@@ -670,10 +683,15 @@ msgstr "<0>{0}</0> az Agrár etika lelőhely bónuszából."
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> a lelőhely erőforrásokból."
 
-#. placeholder {0}: sideBonus.allyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:283
-msgid "<0>{0}</0> from Diplomatic ethics (fighting for ally)"
-msgstr "<0>{0}</0> a Diplomata etikából (szövetségesért való harc)"
+#. placeholder {0}: sideBonus.pacificationDefenseBonusPercent
+#: src/components/_military/battle/BattleDamageBonuses.tsx:273
+msgid "<0>{0}</0> from Fanatic Expansionist ethics (Pacification Center)"
+msgstr ""
+
+#. placeholder {0}: sideBonus.revoltBunkerCopyBonusPercent
+#: src/components/_military/battle/BattleDamageBonuses.tsx:263
+msgid "<0>{0}</0> from Fanatic Pacifist ethics (revolt copies enemy bunker)"
+msgstr ""
 
 #. placeholder {0}: sideBonus.patrioticBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:73
@@ -685,25 +703,10 @@ msgstr "<0>{0}</0> az országodért való harcból"
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
 msgstr "<0>{0}</0> az Iparos etika specializációs bónuszából."
 
-#. placeholder {0}: sideBonus.enemyEthicsBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:293
-msgid "<0>{0}</0> from Isolationist ethics (fighting enemy)"
-msgstr "<0>{0}</0> az Elszigetelő etikából (ellenséggel való harc)"
-
-#. placeholder {0}: sideBonus.militarismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:263
-msgid "<0>{0}</0> from Militarist ethics (attacking)"
-msgstr "<0>{0}</0> a Militarista etikából (támadás)"
-
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:136
 msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> a(z) <1/> parancsaiból"
-
-#. placeholder {0}: sideBonus.pacifismBonusPercent
-#: src/components/_military/battle/BattleDamageBonuses.tsx:273
-msgid "<0>{0}</0> from Pacifist ethics (defending)"
-msgstr "<0>{0}</0> a Pacifista etikából (védelem)"
 
 #. placeholder {0}: region.strategicBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:104
@@ -746,14 +749,26 @@ msgstr "<0>{ethicSpecializationBonus}</0> az <1/> Iparos etika specializációs 
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
 msgstr "<0>{strategicBonus}</0> az <1/> stratégiai erőforrások termelési bónuszából."
 
-#: src/pages/country/[countryId]/index.tsx:351
-#: src/pages/country/[countryId]/index.tsx:400
+#: src/pages/country/[countryId]/index.tsx:352
+#: src/pages/country/[countryId]/index.tsx:401
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> erőforrás minden típusból = <1>{value}</1>"
+
+#: src/components/_political/country/CountryHeader.tsx:207
+msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
+msgstr ""
 
 #: src/components/_user/user/UserTooltip.tsx:131
 msgid "<0>Buff</0> ends <1/>"
 msgstr "<0>Buff</0> lejár <1/>"
+
+#: src/components/_political/country/CountryHeader.tsx:171
+msgid "<0>Core development</0> is calculated depending on the country's <1>Population</1> and average <2>Level</2>. then distributed equally among the country's <3>Core regions</3>."
+msgstr ""
+
+#: src/components/_political/country/CountryHeader.tsx:235
+msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
+msgstr ""
 
 #: src/components/_user/user/UserTooltip.tsx:140
 msgid "<0>Debuff</0> ends <1/>"
@@ -1261,7 +1276,7 @@ msgstr "a. Sértések, gyalázkodás és célzott zaklatás"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:133
 #: src/components/_political/law/Law.tsx:187
-#: src/components/_political/partyMotion/PartyMotion.tsx:169
+#: src/components/_political/partyMotion/PartyMotion.tsx:173
 msgid "Abstain"
 msgstr "Tartózkodás"
 
@@ -1275,7 +1290,7 @@ msgstr "Ezen hatalom visszaélésszerű használata egy másik ország előnyér
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:122
 #: src/components/_political/law/Law.tsx:176
-#: src/components/_political/partyMotion/PartyMotion.tsx:158
+#: src/components/_political/partyMotion/PartyMotion.tsx:162
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
 msgstr "Elfogad"
@@ -1315,7 +1330,7 @@ msgstr "Háború megtekintése"
 #: src/components/_political/country/CountryHeader.tsx:77
 #: src/components/_user/user/UserHeader.tsx:167
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:252
+#: src/pages/country/[countryId]/index.tsx:253
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:150
 msgid "Account"
@@ -1357,7 +1372,7 @@ msgstr "Aktív építkezés"
 msgid "Active War"
 msgstr "Aktív háború"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:190
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:219
 msgid "Active wars"
 msgstr "Aktív háborúk"
 
@@ -1371,7 +1386,7 @@ msgstr "Felhasználó hozzáadása"
 
 #: src/components/_political/law/Law.tsx:101
 #: src/components/_political/law/LawFormModal.tsx:327
-#: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotion.tsx:99
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "További költség"
@@ -1409,8 +1424,8 @@ msgstr "Fejlett sisak"
 msgid "Advanced Pants"
 msgstr "Fejlett nadrág"
 
-#: src/components/_political/party/party.frontConfig.tsx:297
-#: src/components/_political/party/party.frontConfig.tsx:314
+#: src/components/_political/party/party.frontConfig.tsx:355
+#: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Agrarian"
 msgstr "Agrár"
 
@@ -1424,21 +1439,17 @@ msgstr "Összes"
 msgid "All categories"
 msgstr "Minden kategória"
 
-#: src/components/_political/party/party.frontConfig.tsx:211
-msgid "All citizenship requests are accepted automatically."
-msgstr "Minden állampolgársági kérelem automatikusan elfogadásra kerül."
-
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism['-1'].depositBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism['-2'].depositBonus)
-#: src/components/_political/party/party.frontConfig.tsx:280
-#: src/components/_political/party/party.frontConfig.tsx:301
+#: src/components/_political/party/party.frontConfig.tsx:338
+#: src/components/_political/party/party.frontConfig.tsx:359
 msgid "All coca, grain, livestock and fish deposits in your borders give <0>+{0}</0> more production bonus."
 msgstr "A határaidon belüli összes koka, gabona, állatállomány és hal lelőhely <0>+{0}</0>-kal több termelési bónuszt ad."
 
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism[1].specializationBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.industrialism[2].specializationBonus)
-#: src/components/_political/party/party.frontConfig.tsx:323
-#: src/components/_political/party/party.frontConfig.tsx:337
+#: src/components/_political/party/party.frontConfig.tsx:381
+#: src/components/_political/party/party.frontConfig.tsx:395
 msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
 msgstr "A határaidon belüli összes vállalat <0>+{0}</0> bónuszt kap a lőszer vagy építőanyag specializációs termékhez."
 
@@ -1454,16 +1465,11 @@ msgstr "Összes játékbeli"
 msgid "All languages"
 msgstr "Minden nyelv"
 
-#. placeholder {0}: ethicsBonuses.imperialism[2].lawCostMultiplier
-#: src/components/_political/party/party.frontConfig.tsx:263
-msgid "All law enactment costs are multiplied by {0}."
-msgstr "Minden törvényhozási költség {0}-szeresére nő."
-
 #: src/components/_user/notification/NotificationPrefsPanel.tsx:168
 msgid "All Mobile"
 msgstr "Összes mobil"
 
-#: src/pages/party/[partyId]/index.tsx:112
+#: src/pages/party/[partyId]/index.tsx:113
 msgid "All Parties"
 msgstr "Minden párt"
 
@@ -1479,12 +1485,17 @@ msgstr "Minden kinézet megszerzve"
 msgid "All transactions must stay fair and balanced."
 msgstr "Minden tranzakciónak igazságosnak és kiegyensúlyozottnak kell maradnia."
 
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism['-2'].treatyMaintenanceMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:161
+msgid "All treaty maintenance costs are increased by <0>{0}</0>."
+msgstr ""
+
 #: src/components/_economy/transaction/TransactionList.tsx:70
 msgid "All types"
 msgstr "Minden típus"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:149
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:157
 msgid "Alliance"
 msgstr ""
 
@@ -1875,6 +1886,7 @@ msgstr "Automatizált Motor"
 msgid "Avatar removed"
 msgstr "Avatar eltávolítva"
 
+#: src/components/_political/alliance/AllianceHeader.tsx:85
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr ""
@@ -1895,16 +1907,16 @@ msgstr "Jelvény megszerzve"
 msgid "Badge Won"
 msgstr "Jelvény Megszerzve"
 
-#: src/pages/country/[countryId]/index.tsx:259
+#: src/pages/country/[countryId]/index.tsx:260
 #: src/pages/user/[userId]/index.tsx:135
 msgid "Badges"
 msgstr "Jelvények"
 
-#: src/components/_political/party/party.frontConfig.tsx:352
+#: src/components/_political/party/party.frontConfig.tsx:437
 msgid "Balanced"
 msgstr "Kiegyensúlyozott"
 
-#: src/components/_political/party/party.frontConfig.tsx:353
+#: src/components/_political/party/party.frontConfig.tsx:438
 msgid "Balanced - No modifiers"
 msgstr "Kiegyensúlyozott - Módosítók nélkül"
 
@@ -1967,7 +1979,7 @@ msgstr "Alap nadrág"
 msgid "Battle"
 msgstr "Csata"
 
-#: src/pages/alliance/[allianceId]/index.tsx:40
+#: src/pages/alliance/[allianceId]/index.tsx:39
 msgid "Battle damage bonus"
 msgstr ""
 
@@ -1999,6 +2011,25 @@ msgstr "Csata megnyílt"
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:103
 msgid "Battle Orders"
 msgstr "Csataparancsok"
+
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism['-2'].enemyBattleOrderMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:152
+msgid "Battle orders against your sworn enemy cost <0>{0}</0> less."
+msgstr ""
+
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].pactBattleOrderMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:224
+msgid "Battle orders supporting a defensive pact partner cost <0>{0}</0> less."
+msgstr ""
+
+#: src/components/_political/party/party.frontConfig.tsx:60
+msgid "Battle orders to defend your core regions and revolts are free."
+msgstr ""
+
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.militarism['-1'].defendCoreRevoltOrderMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:75
+msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
+msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:154
 #: src/components/_military/battle/BattlesHeader.tsx:21
@@ -2046,7 +2077,7 @@ msgstr "Licit"
 msgid "Birthday Hat for 1st year of Beta"
 msgstr "Szülinapi kalap az 1. Béta évfordulóra"
 
-#: src/components/_user/user/UserDropdown.tsx:278
+#: src/components/_user/user/UserDropdown.tsx:279
 msgid "Block (hide content)"
 msgstr "Blokkolás (tartalom elrejtése)"
 
@@ -2245,19 +2276,19 @@ msgstr "Jelöltség nyitott <0/> számára"
 msgid "Candidate"
 msgstr "Jelölt"
 
-#: src/components/_political/party/party.frontConfig.tsx:262
+#: src/components/_political/party/party.frontConfig.tsx:315
 msgid "Cannot have a vice president or ministers."
 msgstr "Nem lehet alelnöke vagy minisztere."
 
-#: src/components/_political/party/party.frontConfig.tsx:134
-msgid "Cannot have allies."
-msgstr "Nem lehetnek szövetségesei."
+#: src/components/_political/party/party.frontConfig.tsx:426
+msgid "Cannot have any treaty (sworn enemy, defensive pact or alliance)."
+msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:181
+#: src/components/_political/party/party.frontConfig.tsx:67
 msgid "Cannot have sworn enemies."
-msgstr "Nem lehetnek esküdt ellenségei."
+msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:291
+#: src/components/_political/party/party.frontConfig.tsx:349
 msgid "Cannot pick a specialization good / no benefit from specialization."
 msgstr "Nem választhat szakosodási árut / nincs haszna a szakosodásból."
 
@@ -2407,34 +2438,6 @@ msgstr "Állampolgárok"
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Az állampolgárok bónuszt kapnak, amikor szövetségesekért harcolnak, vagy az esküdt ellenség ellen"
 
-#. placeholder {0}: formatPercent(ethicsBonuses.militarism[1].attackBattleBonus)
-#. placeholder {0}: formatPercent(ethicsBonuses.militarism[2].attackBattleBonus)
-#: src/components/_political/party/party.frontConfig.tsx:86
-#: src/components/_political/party/party.frontConfig.tsx:100
-msgid "Citizens get an additional <0>{0}</0> attacking battle bonus."
-msgstr "Az állampolgárok további <0>{0}</0> támadó csatabónuszt kapnak."
-
-#. placeholder {0}: formatPercent(ethicsBonuses.isolationism['-1'].enemyBattleBonus)
-#. placeholder {0}: formatPercent(ethicsBonuses.isolationism['-2'].enemyBattleBonus)
-#: src/components/_political/party/party.frontConfig.tsx:127
-#: src/components/_political/party/party.frontConfig.tsx:142
-msgid "Citizens get an additional <0>{0}</0> battle bonus against sworn enemies."
-msgstr "Az állampolgárok további <0>{0}</0> csatabónuszt kapnak esküdt ellenségek ellen."
-
-#. placeholder {0}: formatPercent(ethicsBonuses.isolationism[1].allyBattleBonus)
-#. placeholder {0}: formatPercent(ethicsBonuses.isolationism[2].allyBattleBonus)
-#: src/components/_political/party/party.frontConfig.tsx:160
-#: src/components/_political/party/party.frontConfig.tsx:174
-msgid "Citizens get an additional <0>{0}</0> battle bonus fighting for allies."
-msgstr "Az állampolgárok további <0>{0}</0> csatabónuszt kapnak, amikor szövetségesekért harcolnak."
-
-#. placeholder {0}: formatPercent(ethicsBonuses.militarism['-1'].defenseBattleBonus)
-#. placeholder {0}: formatPercent(ethicsBonuses.militarism['-2'].defenseBattleBonus)
-#: src/components/_political/party/party.frontConfig.tsx:51
-#: src/components/_political/party/party.frontConfig.tsx:68
-msgid "Citizens get an additional <0>{0}</0> defensive battle bonus."
-msgstr "Az állampolgárok további <0>{0}</0> védelmi csatabónuszt kapnak."
-
 #: src/components/_political/country/CountryHeader.tsx:114
 msgid "Citizenship"
 msgstr "Állampolgárság"
@@ -2518,7 +2521,7 @@ msgstr ""
 msgid "Colonel"
 msgstr "Ezredes"
 
-#: src/components/_user/user/UserDropdown.tsx:218
+#: src/components/_user/user/UserDropdown.tsx:219
 msgid "Color scheme"
 msgstr "Színséma"
 
@@ -2663,11 +2666,6 @@ msgstr "A kongresszusi választási szavazás most nyitva van itt: <0/>"
 msgid "Congress elections"
 msgstr "Kongresszusi választások"
 
-#. placeholder {0}: ethicsBonuses.imperialism['-2'].minCongressSeats
-#: src/components/_political/party/party.frontConfig.tsx:204
-msgid "Congress has a minimum of <0>{0} seats</0>."
-msgstr "A kongresszusnak minimum <0>{0} helye</0> van."
-
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:57
 msgid "Congress Member"
 msgstr "Kongresszusi tag"
@@ -2751,7 +2749,7 @@ msgid "Cooked Fish"
 msgstr "Főtt hal"
 
 #: src/components/_political/law/Law.tsx:125
-#: src/components/_political/partyMotion/PartyMotion.tsx:106
+#: src/components/_political/partyMotion/PartyMotion.tsx:110
 msgid "Cool down"
 msgstr "Lehűlési idő"
 
@@ -2812,7 +2810,7 @@ msgstr "Országok"
 msgid "Country"
 msgstr "Ország"
 
-#: src/pages/country/[countryId]/index.tsx:394
+#: src/pages/country/[countryId]/index.tsx:395
 msgid "Country development income bonus"
 msgstr "Országfejlesztési jövedelem bónusz"
 
@@ -2845,7 +2843,7 @@ msgstr "Az ország <0>{0}</0>-t fizetett az okozott károkért."
 msgid "Country President"
 msgstr "Ország elnöke"
 
-#: src/pages/country/[countryId]/index.tsx:345
+#: src/pages/country/[countryId]/index.tsx:346
 msgid "Country production bonus"
 msgstr "Országos termelési bónusz"
 
@@ -2986,14 +2984,10 @@ msgstr "d. A diszkrimináció, rasszizmus, idegengylőlet, antiszemitizmus, homo
 msgid "Daily"
 msgstr "Napi"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:39
+#: src/components/_political/alliance/AllianceMemberRow.tsx:58
 #: src/components/_political/law/LawTypeSelect.tsx:188
 msgid "Daily maintenance"
 msgstr "Napi karbantartás"
-
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:174
-msgid "Daily maintenance paid in paper: the alliance's core development split equally between members."
-msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2112
 msgid "Daily Missions Reset"
@@ -3150,12 +3144,19 @@ msgstr "Védő"
 msgid "Defenders"
 msgstr "Védők"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:262
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:291
 msgid "Defensive pact"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:94
 msgid "Defensive pact broken"
+msgstr ""
+
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[1].pactMaintenanceMultiplier, )
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].pactMaintenanceMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:199
+#: src/components/_political/party/party.frontConfig.tsx:215
+msgid "Defensive pact maintenance costs are reduced by <0>{0}</0>."
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:90
@@ -3233,7 +3234,7 @@ msgstr "Lelőhely erőforrásai"
 msgid "Deposit will be depleted in"
 msgstr "A lelőhely kimerül"
 
-#: src/components/_political/party/party.frontConfig.tsx:344
+#: src/components/_political/party/party.frontConfig.tsx:402
 msgid "Deposits cannot spawn within your borders."
 msgstr "Lelőhelyek nem jelenhetnek meg a határaidon belül."
 
@@ -3272,13 +3273,12 @@ msgstr "Csökkentsd <0/> kapott sebzést <1>Páncéllal</1> csatákban"
 msgid "Diminish Received Damages"
 msgstr "Kapott sebzés csökkentése"
 
-#: src/pages/alliance/[allianceId]/index.tsx:86
 #: src/pages/country/[countryId]/index.tsx:196
 msgid "Diplomacy"
 msgstr "Diplomácia"
 
-#: src/components/_political/party/party.frontConfig.tsx:156
-#: src/components/_political/party/party.frontConfig.tsx:184
+#: src/components/_political/party/party.frontConfig.tsx:195
+#: src/components/_political/party/party.frontConfig.tsx:244
 msgid "Diplomatic"
 msgstr "Diplomáciai"
 
@@ -3333,10 +3333,6 @@ msgstr "Kitérés"
 #: src/components/_user/mission/mission.frontConfig.tsx:276
 msgid "Dodge <0>{count}</0> attacks"
 msgstr "Térj ki <0>{count}</0> támadás elől"
-
-#: src/components/_political/party/party.frontConfig.tsx:58
-msgid "Does not gain development from non-core regions."
-msgstr "Nem kap fejlesztést a nem-központi régiókból."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:55
 msgid "Don't forget to drink water"
@@ -3422,7 +3418,7 @@ msgstr "Gazdasági képességek"
 msgid "Economy & Companies"
 msgstr "Gazdaság & Vállalatok"
 
-#: src/components/_user/user/UserDropdown.tsx:209
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Edit description"
 msgstr "Leírás szerkesztése"
 
@@ -3452,8 +3448,8 @@ msgstr "Szavazás megnyílt"
 
 #: src/components/_political/country/CountryHeader.tsx:108
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:280
-#: src/pages/party/[partyId]/index.tsx:100
+#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/party/[partyId]/index.tsx:101
 msgid "Elections"
 msgstr "Választások"
 
@@ -3597,19 +3593,24 @@ msgstr "Az etika a párttól származó bónuszok, amelyeket akkor alkalmaznak, 
 msgid "Ethics motions"
 msgstr "Etika indítványok"
 
-#: src/components/_political/government/PoliticalEthics.tsx:495
+#: src/components/_political/government/PoliticalEthics.tsx:534
 msgid "Ethics Points:"
 msgstr "Etika pontok:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:325
 #: src/components/_layout/MoreButtonNav.tsx:94
-#: src/pages/country/[countryId]/index.tsx:265
+#: src/pages/country/[countryId]/index.tsx:266
 msgid "Events"
 msgstr "Események"
 
 #: src/pages/tournament/[tournamentId]/index.tsx:53
 msgid "Everyone participates automatically"
 msgstr "Mindenki automatikusan részt vesz"
+
+#: src/components/_political/party/party.frontConfig.tsx:91
+#: src/components/_political/party/party.frontConfig.tsx:130
+msgid "Expansionist"
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:69
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
@@ -3677,35 +3678,35 @@ msgstr "Google bejelentkezés indítása sikertelen. Kérlek próbáld újra a C
 msgid "Family Group"
 msgstr "Családi csoport"
 
-#: src/components/_political/party/party.frontConfig.tsx:276
+#: src/components/_political/party/party.frontConfig.tsx:334
 msgid "Fanatic Agrarian"
 msgstr "Fanatikus agrár"
 
-#: src/components/_political/party/party.frontConfig.tsx:170
+#: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
 msgstr "Fanatikus diplomata"
 
-#: src/components/_political/party/party.frontConfig.tsx:251
+#: src/components/_political/party/party.frontConfig.tsx:105
+msgid "Fanatic Expansionist"
+msgstr ""
+
+#: src/components/_political/party/party.frontConfig.tsx:304
 msgid "Fanatic Imperialist"
 msgstr "Fanatikus imperialista"
 
-#: src/components/_political/party/party.frontConfig.tsx:333
+#: src/components/_political/party/party.frontConfig.tsx:391
 msgid "Fanatic Industrialist"
 msgstr "Fanatikus iparos"
 
-#: src/components/_political/party/party.frontConfig.tsx:123
+#: src/components/_political/party/party.frontConfig.tsx:137
 msgid "Fanatic Isolationist"
 msgstr "Fanatikus izolacionista"
 
-#: src/components/_political/party/party.frontConfig.tsx:96
-msgid "Fanatic Militarist"
-msgstr "Fanatikus militarista"
-
-#: src/components/_political/party/party.frontConfig.tsx:47
+#: src/components/_political/party/party.frontConfig.tsx:56
 msgid "Fanatic Pacifist"
 msgstr "Fanatikus pacifista"
 
-#: src/components/_political/party/party.frontConfig.tsx:191
+#: src/components/_political/party/party.frontConfig.tsx:251
 msgid "Fanatic Republican"
 msgstr "Fanatikus republikánus"
 
@@ -3788,11 +3789,11 @@ msgstr "Szűrés tranzakció típusa szerint"
 msgid "Finally above average!"
 msgstr "Végre átlag feletti!"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:128
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:129
 msgid "Finance a resistance battle in <0/>"
 msgstr "Ellenállási csata finanszírozása itt: <0/>"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:122
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:123
 msgid "Finance a resistance battle in an occupied region of your country"
 msgstr "Ellenállási csata finanszírozása az országod egy megszállt régiójában"
 
@@ -3809,7 +3810,7 @@ msgstr "Felkelés finanszírozása <0/> felszabadítására"
 msgid "Finance foreign resistance"
 msgstr "Külföldi ellenállás finanszírozása"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:121
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:122
 msgid "Finance local resistance"
 msgstr "Helyi ellenállás finanszírozása"
 
@@ -3875,12 +3876,12 @@ msgstr "Betűtípus"
 msgid "Font size"
 msgstr "Betűméret"
 
-#: src/components/_user/user/UserDropdown.tsx:227
+#: src/components/_user/user/UserDropdown.tsx:228
 msgid "Font style"
 msgstr "Betűstílus"
 
 #. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:368
+#: src/pages/country/[countryId]/index.tsx:369
 msgid "for companies producing <0>{0}</0> located in <1/>."
 msgstr "a <1/>-ban/ben található, <0>{0}</0> termelő cégek számára."
 
@@ -3977,7 +3978,7 @@ msgstr "Ajándék elküldve! Skin csomag feloldva a címzett számára!"
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Ajándék elküldve! Köszönjük, hogy támogatod a játékot <3"
 
-#: src/components/_user/user/UserDropdown.tsx:261
+#: src/components/_user/user/UserDropdown.tsx:262
 msgid "Gift Supporter Plan"
 msgstr "Támogatói csomag ajándékozása"
 
@@ -4254,6 +4255,10 @@ msgstr "Ha negatív, fizess <0/> -t <1/> -ért (naponta egyszer)."
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
 msgstr "Ha az új jelölt már a kormányban van, a pozícióik felcserélődnek. Ellenkező esetben a jelenlegi tagot kirúgják, és {cooldownDays} napig nem jelölhető újra."
 
+#: src/components/_political/party/party.frontConfig.tsx:429
+msgid "If your capital is occupied, national orders give only the regular bonus and the capital automatically revolts at full resistance."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:51
 msgid "Imagine if you stop right before the Mythic"
 msgstr "Képzeld el, ha közvetlenül a Mitikus előtt abbahagyod"
@@ -4285,12 +4290,12 @@ msgstr "Elnök felelősségre vonása"
 msgid "Impeach the current president"
 msgstr "A jelenlegi elnök felelősségre vonása"
 
-#: src/components/_political/party/party.frontConfig.tsx:234
+#: src/components/_political/party/party.frontConfig.tsx:287
 msgid "Imperialism vs Republicanism"
 msgstr "Imperializmus vs Republikanizmus"
 
-#: src/components/_political/party/party.frontConfig.tsx:237
-#: src/components/_political/party/party.frontConfig.tsx:269
+#: src/components/_political/party/party.frontConfig.tsx:290
+#: src/components/_political/party/party.frontConfig.tsx:327
 msgid "Imperialist"
 msgstr "Imperialista"
 
@@ -4306,21 +4311,21 @@ msgstr "Inaktív"
 msgid "Income"
 msgstr "Bevétel"
 
-#: src/pages/country/[countryId]/index.tsx:417
+#: src/pages/country/[countryId]/index.tsx:418
 msgid "income from <0>Development</0> in <1/>."
 msgstr "bevétel a(z) <1/> <0>Fejlesztéséből</0>."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.imperialism['-1'].developmentIncomeBonus, )
 #. placeholder {0}: formatPercent( ethicsBonuses.imperialism['-2'].developmentIncomeBonus, )
-#: src/components/_political/party/party.frontConfig.tsx:195
-#: src/components/_political/party/party.frontConfig.tsx:221
+#: src/components/_political/party/party.frontConfig.tsx:255
+#: src/components/_political/party/party.frontConfig.tsx:274
 msgid "Income from development increases by <0>{0}</0>."
 msgstr "A fejlesztésből származó bevétel <0>{0}</0>-kal növekszik."
 
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[1].taxIncomeBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[2].taxIncomeBonus)
-#: src/components/_political/party/party.frontConfig.tsx:241
-#: src/components/_political/party/party.frontConfig.tsx:255
+#: src/components/_political/party/party.frontConfig.tsx:294
+#: src/components/_political/party/party.frontConfig.tsx:308
 msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Az adókból származó bevétel <0>{0}</0>-kal növekszik."
 
@@ -4343,12 +4348,12 @@ msgstr "Növelés"
 msgid "Increase unrest"
 msgstr "Nyugtalanság növelése"
 
-#: src/components/_political/party/party.frontConfig.tsx:316
+#: src/components/_political/party/party.frontConfig.tsx:374
 msgid "Industrialism vs Agrarianism"
 msgstr "Iparosodás vs Agrárpolitika"
 
-#: src/components/_political/party/party.frontConfig.tsx:319
-#: src/components/_political/party/party.frontConfig.tsx:347
+#: src/components/_political/party/party.frontConfig.tsx:377
+#: src/components/_political/party/party.frontConfig.tsx:405
 msgid "Industrialist"
 msgstr "Iparos"
 
@@ -4398,12 +4403,12 @@ msgstr ""
 msgid "Iron"
 msgstr "Vas"
 
-#: src/components/_political/party/party.frontConfig.tsx:153
+#: src/components/_political/party/party.frontConfig.tsx:192
 msgid "Isolationism vs Diplomacy"
 msgstr "Izolacionizmus vs Diplomácia"
 
-#: src/components/_political/party/party.frontConfig.tsx:138
-#: src/components/_political/party/party.frontConfig.tsx:151
+#: src/components/_political/party/party.frontConfig.tsx:173
+#: src/components/_political/party/party.frontConfig.tsx:190
 msgid "Isolationist"
 msgstr "Izolacionista"
 
@@ -4590,7 +4595,7 @@ msgstr "Tanácsi választás indítása"
 msgid "Launch leader election"
 msgstr "Vezetői választás indítása"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:103
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:104
 msgid "Launch primary election"
 msgstr "Előválasztás indítása"
 
@@ -4605,7 +4610,7 @@ msgid "Law proposed"
 msgstr "Törvényjavaslatot benyújtottak"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/pages/alliance/[allianceId]/index.tsx:106
+#: src/pages/alliance/[allianceId]/index.tsx:96
 #: src/pages/country/[countryId]/index.tsx:182
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
@@ -4961,8 +4966,8 @@ msgstr "Találkozz más játékosokkal a csevegésben. Ne légy szégyenlős, mu
 msgid "Member Applications"
 msgstr "Tagsági kérelmek"
 
-#: src/pages/alliance/[allianceId]/index.tsx:57
-#: src/pages/alliance/[allianceId]/members.tsx:29
+#: src/pages/alliance/[allianceId]/index.tsx:67
+#: src/pages/alliance/[allianceId]/members.tsx:46
 msgid "Member countries"
 msgstr ""
 
@@ -4978,7 +4983,7 @@ msgstr "Tag lefokozva parancsnoki rangból"
 msgid "Member kicked successfully"
 msgstr "Tag sikeresen kirúgva"
 
-#: src/components/_political/country/CountryHeader.tsx:214
+#: src/components/_political/country/CountryHeader.tsx:254
 msgid "Member of <0/>"
 msgstr ""
 
@@ -4987,12 +4992,12 @@ msgid "Member promoted to commander"
 msgstr "Tag előléptetve parancsnokká"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:76
-#: src/pages/party/[partyId]/index.tsx:75
+#: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
 msgstr "Tagok"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:27
+#: src/components/_political/alliance/AllianceMemberRow.tsx:45
 msgid "Membership suspended"
 msgstr ""
 
@@ -5001,12 +5006,12 @@ msgid "Mentioned in message"
 msgstr "Üzenetben említve"
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:303
+#: src/pages/country/[countryId]/index.tsx:304
 msgid "Mercenary Auctions"
 msgstr "Zsoldos árverések"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:291
+#: src/pages/country/[countryId]/index.tsx:292
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Zsoldos szerződések"
@@ -5031,15 +5036,6 @@ msgstr "Üzenet (opcionális)"
 msgid "Message liked"
 msgstr "Kedvelt üzenet"
 
-#: src/components/_political/party/party.frontConfig.tsx:79
-msgid "Militarism vs Pacifism"
-msgstr "Militarizmus vs Pacifizmus"
-
-#: src/components/_political/party/party.frontConfig.tsx:82
-#: src/components/_political/party/party.frontConfig.tsx:116
-msgid "Militarist"
-msgstr "Militarista"
-
 #: src/components/_user/notification/notificationPrefs.categories.ts:158
 msgid "Military & Battles"
 msgstr "Katonaság & Csaták"
@@ -5047,6 +5043,13 @@ msgstr "Katonaság & Csaták"
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
 msgid "Military base"
 msgstr "Katonai bázis"
+
+#. placeholder {0}: ethicsBonuses.militarism[1].regionUpgradeCooldownHours
+#. placeholder {0}: ethicsBonuses.militarism[2].regionUpgradeCooldownHours
+#: src/components/_political/party/party.frontConfig.tsx:95
+#: src/components/_political/party/party.frontConfig.tsx:109
+msgid "Military bases can be upgraded or downgraded every <0>{0} hours</0>."
+msgstr ""
 
 #: src/components/_political/law/LawTypeSelect.tsx:76
 msgid "Military laws"
@@ -5171,7 +5174,7 @@ msgstr "Indítvány elutasítva"
 msgid "Motion proposed"
 msgstr "Indítvány benyújtva"
 
-#: src/pages/party/[partyId]/index.tsx:93
+#: src/pages/party/[partyId]/index.tsx:94
 #: src/pages/party/[partyId]/motions.tsx:19
 msgid "Motions"
 msgstr "Indítványok"
@@ -5287,6 +5290,14 @@ msgstr "Mitikus?! A fiókod áldott"
 #: src/components/_political/party/PartyFormModal.tsx:99
 msgid "Name"
 msgstr "Név"
+
+#: src/components/_political/party/party.frontConfig.tsx:425
+msgid "National battle orders cost double."
+msgstr ""
+
+#: src/components/_political/party/party.frontConfig.tsx:419
+msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:798
 msgid "National bounty"
@@ -5455,7 +5466,7 @@ msgstr "Szép munka!"
 msgid "No active battles"
 msgstr "Nincsenek aktív csaták"
 
-#: src/components/_political/government/PoliticalEthics.tsx:519
+#: src/components/_political/government/PoliticalEthics.tsx:564
 msgid "No active ethics - Balanced"
 msgstr "Nincs aktív etika - Kiegyensúlyozott"
 
@@ -5463,7 +5474,7 @@ msgstr "Nincs aktív etika - Kiegyensúlyozott"
 msgid "No active job offer"
 msgstr "Nincs aktív állásajánlat"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:198
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:227
 msgid "No active wars"
 msgstr "Nincsenek aktív háborúk"
 
@@ -5511,7 +5522,7 @@ msgstr "Még nincsenek hozzájárulások"
 msgid "No damages ranking yet."
 msgstr "Még nincs sebzési rangsor."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:306
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:343
 msgid "No defensive pact"
 msgstr ""
 
@@ -5527,9 +5538,8 @@ msgstr "Még nincs földi rangsor."
 msgid "No laws yet"
 msgstr "Még nincsenek törvények"
 
-#: src/pages/alliance/[allianceId]/index.tsx:62
-#: src/pages/alliance/[allianceId]/index.tsx:90
-#: src/pages/alliance/[allianceId]/members.tsx:34
+#: src/pages/alliance/[allianceId]/index.tsx:72
+#: src/pages/alliance/[allianceId]/members.tsx:51
 msgid "No members"
 msgstr ""
 
@@ -5577,7 +5587,7 @@ msgstr "Nincsenek parancsok"
 msgid "No parties found"
 msgstr "Nem található párt"
 
-#: src/pages/country/[countryId]/index.tsx:381
+#: src/pages/country/[countryId]/index.tsx:382
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Nincs termelési bónusz az erőforrásokból. Ennek az országnak nincs specializációja."
 
@@ -5593,7 +5603,7 @@ msgstr "Még nincs ajánló"
 msgid "No skins equipped"
 msgstr "Nincs felszerelt kinézet"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:254
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:283
 msgid "No sworn enemy"
 msgstr "Nincs esküdt ellenség"
 
@@ -5653,7 +5663,7 @@ msgstr "Nem minden segítségnyújtás minősül boostingnak vagy kihasználásn
 msgid "Not bad!"
 msgstr "Nem rossz!"
 
-#: src/components/_political/alliance/AllianceMemberRow.tsx:28
+#: src/components/_political/alliance/AllianceMemberRow.tsx:46
 msgid "Not enough paper to pay the daily alliance maintenance. Alliance damage bonuses are disabled for this country until it pays."
 msgstr ""
 
@@ -5661,7 +5671,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Nem lenyűgöző, de nem is szégyenletes"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:164
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:172
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5718,8 +5728,8 @@ msgstr "Szerződés sikertelensége esetén: -1 hírnév a büdzsében lévő <0
 msgid "One step away from legendary..."
 msgstr "Egy lépésre a legendástól..."
 
-#: src/components/_political/party/party.frontConfig.tsx:287
-#: src/components/_political/party/party.frontConfig.tsx:308
+#: src/components/_political/party/party.frontConfig.tsx:345
+#: src/components/_political/party/party.frontConfig.tsx:366
 msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
 msgstr "Csak buffok és élelmiszer-lelőhelyek jelennek meg a határaidban (koka, gabona, állatok és hal)."
 
@@ -5734,6 +5744,10 @@ msgstr "Csak az elnökök regisztrálhatják az országukat"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:55
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Csak a támogatók láthatják a kiadásaik és bevételeik részletezését."
+
+#: src/components/_political/party/party.frontConfig.tsx:264
+msgid "Only your core regions generate development income."
+msgstr ""
 
 #: src/components/_economy/inventory/case/OpenCaseModal.tsx:521
 msgid "Open"
@@ -5860,8 +5874,12 @@ msgstr "Tulajdonjog sikeresen átruházva"
 msgid "Pacification Center"
 msgstr "Pacifikációs Központ"
 
-#: src/components/_political/party/party.frontConfig.tsx:64
-#: src/components/_political/party/party.frontConfig.tsx:77
+#: src/components/_political/party/party.frontConfig.tsx:88
+msgid "Pacifism vs Expansionism"
+msgstr ""
+
+#: src/components/_political/party/party.frontConfig.tsx:71
+#: src/components/_political/party/party.frontConfig.tsx:86
 msgid "Pacifist"
 msgstr "Pacifista"
 
@@ -6159,11 +6177,6 @@ msgstr "Előválasztás"
 msgid "Primary Election Ended"
 msgstr "Előválasztás befejeződött"
 
-#. placeholder {0}: ethicsBonuses.militarism[2].warPriorityHours
-#: src/components/_political/party/party.frontConfig.tsx:107
-msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> instead of 24."
-msgstr "A háborúk kihirdetésével vagy csaták megnyerésével szerzett prioritás <0>{0} óra</0> a 24 helyett."
-
 #: src/pages/index.tsx:142
 #: src/pages/rules.tsx:36
 msgid "Privacy"
@@ -6284,7 +6297,7 @@ msgstr ""
 msgid "Propose law"
 msgstr "Törvény benyújtása"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:189
 msgid "Propose motion"
 msgstr "Indítvány benyújtása"
 
@@ -6358,7 +6371,7 @@ msgid "Ranking reward"
 msgstr "Rangsori jutalom"
 
 #: src/components/_layout/MoreButtonNav.tsx:120
-#: src/pages/alliance/[allianceId]/index.tsx:47
+#: src/pages/alliance/[allianceId]/index.tsx:46
 #: src/pages/country/[countryId]/index.tsx:167
 #: src/pages/user/[userId]/index.tsx:123
 msgid "Rankings"
@@ -6440,7 +6453,7 @@ msgstr "Ellentengernagy"
 msgid "Reason"
 msgstr "Indoklás"
 
-#: src/pages/party/[partyId]/index.tsx:85
+#: src/pages/party/[partyId]/index.tsx:86
 msgid "Recent Applications"
 msgstr "Legutóbbi jelentkezések"
 
@@ -6530,6 +6543,11 @@ msgstr "Régió felszabadítva"
 msgid "Region transfer"
 msgstr "Régió átvitel"
 
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.imperialism[2].upgradeMaintenanceMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:316
+msgid "Region upgrade maintenance costs are increased by <0>{0}</0>."
+msgstr ""
+
 #: src/components/_layout/LoadingScreenContent.tsx:20
 msgid "regions"
 msgstr "régiók"
@@ -6537,6 +6555,10 @@ msgstr "régiók"
 #: src/components/_political/country/CountryHeader.tsx:121
 msgid "Regions"
 msgstr "Régiók"
+
+#: src/components/_political/party/party.frontConfig.tsx:125
+msgid "Regions you occupy generate double the amount of resistance."
+msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:131
 msgid "Register"
@@ -6564,7 +6586,7 @@ msgstr "Megerősített nadrág"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:144
 #: src/components/_political/law/Law.tsx:198
-#: src/components/_political/partyMotion/PartyMotion.tsx:180
+#: src/components/_political/partyMotion/PartyMotion.tsx:184
 msgid "Reject"
 msgstr "Elutasít"
 
@@ -6617,7 +6639,7 @@ msgstr "Inaktív kongresszusi tag eltávolítása posztjáról"
 msgid "Remove announcement"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:395
+#: src/components/_user/user/UserDropdown.tsx:396
 msgid "Remove Avatar"
 msgstr "Avatár eltávolítása"
 
@@ -6629,7 +6651,7 @@ msgstr "Fejpénz eltávolítása"
 msgid "Remove council member"
 msgstr "Tanácstag eltávolítása"
 
-#: src/components/_user/user/UserDropdown.tsx:417
+#: src/components/_user/user/UserDropdown.tsx:418
 msgid "Remove Description"
 msgstr "Leírás eltávolítása"
 
@@ -6691,7 +6713,7 @@ msgstr "Tag cseréje"
 msgid "Report"
 msgstr "Jelentés"
 
-#: src/components/_user/user/UserDropdown.tsx:268
+#: src/components/_user/user/UserDropdown.tsx:269
 msgid "Report user"
 msgstr "Felhasználó jelentése"
 
@@ -6699,8 +6721,8 @@ msgstr "Felhasználó jelentése"
 msgid "Reports"
 msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:217
-#: src/components/_political/party/party.frontConfig.tsx:232
+#: src/components/_political/party/party.frontConfig.tsx:270
+#: src/components/_political/party/party.frontConfig.tsx:285
 msgid "Republican"
 msgstr "Republikánus"
 
@@ -6712,7 +6734,7 @@ msgstr "A hírnév hetente 20%-kal csökken 0 felé (minimum 1 pont)."
 msgid "Reputation purchased!"
 msgstr "Hírnév vásárolva!"
 
-#: src/components/_user/user/UserDropdown.tsx:335
+#: src/components/_user/user/UserDropdown.tsx:336
 msgid "Request Phone Verification"
 msgstr "Telefonos hitelesítés kérése"
 
@@ -6740,7 +6762,7 @@ msgstr "Újraindítás Túlélő"
 msgid "Reset tutorials"
 msgstr "Oktatóanyagok visszaállítása"
 
-#: src/components/_user/user/UserDropdown.tsx:406
+#: src/components/_user/user/UserDropdown.tsx:407
 msgid "Reset Username"
 msgstr "Felhasználónév visszaállítása"
 
@@ -6975,7 +6997,7 @@ msgstr "Összes kijelölése"
 msgid "Select an occupied region"
 msgstr "Válassz egy megszállt régiót"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:242
 msgid "Select banner"
 msgstr "Banner kiválasztása"
 
@@ -6993,7 +7015,7 @@ msgstr "Térkép szín kiválasztása"
 msgid "Select motion type"
 msgstr "Indítvány típusának kiválasztása"
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:249
 msgid "Select skin"
 msgstr "Skin kiválasztása"
 
@@ -7044,7 +7066,7 @@ msgstr "Küldj <0>{0}</0> összeget <1/> részére"
 msgid "Send <0>{count}</0> messages"
 msgstr "Küldj <0>{count}</0> üzenetet"
 
-#: src/components/_user/user/UserDropdown.tsx:425
+#: src/components/_user/user/UserDropdown.tsx:426
 msgid "Send a message"
 msgstr "Üzenet küldése"
 
@@ -7306,6 +7328,10 @@ msgstr "Költsd el az <0>Energiádat</0> itt dolgozva, hogy <1>Pénzt</1> keress
 msgid "Spendings"
 msgstr "Kiadások"
 
+#: src/components/_political/country/CountryHeader.tsx:186
+msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:168
 #: src/components/_political/law/law.frontConfig.tsx:170
 msgid "Start a congress election, now"
@@ -7321,8 +7347,8 @@ msgstr "Pártvezetőségi választás azonnali indítása"
 msgid "Start a party leader election immediately"
 msgstr "Pártelnöki választás azonnali indítása"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:104
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:106
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:105
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:107
 msgid "Start a party primary election immediately"
 msgstr "Párt előválasztás azonnali indítása"
 
@@ -7331,8 +7357,8 @@ msgstr "Párt előválasztás azonnali indítása"
 msgid "Start a presidential election, now"
 msgstr "Elnökválasztás indítása most"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:113
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:115
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:114
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:116
 msgid "Start a revolution to overthrow the government"
 msgstr "Forradalom indítása a kormány megdöntésére"
 
@@ -7346,7 +7372,7 @@ msgstr "Kongresszusi választás indítása"
 msgid "Start presidential election"
 msgstr "Elnökválasztás indítása"
 
-#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:112
+#: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:113
 msgid "Start revolution"
 msgstr "Forradalom indítása"
 
@@ -7469,9 +7495,9 @@ msgid "Supporter"
 msgstr "Támogató"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:212
-#: src/components/_user/user/UserDropdown.tsx:221
-#: src/components/_user/user/UserDropdown.tsx:230
+#: src/components/_user/user/UserDropdown.tsx:213
+#: src/components/_user/user/UserDropdown.tsx:222
+#: src/components/_user/user/UserDropdown.tsx:231
 msgid "Supporter feature"
 msgstr "Támogató funkció"
 
@@ -7503,9 +7529,23 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Legfelsőbb Parancsnok"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:207
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:236
 msgid "Sworn enemy"
 msgstr "Esküdt ellenség"
+
+#. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].enemyMaintenanceMultiplier, )
+#: src/components/_political/party/party.frontConfig.tsx:233
+msgid "Sworn enemy maintenance costs are increased by <0>{0}</0>."
+msgstr ""
+
+#. placeholder {0}: ethicsBonuses.isolationism['-1'].enemyFidelityStart
+#. placeholder {0}: ethicsBonuses.isolationism['-2'].enemyFidelityStart
+#. placeholder {1}: ethicsBonuses.isolationism['-1'].enemyFidelityPerDay
+#. placeholder {1}: ethicsBonuses.isolationism['-2'].enemyFidelityPerDay
+#: src/components/_political/party/party.frontConfig.tsx:141
+#: src/components/_political/party/party.frontConfig.tsx:177
+msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> each day."
+msgstr ""
 
 #: src/components/_political/event/EventList.tsx:72
 msgid "System revolt"
@@ -7679,6 +7719,10 @@ msgstr "Ez jó érzés, mi?"
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Ez egy összefoglaló a csatából kapott zsákmányodról. Tartalmazza az összes megkapott ládát, valamint a közös zsákmánykészlet legértékesebb tárgyait."
 
+#: src/components/_political/country/CountryHeader.tsx:215
+msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:27
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr "Ez a vállalati központod. Itt termékeket gyárthatsz és felépítheted a birodalmadat."
@@ -7716,7 +7760,7 @@ msgstr "Ez a felhasználó nem tagja egyetlen családi csoportnak sem"
 msgid "This will give you a buff for {cocainBuffHours}h then cause a malus for {cocainDebuffHours}h"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:336
+#: src/components/_user/user/UserDropdown.tsx:337
 msgid "This will require the user to verify their mobile phone number."
 msgstr "Ez megköveteli, hogy a felhasználó ellenőrizze a mobiltelefon számát."
 
@@ -7878,6 +7922,8 @@ msgstr "összesen"
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_political/law/LawCostExplanation.tsx:50
 #: src/components/_user/user/WealthPanel.tsx:28
+#: src/pages/alliance/[allianceId]/index.tsx:58
+#: src/pages/alliance/[allianceId]/members.tsx:37
 #: src/pages/market/index.tsx:139
 #: src/pages/market/index.tsx:191
 msgid "Total"
@@ -7895,7 +7941,7 @@ msgstr "Összes sebzés"
 msgid "Total Donated:"
 msgstr "Összesen adományozott:"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:312
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:349
 msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
 msgstr ""
 
@@ -8019,13 +8065,17 @@ msgstr ""
 msgid "UI"
 msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:277
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Unblock (show content)"
 msgstr "Feloldás (tartalom megjelenítése)"
 
 #: src/components/_user/UserEquipments.tsx:103
 msgid "Unequip all"
 msgstr "Összes levétele"
+
+#: src/components/_political/party/party.frontConfig.tsx:415
+msgid "Unethical"
+msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:200
 msgid "Unlinked"
@@ -8492,6 +8542,15 @@ msgstr "Üdvözlünk a War Era-ban!"
 msgid "Welcome to your economy!"
 msgstr "Üdvözlünk a gazdaságodban!"
 
+#. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
+#: src/components/_political/party/party.frontConfig.tsx:116
+msgid "When defending a revolt, gain an additional <0>{0}</0> battle bonus per Pacification Center level."
+msgstr ""
+
+#: src/components/_political/party/party.frontConfig.tsx:63
+msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:156
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Amikor az <0>Életerőd</0> elfogy, nyisd meg ezt a menüt, hogy feltöltsd étellel."
@@ -8805,7 +8864,7 @@ msgstr "Legalább {0} szintűnek kell lenned, hogy hozzájárulj."
 msgid "You must be on web to subscribe"
 msgstr "A webes verzióban kell lenned az előfizetéshez"
 
-#: src/components/_political/government/PoliticalEthicsSelect.tsx:92
+#: src/components/_political/government/PoliticalEthicsSelect.tsx:115
 msgid "You must spend all 3 ethics points ({pointsRemaining} remaining)"
 msgstr "Mind a 3 etikai pontot el kell költened ({pointsRemaining} maradt)"
 
