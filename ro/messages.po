@@ -4871,7 +4871,7 @@ msgstr "Management"
 msgid "map"
 msgstr "harta"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:111
+#: src/components/_layout/LayoutLeftIcons.tsx:108
 #: src/components/_layout/LayoutOptions.tsx:98
 msgid "Map"
 msgstr ""
@@ -5813,7 +5813,7 @@ msgstr "Deschide cutia!"
 msgid "Operative"
 msgstr "Agent"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:154
+#: src/components/_layout/LayoutLeftIcons.tsx:151
 msgid "Options"
 msgstr "Opțiuni"
 
@@ -6921,7 +6921,7 @@ msgstr "Runde câștigate"
 msgid "Rounds Won"
 msgstr "Runde câștigate"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:164
+#: src/components/_layout/LayoutLeftIcons.tsx:161
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Rules"
 msgstr "Reguli"
@@ -8084,12 +8084,14 @@ msgstr "Dezechipează tot"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:340
-msgid "Unethical: capital occupied — national orders give only the regular bonus but still cost ×2 paper"
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:344
+msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:336
-msgid "Unethical: national orders deal ×2 damage but cost ×2 paper"
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:339
+msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:200
@@ -9226,10 +9228,10 @@ msgstr "adresa_ta@email.com"
 msgid "Yours"
 msgstr "Ale tale"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:86
+#: src/components/_layout/LayoutLeftIcons.tsx:85
 msgid "Zoom in"
 msgstr ""
 
-#: src/components/_layout/LayoutLeftIcons.tsx:95
+#: src/components/_layout/LayoutLeftIcons.tsx:93
 msgid "Zoom out"
 msgstr ""

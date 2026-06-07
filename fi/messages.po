@@ -4874,7 +4874,7 @@ msgstr "Hallinto"
 msgid "map"
 msgstr "kartta"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:111
+#: src/components/_layout/LayoutLeftIcons.tsx:108
 #: src/components/_layout/LayoutOptions.tsx:98
 msgid "Map"
 msgstr ""
@@ -5816,7 +5816,7 @@ msgstr "Avaa tapauksesi!"
 msgid "Operative"
 msgstr "Tiedustelija"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:154
+#: src/components/_layout/LayoutLeftIcons.tsx:151
 msgid "Options"
 msgstr "Vaihtoehdot"
 
@@ -6924,7 +6924,7 @@ msgstr "Kierroksia voitettu"
 msgid "Rounds Won"
 msgstr "Voitetut kierrokset"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:164
+#: src/components/_layout/LayoutLeftIcons.tsx:161
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Rules"
 msgstr "säännöt"
@@ -8087,12 +8087,14 @@ msgstr "Tyhjennä kaikki"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:340
-msgid "Unethical: capital occupied — national orders give only the regular bonus but still cost ×2 paper"
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:344
+msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
-#: src/components/_military/battle/SetOrderFormModal.tsx:336
-msgid "Unethical: national orders deal ×2 damage but cost ×2 paper"
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:339
+msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:200
@@ -9229,10 +9231,10 @@ msgstr "sinun@sähköposti.fi"
 msgid "Yours"
 msgstr "Sinun"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:86
+#: src/components/_layout/LayoutLeftIcons.tsx:85
 msgid "Zoom in"
 msgstr ""
 
-#: src/components/_layout/LayoutLeftIcons.tsx:95
+#: src/components/_layout/LayoutLeftIcons.tsx:93
 msgid "Zoom out"
 msgstr ""
