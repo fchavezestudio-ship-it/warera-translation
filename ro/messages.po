@@ -63,7 +63,7 @@ msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- Venitul din dezvoltare este redus cu 50%:<0>{0}</0>."
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:70
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:196
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:231
 msgid "(alliance average development)"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "(member average development)"
 msgstr ""
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:190
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:225
 msgid "(own development)"
 msgstr ""
 
@@ -81,7 +81,7 @@ msgid "{0} & allies"
 msgstr "{0} & aliați"
 
 #. placeholder {0}: lawConfig.minActiveCitizen
-#: src/components/_political/law/Law.tsx:137
+#: src/components/_political/law/Law.tsx:138
 msgid "{0} active citizens required"
 msgstr "minim {0} cetățeni activi"
 
@@ -102,7 +102,7 @@ msgstr "{0} Gratis"
 
 #. placeholder {0}: lawConfig?.coolDownInHours
 #. placeholder {0}: motionConfig.coolDownInHours
-#: src/components/_political/law/Law.tsx:128
+#: src/components/_political/law/Law.tsx:129
 #: src/components/_political/partyMotion/PartyMotion.tsx:113
 msgid "{0} hours"
 msgstr "{0} ore"
@@ -727,7 +727,7 @@ msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Capacitate magazie"
 
 #. placeholder {0}: lawConfig.maintenanceCost
-#: src/components/_political/law/Law.tsx:113
+#: src/components/_political/law/Law.tsx:114
 msgid "<0>{0}</0>/day"
 msgstr "<0>{0}</0>/zi"
 
@@ -1273,7 +1273,7 @@ msgid "a. Insults, slurs and targeted harassment"
 msgstr ""
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:133
-#: src/components/_political/law/Law.tsx:187
+#: src/components/_political/law/Law.tsx:189
 #: src/components/_political/partyMotion/PartyMotion.tsx:173
 msgid "Abstain"
 msgstr "Abținere"
@@ -1287,7 +1287,7 @@ msgid "Abusing this power to advantage another country will lead to a <0>ban.</0
 msgstr "Abuzarea acestei puteri în avantajul altei țări duce la o <0>suspensie.</0>"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:122
-#: src/components/_political/law/Law.tsx:176
+#: src/components/_political/law/Law.tsx:178
 #: src/components/_political/partyMotion/PartyMotion.tsx:162
 #: src/components/_user/worker/WageReductionAlert.tsx:86
 msgid "Accept"
@@ -1370,7 +1370,7 @@ msgstr "Construcție activă"
 msgid "Active War"
 msgstr "Război activ"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:219
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:254
 msgid "Active wars"
 msgstr "Războaie active"
 
@@ -1382,7 +1382,7 @@ msgstr "Activitate"
 msgid "Add User"
 msgstr "Adaugă utilizator"
 
-#: src/components/_political/law/Law.tsx:101
+#: src/components/_political/law/Law.tsx:102
 #: src/components/_political/law/LawFormModal.tsx:327
 #: src/components/_political/partyMotion/PartyMotion.tsx:99
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
@@ -1493,7 +1493,7 @@ msgid "All types"
 msgstr "Toate tipurile"
 
 #: src/components/_layout/map.frontConfig.tsx:32
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:157
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:192
 msgid "Alliance"
 msgstr ""
 
@@ -2750,7 +2750,7 @@ msgstr "Contracte & Licitații"
 msgid "Cooked Fish"
 msgstr "Pește Prăjit"
 
-#: src/components/_political/law/Law.tsx:125
+#: src/components/_political/law/Law.tsx:126
 #: src/components/_political/partyMotion/PartyMotion.tsx:110
 msgid "Cool down"
 msgstr "Timp pauză"
@@ -3146,7 +3146,7 @@ msgstr "Apărător"
 msgid "Defenders"
 msgstr "Apărători"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:291
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:329
 msgid "Defensive pact"
 msgstr ""
 
@@ -3163,6 +3163,11 @@ msgstr ""
 
 #: src/components/_political/event/EventList.tsx:90
 msgid "Defensive pact signed"
+msgstr ""
+
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:427
+msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:227
@@ -3283,6 +3288,11 @@ msgstr "Diplomație"
 #: src/components/_political/party/party.frontConfig.tsx:244
 msgid "Diplomatic"
 msgstr "Diplomatic"
+
+#. placeholder {0}: ts.paper
+#: src/components/_political/law/LawEthicEffects.tsx:152
+msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:189
 msgid "Disable company"
@@ -3493,8 +3503,8 @@ msgstr "Activează companie"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:78
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
-#: src/components/_political/law/Law.tsx:83
-#: src/components/_political/law/Law.tsx:86
+#: src/components/_political/law/Law.tsx:84
+#: src/components/_political/law/Law.tsx:87
 #: src/components/_political/law/LawTypeSelect.tsx:176
 #: src/components/_political/partyMotion/PartyMotion.tsx:89
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
@@ -3688,6 +3698,16 @@ msgstr "Agrar Fanatic"
 msgid "Fanatic Diplomatic"
 msgstr "Diplomatic fanatic"
 
+#. placeholder {0}: ts.paper
+#: src/components/_political/law/LawEthicEffects.tsx:139
+msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
+msgstr ""
+
+#. placeholder {0}: ts.paper
+#: src/components/_political/law/LawEthicEffects.tsx:122
+msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:105
 msgid "Fanatic Expansionist"
 msgstr ""
@@ -3704,9 +3724,22 @@ msgstr "Industrialist Fanatic"
 msgid "Fanatic Isolationist"
 msgstr "Izolaționist fanatic"
 
+#. placeholder {0}: ts.paper
+#: src/components/_political/law/LawEthicEffects.tsx:167
+msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
+msgstr ""
+
+#: src/components/_political/law/LawEthicEffects.tsx:93
+msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:56
 msgid "Fanatic Pacifist"
 msgstr "Pacifist fanatic"
+
+#: src/components/_political/law/LawEthicEffects.tsx:73
+msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
+msgstr ""
 
 #: src/components/_political/party/party.frontConfig.tsx:251
 msgid "Fanatic Republican"
@@ -4414,6 +4447,10 @@ msgstr "Izolaționism vs Diplomație"
 msgid "Isolationist"
 msgstr "Izolaționist"
 
+#: src/components/_political/law/LawEthicEffects.tsx:107
+msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:9
 msgid "It only gets better… maybe"
 msgstr "Poate fi doar mai bine… poate"
@@ -4602,7 +4639,7 @@ msgid "Launch primary election"
 msgstr "Declanșează alegeri pentru candidatul principal la prezidențiale"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:57
-#: src/components/_political/law/Law.tsx:61
+#: src/components/_political/law/Law.tsx:62
 msgid "Law failed"
 msgstr "Lege eșuată"
 
@@ -4846,7 +4883,7 @@ msgstr "Norocul e în sfârșit de partea ta"
 msgid "Mage Robe"
 msgstr "Mage Robe"
 
-#: src/components/_political/law/Law.tsx:110
+#: src/components/_political/law/Law.tsx:111
 msgid "Maintenance cost"
 msgstr "Cost întreținere"
 
@@ -5099,7 +5136,7 @@ msgstr "Unități Militare"
 msgid "Min reached"
 msgstr "Minimum atins"
 
-#: src/components/_political/law/Law.tsx:135
+#: src/components/_political/law/Law.tsx:136
 msgid "Min. active citizens"
 msgstr "Min. cetățeni activi"
 
@@ -5481,7 +5518,7 @@ msgstr "Fără etici active - Balansat"
 msgid "No active job offer"
 msgstr "Fără oferte de muncă active"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:227
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:262
 msgid "No active wars"
 msgstr "Niciun război activ"
 
@@ -5529,7 +5566,7 @@ msgstr "Fără contribuții"
 msgid "No damages ranking yet."
 msgstr "Fără clasament daune."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:343
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:388
 msgid "No defensive pact"
 msgstr ""
 
@@ -5610,7 +5647,7 @@ msgstr "Fără recomandator"
 msgid "No skins equipped"
 msgstr "Niciun skin echipat."
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:283
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:321
 msgid "No sworn enemy"
 msgstr "Niciun inamic principal"
 
@@ -5678,7 +5715,7 @@ msgstr ""
 msgid "Not impressive, but not shameful"
 msgstr "Nu e impresionant, dar nici rușinos"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:172
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:207
 msgid "Not in any alliance"
 msgstr ""
 
@@ -5839,7 +5876,7 @@ msgid "Other"
 msgstr "Altele"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:63
-#: src/components/_political/law/Law.tsx:68
+#: src/components/_political/law/Law.tsx:69
 #: src/components/_political/partyMotion/PartyMotion.tsx:81
 msgid "Outcome"
 msgstr "Efect"
@@ -5889,6 +5926,11 @@ msgstr ""
 #: src/components/_political/party/party.frontConfig.tsx:86
 msgid "Pacifist"
 msgstr "Pacifist"
+
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:439
+msgid "Pacifist: orders defending your core regions or revolts cost {orderDiscountPercent}% less <0>{0}</0>"
+msgstr ""
 
 #: src/components/_other/shop/ShopHeader.tsx:29
 msgid "Packs"
@@ -6455,7 +6497,7 @@ msgstr "Contraamiral"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:70
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:135
-#: src/components/_political/law/Law.tsx:75
+#: src/components/_political/law/Law.tsx:76
 #: src/components/_political/law/LawFormModal.tsx:178
 msgid "Reason"
 msgstr "Motiv"
@@ -6592,7 +6634,7 @@ msgid "Reinforced Pants"
 msgstr "Pantaloni ranforsați"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:144
-#: src/components/_political/law/Law.tsx:198
+#: src/components/_political/law/Law.tsx:200
 #: src/components/_political/partyMotion/PartyMotion.tsx:184
 msgid "Reject"
 msgstr "Contra"
@@ -7536,7 +7578,7 @@ msgstr ""
 msgid "Supreme Commander"
 msgstr "Comandant Suprem"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:236
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:271
 msgid "Sworn enemy"
 msgstr "Inamic principal"
 
@@ -7552,6 +7594,11 @@ msgstr ""
 #: src/components/_political/party/party.frontConfig.tsx:141
 #: src/components/_political/party/party.frontConfig.tsx:177
 msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> each day."
+msgstr ""
+
+#. placeholder {0}: ts.paper
+#: src/components/_military/battle/SetOrderFormModal.tsx:433
+msgid "Sworn enemy: orders against your sworn enemy cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr ""
 
 #: src/components/_political/event/EventList.tsx:72
@@ -7948,7 +7995,7 @@ msgstr "Daune totale"
 msgid "Total Donated:"
 msgstr "Total donat:"
 
-#: src/components/_political/country/CountryDiplomacyGrid.tsx:349
+#: src/components/_political/country/CountryDiplomacyGrid.tsx:394
 msgid "Total of <0>{totalMaintenanceCostPerDay}</0>/day"
 msgstr ""
 
@@ -8084,13 +8131,17 @@ msgstr "Dezechipează tot"
 msgid "Unethical"
 msgstr ""
 
+#: src/components/_political/law/LawEthicEffects.tsx:58
+msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
+msgstr ""
+
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:344
+#: src/components/_military/battle/SetOrderFormModal.tsx:457
 msgid "Unethical: capital occupied, national orders give only the regular bonus but still cost ×2 <0>{0}</0>"
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_military/battle/SetOrderFormModal.tsx:339
+#: src/components/_military/battle/SetOrderFormModal.tsx:452
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr ""
 
