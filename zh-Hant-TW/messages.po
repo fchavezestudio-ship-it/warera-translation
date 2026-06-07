@@ -2426,6 +2426,10 @@ msgstr "選擇你的國家"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "選邊後點擊來造成<0>傷害</0>！持續攻擊來為你的隊伍取得勝利。"
 
+#: src/components/_economy/inventory/CraftModal.tsx:358
+msgid "Choosing a specific item costs ×2 steel:"
+msgstr ""
+
 #: src/components/_user/user/UserHeader.tsx:282
 msgid "Citizen since <0><1/></0>"
 msgstr "自 <0><1/></0> 以來是公民"
@@ -8080,6 +8084,14 @@ msgstr "脫下全部"
 
 #: src/components/_political/party/party.frontConfig.tsx:415
 msgid "Unethical"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:340
+msgid "Unethical: capital occupied — national orders give only the regular bonus but still cost ×2 paper"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:336
+msgid "Unethical: national orders deal ×2 damage but cost ×2 paper"
 msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:200

@@ -2424,6 +2424,10 @@ msgstr "Alege-ți țara"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Alege o parte și apasă pentru a produce <0>Daune</0>! Continua să lupți pentru a ajuta echipa ta să câștige."
 
+#: src/components/_economy/inventory/CraftModal.tsx:358
+msgid "Choosing a specific item costs ×2 steel:"
+msgstr ""
+
 #: src/components/_user/user/UserHeader.tsx:282
 msgid "Citizen since <0><1/></0>"
 msgstr "Cetățean de <0><1/></0>"
@@ -8078,6 +8082,14 @@ msgstr "Dezechipează tot"
 
 #: src/components/_political/party/party.frontConfig.tsx:415
 msgid "Unethical"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:340
+msgid "Unethical: capital occupied — national orders give only the regular bonus but still cost ×2 paper"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:336
+msgid "Unethical: national orders deal ×2 damage but cost ×2 paper"
 msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:200

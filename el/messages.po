@@ -2426,6 +2426,10 @@ msgstr "Επίλεξε τη χώρα σου"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Επίλεξε πλευρά και κάνε κλικ για να κάνεις <0>Ζημιές</0>! Συνέχισε να χτυπάς για να βοηθήσεις την ομάδα σου να κερδίσει."
 
+#: src/components/_economy/inventory/CraftModal.tsx:358
+msgid "Choosing a specific item costs ×2 steel:"
+msgstr ""
+
 #: src/components/_user/user/UserHeader.tsx:282
 msgid "Citizen since <0><1/></0>"
 msgstr "Πολίτης από <0><1/></0>"
@@ -8080,6 +8084,14 @@ msgstr "Αφαίρεση όλων"
 
 #: src/components/_political/party/party.frontConfig.tsx:415
 msgid "Unethical"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:340
+msgid "Unethical: capital occupied — national orders give only the regular bonus but still cost ×2 paper"
+msgstr ""
+
+#: src/components/_military/battle/SetOrderFormModal.tsx:336
+msgid "Unethical: national orders deal ×2 damage but cost ×2 paper"
 msgstr ""
 
 #: src/pages/region/[regionId]/index.tsx:200
