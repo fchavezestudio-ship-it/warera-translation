@@ -1389,7 +1389,7 @@ msgstr "Adaugă utilizator"
 msgid "Additional cost"
 msgstr "Cost adițional"
 
-#: src/components/_layout/LayoutRightIcons.tsx:227
+#: src/components/_layout/LayoutRightIcons.tsx:147
 #: src/components/_layout/MoreButtonNav.tsx:65
 msgid "Admin"
 msgstr "Admin"
@@ -2800,7 +2800,7 @@ msgstr "țări"
 msgid "Countries"
 msgstr "Țări"
 
-#: src/components/_layout/LayoutRightIcons.tsx:295
+#: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:131
 #: src/components/_military/battle/BattleCountrySide.tsx:73
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
@@ -3595,7 +3595,7 @@ msgstr "Moțiune etici"
 msgid "Ethics Points:"
 msgstr "Puncte etici:"
 
-#: src/components/_layout/LayoutRightIcons.tsx:325
+#: src/components/_layout/LayoutRightIcons.tsx:245
 #: src/components/_layout/MoreButtonNav.tsx:94
 #: src/pages/country/[countryId]/index.tsx:266
 msgid "Events"
@@ -3746,7 +3746,7 @@ msgstr "Favorite"
 msgid "Fee"
 msgstr "Taxă"
 
-#: src/components/_layout/LayoutRightIcons.tsx:335
+#: src/components/_layout/LayoutRightIcons.tsx:255
 #: src/components/_layout/MoreButtonNav.tsx:86
 msgid "Feed"
 msgstr "Feed"
@@ -4690,6 +4690,11 @@ msgstr "Pantaloni legendari"
 msgid "Level {level}"
 msgstr "Nivel {level}"
 
+#: src/components/_political/election/Election.tsx:132
+#: src/components/_political/election/Election.tsx:224
+msgid "Level too low"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Level up your skills!"
 msgstr "Crește-ți competențele!"
@@ -4862,7 +4867,7 @@ msgstr "Management"
 msgid "map"
 msgstr "harta"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:68
+#: src/components/_layout/LayoutLeftIcons.tsx:111
 #: src/components/_layout/LayoutOptions.tsx:98
 msgid "Map"
 msgstr ""
@@ -5109,7 +5114,7 @@ msgstr "Ministrul Finanțelor"
 msgid "Minister of Foreign Affairs"
 msgstr "Ministrul Externelor"
 
-#: src/components/_layout/LayoutRightIcons.tsx:254
+#: src/components/_layout/LayoutRightIcons.tsx:174
 #: src/components/_layout/MoreButtonNav.tsx:103
 #: src/components/_user/mission/MissionsList.tsx:169
 msgid "Missions"
@@ -5427,7 +5432,7 @@ msgstr "Angajat nou"
 msgid "Newest"
 msgstr "Noi"
 
-#: src/components/_layout/LayoutRightIcons.tsx:280
+#: src/components/_layout/LayoutRightIcons.tsx:200
 #: src/components/_layout/MoreButtonNav.tsx:112
 msgid "News"
 msgstr "Știri"
@@ -5804,7 +5809,7 @@ msgstr "Deschide cutia!"
 msgid "Operative"
 msgstr "Agent"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:109
+#: src/components/_layout/LayoutLeftIcons.tsx:154
 msgid "Options"
 msgstr "Opțiuni"
 
@@ -5906,7 +5911,7 @@ msgstr "Participă în luptă"
 msgid "Parties"
 msgstr "Partide"
 
-#: src/components/_layout/LayoutRightIcons.tsx:303
+#: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:140
 #: src/components/_user/notification/notificationPrefs.categories.ts:157
 #: src/pages/user/[userId]/index.tsx:176
@@ -6375,7 +6380,7 @@ msgstr "Recompense clasament"
 msgid "Rankings"
 msgstr "Clasamente"
 
-#: src/components/_layout/LayoutRightIcons.tsx:313
+#: src/components/_layout/LayoutRightIcons.tsx:233
 msgid "Ranks"
 msgstr "Clasament"
 
@@ -6912,7 +6917,7 @@ msgstr "Runde câștigate"
 msgid "Rounds Won"
 msgstr "Runde câștigate"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:119
+#: src/components/_layout/LayoutLeftIcons.tsx:164
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Rules"
 msgstr "Reguli"
@@ -7174,7 +7179,7 @@ msgstr "Setează-ți numele de utilizator"
 msgid "Settings"
 msgstr "Setări"
 
-#: src/components/_layout/LayoutRightIcons.tsx:267
+#: src/components/_layout/LayoutRightIcons.tsx:187
 #: src/components/_layout/MoreButtonNav.tsx:73
 #: src/components/_other/shop/ShopHeader.tsx:52
 msgid "Shop"
@@ -8851,12 +8856,22 @@ msgstr "Ai părăsit compania."
 msgid "You left your job!"
 msgstr "Ți-ai dat demisia!"
 
+#. placeholder {0}: gameConfig.election.candidateMinLevel
+#: src/components/_political/election/Election.tsx:133
+msgid "You must be at least level {0} to become a candidate."
+msgstr ""
+
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
 #: src/components/_political/region/RegionResistance.tsx:120
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "Trebuie să ai nivelul {0} pentru a contribui."
+
+#. placeholder {0}: gameConfig.election.voteMinLevel
+#: src/components/_political/election/Election.tsx:226
+msgid "You must be at least level {0} to vote."
+msgstr ""
 
 #: src/components/_user/premium/PremiumActions.tsx:42
 msgid "You must be on web to subscribe"
@@ -9198,3 +9213,11 @@ msgstr "adresa_ta@email.com"
 #: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Ale tale"
+
+#: src/components/_layout/LayoutLeftIcons.tsx:86
+msgid "Zoom in"
+msgstr ""
+
+#: src/components/_layout/LayoutLeftIcons.tsx:95
+msgid "Zoom out"
+msgstr ""

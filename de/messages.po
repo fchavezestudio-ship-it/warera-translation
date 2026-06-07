@@ -1391,7 +1391,7 @@ msgstr "Benutzer hinzufügen"
 msgid "Additional cost"
 msgstr "Zusatzkosten"
 
-#: src/components/_layout/LayoutRightIcons.tsx:227
+#: src/components/_layout/LayoutRightIcons.tsx:147
 #: src/components/_layout/MoreButtonNav.tsx:65
 msgid "Admin"
 msgstr "Admin"
@@ -2802,7 +2802,7 @@ msgstr "Länder"
 msgid "Countries"
 msgstr "Länder"
 
-#: src/components/_layout/LayoutRightIcons.tsx:295
+#: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:131
 #: src/components/_military/battle/BattleCountrySide.tsx:73
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
@@ -3597,7 +3597,7 @@ msgstr "Ethik-Anträge"
 msgid "Ethics Points:"
 msgstr "Ethik-Punkte:"
 
-#: src/components/_layout/LayoutRightIcons.tsx:325
+#: src/components/_layout/LayoutRightIcons.tsx:245
 #: src/components/_layout/MoreButtonNav.tsx:94
 #: src/pages/country/[countryId]/index.tsx:266
 msgid "Events"
@@ -3748,7 +3748,7 @@ msgstr "Favoriten"
 msgid "Fee"
 msgstr "Kaution"
 
-#: src/components/_layout/LayoutRightIcons.tsx:335
+#: src/components/_layout/LayoutRightIcons.tsx:255
 #: src/components/_layout/MoreButtonNav.tsx:86
 msgid "Feed"
 msgstr "Feed"
@@ -4692,6 +4692,11 @@ msgstr "Legendäre Hose"
 msgid "Level {level}"
 msgstr "Level {level}"
 
+#: src/components/_political/election/Election.tsx:132
+#: src/components/_political/election/Election.tsx:224
+msgid "Level too low"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Level up your skills!"
 msgstr "Verbessere deine Fertigkeiten!"
@@ -4864,7 +4869,7 @@ msgstr "Management"
 msgid "map"
 msgstr "Karte"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:68
+#: src/components/_layout/LayoutLeftIcons.tsx:111
 #: src/components/_layout/LayoutOptions.tsx:98
 msgid "Map"
 msgstr "Karte"
@@ -5111,7 +5116,7 @@ msgstr "Wirtschaftsminister"
 msgid "Minister of Foreign Affairs"
 msgstr "Außenminister"
 
-#: src/components/_layout/LayoutRightIcons.tsx:254
+#: src/components/_layout/LayoutRightIcons.tsx:174
 #: src/components/_layout/MoreButtonNav.tsx:103
 #: src/components/_user/mission/MissionsList.tsx:169
 msgid "Missions"
@@ -5429,7 +5434,7 @@ msgstr "Neuer Arbeiter"
 msgid "Newest"
 msgstr "Neueste"
 
-#: src/components/_layout/LayoutRightIcons.tsx:280
+#: src/components/_layout/LayoutRightIcons.tsx:200
 #: src/components/_layout/MoreButtonNav.tsx:112
 msgid "News"
 msgstr "News"
@@ -5806,7 +5811,7 @@ msgstr "Öffne deine Kiste!"
 msgid "Operative"
 msgstr "Agent"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:109
+#: src/components/_layout/LayoutLeftIcons.tsx:154
 msgid "Options"
 msgstr "Optionen"
 
@@ -5908,7 +5913,7 @@ msgstr "An Schlacht teilnehmen"
 msgid "Parties"
 msgstr "Parteien"
 
-#: src/components/_layout/LayoutRightIcons.tsx:303
+#: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:140
 #: src/components/_user/notification/notificationPrefs.categories.ts:157
 #: src/pages/user/[userId]/index.tsx:176
@@ -6377,7 +6382,7 @@ msgstr "Ranglistenbelohnung"
 msgid "Rankings"
 msgstr "Ranglisten"
 
-#: src/components/_layout/LayoutRightIcons.tsx:313
+#: src/components/_layout/LayoutRightIcons.tsx:233
 msgid "Ranks"
 msgstr "Ränge"
 
@@ -6914,7 +6919,7 @@ msgstr "Gewonnene Runden"
 msgid "Rounds Won"
 msgstr "Gewonnene Runden"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:119
+#: src/components/_layout/LayoutLeftIcons.tsx:164
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Rules"
 msgstr "Regeln"
@@ -7176,7 +7181,7 @@ msgstr "Lege deinen Benutzernamen fest"
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: src/components/_layout/LayoutRightIcons.tsx:267
+#: src/components/_layout/LayoutRightIcons.tsx:187
 #: src/components/_layout/MoreButtonNav.tsx:73
 #: src/components/_other/shop/ShopHeader.tsx:52
 msgid "Shop"
@@ -8853,12 +8858,22 @@ msgstr "Du hast das Unternehmen verlassen."
 msgid "You left your job!"
 msgstr "Du hast deinen Job gekündigt!"
 
+#. placeholder {0}: gameConfig.election.candidateMinLevel
+#: src/components/_political/election/Election.tsx:133
+msgid "You must be at least level {0} to become a candidate."
+msgstr ""
+
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
 #: src/components/_political/region/RegionResistance.tsx:120
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "Du musst mindestens Level {0} sein, um beizutragen."
+
+#. placeholder {0}: gameConfig.election.voteMinLevel
+#: src/components/_political/election/Election.tsx:226
+msgid "You must be at least level {0} to vote."
+msgstr ""
 
 #: src/components/_user/premium/PremiumActions.tsx:42
 msgid "You must be on web to subscribe"
@@ -9200,3 +9215,11 @@ msgstr "deine@email.de"
 #: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Deine"
+
+#: src/components/_layout/LayoutLeftIcons.tsx:86
+msgid "Zoom in"
+msgstr ""
+
+#: src/components/_layout/LayoutLeftIcons.tsx:95
+msgid "Zoom out"
+msgstr ""

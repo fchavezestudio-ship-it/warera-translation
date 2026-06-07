@@ -1392,7 +1392,7 @@ msgstr "Lisää käyttäjä"
 msgid "Additional cost"
 msgstr "Lisäkustannukset"
 
-#: src/components/_layout/LayoutRightIcons.tsx:227
+#: src/components/_layout/LayoutRightIcons.tsx:147
 #: src/components/_layout/MoreButtonNav.tsx:65
 msgid "Admin"
 msgstr "Ylläpitäjä"
@@ -2803,7 +2803,7 @@ msgstr "maissa"
 msgid "Countries"
 msgstr "maat"
 
-#: src/components/_layout/LayoutRightIcons.tsx:295
+#: src/components/_layout/LayoutRightIcons.tsx:215
 #: src/components/_layout/MoreButtonNav.tsx:131
 #: src/components/_military/battle/BattleCountrySide.tsx:73
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:133
@@ -3598,7 +3598,7 @@ msgstr "Eettiset liikkeet"
 msgid "Ethics Points:"
 msgstr "Eettiset kohdat:"
 
-#: src/components/_layout/LayoutRightIcons.tsx:325
+#: src/components/_layout/LayoutRightIcons.tsx:245
 #: src/components/_layout/MoreButtonNav.tsx:94
 #: src/pages/country/[countryId]/index.tsx:266
 msgid "Events"
@@ -3749,7 +3749,7 @@ msgstr "Suosikit"
 msgid "Fee"
 msgstr ""
 
-#: src/components/_layout/LayoutRightIcons.tsx:335
+#: src/components/_layout/LayoutRightIcons.tsx:255
 #: src/components/_layout/MoreButtonNav.tsx:86
 msgid "Feed"
 msgstr "Syötä"
@@ -4693,6 +4693,11 @@ msgstr "Legendaariset housut"
 msgid "Level {level}"
 msgstr "Taso {level}"
 
+#: src/components/_political/election/Election.tsx:132
+#: src/components/_political/election/Election.tsx:224
+msgid "Level too low"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Level up your skills!"
 msgstr "Nosta osaamistasi!"
@@ -4865,7 +4870,7 @@ msgstr "Hallinto"
 msgid "map"
 msgstr "kartta"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:68
+#: src/components/_layout/LayoutLeftIcons.tsx:111
 #: src/components/_layout/LayoutOptions.tsx:98
 msgid "Map"
 msgstr ""
@@ -5112,7 +5117,7 @@ msgstr "talousministeri"
 msgid "Minister of Foreign Affairs"
 msgstr "ulkoministeri"
 
-#: src/components/_layout/LayoutRightIcons.tsx:254
+#: src/components/_layout/LayoutRightIcons.tsx:174
 #: src/components/_layout/MoreButtonNav.tsx:103
 #: src/components/_user/mission/MissionsList.tsx:169
 msgid "Missions"
@@ -5430,7 +5435,7 @@ msgstr "Uusi työntekijä"
 msgid "Newest"
 msgstr "Uusin"
 
-#: src/components/_layout/LayoutRightIcons.tsx:280
+#: src/components/_layout/LayoutRightIcons.tsx:200
 #: src/components/_layout/MoreButtonNav.tsx:112
 msgid "News"
 msgstr "Uutiset"
@@ -5807,7 +5812,7 @@ msgstr "Avaa tapauksesi!"
 msgid "Operative"
 msgstr "Tiedustelija"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:109
+#: src/components/_layout/LayoutLeftIcons.tsx:154
 msgid "Options"
 msgstr "Vaihtoehdot"
 
@@ -5909,7 +5914,7 @@ msgstr "Osallistu taisteluun"
 msgid "Parties"
 msgstr "Puolueet"
 
-#: src/components/_layout/LayoutRightIcons.tsx:303
+#: src/components/_layout/LayoutRightIcons.tsx:223
 #: src/components/_layout/MoreButtonNav.tsx:140
 #: src/components/_user/notification/notificationPrefs.categories.ts:157
 #: src/pages/user/[userId]/index.tsx:176
@@ -6378,7 +6383,7 @@ msgstr "Sijoituspalkinto"
 msgid "Rankings"
 msgstr "Rankingit"
 
-#: src/components/_layout/LayoutRightIcons.tsx:313
+#: src/components/_layout/LayoutRightIcons.tsx:233
 msgid "Ranks"
 msgstr "Sijoitukset"
 
@@ -6915,7 +6920,7 @@ msgstr "Kierroksia voitettu"
 msgid "Rounds Won"
 msgstr "Voitetut kierrokset"
 
-#: src/components/_layout/LayoutLeftIcons.tsx:119
+#: src/components/_layout/LayoutLeftIcons.tsx:164
 #: src/components/_user/auth/WelcomeModal.tsx:152
 msgid "Rules"
 msgstr "säännöt"
@@ -7177,7 +7182,7 @@ msgstr "Aseta käyttäjätunnuksesi"
 msgid "Settings"
 msgstr "Asetukset"
 
-#: src/components/_layout/LayoutRightIcons.tsx:267
+#: src/components/_layout/LayoutRightIcons.tsx:187
 #: src/components/_layout/MoreButtonNav.tsx:73
 #: src/components/_other/shop/ShopHeader.tsx:52
 msgid "Shop"
@@ -8854,12 +8859,22 @@ msgstr "Lähdit yrityksestä."
 msgid "You left your job!"
 msgstr "Jätit työsi!"
 
+#. placeholder {0}: gameConfig.election.candidateMinLevel
+#: src/components/_political/election/Election.tsx:133
+msgid "You must be at least level {0} to become a candidate."
+msgstr ""
+
 #. placeholder {0}: gameConfig.region.resistanceContributionMinLevel
 #. placeholder {0}: gameConfig.unrest.contributionMinLevel
 #: src/components/_political/region/RegionResistance.tsx:120
 #: src/components/_political/unrest/UnrestPanel.tsx:101
 msgid "You must be at least level {0} to contribute."
 msgstr "Sinun on oltava vähintään taso {0}, jotta voit osallistua."
+
+#. placeholder {0}: gameConfig.election.voteMinLevel
+#: src/components/_political/election/Election.tsx:226
+msgid "You must be at least level {0} to vote."
+msgstr ""
 
 #: src/components/_user/premium/PremiumActions.tsx:42
 msgid "You must be on web to subscribe"
@@ -9201,3 +9216,11 @@ msgstr "sinun@sähköposti.fi"
 #: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Sinun"
+
+#: src/components/_layout/LayoutLeftIcons.tsx:86
+msgid "Zoom in"
+msgstr ""
+
+#: src/components/_layout/LayoutLeftIcons.tsx:95
+msgid "Zoom out"
+msgstr ""
