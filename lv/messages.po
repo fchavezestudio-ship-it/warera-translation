@@ -180,7 +180,7 @@ msgstr "*Ja lietotājam jau ir dažas lietas no komplekta, cena būs mazāka"
 msgid "*May burn"
 msgstr "*Var aizdegties"
 
-#: src/components/_political/government/Government.tsx:197
+#: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/dienā"
 
@@ -589,7 +589,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/>Prioritāte beigsies pēc <1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:61
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Pretestības pieaugums stundā"
 
@@ -622,7 +622,7 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Uzbrukuma bonuss"
 
@@ -643,8 +643,8 @@ msgstr "<0>{0}</0> jo <1/> okupē vismaz vienu no <2/> reģioniem"
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
-msgid "<0>{0}</0> Defense bonus"
-msgstr "<0>{0}</0> Aizsardzības bonuss"
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
+msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1614
@@ -724,7 +724,7 @@ msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> atgriezts <1/>."
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:84
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Noliktavas ietilpība"
 
@@ -1529,8 +1529,8 @@ msgstr ""
 msgid "Alliance name"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:99
-#: src/components/_military/battle/ActiveBattlesList.tsx:153
+#: src/components/_military/battle/ActiveBattlesList.tsx:100
+#: src/components/_military/battle/ActiveBattlesList.tsx:154
 msgid "Allies"
 msgstr "Sabiedrotie"
 
@@ -1861,7 +1861,7 @@ msgid "Auto approval"
 msgstr "Automātiskā apstiprināšana"
 
 #: src/components/_layout/LayoutOptions.tsx:175
-#: src/components/_user/kits/KitsPopover.tsx:228
+#: src/components/_user/kits/KitsPopover.tsx:227
 msgid "Auto-equip when item breaks"
 msgstr ""
 
@@ -1878,7 +1878,7 @@ msgid "Automated engine"
 msgstr "Automatizētais dzinējs"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
 msgid "Automated Engine"
 msgstr "Automatizētais Dzinējs"
 
@@ -1886,7 +1886,7 @@ msgstr "Automatizētais Dzinējs"
 msgid "Avatar removed"
 msgstr "Profila bilde noņemta"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:85
+#: src/components/_political/alliance/AllianceHeader.tsx:96
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr ""
@@ -2129,7 +2129,7 @@ msgstr "Maize"
 msgid "Break defensive pact"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
 msgid "Break room"
 msgstr "Atpūtas telpa"
 
@@ -2773,8 +2773,8 @@ msgstr "Kopēt"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Nokopē šo žetonu tagad. Tu to vairs nevarēsi apskatīt! Izmanto to <0>X-API-Key</0> vaicājuma galvenē."
 
-#: src/components/_political/alliance/AllianceHeader.tsx:79
-#: src/components/_political/government/Government.tsx:181
+#: src/components/_political/alliance/AllianceHeader.tsx:90
+#: src/components/_political/government/Government.tsx:206
 msgid "Core development"
 msgstr ""
 
@@ -2956,7 +2956,7 @@ msgstr "Kritiskais Trieciens"
 msgid "Crossbow"
 msgstr "Arbalets"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:82
+#: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Current development"
 msgstr ""
 
@@ -2997,7 +2997,7 @@ msgstr "Ikdienas uzturēšana"
 msgid "Daily Missions Reset"
 msgstr "Jauni dienas uzdevumi"
 
-#: src/components/_political/government/Government.tsx:174
+#: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
 msgstr "Dienas alga, kas tiek izmaksāta no valsts kases."
 
@@ -3292,7 +3292,7 @@ msgid "Diplomatic"
 msgstr "Diplomātija"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:152
+#: src/components/_political/law/LawEthicEffects.tsx:173
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
@@ -3303,6 +3303,10 @@ msgstr "Izslēgt uzņēmumu"
 #: src/components/_economy/company/CompanyTags.tsx:81
 msgid "Disabled"
 msgstr "Izslēgts"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:73
+msgid "Disbanded <0/>"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:176
 #: src/pages/user/[userId]/inventory.tsx:49
@@ -3383,7 +3387,7 @@ msgstr "Ziedojumu Kopsavilkums"
 msgid "Donations"
 msgstr "Ziedojumi"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
 msgid "Dormitories"
 msgstr "Kopmītnes"
 
@@ -3534,8 +3538,8 @@ msgstr "Beidzās"
 msgid "Ended <0/>"
 msgstr "Beidzies <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:105
-#: src/components/_military/battle/ActiveBattlesList.tsx:160
+#: src/components/_military/battle/ActiveBattlesList.tsx:106
+#: src/components/_military/battle/ActiveBattlesList.tsx:161
 msgid "Enemies"
 msgstr "Ienaidnieki"
 
@@ -3607,7 +3611,7 @@ msgstr "Vērtības dod bonusus valstij, kad Valsts prezidents ir šīs partijas 
 msgid "Ethics motions"
 msgstr "Vērtību priekšlikumi"
 
-#: src/components/_political/government/PoliticalEthics.tsx:534
+#: src/components/_political/government/PoliticalEthics.tsx:533
 msgid "Ethics Points:"
 msgstr "Vērtību Punkti:"
 
@@ -3696,17 +3700,21 @@ msgstr "Ģimenes Grupa"
 msgid "Fanatic Agrarian"
 msgstr "Fanātiskais Agrārisms"
 
+#: src/components/_political/law/LawEthicEffects.tsx:58
+msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
 msgstr "Fanātiskā Diplomātija"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:139
+#: src/components/_political/law/LawEthicEffects.tsx:160
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:122
+#: src/components/_political/law/LawEthicEffects.tsx:143
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
@@ -3727,11 +3735,11 @@ msgid "Fanatic Isolationist"
 msgstr "Fanātiskais Izolacionisms"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:167
+#: src/components/_political/law/LawEthicEffects.tsx:188
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:93
+#: src/components/_political/law/LawEthicEffects.tsx:114
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -3739,7 +3747,7 @@ msgstr ""
 msgid "Fanatic Pacifist"
 msgstr "Fanātiskais Pacifisms"
 
-#: src/components/_political/law/LawEthicEffects.tsx:73
+#: src/components/_political/law/LawEthicEffects.tsx:94
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
 msgstr ""
 
@@ -3775,8 +3783,8 @@ msgstr "Zemnieka Nazis"
 msgid "Farmer Pants"
 msgstr "Zemnieka Bikses"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:87
-#: src/components/_military/battle/ActiveBattlesList.tsx:167
+#: src/components/_military/battle/ActiveBattlesList.tsx:88
+#: src/components/_military/battle/ActiveBattlesList.tsx:168
 msgid "Favorites"
 msgstr "Favorīti"
 
@@ -3876,12 +3884,12 @@ msgstr "Atrast militāro vienību"
 msgid "Find another job"
 msgstr "Atrast citu darbu"
 
-#: src/components/_political/government/Government.tsx:228
+#: src/components/_political/government/Government.tsx:253
 #: src/components/_user/worker/WorkerEditFormModal.tsx:214
 msgid "Fire"
 msgstr "Atlaist"
 
-#: src/components/_political/government/Government.tsx:240
+#: src/components/_political/government/Government.tsx:265
 msgid "Fire government member"
 msgstr "Atlaist valdības locekli"
 
@@ -3983,7 +3991,7 @@ msgid "Generate Missions"
 msgstr "Ģenerēt Uzdevumus"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:75
 msgid "Generates <0>{0}</0>/day"
 msgstr "Saražo <0>{0}</0>/dienā"
 
@@ -4044,7 +4052,7 @@ msgid "Giveaway Won!"
 msgstr "Izloze laimēta!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:95
 msgid "Gives <0>{0}</0>"
 msgstr "Dod <0>{0}</0>"
 
@@ -4086,7 +4094,7 @@ msgstr "Valdības Biedrs"
 msgid "Government penalty"
 msgstr "Valdības sods"
 
-#: src/components/_political/government/Government.tsx:185
+#: src/components/_political/government/Government.tsx:210
 msgid "Government wage"
 msgstr "Valdības alga"
 
@@ -4198,7 +4206,7 @@ msgstr ""
 msgid "Hard Worker"
 msgstr "Darbaholiķis"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:89
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
 msgid "Headquarters"
 msgstr "Štābs"
 
@@ -4449,7 +4457,7 @@ msgstr "Izolacionisms pret Diplomātiju"
 msgid "Isolationist"
 msgstr "Izolacionisms"
 
-#: src/components/_political/law/LawEthicEffects.tsx:107
+#: src/components/_political/law/LawEthicEffects.tsx:128
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -4700,7 +4708,7 @@ msgstr "Pamest valdību"
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
-#: src/components/_political/alliance/AllianceHeader.tsx:69
+#: src/components/_political/alliance/AllianceHeader.tsx:80
 msgid "Led by <0/>."
 msgstr ""
 
@@ -4942,13 +4950,13 @@ msgid "Max level reached!"
 msgstr "Sasniegts maksimālais līmenis!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:107
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Maksimālais biedru skaits <0>{0}</0>."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:120
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Maksimālais strādnieku skaits <0>{0}</0>.{1}"
 
@@ -5037,7 +5045,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr "Biedrs paaugstināts par komandieri"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
+#: src/components/_political/alliance/AllianceHeader.tsx:87
 #: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
@@ -5086,7 +5094,7 @@ msgstr "Ziņa patika"
 msgid "Military & Battles"
 msgstr "Militārās un Kaujas"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Karabāze"
 
@@ -5142,17 +5150,17 @@ msgstr "Min. sasniegts"
 msgid "Min. active citizens"
 msgstr "Min. aktīvi pilsoņi"
 
-#: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/Government.tsx:100
 #: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Aizsardzības Ministrs"
 
-#: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/Government.tsx:109
 #: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Ekonomikas Ministrs"
 
-#: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/Government.tsx:118
 #: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Ārlietu Ministrs"
@@ -5508,11 +5516,11 @@ msgstr "Lieliski"
 msgid "Nice work!"
 msgstr "Malacis!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:193
+#: src/components/_military/battle/ActiveBattlesList.tsx:194
 msgid "No active battles"
 msgstr "Nav aktīvu kauju"
 
-#: src/components/_political/government/PoliticalEthics.tsx:564
+#: src/components/_political/government/PoliticalEthics.tsx:563
 msgid "No active ethics - Balanced"
 msgstr "Nav aktīvu vērtību - Centrisms"
 
@@ -5621,7 +5629,7 @@ msgstr "Vēl nav priekšlikumu"
 msgid "No offers found"
 msgstr "Nav sludinājumu"
 
-#: src/components/_political/government/Government.tsx:205
+#: src/components/_political/government/Government.tsx:230
 msgid "No one nominated yet"
 msgstr "Neviens nav nominēts"
 
@@ -5670,7 +5678,7 @@ msgstr "Nav aktīvu karu"
 msgid "No work offers"
 msgstr "Nav darba piedāvājumu"
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Nominēt"
@@ -5679,7 +5687,7 @@ msgstr "Nominēt"
 msgid "Nominate <0/> as leader"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Nominate a {title}"
 msgstr "Nominēt {title}"
 
@@ -5742,7 +5750,7 @@ msgstr "Ziedotāju skaits:"
 msgid "Occupied region"
 msgstr "Okupētais reģions"
 
-#: src/components/_political/government/Government.tsx:179
+#: src/components/_political/government/Government.tsx:204
 msgid "of"
 msgstr "no"
 
@@ -5860,7 +5868,7 @@ msgstr "Iestatījumi"
 msgid "Order"
 msgstr "Rīkojums"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:81
+#: src/components/_military/battle/ActiveBattlesList.tsx:82
 msgid "Orders"
 msgstr "Rīkojumi"
 
@@ -5872,7 +5880,7 @@ msgstr "Rīkojumi un darbības"
 msgid "Orders cancelled"
 msgstr "Rīkojumi atcelti"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:117
+#: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Other"
 msgstr "Citas"
@@ -5916,7 +5924,7 @@ msgstr "Īpašumtiesības <0/> tika nodotas no <1/> uz <2/>"
 msgid "Ownership transferred successfully"
 msgstr "Īpašumtiesības veiksmīgi nodotas"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:55
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "Pacification Center"
 msgstr "Pāraudzināšanas Centrs"
 
@@ -6195,7 +6203,7 @@ msgstr "Premium dāvana nosūtīta"
 msgid "Premium has started working"
 msgstr "Premium ir sācis darboties"
 
-#: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/Government.tsx:82
 #: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Prezidents"
@@ -6744,11 +6752,11 @@ msgstr "Pārsaukt uzņēmumu"
 msgid "Rename the alliance to \"{0}\" immediately on acceptance."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 msgid "Replace"
 msgstr "Aizstāt"
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Replace {title}"
 msgstr "Aizstāt {title}"
 
@@ -6890,7 +6898,7 @@ msgstr "Atlīdzība"
 msgid "Rifle"
 msgstr "Automāts"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:179
 msgid "Rights"
 msgstr "Tiesības"
 
@@ -7487,7 +7495,7 @@ msgid "Stone Maul"
 msgstr ""
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:78
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
 msgid "Storage"
 msgstr "Noliktava"
 
@@ -7763,6 +7771,10 @@ msgstr "Šis uzņēmums ir izslēgts, jo īpašnieks ir sasniedzis uzņēmumu li
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Šai valstij nav prezidenta vai aktīva kongresa deputāta, tu vari pārņemt tās kontroli."
 
+#: src/components/_political/government/Government.tsx:72
+msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
 msgstr "Šis ekipējums ir zaļš, tāpat kā zāle"
@@ -7796,7 +7808,7 @@ msgstr "Šim likumam ir papildu mainīgās izmaksas"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Šī likuma iesniegšanai nepieciešami vismaz {minActiveCitizen} aktīvi pilsoņi (virs 10. līmeņa."
 
-#: src/components/_political/government/Government.tsx:241
+#: src/components/_political/government/Government.tsx:266
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Šo biedru nevarēs nominēt vēlreiz {cooldownDays} dienas."
 
@@ -8011,8 +8023,8 @@ msgstr "Kopā atlīdzība"
 msgid "Total:"
 msgstr "Kopā:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:75
-#: src/components/_military/battle/ActiveBattlesList.tsx:139
+#: src/components/_military/battle/ActiveBattlesList.tsx:76
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/pages/events/index.tsx:89
 msgid "Tournament"
 msgstr "Turnīrs"
@@ -8133,7 +8145,7 @@ msgstr "Izģērbties"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:58
+#: src/components/_political/law/LawEthicEffects.tsx:79
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
 msgstr ""
 
@@ -8471,7 +8483,7 @@ msgstr "Pārbaudās CAPTCHA…"
 msgid "Vice Admiral"
 msgstr "Viceadmirālis"
 
-#: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/Government.tsx:91
 #: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
@@ -8650,8 +8662,8 @@ msgstr "ar bonusu"
 msgid "with bonus + fidelity"
 msgstr "ar bonusu + uzticību"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:111
-#: src/components/_military/battle/ActiveBattlesList.tsx:174
+#: src/components/_military/battle/ActiveBattlesList.tsx:112
+#: src/components/_military/battle/ActiveBattlesList.tsx:147
 msgid "With bounty"
 msgstr "Ar atlīdzību"
 
@@ -9141,7 +9153,7 @@ msgstr "Tavs pastiprinājums(i) beigsies pēc mazāk kā stundas. Drīz sāksies
 msgid "Your citizenship is going to change"
 msgstr "Tava pilsonība mainīsies"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:146
+#: src/components/_military/battle/ActiveBattlesList.tsx:140
 msgid "Your country"
 msgstr "Valsts"
 

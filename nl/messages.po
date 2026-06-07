@@ -180,7 +180,7 @@ msgstr "*Wanneer de gebruiker delen van de set al bezit, zal de prijs verlaagd w
 msgid "*May burn"
 msgstr "*Kan verbranden"
 
-#: src/components/_political/government/Government.tsx:197
+#: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/dag"
 
@@ -589,7 +589,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/>Prioriteit eindigt in <1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:61
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Verzetgroei per uur"
 
@@ -622,7 +622,7 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Aanvalsbonus"
 
@@ -643,8 +643,8 @@ msgstr "<0>{0}</0> omdat <1/> ten minste één van <2/> regio's bezet heeft"
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
-msgid "<0>{0}</0> Defense bonus"
-msgstr "<0>{0}</0> Verdedigingsbonus"
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
+msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1614
@@ -724,7 +724,7 @@ msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> teruggegeven aan <1/>."
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:84
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Opslagcapaciteit"
 
@@ -1529,8 +1529,8 @@ msgstr ""
 msgid "Alliance name"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:99
-#: src/components/_military/battle/ActiveBattlesList.tsx:153
+#: src/components/_military/battle/ActiveBattlesList.tsx:100
+#: src/components/_military/battle/ActiveBattlesList.tsx:154
 msgid "Allies"
 msgstr "Bondgenoten"
 
@@ -1861,7 +1861,7 @@ msgid "Auto approval"
 msgstr "Automatische goedkeuring"
 
 #: src/components/_layout/LayoutOptions.tsx:175
-#: src/components/_user/kits/KitsPopover.tsx:228
+#: src/components/_user/kits/KitsPopover.tsx:227
 msgid "Auto-equip when item breaks"
 msgstr "Automatisch uitrusten wanneer item breekt"
 
@@ -1878,7 +1878,7 @@ msgid "Automated engine"
 msgstr "Geautomatiseerde aandrijving"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
 msgid "Automated Engine"
 msgstr "Geautomatiseerde aandrijving"
 
@@ -1886,7 +1886,7 @@ msgstr "Geautomatiseerde aandrijving"
 msgid "Avatar removed"
 msgstr "Avatar verwijderd"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:85
+#: src/components/_political/alliance/AllianceHeader.tsx:96
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr ""
@@ -2129,7 +2129,7 @@ msgstr "Brood"
 msgid "Break defensive pact"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
 msgid "Break room"
 msgstr "Pauzeruimte"
 
@@ -2773,8 +2773,8 @@ msgstr "Kopiëren"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Kopieer deze token nu. Je zult hem nooit meer kunnen zien! Gebruik het in de header <0>X-API-Key</0>."
 
-#: src/components/_political/alliance/AllianceHeader.tsx:79
-#: src/components/_political/government/Government.tsx:181
+#: src/components/_political/alliance/AllianceHeader.tsx:90
+#: src/components/_political/government/Government.tsx:206
 msgid "Core development"
 msgstr ""
 
@@ -2956,7 +2956,7 @@ msgstr "Kritieke treffer"
 msgid "Crossbow"
 msgstr "Kruisboog"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:82
+#: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Current development"
 msgstr ""
 
@@ -2997,7 +2997,7 @@ msgstr "Dagelijks onderhoud"
 msgid "Daily Missions Reset"
 msgstr "Dagelijkse missies worden gereset"
 
-#: src/components/_political/government/Government.tsx:174
+#: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
 msgstr "Dagelijks loon betaald uit de staatskas."
 
@@ -3292,7 +3292,7 @@ msgid "Diplomatic"
 msgstr "Diplomatiek"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:152
+#: src/components/_political/law/LawEthicEffects.tsx:173
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
@@ -3303,6 +3303,10 @@ msgstr "Schakel het bedrijf uit"
 #: src/components/_economy/company/CompanyTags.tsx:81
 msgid "Disabled"
 msgstr "Uitgeschakeld"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:73
+msgid "Disbanded <0/>"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:176
 #: src/pages/user/[userId]/inventory.tsx:49
@@ -3383,7 +3387,7 @@ msgstr "Samenvatting van de donatie"
 msgid "Donations"
 msgstr "Donaties"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
 msgid "Dormitories"
 msgstr "Slaapzalen"
 
@@ -3534,8 +3538,8 @@ msgstr "Einde"
 msgid "Ended <0/>"
 msgstr "Eindigde op <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:105
-#: src/components/_military/battle/ActiveBattlesList.tsx:160
+#: src/components/_military/battle/ActiveBattlesList.tsx:106
+#: src/components/_military/battle/ActiveBattlesList.tsx:161
 msgid "Enemies"
 msgstr "Vijanden"
 
@@ -3607,7 +3611,7 @@ msgstr "Ethiek is een bonus van de partij, toegepast als de president lid is van
 msgid "Ethics motions"
 msgstr "Ethische moties"
 
-#: src/components/_political/government/PoliticalEthics.tsx:534
+#: src/components/_political/government/PoliticalEthics.tsx:533
 msgid "Ethics Points:"
 msgstr "Ethiek punten:"
 
@@ -3696,17 +3700,21 @@ msgstr "Familiegroep"
 msgid "Fanatic Agrarian"
 msgstr "Fanatieke landbouwer"
 
+#: src/components/_political/law/LawEthicEffects.tsx:58
+msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
 msgstr "Fanatieke Diplomaat"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:139
+#: src/components/_political/law/LawEthicEffects.tsx:160
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:122
+#: src/components/_political/law/LawEthicEffects.tsx:143
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
@@ -3727,11 +3735,11 @@ msgid "Fanatic Isolationist"
 msgstr "Fanatieke isolationist"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:167
+#: src/components/_political/law/LawEthicEffects.tsx:188
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:93
+#: src/components/_political/law/LawEthicEffects.tsx:114
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -3739,7 +3747,7 @@ msgstr ""
 msgid "Fanatic Pacifist"
 msgstr "Fanatieke Pacifist"
 
-#: src/components/_political/law/LawEthicEffects.tsx:73
+#: src/components/_political/law/LawEthicEffects.tsx:94
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
 msgstr ""
 
@@ -3775,8 +3783,8 @@ msgstr "Boerenmes"
 msgid "Farmer Pants"
 msgstr "Boerenbroek"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:87
-#: src/components/_military/battle/ActiveBattlesList.tsx:167
+#: src/components/_military/battle/ActiveBattlesList.tsx:88
+#: src/components/_military/battle/ActiveBattlesList.tsx:168
 msgid "Favorites"
 msgstr "Favorieten"
 
@@ -3876,12 +3884,12 @@ msgstr "Zoek een militaire eenheid"
 msgid "Find another job"
 msgstr "Zoek een andere baan"
 
-#: src/components/_political/government/Government.tsx:228
+#: src/components/_political/government/Government.tsx:253
 #: src/components/_user/worker/WorkerEditFormModal.tsx:214
 msgid "Fire"
 msgstr "Ontslaan"
 
-#: src/components/_political/government/Government.tsx:240
+#: src/components/_political/government/Government.tsx:265
 msgid "Fire government member"
 msgstr "Lid van de regering ontslaan"
 
@@ -3983,7 +3991,7 @@ msgid "Generate Missions"
 msgstr "Genereer Missies"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:75
 msgid "Generates <0>{0}</0>/day"
 msgstr "Genereert <0>{0}</0>/dag"
 
@@ -4044,7 +4052,7 @@ msgid "Giveaway Won!"
 msgstr "Weggeefactie gewonnen!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:95
 msgid "Gives <0>{0}</0>"
 msgstr "Geeft <0>{0}</0>"
 
@@ -4086,7 +4094,7 @@ msgstr "Regeringslid"
 msgid "Government penalty"
 msgstr "Regeringsnadeel"
 
-#: src/components/_political/government/Government.tsx:185
+#: src/components/_political/government/Government.tsx:210
 msgid "Government wage"
 msgstr "Regeringsloon"
 
@@ -4198,7 +4206,7 @@ msgstr "Hamster Tank"
 msgid "Hard Worker"
 msgstr "Harde Werker"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:89
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
 msgid "Headquarters"
 msgstr "Hoofdkwartier"
 
@@ -4449,7 +4457,7 @@ msgstr "Isolationisme versus diplomatie"
 msgid "Isolationist"
 msgstr "Isolationistisch"
 
-#: src/components/_political/law/LawEthicEffects.tsx:107
+#: src/components/_political/law/LawEthicEffects.tsx:128
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -4700,7 +4708,7 @@ msgstr "Verlaat de regering"
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
-#: src/components/_political/alliance/AllianceHeader.tsx:69
+#: src/components/_political/alliance/AllianceHeader.tsx:80
 msgid "Led by <0/>."
 msgstr ""
 
@@ -4942,13 +4950,13 @@ msgid "Max level reached!"
 msgstr "Max level bereikt!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:107
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Maximum van <0>{0}</0> leden."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:120
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Maximum van <0>{0}</0> arbeiders.{1}"
 
@@ -5037,7 +5045,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr "Lid gepromoveerd tot commandant"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
+#: src/components/_political/alliance/AllianceHeader.tsx:87
 #: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
@@ -5086,7 +5094,7 @@ msgstr "Bericht leuk gevonden"
 msgid "Military & Battles"
 msgstr "Militair & Gevechten"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Militaire basis"
 
@@ -5142,17 +5150,17 @@ msgstr "Min bereikt"
 msgid "Min. active citizens"
 msgstr "Minimale actieve burgers"
 
-#: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/Government.tsx:100
 #: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Minister van Defensie"
 
-#: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/Government.tsx:109
 #: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Minister van Economie"
 
-#: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/Government.tsx:118
 #: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Minister van Buitenlandse Zaken"
@@ -5508,11 +5516,11 @@ msgstr "Mooi gedaan"
 msgid "Nice work!"
 msgstr "Goed gedaan!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:193
+#: src/components/_military/battle/ActiveBattlesList.tsx:194
 msgid "No active battles"
 msgstr "Geen actieve gevechten"
 
-#: src/components/_political/government/PoliticalEthics.tsx:564
+#: src/components/_political/government/PoliticalEthics.tsx:563
 msgid "No active ethics - Balanced"
 msgstr "Geen actieve ethiek - Evenwichtig"
 
@@ -5621,7 +5629,7 @@ msgstr "Nog geen moties"
 msgid "No offers found"
 msgstr "Geen aanbiedingen gevonden"
 
-#: src/components/_political/government/Government.tsx:205
+#: src/components/_political/government/Government.tsx:230
 msgid "No one nominated yet"
 msgstr "Nog niemand genomineerd"
 
@@ -5670,7 +5678,7 @@ msgstr "Geen oorlogen gevonden"
 msgid "No work offers"
 msgstr "Geen werkaanbiedingen"
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Nomineer"
@@ -5679,7 +5687,7 @@ msgstr "Nomineer"
 msgid "Nominate <0/> as leader"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Nominate a {title}"
 msgstr "Nomineer een {title}"
 
@@ -5742,7 +5750,7 @@ msgstr "Aantal donateurs:"
 msgid "Occupied region"
 msgstr "Bezet gebied"
 
-#: src/components/_political/government/Government.tsx:179
+#: src/components/_political/government/Government.tsx:204
 msgid "of"
 msgstr "van"
 
@@ -5860,7 +5868,7 @@ msgstr "Opties"
 msgid "Order"
 msgstr "Bevel"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:81
+#: src/components/_military/battle/ActiveBattlesList.tsx:82
 msgid "Orders"
 msgstr "Bevelen"
 
@@ -5872,7 +5880,7 @@ msgstr "Bevelen & acties"
 msgid "Orders cancelled"
 msgstr "Bevelen geannuleerd"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:117
+#: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Other"
 msgstr "Overig"
@@ -5916,7 +5924,7 @@ msgstr "Het eigendom van <0/> is overgedragen van <1/> naar <2/>"
 msgid "Ownership transferred successfully"
 msgstr "Eigendom succesvol overgedragen"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:55
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "Pacification Center"
 msgstr "Pacificatie Centrum"
 
@@ -6195,7 +6203,7 @@ msgstr "Premium cadeau verzonden"
 msgid "Premium has started working"
 msgstr "Premium werkt nu weer"
 
-#: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/Government.tsx:82
 #: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "President"
@@ -6744,11 +6752,11 @@ msgstr "Hernoem het bedrijf"
 msgid "Rename the alliance to \"{0}\" immediately on acceptance."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 msgid "Replace"
 msgstr "Vervangen"
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Replace {title}"
 msgstr "Vervang {title}"
 
@@ -6890,7 +6898,7 @@ msgstr "Beloning"
 msgid "Rifle"
 msgstr "Geweer"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:179
 msgid "Rights"
 msgstr "Rechten"
 
@@ -7487,7 +7495,7 @@ msgid "Stone Maul"
 msgstr ""
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:78
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
 msgid "Storage"
 msgstr "Opslag"
 
@@ -7763,6 +7771,10 @@ msgstr "Dit bedrijf is uitgeschakeld omdat de eigenaar de bedrijfslimiet heeft b
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Dit land heeft geen president of actief congreslid, je kunt de controle overnemen."
 
+#: src/components/_political/government/Government.tsx:72
+msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
 msgstr "Dit item is groen zoals gras"
@@ -7796,7 +7808,7 @@ msgstr "Deze wet heeft een extra variabele kosten"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Deze wet vereist dat er minstens {minActiveCitizen} actieve burgers (niveau 10+) in het land zijn."
 
-#: src/components/_political/government/Government.tsx:241
+#: src/components/_political/government/Government.tsx:266
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Dit lid kan niet opnieuw worden genomineerd voor {cooldownDays} dagen."
 
@@ -8011,8 +8023,8 @@ msgstr "Totale beloning"
 msgid "Total:"
 msgstr "Totaal:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:75
-#: src/components/_military/battle/ActiveBattlesList.tsx:139
+#: src/components/_military/battle/ActiveBattlesList.tsx:76
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/pages/events/index.tsx:89
 msgid "Tournament"
 msgstr "Toernooi"
@@ -8133,7 +8145,7 @@ msgstr "Doe alle uitrusting uit"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:58
+#: src/components/_political/law/LawEthicEffects.tsx:79
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
 msgstr ""
 
@@ -8471,7 +8483,7 @@ msgstr "CAPTCHA wordt geverifieerd..."
 msgid "Vice Admiral"
 msgstr "Viceadmiraal"
 
-#: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/Government.tsx:91
 #: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
@@ -8650,8 +8662,8 @@ msgstr "met bonus"
 msgid "with bonus + fidelity"
 msgstr "met bonus + loyaliteitsbonus"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:111
-#: src/components/_military/battle/ActiveBattlesList.tsx:174
+#: src/components/_military/battle/ActiveBattlesList.tsx:112
+#: src/components/_military/battle/ActiveBattlesList.tsx:147
 msgid "With bounty"
 msgstr "Met beloning"
 
@@ -9141,7 +9153,7 @@ msgstr "Je buff(s) verlopen binnen 1 uur. De debuff-fase begint binnenkort."
 msgid "Your citizenship is going to change"
 msgstr "Je burgerschap gaat veranderen"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:146
+#: src/components/_military/battle/ActiveBattlesList.tsx:140
 msgid "Your country"
 msgstr "Je land"
 

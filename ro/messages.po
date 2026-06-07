@@ -178,7 +178,7 @@ msgstr "*Dacă jucătorul deține deja piese ale setului, prețul va fi redus"
 msgid "*May burn"
 msgstr "*Posibil să ardă"
 
-#: src/components/_political/government/Government.tsx:197
+#: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/zi"
 
@@ -587,7 +587,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "Prioritatea pentru <0/> se termină în <1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:61
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Rezistență pe oră"
 
@@ -620,7 +620,7 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Bonus atac"
 
@@ -641,8 +641,8 @@ msgstr "<0>{0}</0> deoarece <1/> ocupă cel puțin o regiune din <2/>"
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
-msgid "<0>{0}</0> Defense bonus"
-msgstr "<0>{0}</0> Bonus apărare"
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
+msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1614
@@ -722,7 +722,7 @@ msgid "<0>{0}</0> returned to <1/>."
 msgstr "<0>{0}</0> returnat la <1/>."
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:84
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Capacitate magazie"
 
@@ -1527,8 +1527,8 @@ msgstr ""
 msgid "Alliance name"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:99
-#: src/components/_military/battle/ActiveBattlesList.tsx:153
+#: src/components/_military/battle/ActiveBattlesList.tsx:100
+#: src/components/_military/battle/ActiveBattlesList.tsx:154
 msgid "Allies"
 msgstr "Aliați"
 
@@ -1859,7 +1859,7 @@ msgid "Auto approval"
 msgstr "Aprobare automată"
 
 #: src/components/_layout/LayoutOptions.tsx:175
-#: src/components/_user/kits/KitsPopover.tsx:228
+#: src/components/_user/kits/KitsPopover.tsx:227
 msgid "Auto-equip when item breaks"
 msgstr ""
 
@@ -1876,7 +1876,7 @@ msgid "Automated engine"
 msgstr "Motor automat"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
 msgid "Automated Engine"
 msgstr "Motor Automat"
 
@@ -1884,7 +1884,7 @@ msgstr "Motor Automat"
 msgid "Avatar removed"
 msgstr "Avatar șters"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:85
+#: src/components/_political/alliance/AllianceHeader.tsx:96
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr ""
@@ -2127,7 +2127,7 @@ msgstr "Pâine"
 msgid "Break defensive pact"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
 msgid "Break room"
 msgstr "Cameră de pauză"
 
@@ -2771,8 +2771,8 @@ msgstr "Copiază"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Copiază acest token acum. Nu îl vei mai putea vedea! Folosește-l în header-ul <0>X-API-Key</0>."
 
-#: src/components/_political/alliance/AllianceHeader.tsx:79
-#: src/components/_political/government/Government.tsx:181
+#: src/components/_political/alliance/AllianceHeader.tsx:90
+#: src/components/_political/government/Government.tsx:206
 msgid "Core development"
 msgstr ""
 
@@ -2954,7 +2954,7 @@ msgstr "Lovitură critică"
 msgid "Crossbow"
 msgstr "Arbaletă"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:82
+#: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Current development"
 msgstr ""
 
@@ -2995,7 +2995,7 @@ msgstr "Întreținere zinlică"
 msgid "Daily Missions Reset"
 msgstr "Resetare Misiuni Zilnice"
 
-#: src/components/_political/government/Government.tsx:174
+#: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
 msgstr "Salar zilnic plătit de trezoreria țării"
 
@@ -3290,7 +3290,7 @@ msgid "Diplomatic"
 msgstr "Diplomatic"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:152
+#: src/components/_political/law/LawEthicEffects.tsx:173
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
@@ -3301,6 +3301,10 @@ msgstr "Dezactivează companie"
 #: src/components/_economy/company/CompanyTags.tsx:81
 msgid "Disabled"
 msgstr "Dezactivată"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:73
+msgid "Disbanded <0/>"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:176
 #: src/pages/user/[userId]/inventory.tsx:49
@@ -3381,7 +3385,7 @@ msgstr "Sumar Donații"
 msgid "Donations"
 msgstr "Donații"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
 msgid "Dormitories"
 msgstr "Dormitoare"
 
@@ -3532,8 +3536,8 @@ msgstr "Încheiată"
 msgid "Ended <0/>"
 msgstr "Încheiat <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:105
-#: src/components/_military/battle/ActiveBattlesList.tsx:160
+#: src/components/_military/battle/ActiveBattlesList.tsx:106
+#: src/components/_military/battle/ActiveBattlesList.tsx:161
 msgid "Enemies"
 msgstr "Inamici"
 
@@ -3605,7 +3609,7 @@ msgstr "Eticile sunt bonusuri de la partid, aplicate țării când președintele
 msgid "Ethics motions"
 msgstr "Moțiune etici"
 
-#: src/components/_political/government/PoliticalEthics.tsx:534
+#: src/components/_political/government/PoliticalEthics.tsx:533
 msgid "Ethics Points:"
 msgstr "Puncte etici:"
 
@@ -3694,17 +3698,21 @@ msgstr "Grup Familie"
 msgid "Fanatic Agrarian"
 msgstr "Agrar Fanatic"
 
+#: src/components/_political/law/LawEthicEffects.tsx:58
+msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
 msgstr "Diplomatic fanatic"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:139
+#: src/components/_political/law/LawEthicEffects.tsx:160
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:122
+#: src/components/_political/law/LawEthicEffects.tsx:143
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
@@ -3725,11 +3733,11 @@ msgid "Fanatic Isolationist"
 msgstr "Izolaționist fanatic"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:167
+#: src/components/_political/law/LawEthicEffects.tsx:188
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:93
+#: src/components/_political/law/LawEthicEffects.tsx:114
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -3737,7 +3745,7 @@ msgstr ""
 msgid "Fanatic Pacifist"
 msgstr "Pacifist fanatic"
 
-#: src/components/_political/law/LawEthicEffects.tsx:73
+#: src/components/_political/law/LawEthicEffects.tsx:94
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
 msgstr ""
 
@@ -3773,8 +3781,8 @@ msgstr "Unealtă de fermier"
 msgid "Farmer Pants"
 msgstr "Pantaloni de fermier"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:87
-#: src/components/_military/battle/ActiveBattlesList.tsx:167
+#: src/components/_military/battle/ActiveBattlesList.tsx:88
+#: src/components/_military/battle/ActiveBattlesList.tsx:168
 msgid "Favorites"
 msgstr "Favorite"
 
@@ -3874,12 +3882,12 @@ msgstr "Găsește o unitate militară"
 msgid "Find another job"
 msgstr "Găsește alt loc de muncă"
 
-#: src/components/_political/government/Government.tsx:228
+#: src/components/_political/government/Government.tsx:253
 #: src/components/_user/worker/WorkerEditFormModal.tsx:214
 msgid "Fire"
 msgstr "Concediază"
 
-#: src/components/_political/government/Government.tsx:240
+#: src/components/_political/government/Government.tsx:265
 msgid "Fire government member"
 msgstr "Demite un membru al guvernului"
 
@@ -3981,7 +3989,7 @@ msgid "Generate Missions"
 msgstr "Generează Misiuni"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:75
 msgid "Generates <0>{0}</0>/day"
 msgstr "Generează <0>{0}</0>/zi"
 
@@ -4042,7 +4050,7 @@ msgid "Giveaway Won!"
 msgstr "Ai câștigat tombola!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:95
 msgid "Gives <0>{0}</0>"
 msgstr "Oferă <0>{0}</0>"
 
@@ -4084,7 +4092,7 @@ msgstr "Membru guvern"
 msgid "Government penalty"
 msgstr "Penalizare guvern"
 
-#: src/components/_political/government/Government.tsx:185
+#: src/components/_political/government/Government.tsx:210
 msgid "Government wage"
 msgstr "Salariu guvern"
 
@@ -4196,7 +4204,7 @@ msgstr ""
 msgid "Hard Worker"
 msgstr "Muncitor harnic"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:89
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
 msgid "Headquarters"
 msgstr "Sediu central"
 
@@ -4447,7 +4455,7 @@ msgstr "Izolaționism vs Diplomație"
 msgid "Isolationist"
 msgstr "Izolaționist"
 
-#: src/components/_political/law/LawEthicEffects.tsx:107
+#: src/components/_political/law/LawEthicEffects.tsx:128
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -4698,7 +4706,7 @@ msgstr "Demisionează din guvern"
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
-#: src/components/_political/alliance/AllianceHeader.tsx:69
+#: src/components/_political/alliance/AllianceHeader.tsx:80
 msgid "Led by <0/>."
 msgstr ""
 
@@ -4940,13 +4948,13 @@ msgid "Max level reached!"
 msgstr "Nivel maxim atins!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:107
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Maxim de <0>{0}</0> membri."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:120
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Maxim <0>{0}</0> angajați.{1}"
 
@@ -5035,7 +5043,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr "Membru promovat la comandant"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
+#: src/components/_political/alliance/AllianceHeader.tsx:87
 #: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
@@ -5084,7 +5092,7 @@ msgstr "Mesaj apreciat"
 msgid "Military & Battles"
 msgstr "Lupte & Războaie"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Bază Militară"
 
@@ -5140,17 +5148,17 @@ msgstr "Minimum atins"
 msgid "Min. active citizens"
 msgstr "Min. cetățeni activi"
 
-#: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/Government.tsx:100
 #: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Ministrul Apărării"
 
-#: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/Government.tsx:109
 #: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Ministrul Finanțelor"
 
-#: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/Government.tsx:118
 #: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Ministrul Externelor"
@@ -5506,11 +5514,11 @@ msgstr "Așa da"
 msgid "Nice work!"
 msgstr "Bravo!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:193
+#: src/components/_military/battle/ActiveBattlesList.tsx:194
 msgid "No active battles"
 msgstr "Fără bătălii active"
 
-#: src/components/_political/government/PoliticalEthics.tsx:564
+#: src/components/_political/government/PoliticalEthics.tsx:563
 msgid "No active ethics - Balanced"
 msgstr "Fără etici active - Balansat"
 
@@ -5619,7 +5627,7 @@ msgstr "Fără moțiuni"
 msgid "No offers found"
 msgstr "Nu s-au găsit oferte"
 
-#: src/components/_political/government/Government.tsx:205
+#: src/components/_political/government/Government.tsx:230
 msgid "No one nominated yet"
 msgstr "Nimeni nominalizat"
 
@@ -5668,7 +5676,7 @@ msgstr "Niciun război"
 msgid "No work offers"
 msgstr "Fără oferte de muncă"
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Numește în funcție"
@@ -5677,7 +5685,7 @@ msgstr "Numește în funcție"
 msgid "Nominate <0/> as leader"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Nominate a {title}"
 msgstr "Numește în funcție: {title}"
 
@@ -5740,7 +5748,7 @@ msgstr "Număr de donatori:"
 msgid "Occupied region"
 msgstr "Regiune ocupată"
 
-#: src/components/_political/government/Government.tsx:179
+#: src/components/_political/government/Government.tsx:204
 msgid "of"
 msgstr "al"
 
@@ -5858,7 +5866,7 @@ msgstr "Opțiuni"
 msgid "Order"
 msgstr "Ordin"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:81
+#: src/components/_military/battle/ActiveBattlesList.tsx:82
 msgid "Orders"
 msgstr "Ordine"
 
@@ -5870,7 +5878,7 @@ msgstr "Ordine & acțiuni"
 msgid "Orders cancelled"
 msgstr "Comenzi anulate"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:117
+#: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Other"
 msgstr "Altele"
@@ -5914,7 +5922,7 @@ msgstr "Proprietatea <0/> a fost transferată de la <1/> la <2/>"
 msgid "Ownership transferred successfully"
 msgstr "Titlul de proprietate a fost transferat cu succes"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:55
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "Pacification Center"
 msgstr "Centru de Pacificare"
 
@@ -6193,7 +6201,7 @@ msgstr "Cadou Plan Susținător trimis"
 msgid "Premium has started working"
 msgstr "Planul Susținător a început să funcționeze"
 
-#: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/Government.tsx:82
 #: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Președinte"
@@ -6742,11 +6750,11 @@ msgstr "Redenumește companie"
 msgid "Rename the alliance to \"{0}\" immediately on acceptance."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 msgid "Replace"
 msgstr "Înlocuiește"
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Replace {title}"
 msgstr "Înlocuiește {title}"
 
@@ -6888,7 +6896,7 @@ msgstr "Răsplată"
 msgid "Rifle"
 msgstr "Pușcă"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:179
 msgid "Rights"
 msgstr "Drepturi"
 
@@ -7485,7 +7493,7 @@ msgid "Stone Maul"
 msgstr ""
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:78
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
 msgid "Storage"
 msgstr "Magazie"
 
@@ -7761,6 +7769,10 @@ msgstr "Compania este dezactivată deoarece patronul a atins limita de companii.
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Această țară nu are președinte sau parlament activ, deci poți prelua controlul acesteia."
 
+#: src/components/_political/government/Government.tsx:72
+msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
 msgstr "Acest obiect e verde ca iarba"
@@ -7794,7 +7806,7 @@ msgstr "Această lege are un cost adițional variabil"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Această lege necesită un minumim de {minActiveCitizen} cetățeni activi (nivel 10+) în țară."
 
-#: src/components/_political/government/Government.tsx:241
+#: src/components/_political/government/Government.tsx:266
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Acest membru nu poate fi nominalizat pentru {cooldownDays} zile."
 
@@ -8009,8 +8021,8 @@ msgstr "Răsplată totală:"
 msgid "Total:"
 msgstr "Total:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:75
-#: src/components/_military/battle/ActiveBattlesList.tsx:139
+#: src/components/_military/battle/ActiveBattlesList.tsx:76
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/pages/events/index.tsx:89
 msgid "Tournament"
 msgstr "Turneu"
@@ -8131,7 +8143,7 @@ msgstr "Dezechipează tot"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:58
+#: src/components/_political/law/LawEthicEffects.tsx:79
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
 msgstr ""
 
@@ -8469,7 +8481,7 @@ msgstr "Se verifică CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Viceamiral"
 
-#: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/Government.tsx:91
 #: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
@@ -8648,8 +8660,8 @@ msgstr "cu bonus"
 msgid "with bonus + fidelity"
 msgstr "with bonus + fidelitate"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:111
-#: src/components/_military/battle/ActiveBattlesList.tsx:174
+#: src/components/_military/battle/ActiveBattlesList.tsx:112
+#: src/components/_military/battle/ActiveBattlesList.tsx:147
 msgid "With bounty"
 msgstr "Cu recompense"
 
@@ -9139,7 +9151,7 @@ msgstr "Bufful tău expiră în mai puțin de o oră. Perioada de debuff începe
 msgid "Your citizenship is going to change"
 msgstr "Cetățenia ta se va schimba"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:146
+#: src/components/_military/battle/ActiveBattlesList.tsx:140
 msgid "Your country"
 msgstr "Țara ta"
 

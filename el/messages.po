@@ -180,7 +180,7 @@ msgstr "*Αν ο χρήστης κατέχει ήδη κάποια τεμάχι�
 msgid "*May burn"
 msgstr "*Μπορεί να καεί"
 
-#: src/components/_political/government/Government.tsx:197
+#: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr ""
 
@@ -589,7 +589,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/>Η προτεραιότητα λήγει σε <1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:61
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Ανάπτυξη αντίστασης ανά ώρα"
 
@@ -622,7 +622,7 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Μπόνους επίθεσης"
 
@@ -643,8 +643,8 @@ msgstr "<0>{0}</0> γιατί το <1/> κατέχει τουλάχιστον μ
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
-msgid "<0>{0}</0> Defense bonus"
-msgstr "<0>{0}</0> Μπόνους άμυνας"
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
+msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1614
@@ -724,7 +724,7 @@ msgid "<0>{0}</0> returned to <1/>."
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:84
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Χωρητικότητα αποθήκης"
 
@@ -1529,8 +1529,8 @@ msgstr ""
 msgid "Alliance name"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:99
-#: src/components/_military/battle/ActiveBattlesList.tsx:153
+#: src/components/_military/battle/ActiveBattlesList.tsx:100
+#: src/components/_military/battle/ActiveBattlesList.tsx:154
 msgid "Allies"
 msgstr "Σύμμαχοι"
 
@@ -1861,7 +1861,7 @@ msgid "Auto approval"
 msgstr "Αυτόματη έγκριση"
 
 #: src/components/_layout/LayoutOptions.tsx:175
-#: src/components/_user/kits/KitsPopover.tsx:228
+#: src/components/_user/kits/KitsPopover.tsx:227
 msgid "Auto-equip when item breaks"
 msgstr ""
 
@@ -1878,7 +1878,7 @@ msgid "Automated engine"
 msgstr "Αυτοματοποιημένη μηχανή"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
 msgid "Automated Engine"
 msgstr "Αυτοματοποιημένη Μηχανή"
 
@@ -1886,7 +1886,7 @@ msgstr "Αυτοματοποιημένη Μηχανή"
 msgid "Avatar removed"
 msgstr "Το avatar αφαιρέθηκε"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:85
+#: src/components/_political/alliance/AllianceHeader.tsx:96
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr ""
@@ -2129,7 +2129,7 @@ msgstr "Ψωμί"
 msgid "Break defensive pact"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
 msgid "Break room"
 msgstr "Αίθουσα ανάπαυσης"
 
@@ -2773,8 +2773,8 @@ msgstr "Αντιγραφή"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Αντέγραψε αυτό το token τώρα. Δεν θα μπορείς να το δεις ξανά! Χρησιμοποίησέ το στην επικεφαλίδα <0>X-API-Key</0>."
 
-#: src/components/_political/alliance/AllianceHeader.tsx:79
-#: src/components/_political/government/Government.tsx:181
+#: src/components/_political/alliance/AllianceHeader.tsx:90
+#: src/components/_political/government/Government.tsx:206
 msgid "Core development"
 msgstr ""
 
@@ -2956,7 +2956,7 @@ msgstr "Κρίσιμο Χτύπημα"
 msgid "Crossbow"
 msgstr "Βαλλίστρα"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:82
+#: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Current development"
 msgstr ""
 
@@ -2997,7 +2997,7 @@ msgstr "Ημερήσια συντήρηση"
 msgid "Daily Missions Reset"
 msgstr "Επαναφορά Ημερήσιων Αποστολών"
 
-#: src/components/_political/government/Government.tsx:174
+#: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
 msgstr ""
 
@@ -3292,7 +3292,7 @@ msgid "Diplomatic"
 msgstr "Διπλωματικός"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:152
+#: src/components/_political/law/LawEthicEffects.tsx:173
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
@@ -3303,6 +3303,10 @@ msgstr "Απενεργοποίηση εταιρείας"
 #: src/components/_economy/company/CompanyTags.tsx:81
 msgid "Disabled"
 msgstr "Απενεργοποιημένο"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:73
+msgid "Disbanded <0/>"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:176
 #: src/pages/user/[userId]/inventory.tsx:49
@@ -3383,7 +3387,7 @@ msgstr "Σύνοψη Δωρεών"
 msgid "Donations"
 msgstr "Δωρεές"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
 msgid "Dormitories"
 msgstr "Κοιτώνες"
 
@@ -3534,8 +3538,8 @@ msgstr "Τέλειωσε"
 msgid "Ended <0/>"
 msgstr "Τέλειωσε <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:105
-#: src/components/_military/battle/ActiveBattlesList.tsx:160
+#: src/components/_military/battle/ActiveBattlesList.tsx:106
+#: src/components/_military/battle/ActiveBattlesList.tsx:161
 msgid "Enemies"
 msgstr "Εχθροί"
 
@@ -3607,7 +3611,7 @@ msgstr "Η ηθική είναι μπόνους από το κόμμα, εφαρ
 msgid "Ethics motions"
 msgstr "Προτάσεις ηθικής"
 
-#: src/components/_political/government/PoliticalEthics.tsx:534
+#: src/components/_political/government/PoliticalEthics.tsx:533
 msgid "Ethics Points:"
 msgstr "Πόντοι Ηθικής:"
 
@@ -3696,17 +3700,21 @@ msgstr "Οικογενειακή Ομάδα"
 msgid "Fanatic Agrarian"
 msgstr "Φανατικός Αγροτισμός"
 
+#: src/components/_political/law/LawEthicEffects.tsx:58
+msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
 msgstr "Φανατική Διπλωματία"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:139
+#: src/components/_political/law/LawEthicEffects.tsx:160
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:122
+#: src/components/_political/law/LawEthicEffects.tsx:143
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
@@ -3727,11 +3735,11 @@ msgid "Fanatic Isolationist"
 msgstr "Φανατικός Απομονωτισμός"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:167
+#: src/components/_political/law/LawEthicEffects.tsx:188
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:93
+#: src/components/_political/law/LawEthicEffects.tsx:114
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -3739,7 +3747,7 @@ msgstr ""
 msgid "Fanatic Pacifist"
 msgstr "Φανατικός Ειρηνισμός"
 
-#: src/components/_political/law/LawEthicEffects.tsx:73
+#: src/components/_political/law/LawEthicEffects.tsx:94
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
 msgstr ""
 
@@ -3775,8 +3783,8 @@ msgstr "Μαχαίρι αγρότη"
 msgid "Farmer Pants"
 msgstr "Παντελόνι αγρότη"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:87
-#: src/components/_military/battle/ActiveBattlesList.tsx:167
+#: src/components/_military/battle/ActiveBattlesList.tsx:88
+#: src/components/_military/battle/ActiveBattlesList.tsx:168
 msgid "Favorites"
 msgstr "Αγαπημένα"
 
@@ -3876,12 +3884,12 @@ msgstr "Βρες στρατιωτική μονάδα"
 msgid "Find another job"
 msgstr "Βρες άλλη δουλειά"
 
-#: src/components/_political/government/Government.tsx:228
+#: src/components/_political/government/Government.tsx:253
 #: src/components/_user/worker/WorkerEditFormModal.tsx:214
 msgid "Fire"
 msgstr "Απόλυση"
 
-#: src/components/_political/government/Government.tsx:240
+#: src/components/_political/government/Government.tsx:265
 msgid "Fire government member"
 msgstr "Απόλυση μέλους κυβέρνησης"
 
@@ -3983,7 +3991,7 @@ msgid "Generate Missions"
 msgstr "Δημιουργία Αποστολών"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:75
 msgid "Generates <0>{0}</0>/day"
 msgstr "Παράγει <0>{0}</0>/ημέρα"
 
@@ -4044,7 +4052,7 @@ msgid "Giveaway Won!"
 msgstr "Κερδήθηκε το Giveaway!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:95
 msgid "Gives <0>{0}</0>"
 msgstr "Δίνει <0>{0}</0>"
 
@@ -4086,7 +4094,7 @@ msgstr ""
 msgid "Government penalty"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:185
+#: src/components/_political/government/Government.tsx:210
 msgid "Government wage"
 msgstr ""
 
@@ -4198,7 +4206,7 @@ msgstr ""
 msgid "Hard Worker"
 msgstr "Σκληρά εργαζόμενος"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:89
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
 msgid "Headquarters"
 msgstr "Αρχηγείο"
 
@@ -4449,7 +4457,7 @@ msgstr "Απομονωτισμός έναντι Διπλωματίας"
 msgid "Isolationist"
 msgstr "Απομονωτιστής"
 
-#: src/components/_political/law/LawEthicEffects.tsx:107
+#: src/components/_political/law/LawEthicEffects.tsx:128
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -4700,7 +4708,7 @@ msgstr "Αποχώρηση από κυβέρνηση"
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
-#: src/components/_political/alliance/AllianceHeader.tsx:69
+#: src/components/_political/alliance/AllianceHeader.tsx:80
 msgid "Led by <0/>."
 msgstr ""
 
@@ -4942,13 +4950,13 @@ msgid "Max level reached!"
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:107
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Μέγιστο <0>{0}</0> μέλη."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:120
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Μέγιστο <0>{0}</0> εργαζόμενοι.{1}"
 
@@ -5037,7 +5045,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr ""
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
+#: src/components/_political/alliance/AllianceHeader.tsx:87
 #: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
@@ -5086,7 +5094,7 @@ msgstr "Μήνυμα αρέσει"
 msgid "Military & Battles"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Στρατιωτική βάση"
 
@@ -5142,17 +5150,17 @@ msgstr ""
 msgid "Min. active citizens"
 msgstr "Ελάχ. ενεργοί πολίτες"
 
-#: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/Government.tsx:100
 #: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Υπουργός Άμυνας"
 
-#: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/Government.tsx:109
 #: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "Υπουργός Οικονομίας"
 
-#: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/Government.tsx:118
 #: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "Υπουργός Εξωτερικών"
@@ -5508,11 +5516,11 @@ msgstr "Καλό αυτό"
 msgid "Nice work!"
 msgstr "Καλή δουλειά!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:193
+#: src/components/_military/battle/ActiveBattlesList.tsx:194
 msgid "No active battles"
 msgstr "Δεν υπάρχουν ενεργές μάχες"
 
-#: src/components/_political/government/PoliticalEthics.tsx:564
+#: src/components/_political/government/PoliticalEthics.tsx:563
 msgid "No active ethics - Balanced"
 msgstr "Δεν υπάρχει ενεργή ηθική - Ισορροπημένο"
 
@@ -5621,7 +5629,7 @@ msgstr "Δεν υπάρχουν ακόμα προτάσεις"
 msgid "No offers found"
 msgstr "Δεν βρέθηκαν προσφορές"
 
-#: src/components/_political/government/Government.tsx:205
+#: src/components/_political/government/Government.tsx:230
 msgid "No one nominated yet"
 msgstr ""
 
@@ -5670,7 +5678,7 @@ msgstr "Δεν βρέθηκαν πόλεμοι"
 msgid "No work offers"
 msgstr "Δεν υπάρχουν προσφορές εργασίας"
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Ορισμός"
@@ -5679,7 +5687,7 @@ msgstr "Ορισμός"
 msgid "Nominate <0/> as leader"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Nominate a {title}"
 msgstr "Ορισμός {title}"
 
@@ -5742,7 +5750,7 @@ msgstr "Αριθμός Δωρητών:"
 msgid "Occupied region"
 msgstr "Κατεχόμενη περιοχή"
 
-#: src/components/_political/government/Government.tsx:179
+#: src/components/_political/government/Government.tsx:204
 msgid "of"
 msgstr ""
 
@@ -5860,7 +5868,7 @@ msgstr "Επιλογές"
 msgid "Order"
 msgstr "Εντολή"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:81
+#: src/components/_military/battle/ActiveBattlesList.tsx:82
 msgid "Orders"
 msgstr "Εντολές"
 
@@ -5872,7 +5880,7 @@ msgstr ""
 msgid "Orders cancelled"
 msgstr "Οι εντολές ακυρώθηκαν"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:117
+#: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Other"
 msgstr "Άλλο"
@@ -5916,7 +5924,7 @@ msgstr "Η ιδιοκτησία του <0/> μεταφέρθηκε από <1/> �
 msgid "Ownership transferred successfully"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:55
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "Pacification Center"
 msgstr "Κέντρο Ειρήνευσης"
 
@@ -6195,7 +6203,7 @@ msgstr "Αποστολή δώρου Premium"
 msgid "Premium has started working"
 msgstr "Το Premium άρχισε να λειτουργεί"
 
-#: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/Government.tsx:82
 #: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Πρόεδρος"
@@ -6744,11 +6752,11 @@ msgstr "Μετονομασία εταιρείας"
 msgid "Rename the alliance to \"{0}\" immediately on acceptance."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 msgid "Replace"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Replace {title}"
 msgstr ""
 
@@ -6890,7 +6898,7 @@ msgstr ""
 msgid "Rifle"
 msgstr "Τουφέκι"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:179
 msgid "Rights"
 msgstr "Δικαιώματα"
 
@@ -7487,7 +7495,7 @@ msgid "Stone Maul"
 msgstr ""
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:78
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
 msgid "Storage"
 msgstr "Αποθήκη"
 
@@ -7763,6 +7771,10 @@ msgstr "Αυτή η εταιρεία είναι απενεργοποιημένη
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Αυτή η χώρα δεν έχει πρόεδρο ή ενεργό μέλος Κοινοβουλίου, μπορείς να αναλάβεις τον έλεγχό της."
 
+#: src/components/_political/government/Government.tsx:72
+msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
 msgstr "Αυτός ο εξοπλισμός είναι πράσινος όπως και το γρασίδι"
@@ -7796,7 +7808,7 @@ msgstr "Αυτός ο νόμος έχει επιπλέον μεταβλητό κ
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Αυτός ο νόμος απαιτεί τουλάχιστον {minActiveCitizen} ενεργούς πολίτες (επίπεδο 10+) στη χώρα."
 
-#: src/components/_political/government/Government.tsx:241
+#: src/components/_political/government/Government.tsx:266
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr ""
 
@@ -8011,8 +8023,8 @@ msgstr ""
 msgid "Total:"
 msgstr "Σύνολο:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:75
-#: src/components/_military/battle/ActiveBattlesList.tsx:139
+#: src/components/_military/battle/ActiveBattlesList.tsx:76
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/pages/events/index.tsx:89
 msgid "Tournament"
 msgstr "Τουρνουά"
@@ -8133,7 +8145,7 @@ msgstr "Αφαίρεση όλων"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:58
+#: src/components/_political/law/LawEthicEffects.tsx:79
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
 msgstr ""
 
@@ -8471,7 +8483,7 @@ msgstr "Επαλήθευση CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Υποναύαρχος"
 
-#: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/Government.tsx:91
 #: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
@@ -8650,8 +8662,8 @@ msgstr "με μπόνους"
 msgid "with bonus + fidelity"
 msgstr "με μπόνους + πιστότητα"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:111
-#: src/components/_military/battle/ActiveBattlesList.tsx:174
+#: src/components/_military/battle/ActiveBattlesList.tsx:112
+#: src/components/_military/battle/ActiveBattlesList.tsx:147
 msgid "With bounty"
 msgstr ""
 
@@ -9141,7 +9153,7 @@ msgstr ""
 msgid "Your citizenship is going to change"
 msgstr "Η υπηκοότητά σου πρόκειται να αλλάξει"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:146
+#: src/components/_military/battle/ActiveBattlesList.tsx:140
 msgid "Your country"
 msgstr "Η χώρα σου"
 

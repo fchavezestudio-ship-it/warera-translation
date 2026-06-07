@@ -181,7 +181,7 @@ msgstr "*Jos käyttäjä omistaa jo joitain setin osia, hinta alenee"
 msgid "*May burn"
 msgstr "*Voidaan polttaa"
 
-#: src/components/_political/government/Government.tsx:197
+#: src/components/_political/government/Government.tsx:222
 msgid "/day"
 msgstr "/päivä"
 
@@ -590,7 +590,7 @@ msgid "<0/>Priority ends in <1/>"
 msgstr "<0/>Prioriteetti päättyy <1/>"
 
 #. placeholder {0}: levelConfig.stats.resistanceGrowthReduction ?? 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:61
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> Resistanssin kasvu tunnissa"
 
@@ -623,7 +623,7 @@ msgid "<0>{0}</0> against enemy of <1/>"
 msgstr "<0>{0}</0> <1/> vihollista vastaan"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:49
 msgid "<0>{0}</0> Attack bonus"
 msgstr "<0>{0}</0> Hyökkäysbonus"
 
@@ -644,8 +644,8 @@ msgstr "<0>{0}</0> koska <1/> miehittää ainakin yhden <2/>:n alueista"
 
 #. placeholder {0}: levelConfig.stats.defenseBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:34
-msgid "<0>{0}</0> Defense bonus"
-msgstr "<0>{0}</0> Puolustusbonus"
+msgid "<0>{0}</0> Defense bonus when defending this region.<1/>Citizens get the full bonus, allied countries get half. Defensive pact partners don't benefit."
+msgstr ""
 
 #. placeholder {0}: data.acceptanceFeeReturned
 #: src/components/_user/notification/notification.frontConfig.tsx:1614
@@ -725,7 +725,7 @@ msgid "<0>{0}</0> returned to <1/>."
 msgstr ""
 
 #. placeholder {0}: levelConfig.stats.maxProduction
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:84
 msgid "<0>{0}</0> Storage capacity"
 msgstr "<0>{0}</0> Varastointikapasiteetti"
 
@@ -1530,8 +1530,8 @@ msgstr ""
 msgid "Alliance name"
 msgstr ""
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:99
-#: src/components/_military/battle/ActiveBattlesList.tsx:153
+#: src/components/_military/battle/ActiveBattlesList.tsx:100
+#: src/components/_military/battle/ActiveBattlesList.tsx:154
 msgid "Allies"
 msgstr "Liittolaisia"
 
@@ -1862,7 +1862,7 @@ msgid "Auto approval"
 msgstr "Automaattinen hyväksyntä"
 
 #: src/components/_layout/LayoutOptions.tsx:175
-#: src/components/_user/kits/KitsPopover.tsx:228
+#: src/components/_user/kits/KitsPopover.tsx:227
 msgid "Auto-equip when item breaks"
 msgstr ""
 
@@ -1879,7 +1879,7 @@ msgid "Automated engine"
 msgstr "Automaattinen moottori"
 
 #: src/components/_economy/work/WorkChart.tsx:235
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:69
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
 msgid "Automated Engine"
 msgstr "Automatisoitu Moottori"
 
@@ -1887,7 +1887,7 @@ msgstr "Automatisoitu Moottori"
 msgid "Avatar removed"
 msgstr "Avatar poistettu"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:85
+#: src/components/_political/alliance/AllianceHeader.tsx:96
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
 msgstr ""
@@ -2130,7 +2130,7 @@ msgstr "Leipä"
 msgid "Break defensive pact"
 msgstr ""
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:114
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
 msgid "Break room"
 msgstr "Taukohuone"
 
@@ -2774,8 +2774,8 @@ msgstr "Kopioi"
 msgid "Copy this token now. You won't be able to see it again! Use it in the <0>X-API-Key</0> header."
 msgstr "Kopioi tämä tunnus nyt. Et voi nähdä sitä enää! Käytä sitä <0>X-API-Key</0>-otsikossa."
 
-#: src/components/_political/alliance/AllianceHeader.tsx:79
-#: src/components/_political/government/Government.tsx:181
+#: src/components/_political/alliance/AllianceHeader.tsx:90
+#: src/components/_political/government/Government.tsx:206
 msgid "Core development"
 msgstr ""
 
@@ -2957,7 +2957,7 @@ msgstr "Kriittinen hitti"
 msgid "Crossbow"
 msgstr "Varsijousi"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:82
+#: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Current development"
 msgstr ""
 
@@ -2998,7 +2998,7 @@ msgstr "Päivittäinen huolto"
 msgid "Daily Missions Reset"
 msgstr "Päivittäiset tehtävät nollataan"
 
-#: src/components/_political/government/Government.tsx:174
+#: src/components/_political/government/Government.tsx:199
 msgid "Daily wage paid from the country treasury."
 msgstr "Päiväpalkka maksetaan valtionkassasta."
 
@@ -3293,7 +3293,7 @@ msgid "Diplomatic"
 msgstr "Diplomaattinen"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:152
+#: src/components/_political/law/LawEthicEffects.tsx:173
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
@@ -3304,6 +3304,10 @@ msgstr "Poista yritys käytöstä"
 #: src/components/_economy/company/CompanyTags.tsx:81
 msgid "Disabled"
 msgstr "Pois käytöstä"
+
+#: src/components/_political/alliance/AllianceHeader.tsx:73
+msgid "Disbanded <0/>"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:176
 #: src/pages/user/[userId]/inventory.tsx:49
@@ -3384,7 +3388,7 @@ msgstr "Lahjoitusten yhteenveto"
 msgid "Donations"
 msgstr "Lahjoitukset"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:101
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
 msgid "Dormitories"
 msgstr "Asuntoloita"
 
@@ -3535,8 +3539,8 @@ msgstr "Päättyi"
 msgid "Ended <0/>"
 msgstr "Päättyi <0/>"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:105
-#: src/components/_military/battle/ActiveBattlesList.tsx:160
+#: src/components/_military/battle/ActiveBattlesList.tsx:106
+#: src/components/_military/battle/ActiveBattlesList.tsx:161
 msgid "Enemies"
 msgstr "Vihollisia"
 
@@ -3608,7 +3612,7 @@ msgstr "Etiikka ovat puolueen bonuksia, joita sovelletaan presidentin ollessa t�
 msgid "Ethics motions"
 msgstr "Eettiset liikkeet"
 
-#: src/components/_political/government/PoliticalEthics.tsx:534
+#: src/components/_political/government/PoliticalEthics.tsx:533
 msgid "Ethics Points:"
 msgstr "Eettiset kohdat:"
 
@@ -3697,17 +3701,21 @@ msgstr "Perheryhmä"
 msgid "Fanatic Agrarian"
 msgstr "Fanaattinen agrari"
 
+#: src/components/_political/law/LawEthicEffects.tsx:58
+msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
+msgstr ""
+
 #: src/components/_political/party/party.frontConfig.tsx:211
 msgid "Fanatic Diplomatic"
 msgstr "Fanaattinen diplomaatti"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:139
+#: src/components/_political/law/LawEthicEffects.tsx:160
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:122
+#: src/components/_political/law/LawEthicEffects.tsx:143
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
@@ -3728,11 +3736,11 @@ msgid "Fanatic Isolationist"
 msgstr "Fanaattinen isolasionisti"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:167
+#: src/components/_political/law/LawEthicEffects.tsx:188
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:93
+#: src/components/_political/law/LawEthicEffects.tsx:114
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -3740,7 +3748,7 @@ msgstr ""
 msgid "Fanatic Pacifist"
 msgstr "Fanaattinen pasifisti"
 
-#: src/components/_political/law/LawEthicEffects.tsx:73
+#: src/components/_political/law/LawEthicEffects.tsx:94
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
 msgstr ""
 
@@ -3776,8 +3784,8 @@ msgstr "Maanviljelijän veitsi"
 msgid "Farmer Pants"
 msgstr "Farmer housut"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:87
-#: src/components/_military/battle/ActiveBattlesList.tsx:167
+#: src/components/_military/battle/ActiveBattlesList.tsx:88
+#: src/components/_military/battle/ActiveBattlesList.tsx:168
 msgid "Favorites"
 msgstr "Suosikit"
 
@@ -3877,12 +3885,12 @@ msgstr "Etsi sotilasyksikkö"
 msgid "Find another job"
 msgstr "Etsi toinen työpaikka"
 
-#: src/components/_political/government/Government.tsx:228
+#: src/components/_political/government/Government.tsx:253
 #: src/components/_user/worker/WorkerEditFormModal.tsx:214
 msgid "Fire"
 msgstr "Irtisano"
 
-#: src/components/_political/government/Government.tsx:240
+#: src/components/_political/government/Government.tsx:265
 msgid "Fire government member"
 msgstr "Irtisano hallituksen jäsen"
 
@@ -3984,7 +3992,7 @@ msgid "Generate Missions"
 msgstr "Luo tehtäviä"
 
 #. placeholder {0}: levelConfig.stats.dailyProd
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:72
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:75
 msgid "Generates <0>{0}</0>/day"
 msgstr "Tuottaa <0>{0}</0>/päivä"
 
@@ -4045,7 +4053,7 @@ msgid "Giveaway Won!"
 msgstr "Giveaway voitettu!"
 
 #. placeholder {0}: levelConfig.stats.attackBonus
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:95
 msgid "Gives <0>{0}</0>"
 msgstr "Antaa <0>{0}</0>"
 
@@ -4087,7 +4095,7 @@ msgstr "hallituksen jäsen"
 msgid "Government penalty"
 msgstr "Hallituksen rangaistus"
 
-#: src/components/_political/government/Government.tsx:185
+#: src/components/_political/government/Government.tsx:210
 msgid "Government wage"
 msgstr "Valtion palkka"
 
@@ -4199,7 +4207,7 @@ msgstr ""
 msgid "Hard Worker"
 msgstr "Kova Työmies"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:89
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:92
 msgid "Headquarters"
 msgstr "Päämaja"
 
@@ -4450,7 +4458,7 @@ msgstr "Isolationismi vs diplomatia"
 msgid "Isolationist"
 msgstr "Isolationisti"
 
-#: src/components/_political/law/LawEthicEffects.tsx:107
+#: src/components/_political/law/LawEthicEffects.tsx:128
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr ""
 
@@ -4701,7 +4709,7 @@ msgstr "Jätä hallitus"
 msgid "Leave the alliance your country belongs to"
 msgstr ""
 
-#: src/components/_political/alliance/AllianceHeader.tsx:69
+#: src/components/_political/alliance/AllianceHeader.tsx:80
 msgid "Led by <0/>."
 msgstr ""
 
@@ -4943,13 +4951,13 @@ msgid "Max level reached!"
 msgstr "Maksimitaso saavutettu!"
 
 #. placeholder {0}: levelConfig.stats.members
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:104
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:107
 msgid "Maximum of <0>{0}</0> members."
 msgstr "Enintään <0>{0}</0> jäsentä."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #. placeholder {1}: typeof levelConfig.stats.dailyHires !== 'undefined' && ( <> <br /> Daily hiring limit of{' '} <EntityValue IconComponent={WorkerIcon}> {levelConfig.stats.dailyHires} </EntityValue>{' '} per day. </> )
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:117
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:120
 msgid "Maximum of <0>{0}</0> workers.{1}"
 msgstr "Enintään <0>{0}</0> työntekijää.{1}"
 
@@ -5038,7 +5046,7 @@ msgstr ""
 msgid "Member promoted to commander"
 msgstr "Jäsen ylennettiin komentajaksi"
 
-#: src/components/_political/alliance/AllianceHeader.tsx:76
+#: src/components/_political/alliance/AllianceHeader.tsx:87
 #: src/pages/party/[partyId]/index.tsx:76
 #: src/pages/party/[partyId]/members.tsx:21
 msgid "Members"
@@ -5087,7 +5095,7 @@ msgstr "Viestistä tykätty"
 msgid "Military & Battles"
 msgstr "Armeija ja taistelut"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:43
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:46
 msgid "Military base"
 msgstr "Sotilastukikohta"
 
@@ -5143,17 +5151,17 @@ msgstr ""
 msgid "Min. active citizens"
 msgstr "Min. aktiivisia kansalaisia"
 
-#: src/components/_political/government/Government.tsx:82
+#: src/components/_political/government/Government.tsx:100
 #: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
 msgstr "Puolustusministeri"
 
-#: src/components/_political/government/Government.tsx:91
+#: src/components/_political/government/Government.tsx:109
 #: src/components/_political/government/GovernmentScroll.tsx:61
 msgid "Minister of Economy"
 msgstr "talousministeri"
 
-#: src/components/_political/government/Government.tsx:100
+#: src/components/_political/government/Government.tsx:118
 #: src/components/_political/government/GovernmentScroll.tsx:68
 msgid "Minister of Foreign Affairs"
 msgstr "ulkoministeri"
@@ -5509,11 +5517,11 @@ msgstr "Hieno sellainen"
 msgid "Nice work!"
 msgstr "Hienoa työtä!"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:193
+#: src/components/_military/battle/ActiveBattlesList.tsx:194
 msgid "No active battles"
 msgstr "Ei aktiivisia taisteluita"
 
-#: src/components/_political/government/PoliticalEthics.tsx:564
+#: src/components/_political/government/PoliticalEthics.tsx:563
 msgid "No active ethics - Balanced"
 msgstr "Ei aktiivista etiikkaa - Tasapainoinen"
 
@@ -5622,7 +5630,7 @@ msgstr "Ei vielä liikkeitä"
 msgid "No offers found"
 msgstr "Tarjouksia ei löytynyt"
 
-#: src/components/_political/government/Government.tsx:205
+#: src/components/_political/government/Government.tsx:230
 msgid "No one nominated yet"
 msgstr "Kukaan ei ole vielä ehdolla"
 
@@ -5671,7 +5679,7 @@ msgstr "Sotia ei löytynyt"
 msgid "No work offers"
 msgstr "Ei työtarjouksia"
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 #: src/components/_political/government/NominateForm.tsx:74
 msgid "Nominate"
 msgstr "Nimitä"
@@ -5680,7 +5688,7 @@ msgstr "Nimitä"
 msgid "Nominate <0/> as leader"
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Nominate a {title}"
 msgstr "Nimeä {title}"
 
@@ -5743,7 +5751,7 @@ msgstr "Luovuttajien määrä:"
 msgid "Occupied region"
 msgstr "Miehitetty alue"
 
-#: src/components/_political/government/Government.tsx:179
+#: src/components/_political/government/Government.tsx:204
 msgid "of"
 msgstr "/"
 
@@ -5861,7 +5869,7 @@ msgstr "Vaihtoehdot"
 msgid "Order"
 msgstr "Tilata"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:81
+#: src/components/_military/battle/ActiveBattlesList.tsx:82
 msgid "Orders"
 msgstr "Tilaukset"
 
@@ -5873,7 +5881,7 @@ msgstr "Tilaukset ja toimet"
 msgid "Orders cancelled"
 msgstr "Tilaukset peruttu"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:117
+#: src/components/_military/battle/ActiveBattlesList.tsx:118
 #: src/components/_user/notification/notificationPrefs.categories.ts:160
 msgid "Other"
 msgstr "muu"
@@ -5917,7 +5925,7 @@ msgstr "Kohteen <0/> omistusoikeus on siirtynyt <1/>:lle <2/>"
 msgid "Ownership transferred successfully"
 msgstr "Omistusoikeus siirrettiin onnistuneesti"
 
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:55
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:58
 msgid "Pacification Center"
 msgstr "Rauhoituskeskus"
 
@@ -6196,7 +6204,7 @@ msgstr "Premium lahja lähetetty"
 msgid "Premium has started working"
 msgstr "Premium on alkanut toimia"
 
-#: src/components/_political/government/Government.tsx:64
+#: src/components/_political/government/Government.tsx:82
 #: src/components/_political/government/GovernmentScroll.tsx:40
 msgid "President"
 msgstr "Presidentti"
@@ -6745,11 +6753,11 @@ msgstr "Nimeä yritys uudelleen"
 msgid "Rename the alliance to \"{0}\" immediately on acceptance."
 msgstr ""
 
-#: src/components/_political/government/Government.tsx:219
+#: src/components/_political/government/Government.tsx:244
 msgid "Replace"
 msgstr "Korvaa"
 
-#: src/components/_political/government/Government.tsx:257
+#: src/components/_political/government/Government.tsx:282
 msgid "Replace {title}"
 msgstr "Korvaa {title}"
 
@@ -6891,7 +6899,7 @@ msgstr "Palkkio"
 msgid "Rifle"
 msgstr "Kivääri"
 
-#: src/components/_political/government/Government.tsx:154
+#: src/components/_political/government/Government.tsx:179
 msgid "Rights"
 msgstr "Oikeudet"
 
@@ -7488,7 +7496,7 @@ msgid "Stone Maul"
 msgstr ""
 
 #: src/components/_economy/company/CompanyTags.tsx:107
-#: src/components/_other/upgrade/upgrade.frontConfig.tsx:78
+#: src/components/_other/upgrade/upgrade.frontConfig.tsx:81
 msgid "Storage"
 msgstr "Varastointi"
 
@@ -7764,6 +7772,10 @@ msgstr "Tämä yritys on poistettu käytöstä, koska omistaja saavutti yritysra
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Tällä maalla ei ole presidenttiä tai aktiivista kongressin jäsentä, voit ottaa sen hallintaansa."
 
+#: src/components/_political/government/Government.tsx:72
+msgid "This country is Fanatic Imperialist: it cannot have ministers, only a president and vice president. Minister nominations will be rejected."
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
 msgstr "Tämä laite on vihreä ja niin on myös ruoho"
@@ -7797,7 +7809,7 @@ msgstr "Tällä lailla on ylimääräinen muuttuva kustannus"
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Tämä laki edellyttää vähintään {minActiveCitizen} aktiivista kansalaista (taso 10+) maassa."
 
-#: src/components/_political/government/Government.tsx:241
+#: src/components/_political/government/Government.tsx:266
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Tätä jäsentä ei voida nimittää uudelleen {cooldownDays} päivään."
 
@@ -8012,8 +8024,8 @@ msgstr "Kokonaispalkinto"
 msgid "Total:"
 msgstr "Kokonais:"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:75
-#: src/components/_military/battle/ActiveBattlesList.tsx:139
+#: src/components/_military/battle/ActiveBattlesList.tsx:76
+#: src/components/_military/battle/ActiveBattlesList.tsx:176
 #: src/pages/events/index.tsx:89
 msgid "Tournament"
 msgstr "Turnaus"
@@ -8134,7 +8146,7 @@ msgstr "Tyhjennä kaikki"
 msgid "Unethical"
 msgstr ""
 
-#: src/components/_political/law/LawEthicEffects.tsx:58
+#: src/components/_political/law/LawEthicEffects.tsx:79
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
 msgstr ""
 
@@ -8472,7 +8484,7 @@ msgstr "Vahvistetaan CAPTCHA..."
 msgid "Vice Admiral"
 msgstr "Vara-amiraali"
 
-#: src/components/_political/government/Government.tsx:73
+#: src/components/_political/government/Government.tsx:91
 #: src/components/_political/government/GovernmentScroll.tsx:47
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:65
 msgid "Vice President"
@@ -8651,8 +8663,8 @@ msgstr "bonuksella"
 msgid "with bonus + fidelity"
 msgstr "bonus + uskollisuus"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:111
-#: src/components/_military/battle/ActiveBattlesList.tsx:174
+#: src/components/_military/battle/ActiveBattlesList.tsx:112
+#: src/components/_military/battle/ActiveBattlesList.tsx:147
 msgid "With bounty"
 msgstr "Palkinnon kanssa"
 
@@ -9142,7 +9154,7 @@ msgstr "Buffisi vanhenee alle 1 tunnin kuluttua. Debuff-vaihe alkaa pian."
 msgid "Your citizenship is going to change"
 msgstr "Kansalaisuutesi tulee muuttumaan"
 
-#: src/components/_military/battle/ActiveBattlesList.tsx:146
+#: src/components/_military/battle/ActiveBattlesList.tsx:140
 msgid "Your country"
 msgstr "Sinun maasi"
 
