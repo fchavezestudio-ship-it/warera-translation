@@ -1615,7 +1615,7 @@ msgid "Another country proposed a defensive pact to yours"
 msgstr ""
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:40
-msgid "Anti Terrorist"
+msgid "Anti Terrorist Pack"
 msgstr ""
 
 #: src/components/_common/GameRules.tsx:61
@@ -4198,10 +4198,6 @@ msgstr "maa per siirtymä"
 msgid "Ground points"
 msgstr "Maapisteet"
 
-#: src/components/_other/shop/skinPack.frontConfig.tsx:44
-msgid "GSG9"
-msgstr ""
-
 #: src/components/_other/shop/skin.frontConfig.tsx:338
 msgid "GSG9 Armored Tank"
 msgstr ""
@@ -4212,6 +4208,10 @@ msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:341
 msgid "GSG9 Combat Helicopter"
+msgstr ""
+
+#: src/components/_other/shop/skinPack.frontConfig.tsx:44
+msgid "GSG9 Pack"
 msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:329
@@ -5434,7 +5434,7 @@ msgid "Never stop gambling"
 msgstr "Älä koskaan lopeta pelaamista"
 
 #: src/components/_other/shop/SkinItem.tsx:124
-#: src/components/_other/shop/SkinPackItem.tsx:87
+#: src/components/_other/shop/SkinPackItem.tsx:89
 #: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "Uusi"
@@ -5959,7 +5959,7 @@ msgstr "Ylivuoto:"
 msgid "Overview"
 msgstr "Yleiskatsaus"
 
-#: src/components/_other/shop/SkinPackItem.tsx:140
+#: src/components/_other/shop/SkinPackItem.tsx:104
 #: src/components/_other/shop/SkinPackModal.tsx:264
 msgid "Owned"
 msgstr "Omistettu"
@@ -8708,7 +8708,7 @@ msgid "Why do you want to propose this law?"
 msgstr "Miksi haluat ehdottaa tätä lakia?"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:36
-msgid "Winter Soldier pack"
+msgid "Winter Soldier Pack"
 msgstr ""
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185

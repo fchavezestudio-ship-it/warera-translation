@@ -1614,8 +1614,8 @@ msgid "Another country proposed a defensive pact to yours"
 msgstr "Another country proposed a defensive pact to yours"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:40
-msgid "Anti Terrorist"
-msgstr "Anti Terrorist"
+msgid "Anti Terrorist Pack"
+msgstr "Anti Terrorist Pack"
 
 #: src/components/_common/GameRules.tsx:61
 msgid "Any attempts to bypass these rules can result in the removal of sharing status, fines and temporary or permanent bans."
@@ -4197,10 +4197,6 @@ msgstr "ground per tick"
 msgid "Ground points"
 msgstr "Ground points"
 
-#: src/components/_other/shop/skinPack.frontConfig.tsx:44
-msgid "GSG9"
-msgstr "GSG9"
-
 #: src/components/_other/shop/skin.frontConfig.tsx:338
 msgid "GSG9 Armored Tank"
 msgstr "GSG9 Armored Tank"
@@ -4212,6 +4208,10 @@ msgstr "GSG9 Assault Rifle"
 #: src/components/_other/shop/skin.frontConfig.tsx:341
 msgid "GSG9 Combat Helicopter"
 msgstr "GSG9 Combat Helicopter"
+
+#: src/components/_other/shop/skinPack.frontConfig.tsx:44
+msgid "GSG9 Pack"
+msgstr "GSG9 Pack"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:329
 msgid "GSG9 Pistol"
@@ -5433,7 +5433,7 @@ msgid "Never stop gambling"
 msgstr "Never stop gambling"
 
 #: src/components/_other/shop/SkinItem.tsx:124
-#: src/components/_other/shop/SkinPackItem.tsx:87
+#: src/components/_other/shop/SkinPackItem.tsx:89
 #: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "New"
@@ -5958,7 +5958,7 @@ msgstr "Overflow:"
 msgid "Overview"
 msgstr "Overview"
 
-#: src/components/_other/shop/SkinPackItem.tsx:140
+#: src/components/_other/shop/SkinPackItem.tsx:104
 #: src/components/_other/shop/SkinPackModal.tsx:264
 msgid "Owned"
 msgstr "Owned"
@@ -8707,8 +8707,8 @@ msgid "Why do you want to propose this law?"
 msgstr "Why do you want to propose this law?"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:36
-msgid "Winter Soldier pack"
-msgstr "Winter Soldier pack"
+msgid "Winter Soldier Pack"
+msgstr "Winter Soldier Pack"
 
 #: src/components/_economy/workOffer/EstimatedCompanyBenefit.tsx:185
 msgid "with bonus"
