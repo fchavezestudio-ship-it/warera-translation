@@ -1605,8 +1605,7 @@ msgstr "An email with the verification code has been sent to {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animated <0>GIF</0> as avatar"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:144
+#: src/pages/country/[countryId]/government.tsx:145
 msgid "Announcement"
 msgstr "Announcement"
 
@@ -1703,7 +1702,7 @@ msgstr "Are you sure you want to remove all buy orders?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Are you sure you want to remove all sell orders?"
 
-#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:161
 msgid "Are you sure you want to remove this announcement?"
 msgstr "Are you sure you want to remove this announcement?"
 
@@ -2418,7 +2417,7 @@ msgstr "Chief"
 msgid "Chief Commander"
 msgstr "Chief Commander"
 
-#: src/components/_user/auth/WelcomeModal.tsx:127
+#: src/components/_user/auth/WelcomeModal.tsx:137
 msgid "Choose your country"
 msgstr "Choose your country"
 
@@ -4086,6 +4085,10 @@ msgstr "Gold"
 msgid "Government"
 msgstr "Government"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+msgid "Government announcement"
+msgstr "Government announcement"
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
 msgid "Government Member"
 msgstr "Government Member"
@@ -4602,7 +4605,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Land <0>{count}</0> critical hits"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_user/auth/WelcomeModal.tsx:144
 msgid "Language"
 msgstr "Language"
 
@@ -4628,7 +4631,7 @@ msgstr "Last used"
 msgid "Last used:"
 msgstr "Last used:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:161
+#: src/components/_user/auth/WelcomeModal.tsx:171
 msgid "Later"
 msgstr "Later"
 
@@ -5564,7 +5567,7 @@ msgstr "No bids yet"
 msgid "No citizens"
 msgstr "No citizens"
 
-#: src/pages/country/[countryId]/government.tsx:194
+#: src/pages/country/[countryId]/government.tsx:195
 msgid "No congress members"
 msgstr "No congress members"
 
@@ -6058,10 +6061,6 @@ msgstr "Payout"
 msgid "Peace made"
 msgstr "Peace made"
 
-#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
-msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-msgstr "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-
 #: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "Pending"
@@ -6158,7 +6157,7 @@ msgid "Popular Article"
 msgstr "Popular Article"
 
 #: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:171
+#: src/pages/country/[countryId]/government.tsx:172
 msgid "Post announcement"
 msgstr "Post announcement"
 
@@ -6693,8 +6692,8 @@ msgstr "Remove all"
 msgid "Remove an inactive congress member from its position"
 msgstr "Remove an inactive congress member from its position"
 
-#: src/pages/country/[countryId]/government.tsx:159
-#: src/pages/country/[countryId]/government.tsx:164
+#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:165
 msgid "Remove announcement"
 msgstr "Remove announcement"
 
@@ -6974,7 +6973,7 @@ msgid "Rounds Won"
 msgstr "Rounds Won"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:152
+#: src/components/_user/auth/WelcomeModal.tsx:162
 msgid "Rules"
 msgstr "Rules"
 
@@ -6987,7 +6986,7 @@ msgid "Running low on health?"
 msgstr "Running low on health?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:164
+#: src/components/_user/auth/WelcomeModal.tsx:174
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Save"
@@ -7726,6 +7725,10 @@ msgstr "The deposit will expire in the following amount of time."
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
+msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+msgstr "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
@@ -8368,7 +8371,7 @@ msgid "User unblocked"
 msgstr "User unblocked"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:145
+#: src/components/_user/auth/WelcomeModal.tsx:155
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8617,7 +8620,7 @@ msgstr "Weekly:"
 msgid "Welcome back {username}!"
 msgstr "Welcome back {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:116
+#: src/components/_user/auth/WelcomeModal.tsx:126
 msgid "Welcome to War Era!"
 msgstr "Welcome to War Era!"
 
@@ -9202,7 +9205,7 @@ msgstr "Your employer wants to reduce your wage in <0/> from <1>{0}</1> to <2>{1
 msgid "Your enemies"
 msgstr "Your enemies"
 
-#: src/components/_user/auth/WelcomeModal.tsx:63
+#: src/components/_user/auth/WelcomeModal.tsx:72
 msgid "Your infos have been saved."
 msgstr "Your infos have been saved."
 

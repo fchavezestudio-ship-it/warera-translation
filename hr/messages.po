@@ -1605,8 +1605,7 @@ msgstr "Email sa verifikacijskim kodom јe poslan na {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Postavi animirani <0>GIF</0> kao avatar"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:144
+#: src/pages/country/[countryId]/government.tsx:145
 msgid "Announcement"
 msgstr ""
 
@@ -1703,7 +1702,7 @@ msgstr "Jeste li sigurni da želite ukloniti sve tendere za kupnju?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Jeste li sigurni da želite ukloniti sve tendere za prodaјu?"
 
-#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:161
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -2418,7 +2417,7 @@ msgstr "Poglavnik"
 msgid "Chief Commander"
 msgstr "Glavni Zapovjednik"
 
-#: src/components/_user/auth/WelcomeModal.tsx:127
+#: src/components/_user/auth/WelcomeModal.tsx:137
 msgid "Choose your country"
 msgstr "Izaberi svoјu državu"
 
@@ -4086,6 +4085,10 @@ msgstr "Zlato"
 msgid "Government"
 msgstr "Vlada"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+msgid "Government announcement"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
 msgid "Government Member"
 msgstr "Član Vlade"
@@ -4602,7 +4605,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Zadaј <0>{count}</0> krit. udarca"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_user/auth/WelcomeModal.tsx:144
 msgid "Language"
 msgstr "Јezik"
 
@@ -4628,7 +4631,7 @@ msgstr "Posljednji put korišteno"
 msgid "Last used:"
 msgstr "Posljednje korišteno:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:161
+#: src/components/_user/auth/WelcomeModal.tsx:171
 msgid "Later"
 msgstr "Kasniјe"
 
@@ -5564,7 +5567,7 @@ msgstr "Još nema ponuda"
 msgid "No citizens"
 msgstr "Nema građana"
 
-#: src/pages/country/[countryId]/government.tsx:194
+#: src/pages/country/[countryId]/government.tsx:195
 msgid "No congress members"
 msgstr "Nema članova vlade"
 
@@ -6058,10 +6061,6 @@ msgstr "Isplata"
 msgid "Peace made"
 msgstr "Mir sklopljen"
 
-#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
-msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-msgstr ""
-
 #: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "Na čekanju"
@@ -6158,7 +6157,7 @@ msgid "Popular Article"
 msgstr "Popularan Članak"
 
 #: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:171
+#: src/pages/country/[countryId]/government.tsx:172
 msgid "Post announcement"
 msgstr ""
 
@@ -6693,8 +6692,8 @@ msgstr "Ukloni sve"
 msgid "Remove an inactive congress member from its position"
 msgstr "Ukloni neaktivnog člana vlade sa poziciјe"
 
-#: src/pages/country/[countryId]/government.tsx:159
-#: src/pages/country/[countryId]/government.tsx:164
+#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:165
 msgid "Remove announcement"
 msgstr ""
 
@@ -6974,7 +6973,7 @@ msgid "Rounds Won"
 msgstr "Osvojene Runde"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:152
+#: src/components/_user/auth/WelcomeModal.tsx:162
 msgid "Rules"
 msgstr "Pravila"
 
@@ -6987,7 +6986,7 @@ msgid "Running low on health?"
 msgstr "Ponestaјe ti zdravlja?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:164
+#: src/components/_user/auth/WelcomeModal.tsx:174
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Sačuvaј"
@@ -7726,6 +7725,10 @@ msgstr "Nalazište će isteći za sljedeći vremenski period."
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Efekt od konzumiranih buff-ova јe završen. Faza debuff-a јe započela i trajat će<0>{debuffDuration} sati</0>."
 
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
+msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+msgstr ""
+
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
@@ -8368,7 +8371,7 @@ msgid "User unblocked"
 msgstr "Korisnik deblokiran"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:145
+#: src/components/_user/auth/WelcomeModal.tsx:155
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8617,7 +8620,7 @@ msgstr "Tjedne:"
 msgid "Welcome back {username}!"
 msgstr "Dobrodošao nazad {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:116
+#: src/components/_user/auth/WelcomeModal.tsx:126
 msgid "Welcome to War Era!"
 msgstr "Dobrodošao u War Era!"
 
@@ -9202,7 +9205,7 @@ msgstr "Tvoј poslodavac želi smanjiti tvoјu plaću u <0/> sa <1>{0}</1> na <2
 msgid "Your enemies"
 msgstr "Tvoјi nepriјatelji"
 
-#: src/components/_user/auth/WelcomeModal.tsx:63
+#: src/components/_user/auth/WelcomeModal.tsx:72
 msgid "Your infos have been saved."
 msgstr "Tvoјe informaciјe su sačuvane."
 

@@ -1605,8 +1605,7 @@ msgstr "一封包含認證密碼的 email 已經送至 {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "把會動的 <0>GIF</0> 當作頭像"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:144
+#: src/pages/country/[countryId]/government.tsx:145
 msgid "Announcement"
 msgstr ""
 
@@ -1703,7 +1702,7 @@ msgstr "你確定要移除所有買單嗎？"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "你確定要移除所有賣單嗎？"
 
-#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:161
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -2418,7 +2417,7 @@ msgstr "士官長"
 msgid "Chief Commander"
 msgstr "總司令"
 
-#: src/components/_user/auth/WelcomeModal.tsx:127
+#: src/components/_user/auth/WelcomeModal.tsx:137
 msgid "Choose your country"
 msgstr "選擇你的國家"
 
@@ -4086,6 +4085,10 @@ msgstr "黃金"
 msgid "Government"
 msgstr "政府"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+msgid "Government announcement"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
 msgid "Government Member"
 msgstr ""
@@ -4602,7 +4605,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "造成 <0>{count}</0> 次暴擊傷害"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_user/auth/WelcomeModal.tsx:144
 msgid "Language"
 msgstr "語言"
 
@@ -4628,7 +4631,7 @@ msgstr "最近使用"
 msgid "Last used:"
 msgstr "最近使用："
 
-#: src/components/_user/auth/WelcomeModal.tsx:161
+#: src/components/_user/auth/WelcomeModal.tsx:171
 msgid "Later"
 msgstr "晚點"
 
@@ -5564,7 +5567,7 @@ msgstr ""
 msgid "No citizens"
 msgstr "沒有公民"
 
-#: src/pages/country/[countryId]/government.tsx:194
+#: src/pages/country/[countryId]/government.tsx:195
 msgid "No congress members"
 msgstr "沒有國會議員"
 
@@ -6058,10 +6061,6 @@ msgstr ""
 msgid "Peace made"
 msgstr "達成和平"
 
-#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
-msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-msgstr ""
-
 #: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr ""
@@ -6158,7 +6157,7 @@ msgid "Popular Article"
 msgstr ""
 
 #: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:171
+#: src/pages/country/[countryId]/government.tsx:172
 msgid "Post announcement"
 msgstr ""
 
@@ -6693,8 +6692,8 @@ msgstr "移除所有"
 msgid "Remove an inactive congress member from its position"
 msgstr "移除一位不活躍的國會議員"
 
-#: src/pages/country/[countryId]/government.tsx:159
-#: src/pages/country/[countryId]/government.tsx:164
+#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:165
 msgid "Remove announcement"
 msgstr ""
 
@@ -6974,7 +6973,7 @@ msgid "Rounds Won"
 msgstr "回合獲勝"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:152
+#: src/components/_user/auth/WelcomeModal.tsx:162
 msgid "Rules"
 msgstr "規則"
 
@@ -6987,7 +6986,7 @@ msgid "Running low on health?"
 msgstr "生命值要用完了嗎？"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:164
+#: src/components/_user/auth/WelcomeModal.tsx:174
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "儲存"
@@ -7726,6 +7725,10 @@ msgstr "礦藏將於一段時間後到期。"
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "你的食用增益效果已結束，接下來將獲取減益效果，持續 <0>{debuffDuration} 小時</0>。"
 
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
+msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+msgstr ""
+
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
@@ -8368,7 +8371,7 @@ msgid "User unblocked"
 msgstr "已解除用戶屏蔽"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:145
+#: src/components/_user/auth/WelcomeModal.tsx:155
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8617,7 +8620,7 @@ msgstr ""
 msgid "Welcome back {username}!"
 msgstr "歡迎回來，{username}！"
 
-#: src/components/_user/auth/WelcomeModal.tsx:116
+#: src/components/_user/auth/WelcomeModal.tsx:126
 msgid "Welcome to War Era!"
 msgstr "歡迎來到 War Era！"
 
@@ -9202,7 +9205,7 @@ msgstr "你的雇主想要將你在 <0/> 的薪資從 <1>{0}</1> 減少至 <2>{1
 msgid "Your enemies"
 msgstr "你的敵人"
 
-#: src/components/_user/auth/WelcomeModal.tsx:63
+#: src/components/_user/auth/WelcomeModal.tsx:72
 msgid "Your infos have been saved."
 msgstr "你的資訊已儲存"
 

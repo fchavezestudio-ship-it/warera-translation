@@ -1603,8 +1603,7 @@ msgstr "Un email cu codul de verificare a fost trimis la {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "<0>GIF</0> animat ca avatar"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:144
+#: src/pages/country/[countryId]/government.tsx:145
 msgid "Announcement"
 msgstr ""
 
@@ -1701,7 +1700,7 @@ msgstr "Ești sigur că vrei să elimini toate comenzile de cumpărare?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Ești sigur că vrei să elimini toate comenzile de vânzare?"
 
-#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:161
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -2416,7 +2415,7 @@ msgstr "Șef"
 msgid "Chief Commander"
 msgstr "Comandant-șef"
 
-#: src/components/_user/auth/WelcomeModal.tsx:127
+#: src/components/_user/auth/WelcomeModal.tsx:137
 msgid "Choose your country"
 msgstr "Alege-ți țara"
 
@@ -4084,6 +4083,10 @@ msgstr "Aur"
 msgid "Government"
 msgstr "Guvern"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+msgid "Government announcement"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
 msgid "Government Member"
 msgstr "Membru guvern"
@@ -4600,7 +4603,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Dă <0>{count}</0> lovituri critice"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_user/auth/WelcomeModal.tsx:144
 msgid "Language"
 msgstr "Limbă"
 
@@ -4626,7 +4629,7 @@ msgstr "Ultima utilizare"
 msgid "Last used:"
 msgstr "Ultima utilizare:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:161
+#: src/components/_user/auth/WelcomeModal.tsx:171
 msgid "Later"
 msgstr "Mai târziu"
 
@@ -5562,7 +5565,7 @@ msgstr "Fără oferte"
 msgid "No citizens"
 msgstr "Niciun cetățean"
 
-#: src/pages/country/[countryId]/government.tsx:194
+#: src/pages/country/[countryId]/government.tsx:195
 msgid "No congress members"
 msgstr "Niciun parlamentar"
 
@@ -6056,10 +6059,6 @@ msgstr "Plată"
 msgid "Peace made"
 msgstr "Pace încheiată"
 
-#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
-msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-msgstr ""
-
 #: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "În așteptare"
@@ -6156,7 +6155,7 @@ msgid "Popular Article"
 msgstr "Articol Popular"
 
 #: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:171
+#: src/pages/country/[countryId]/government.tsx:172
 msgid "Post announcement"
 msgstr ""
 
@@ -6691,8 +6690,8 @@ msgstr "Elimină tot"
 msgid "Remove an inactive congress member from its position"
 msgstr "Demite un membru inactiv din parlament"
 
-#: src/pages/country/[countryId]/government.tsx:159
-#: src/pages/country/[countryId]/government.tsx:164
+#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:165
 msgid "Remove announcement"
 msgstr ""
 
@@ -6972,7 +6971,7 @@ msgid "Rounds Won"
 msgstr "Runde câștigate"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:152
+#: src/components/_user/auth/WelcomeModal.tsx:162
 msgid "Rules"
 msgstr "Reguli"
 
@@ -6985,7 +6984,7 @@ msgid "Running low on health?"
 msgstr "Nu mai ai viață?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:164
+#: src/components/_user/auth/WelcomeModal.tsx:174
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Salvează"
@@ -7724,6 +7723,10 @@ msgstr "Zăcământul va expira în următorul timp."
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Efectul buffurilor tale consumate s-a încheiat. Faza de debuff a început și va dura <0>{debuffDuration}h</0>."
 
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
+msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+msgstr ""
+
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
@@ -8366,7 +8369,7 @@ msgid "User unblocked"
 msgstr "Utilizator deblocat"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:145
+#: src/components/_user/auth/WelcomeModal.tsx:155
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8615,7 +8618,7 @@ msgstr "Săptămânal:"
 msgid "Welcome back {username}!"
 msgstr "Bine ai revenit {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:116
+#: src/components/_user/auth/WelcomeModal.tsx:126
 msgid "Welcome to War Era!"
 msgstr "Bun venit pe War Era!"
 
@@ -9200,7 +9203,7 @@ msgstr "Angajatorul tău dorește să îți reducă salariul în <0/> de la <1>{
 msgid "Your enemies"
 msgstr "Inamicii tăi"
 
-#: src/components/_user/auth/WelcomeModal.tsx:63
+#: src/components/_user/auth/WelcomeModal.tsx:72
 msgid "Your infos have been saved."
 msgstr "Informațiile au fost salvate."
 

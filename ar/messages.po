@@ -1605,8 +1605,7 @@ msgstr "تم إرسال بريد إلكتروني يحتوي على رمز ال�
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "<0>GIF</0> متحرك كصورة رمزية"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:144
+#: src/pages/country/[countryId]/government.tsx:145
 msgid "Announcement"
 msgstr ""
 
@@ -1703,7 +1702,7 @@ msgstr "هل أنت متأكد أنك تريد إزالة جميع أوامر ا
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "هل أنت متأكد أنك تريد إزالة جميع أوامر البيع؟"
 
-#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:161
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -2418,7 +2417,7 @@ msgstr "رئيس"
 msgid "Chief Commander"
 msgstr "القائد العام"
 
-#: src/components/_user/auth/WelcomeModal.tsx:127
+#: src/components/_user/auth/WelcomeModal.tsx:137
 msgid "Choose your country"
 msgstr "اختر دولتك"
 
@@ -4086,6 +4085,10 @@ msgstr "ذهب"
 msgid "Government"
 msgstr "الحكومة"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+msgid "Government announcement"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
 msgid "Government Member"
 msgstr "عضو الحكومة"
@@ -4602,7 +4605,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "حقق <0>{count}</0> ضربات حرجة"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_user/auth/WelcomeModal.tsx:144
 msgid "Language"
 msgstr "اللغة"
 
@@ -4628,7 +4631,7 @@ msgstr "آخر استخدام"
 msgid "Last used:"
 msgstr "آخر استخدام:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:161
+#: src/components/_user/auth/WelcomeModal.tsx:171
 msgid "Later"
 msgstr "لاحقاً"
 
@@ -5564,7 +5567,7 @@ msgstr "لا توجد مزايدات بعد"
 msgid "No citizens"
 msgstr "لا يوجد مواطنون"
 
-#: src/pages/country/[countryId]/government.tsx:194
+#: src/pages/country/[countryId]/government.tsx:195
 msgid "No congress members"
 msgstr "لا يوجد أعضاء كونغرس"
 
@@ -6058,10 +6061,6 @@ msgstr "مبلغ الدفع"
 msgid "Peace made"
 msgstr "تم إحلال السلام"
 
-#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
-msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-msgstr ""
-
 #: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "قيد الانتظار"
@@ -6158,7 +6157,7 @@ msgid "Popular Article"
 msgstr "مقال شائع"
 
 #: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:171
+#: src/pages/country/[countryId]/government.tsx:172
 msgid "Post announcement"
 msgstr ""
 
@@ -6693,8 +6692,8 @@ msgstr "إزالة الكل"
 msgid "Remove an inactive congress member from its position"
 msgstr "إزالة عضو كونغرس غير نشط من منصبه"
 
-#: src/pages/country/[countryId]/government.tsx:159
-#: src/pages/country/[countryId]/government.tsx:164
+#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:165
 msgid "Remove announcement"
 msgstr ""
 
@@ -6974,7 +6973,7 @@ msgid "Rounds Won"
 msgstr "الجولات المربوحة"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:152
+#: src/components/_user/auth/WelcomeModal.tsx:162
 msgid "Rules"
 msgstr "القواعد"
 
@@ -6987,7 +6986,7 @@ msgid "Running low on health?"
 msgstr "هل تنفد صحتك؟"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:164
+#: src/components/_user/auth/WelcomeModal.tsx:174
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "حفظ"
@@ -7726,6 +7725,10 @@ msgstr "ستنتهي صلاحية الوديعة خلال الفترة الزم�
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "انتهى تأثير المعززات التي استهلكتها. بدأت مرحلة الضعف وستستمر لمدة <0>{debuffDuration} ساعة</0>."
 
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
+msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+msgstr ""
+
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
@@ -8368,7 +8371,7 @@ msgid "User unblocked"
 msgstr "تم إلغاء حظر المستخدم"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:145
+#: src/components/_user/auth/WelcomeModal.tsx:155
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8617,7 +8620,7 @@ msgstr "اسبوعي:"
 msgid "Welcome back {username}!"
 msgstr "أهلاً بعودتك {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:116
+#: src/components/_user/auth/WelcomeModal.tsx:126
 msgid "Welcome to War Era!"
 msgstr "أهلاً بك في War Era!"
 
@@ -9202,7 +9205,7 @@ msgstr "يريد صاحب العمل تخفيض أجرك في <0/> من <1>{0}</
 msgid "Your enemies"
 msgstr "أعداؤك"
 
-#: src/components/_user/auth/WelcomeModal.tsx:63
+#: src/components/_user/auth/WelcomeModal.tsx:72
 msgid "Your infos have been saved."
 msgstr "تم حفظ معلوماتك."
 

@@ -1605,8 +1605,7 @@ msgstr "E-pasts ar verifikācijas kodu tika nosūtīts uz {email}"
 msgid "Animated <0>GIF</0> as avatar"
 msgstr "Animēts <0>GIF</0> kā profila bilde"
 
-#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
-#: src/pages/country/[countryId]/government.tsx:144
+#: src/pages/country/[countryId]/government.tsx:145
 msgid "Announcement"
 msgstr ""
 
@@ -1703,7 +1702,7 @@ msgstr "Vai esi pārliecināts, ka gribi atcelt visus pirkšanas rīkojumus?"
 msgid "Are you sure you want to remove all sell orders?"
 msgstr "Vai esi pārliecināts, ka gribi atcelt visus pārdošanas rīkojumus?"
 
-#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:161
 msgid "Are you sure you want to remove this announcement?"
 msgstr ""
 
@@ -2418,7 +2417,7 @@ msgstr "Virsnieks"
 msgid "Chief Commander"
 msgstr "Galvenais Komandieris"
 
-#: src/components/_user/auth/WelcomeModal.tsx:127
+#: src/components/_user/auth/WelcomeModal.tsx:137
 msgid "Choose your country"
 msgstr "Izvēlies savu valsti"
 
@@ -4086,6 +4085,10 @@ msgstr "Zelts"
 msgid "Government"
 msgstr "Valdība"
 
+#: src/components/_political/government/GovernmentAnnouncementModal.tsx:47
+msgid "Government announcement"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:234
 msgid "Government Member"
 msgstr "Valdības Biedrs"
@@ -4602,7 +4605,7 @@ msgid "Land <0>{count}</0> critical hits"
 msgstr "Iebliez <0>{count}</0> kritiskos triecienus"
 
 #: src/components/_layout/LayoutOptions.tsx:165
-#: src/components/_user/auth/WelcomeModal.tsx:134
+#: src/components/_user/auth/WelcomeModal.tsx:144
 msgid "Language"
 msgstr "Valoda"
 
@@ -4628,7 +4631,7 @@ msgstr "Pēdējais izmantotais"
 msgid "Last used:"
 msgstr "Pēdējo reizi izmantots:"
 
-#: src/components/_user/auth/WelcomeModal.tsx:161
+#: src/components/_user/auth/WelcomeModal.tsx:171
 msgid "Later"
 msgstr "Vēlāk"
 
@@ -5564,7 +5567,7 @@ msgstr "Vēl nav piedāvājumu"
 msgid "No citizens"
 msgstr "Nav pilsoņu"
 
-#: src/pages/country/[countryId]/government.tsx:194
+#: src/pages/country/[countryId]/government.tsx:195
 msgid "No congress members"
 msgstr "Nav kongresa deputātu"
 
@@ -6058,10 +6061,6 @@ msgstr "Izmaksa"
 msgid "Peace made"
 msgstr "Pamiers pasludināts"
 
-#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
-msgid "Peak bonus of <0/> is reached at <1/> share of global <2>Development</2>. The bonus then drops by <3/> per percentage point above or below that point, down to <4/>."
-msgstr ""
-
 #: src/utils/translations.tsx:270
 msgid "Pending"
 msgstr "Procesā"
@@ -6158,7 +6157,7 @@ msgid "Popular Article"
 msgstr "Populārs Raksts"
 
 #: src/components/_political/government/AnnouncementForm.tsx:17
-#: src/pages/country/[countryId]/government.tsx:171
+#: src/pages/country/[countryId]/government.tsx:172
 msgid "Post announcement"
 msgstr ""
 
@@ -6693,8 +6692,8 @@ msgstr "Atcelt visus"
 msgid "Remove an inactive congress member from its position"
 msgstr "Atlaist neaktīvu kongresa deputātu"
 
-#: src/pages/country/[countryId]/government.tsx:159
-#: src/pages/country/[countryId]/government.tsx:164
+#: src/pages/country/[countryId]/government.tsx:160
+#: src/pages/country/[countryId]/government.tsx:165
 msgid "Remove announcement"
 msgstr ""
 
@@ -6974,7 +6973,7 @@ msgid "Rounds Won"
 msgstr "Raundi uzvarēti"
 
 #: src/components/_layout/LayoutLeftIcons.tsx:161
-#: src/components/_user/auth/WelcomeModal.tsx:152
+#: src/components/_user/auth/WelcomeModal.tsx:162
 msgid "Rules"
 msgstr "Noteikumi"
 
@@ -6987,7 +6986,7 @@ msgid "Running low on health?"
 msgstr "Maz dzīvību?"
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
-#: src/components/_user/auth/WelcomeModal.tsx:164
+#: src/components/_user/auth/WelcomeModal.tsx:174
 #: src/pages/user/[userId]/skills.tsx:210
 msgid "Save"
 msgstr "Saglabāt"
@@ -7726,6 +7725,10 @@ msgstr "Atradne tiks izsmelta pēc šī laika perioda."
 msgid "The effect of your consumed buffs has ended. The debuff phase has begun and will last <0>{debuffDuration}h</0>."
 msgstr "Tablešu darbība ir beigusies. Tagad tev ir paģiras, kas ilgs <0>{debuffDuration}h</0>."
 
+#: src/components/_political/alliance/AllianceBattleBonus.tsx:53
+msgid "The full bonus of <0/> applies up to <1/> share of global <2>Development</2>. Above that, the bonus drops by <3/> per percentage point of share over the plateau, down to <4/>."
+msgstr ""
+
 #. placeholder {0}: Math.round(contract.moneyPool * 10) / 100
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
@@ -8368,7 +8371,7 @@ msgid "User unblocked"
 msgstr "Lietotājs atbloķēts"
 
 #: src/components/_political/government/NominateForm.tsx:50
-#: src/components/_user/auth/WelcomeModal.tsx:145
+#: src/components/_user/auth/WelcomeModal.tsx:155
 #: src/components/_user/user/UserForm.tsx:45
 #: src/components/_user/user/UserForm.tsx:46
 #: src/pages/user/[userId]/referrals.tsx:147
@@ -8617,7 +8620,7 @@ msgstr "Nedēļas:"
 msgid "Welcome back {username}!"
 msgstr "Ar atgriešanos, {username}!"
 
-#: src/components/_user/auth/WelcomeModal.tsx:116
+#: src/components/_user/auth/WelcomeModal.tsx:126
 msgid "Welcome to War Era!"
 msgstr "Laipni lūgts Kara Laikmetā!"
 
@@ -9202,7 +9205,7 @@ msgstr "Tavs darba devējs vēlās samazināt tavu algu <0/> no <1>{0}</1> uz <2
 msgid "Your enemies"
 msgstr "Tavi ienaidnieki"
 
-#: src/components/_user/auth/WelcomeModal.tsx:63
+#: src/components/_user/auth/WelcomeModal.tsx:72
 msgid "Your infos have been saved."
 msgstr "Tava informācija tika saglabāta."
 
